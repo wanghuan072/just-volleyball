@@ -1,0 +1,13 @@
+{
+  "fetchedAt": "2026-11-23T07:00:28.792351+00:00",
+  "sourceUrl": "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=5037200",
+  "playerCount": null,
+  "price": null,
+  "priceFetchedAt": null,
+  "priceSourceUrl": "https://store.steampowered.com/api/appdetails?appids=5037200&cc=us&l=english",
+  "discordUrl": null,
+  "gameImages": [
+    "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5037200/extras/91782058f84a490743e6c1ecb513f638.avif?t=1794852941",
+    "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5037200/extras/8fb52f78e7e68e163ed853ecb582e884.avif?t=1794852941"
+  ]
+}

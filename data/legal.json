@@ -1,0 +1,260 @@
+{
+  "privacy-policy": {
+    "title": "Privacy Policy",
+    "intro": "This policy explains how justvolleyball.app handles information when you browse the website, use its player tools or contact support.",
+    "updatedAt": "2026-11-24",
+    "sections": [
+      {
+        "heading": "Website operator and scope",
+        "paragraphs": [
+          "justvolleyball.app is an independent fan website. This policy applies to this website and its tools. It does not govern Steam, Discord, the game itself or other websites you choose to visit. Contact support@justvolleyball.app with privacy questions and identify the page or feature involved."
+        ]
+      },
+      {
+        "heading": "Information used while browsing",
+        "paragraphs": [
+          "Web requests necessarily send information such as an IP address, browser information, requested URL and request time to the hosting infrastructure. Hosting and security services may process this information to deliver pages, diagnose failures and protect availability. The production host\u2019s actual logging and retention settings determine how long infrastructure logs remain available."
+        ]
+      },
+      {
+        "heading": "Presets stored on your device",
+        "paragraphs": [
+          "The Locker uses browser local storage to save your presets on the current device and browser. These presets are not an account-based cloud backup. Other people using the same browser profile may be able to access them. You can remove locally saved presets through the tool or clear this website\u2019s browser storage. Clearing storage may permanently remove presets that you have not exported."
+        ]
+      },
+      {
+        "heading": "Character codes, rendering and images",
+        "paragraphs": [
+          "When you request a character preview or export, the tool submits appearance configuration or a supplied appearance code to this website\u2019s rendering endpoint. The server uses it to assemble the requested player image. Rendering uses temporary working files and a bounded memory cache to handle requests. Avoid including passwords, private messages or unrelated personal details in imported configuration.",
+          "Player-card image import reads supported appearance information from the picture in the browser. Appearance information extracted for a requested preview may then be submitted to the renderer. Downloaded pictures and copied appearance codes are saved or shared through the browser actions you choose."
+        ]
+      },
+      {
+        "heading": "Cookies, statistics and advertising",
+        "paragraphs": [
+          "The application reviewed for this policy does not include an account login, a purchase checkout, a contact form or an application-level advertising tracker. Browser storage used for presets is separate from cookies. Hosting infrastructure and external services may have their own request processing. If material tracking or advertising features are introduced, this policy should be updated to describe their actual behavior."
+        ]
+      },
+      {
+        "heading": "Third-party services and links",
+        "paragraphs": [
+          "Steam provides store information and developer news used by this website. Following a Steam or Discord link sends you to that service, where its own terms and privacy practices apply. Content delivery and image requests can also expose ordinary connection information to the provider serving that content."
+        ]
+      },
+      {
+        "heading": "Email correspondence",
+        "paragraphs": [
+          "If you email support@justvolleyball.app, your message, email address and any attachments are processed to answer the request and maintain relevant correspondence. Include only information needed to explain the issue. Never send your Steam password, authentication codes or payment-card details. A copyright request may require identifying information to evaluate the claim."
+        ]
+      },
+      {
+        "heading": "Your choices and requests",
+        "paragraphs": [
+          "You can browse without creating a site account, avoid optional tool actions, remove local browser storage and choose whether to follow external links. Email support for questions about information you have sent directly. Describe the request without supplying unnecessary identity documents. We may need enough information to locate the correspondence and understand your relationship to it."
+        ]
+      },
+      {
+        "heading": "Updates to this policy",
+        "paragraphs": [
+          "The date shown here identifies the latest substantive policy update. Changes in hosting, rendering, data collection or external integrations may require a revision. Review the current policy when deciding whether to submit information or use a newly introduced feature."
+        ]
+      }
+    ]
+  },
+  "terms-of-service": {
+    "title": "Terms of Service",
+    "intro": "These terms describe use of justvolleyball.app, including its guides, community look pages and browser-based player tools.",
+    "updatedAt": "2026-11-24",
+    "sections": [
+      {
+        "heading": "Independent fan website",
+        "paragraphs": [
+          "The website helps players find appearance codes, use customization tools and understand the game. It is independently operated and is not the developer, publisher or official support channel for Just Volleyball. Game licenses, purchases and account services remain subject to the relevant provider\u2019s terms."
+        ]
+      },
+      {
+        "heading": "Using the website",
+        "paragraphs": [
+          "Use the site for lawful browsing, learning and personal customization. Do not attempt to disrupt service, bypass request limits, interfere with other visitors or gain unauthorized access to the hosting infrastructure. Do not submit malicious files or configuration intended to exploit an import or rendering feature."
+        ]
+      },
+      {
+        "heading": "Tools and saved work",
+        "paragraphs": [
+          "Check your configuration and keep exported copies of looks you want to retain. Browser-local presets can be lost if you clear storage, change profiles or use a different device. A preview or exported appearance code does not grant game items, currency, licenses or account privileges. Appearance and import behavior can vary with game versions and owned accessories."
+        ]
+      },
+      {
+        "heading": "Community content and names",
+        "paragraphs": [
+          "Character-inspired looks describe player-created appearances. Their names do not imply an official character roster, collaboration or endorsement by a rights holder. Respect the rights of creators and other owners when copying, adapting or sharing a look. Attribution shown on a page should accompany the work when its applicable terms require it."
+        ]
+      },
+      {
+        "heading": "Accuracy and changes",
+        "paragraphs": [
+          "Guides and item information can become outdated as the game changes. Dates in historical announcements describe those events, and development targets may change. Check the current in-game settings and store information where they determine an action. Send a correction with the affected page and enough detail to reproduce or assess the issue."
+        ]
+      },
+      {
+        "heading": "External services and purchases",
+        "paragraphs": [
+          "Steam, Discord and other linked services operate independently. Their availability, fees, account rules and terms are controlled by their operators. The website does not process game purchases or promise the checkout price shown to a particular account."
+        ]
+      },
+      {
+        "heading": "Availability and limitations",
+        "paragraphs": [
+          "Features may be updated, interrupted or withdrawn. Rendering depends on available server capacity and compatible game resources. To the extent permitted by applicable law, the website is provided as available without a promise of uninterrupted access or universal compatibility. These terms do not exclude rights or responsibilities that cannot lawfully be excluded."
+        ]
+      },
+      {
+        "heading": "Contact and revisions",
+        "paragraphs": [
+          "For website questions, corrections or concerns about these terms, email support@justvolleyball.app. Include the relevant page and a clear explanation. Material changes to these terms will be reflected by the update date."
+        ]
+      }
+    ]
+  },
+  "copyright": {
+    "title": "Copyright",
+    "intro": "This page explains ownership and attribution for the original website material, game-related imagery and community appearances displayed on justvolleyball.app.",
+    "updatedAt": "2026-11-24",
+    "sections": [
+      {
+        "heading": "Original website material",
+        "paragraphs": [
+          "Original editorial text, site-specific design elements and original branding are protected by the applicable rights of their owners. The copyright notice in the footer concerns rights the website operator can hold. It does not claim ownership of the underlying game, its trademarks or community-created works."
+        ]
+      },
+      {
+        "heading": "Game assets and trademarks",
+        "paragraphs": [
+          "Just Volleyball, game artwork, models, screenshots and other game-related material belong to their respective owners. Steam and Valve marks belong to their respective owners. This fan website uses game-related names to identify the subject of its guides and tools. Their display does not imply authorization, sponsorship or endorsement."
+        ]
+      },
+      {
+        "heading": "Community looks and character-inspired designs",
+        "paragraphs": [
+          "Player appearances can be assembled from game parts and shared through codes or pictures. Names and likenesses inspired by other works may involve additional rights holders. Listing a look does not transfer ownership of a character design or grant permission to use it commercially."
+        ]
+      },
+      {
+        "heading": "Credits and corrections",
+        "paragraphs": [
+          "Where a creator or contributor is identified, the credit should accurately describe that contribution. If a credit is missing or incorrect, contact support with the page address, the work involved and the attribution you believe is appropriate. Include a verifiable link or other information that helps establish the relationship."
+        ]
+      },
+      {
+        "heading": "Requests concerning your work",
+        "paragraphs": [
+          "Email support@justvolleyball.app if you believe material on the site infringes a right you own or represent. Identify the protected work, the exact page or asset, your relationship to the rights holder and the action requested. Provide a reply address and an explanation of the claim. Do not include unrelated sensitive documents."
+        ]
+      },
+      {
+        "heading": "Review and response",
+        "paragraphs": [
+          "Requests are reviewed in context. We may seek clarification, correct a credit, restrict access or remove disputed material while evaluating the issue. Please identify each affected item clearly so it can be located. This contact process does not replace any formal procedure available under applicable law."
+        ]
+      },
+      {
+        "heading": "Sharing links and reuse",
+        "paragraphs": [
+          "Linking to a page is a practical way to share a guide while preserving its context and updates. Reusing text, imagery or original branding may require permission from the relevant owner. A public download or visible image alone does not establish an unrestricted reuse license."
+        ]
+      }
+    ]
+  },
+  "about-us": {
+    "title": "About Us",
+    "intro": "justvolleyball.app is an independent fan site for players who want to build a look, learn the game and organize their next match.",
+    "updatedAt": "2026-11-24",
+    "sections": [
+      {
+        "heading": "What you can do here",
+        "paragraphs": [
+          "Browse community skins and appearance codes, inspect outfit requirements and open the Locker to customize a player. The Shop pages connect item browsing with try-on and editing. Guides cover the release, demo access, beginner play, controls and playing with friends. Updates bring patch changes and development plans into one readable page."
+        ]
+      },
+      {
+        "heading": "Who the site is for",
+        "paragraphs": [
+          "The site is written for players making practical decisions: which code to copy, what an imported outfit needs, how to receive a serve, or how to get a friend into a lobby. You can use the tools without a site account. Locally saved presets stay in the current browser unless you export them."
+        ]
+      },
+      {
+        "heading": "How information is maintained",
+        "paragraphs": [
+          "Game settings, developer announcements and the functionality of this website are checked when relevant content is revised. Historical dates are distinguished from current availability, and future plans are identified as plans. A technical compatibility check does not establish that a look was independently tested in a live Steam match."
+        ]
+      },
+      {
+        "heading": "Experience and corrections",
+        "paragraphs": [
+          "We do not invent player testimonials, testing sessions or staff credentials. Where a behavior has not been independently checked in a live match, the wording should not imply that it has. If your current game behaves differently, send the page, game version and the steps that produced the difference."
+        ]
+      },
+      {
+        "heading": "Community appearances",
+        "paragraphs": [
+          "The game uses customizable avatars. Named looks on this site are community interpretations and can require owned accessories. Creator credits and item requirements help players understand what they are importing. Use the detail page to inspect a look before applying its code."
+        ]
+      },
+      {
+        "heading": "Independent operation",
+        "paragraphs": [
+          "The website is not affiliated with temkosoft or Valve and does not provide official game account support. Purchases and account issues should be handled through the relevant service. For this website\u2019s content, tools, attribution or privacy, contact support@justvolleyball.app."
+        ]
+      }
+    ]
+  },
+  "contact-us": {
+    "title": "Contact Us",
+    "intro": "Email support@justvolleyball.app for questions about this website, broken pages, tool errors, corrections and copyright concerns.",
+    "updatedAt": "2026-11-24",
+    "sections": [
+      {
+        "heading": "Website help",
+        "paragraphs": [
+          "Describe the page or tool you were using, the action you attempted and the result you expected. Include the page URL and whether the problem happens consistently. A concise reproduction sequence is usually more useful than a general statement that a feature does not work."
+        ]
+      },
+      {
+        "heading": "Locker and appearance-code issues",
+        "paragraphs": [
+          "Include the game version, browser and device type where relevant. Explain whether the failure happened during import, preview, saving or export. You may include the appearance code if you are comfortable sharing it, but never send account credentials. Keep a separate copy of a look before replacing or clearing local presets."
+        ]
+      },
+      {
+        "heading": "Corrections to guides or item information",
+        "paragraphs": [
+          "Identify the sentence or item that needs attention and explain the correction. A current in-game screenshot or developer announcement can help distinguish an outdated detail from a version-specific difference. Let us know whether the issue concerns the full game, a demo or an older build."
+        ]
+      },
+      {
+        "heading": "Copyright and attribution",
+        "paragraphs": [
+          "For ownership or credit concerns, provide the specific page or image address, identify the work and explain your relationship to its owner. State whether you are requesting a credit correction, a review or removal. The Copyright page describes the information that helps us evaluate such a request."
+        ]
+      },
+      {
+        "heading": "Privacy requests",
+        "paragraphs": [
+          "Explain what information you previously sent and the outcome you are requesting. Avoid adding sensitive identification unless it becomes necessary to assess a specific request. Browser-local presets can be managed through the tool or your browser\u2019s site-storage settings."
+        ]
+      },
+      {
+        "heading": "Game accounts and purchases",
+        "paragraphs": [
+          "This fan site cannot access Steam accounts, restore in-game currency, change a game license or issue a Steam refund. For those matters, use the appropriate game or platform support route. Do not email passwords, authentication codes or payment details to this address."
+        ]
+      },
+      {
+        "heading": "Replies and attachments",
+        "paragraphs": [
+          "Messages are reviewed as capacity allows; a fixed response time is not promised. Use a clear subject line and keep attachments relevant. Please avoid repeatedly sending the same request before there is new information to add."
+        ]
+      }
+    ]
+  }
+}

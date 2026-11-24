@@ -1,0 +1,2145 @@
+{
+  "hinata": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "evidenceType": "Static decoding against recovered game scripts and resource identifiers; not an in-game render or import test.",
+    "decoded": {
+      "hairId": "shrimpy",
+      "hairColor": "ff8a03",
+      "hairColors": [
+        "ff8a03",
+        "e2ac37"
+      ],
+      "jerseyNumber": 10,
+      "kitColors": [
+        "202126",
+        "202126",
+        "ff6500",
+        "ffffff"
+      ]
+    },
+    "requiredAccessories": [],
+    "accessoryCost": 0,
+    "costNote": "Unique item prices in this extracted build; items already owned do not need buying again. Import does not grant ownership.",
+    "sourceScripts": [
+      {
+        "path": "game/character/look_share.gd",
+        "line": 80,
+        "purpose": "JV2 body, checksum and LookPack decode"
+      },
+      {
+        "path": "game/character/look_pack.gd",
+        "line": 175,
+        "purpose": "Bitfield unpack and accepted revisions"
+      },
+      {
+        "path": "game/character/character_config.gd",
+        "line": 1401,
+        "purpose": "Accessory ownership checks and removal"
+      },
+      {
+        "path": "game/character/locker.gd",
+        "line": 3225,
+        "purpose": "Import and missing-item workflow"
+      }
+    ],
+    "sourceHairPath": "game/character/hair/shrimpy.blend.import"
+  },
+  "kageyama": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "evidenceType": "Static decoding against recovered game scripts and resource identifiers; not an in-game render or import test.",
+    "decoded": {
+      "hairId": "kage",
+      "hairColor": "000000",
+      "hairColors": [
+        "000000",
+        "e2ac37"
+      ],
+      "jerseyNumber": 9,
+      "kitColors": [
+        "202126",
+        "202126",
+        "ff6500",
+        "ffffff"
+      ]
+    },
+    "requiredAccessories": [],
+    "accessoryCost": 0,
+    "costNote": "Unique item prices in this extracted build; items already owned do not need buying again. Import does not grant ownership.",
+    "sourceScripts": [
+      {
+        "path": "game/character/look_share.gd",
+        "line": 80,
+        "purpose": "JV2 body, checksum and LookPack decode"
+      },
+      {
+        "path": "game/character/look_pack.gd",
+        "line": 175,
+        "purpose": "Bitfield unpack and accepted revisions"
+      },
+      {
+        "path": "game/character/character_config.gd",
+        "line": 1401,
+        "purpose": "Accessory ownership checks and removal"
+      },
+      {
+        "path": "game/character/locker.gd",
+        "line": 3225,
+        "purpose": "Import and missing-item workflow"
+      }
+    ],
+    "sourceHairPath": "game/character/hair/kage.blend.import"
+  },
+  "gear-5-luffy": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "evidenceType": "Static decoding against recovered game scripts and resource identifiers; not an in-game render or import test.",
+    "decoded": {
+      "hairId": "shrimpy",
+      "hairColor": "ffffff",
+      "hairColors": [
+        "ffffff"
+      ],
+      "jerseyNumber": 8,
+      "kitColors": [
+        "ffe9d0",
+        "ffffff",
+        "ffffff",
+        "e6ad8a"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "adventurebackpack",
+        "displayName": "adventure backpack",
+        "price": 1000,
+        "currency": "in-game coins",
+        "sourcePath": "game/character/accessories/adventurebackpack.tres"
+      },
+      {
+        "id": "halo",
+        "displayName": "halo",
+        "price": 1000,
+        "currency": "in-game coins",
+        "sourcePath": "game/character/accessories/halo.tres"
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000,
+        "currency": "in-game coins",
+        "sourcePath": "game/character/accessories/headband.tres"
+      },
+      {
+        "id": "sleekvisor",
+        "displayName": "sleek visor",
+        "price": 1000,
+        "currency": "in-game coins",
+        "sourcePath": "game/character/accessories/sleekvisor.tres"
+      },
+      {
+        "id": "wings",
+        "displayName": "wings",
+        "price": 1000,
+        "currency": "in-game coins",
+        "sourcePath": "game/character/accessories/wings.tres"
+      }
+    ],
+    "accessoryCost": 5000,
+    "costNote": "Unique item prices in this extracted build; items already owned do not need buying again. Import does not grant ownership.",
+    "sourceScripts": [
+      {
+        "path": "game/character/look_share.gd",
+        "line": 80,
+        "purpose": "JV2 body, checksum and LookPack decode"
+      },
+      {
+        "path": "game/character/look_pack.gd",
+        "line": 175,
+        "purpose": "Bitfield unpack and accepted revisions"
+      },
+      {
+        "path": "game/character/character_config.gd",
+        "line": 1401,
+        "purpose": "Accessory ownership checks and removal"
+      },
+      {
+        "path": "game/character/locker.gd",
+        "line": 3225,
+        "purpose": "Import and missing-item workflow"
+      }
+    ],
+    "sourceHairPath": "game/character/hair/shrimpy.blend.import"
+  },
+  "itadori-yuji": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "evidenceType": "Static decoding against recovered game scripts and resource identifiers; not an in-game render or import test.",
+    "decoded": {
+      "hairId": "topfade",
+      "hairColor": "f57c83",
+      "hairColors": [
+        "f57c83",
+        "251b20"
+      ],
+      "jerseyNumber": 20,
+      "kitColors": [
+        "050c46",
+        "050c46",
+        "050c46",
+        "594816"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "nose_bandage",
+        "displayName": "nose bandage",
+        "price": 1000,
+        "currency": "in-game coins",
+        "sourcePath": "game/character/accessories/nose_bandage.tres"
+      },
+      {
+        "id": "roundglasses",
+        "displayName": "round glasses",
+        "price": 1000,
+        "currency": "in-game coins",
+        "sourcePath": "game/character/accessories/roundglasses.tres"
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000,
+        "currency": "in-game coins",
+        "sourcePath": "game/character/accessories/scarf.tres"
+      }
+    ],
+    "accessoryCost": 3000,
+    "costNote": "Unique item prices in this extracted build; items already owned do not need buying again. Import does not grant ownership.",
+    "sourceScripts": [
+      {
+        "path": "game/character/look_share.gd",
+        "line": 80,
+        "purpose": "JV2 body, checksum and LookPack decode"
+      },
+      {
+        "path": "game/character/look_pack.gd",
+        "line": 175,
+        "purpose": "Bitfield unpack and accepted revisions"
+      },
+      {
+        "path": "game/character/character_config.gd",
+        "line": 1401,
+        "purpose": "Accessory ownership checks and removal"
+      },
+      {
+        "path": "game/character/locker.gd",
+        "line": 3225,
+        "purpose": "Import and missing-item workflow"
+      }
+    ],
+    "sourceHairPath": "game/character/hair/topfade.blend.import"
+  },
+  "nishinoya": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "evidenceType": "Static decoding against recovered game scripts and resource identifiers; not an in-game render or import test.",
+    "decoded": {
+      "hairId": "spiky",
+      "hairColor": "22170d",
+      "hairColors": [
+        "22170d",
+        "e2ac37"
+      ],
+      "jerseyNumber": 4,
+      "kitColors": [
+        "ff6500",
+        "ff6500",
+        "202126",
+        "ffffff"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "sprout",
+        "displayName": "sprout",
+        "price": 1000,
+        "currency": "in-game coins",
+        "sourcePath": "game/character/accessories/sprout.tres"
+      }
+    ],
+    "accessoryCost": 1000,
+    "costNote": "Unique item prices in this extracted build; items already owned do not need buying again. Import does not grant ownership.",
+    "sourceScripts": [
+      {
+        "path": "game/character/look_share.gd",
+        "line": 80,
+        "purpose": "JV2 body, checksum and LookPack decode"
+      },
+      {
+        "path": "game/character/look_pack.gd",
+        "line": 175,
+        "purpose": "Bitfield unpack and accepted revisions"
+      },
+      {
+        "path": "game/character/character_config.gd",
+        "line": 1401,
+        "purpose": "Accessory ownership checks and removal"
+      },
+      {
+        "path": "game/character/locker.gd",
+        "line": 3225,
+        "purpose": "Import and missing-item workflow"
+      }
+    ],
+    "sourceHairPath": "game/character/hair/spiky.blend.import"
+  },
+  "frieren": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "evidenceType": "Static decoding against recovered game scripts and resource identifiers; not an in-game render or import test.",
+    "decoded": {
+      "hairId": "meku",
+      "hairColor": "e7fbfa",
+      "hairColors": [
+        "e7fbfa",
+        "e7fbfa",
+        "e7fbfa"
+      ],
+      "jerseyNumber": 8,
+      "kitColors": [
+        "ffffff",
+        "ffffff",
+        "ecdd83",
+        "d2c369"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000,
+        "currency": "in-game coins",
+        "sourcePath": "game/character/accessories/cape.tres"
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000,
+        "currency": "in-game coins",
+        "sourcePath": "game/character/accessories/scarf.tres"
+      }
+    ],
+    "accessoryCost": 2000,
+    "costNote": "Unique item prices in this extracted build; items already owned do not need buying again. Import does not grant ownership.",
+    "sourceScripts": [
+      {
+        "path": "game/character/look_share.gd",
+        "line": 80,
+        "purpose": "JV2 body, checksum and LookPack decode"
+      },
+      {
+        "path": "game/character/look_pack.gd",
+        "line": 175,
+        "purpose": "Bitfield unpack and accepted revisions"
+      },
+      {
+        "path": "game/character/character_config.gd",
+        "line": 1401,
+        "purpose": "Accessory ownership checks and removal"
+      },
+      {
+        "path": "game/character/locker.gd",
+        "line": 3225,
+        "purpose": "Import and missing-item workflow"
+      }
+    ],
+    "sourceHairPath": "game/character/hair/meku.blend.import"
+  },
+  "tungtung": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "211a14",
+      "hairColors": [],
+      "jerseyNumber": 0,
+      "kitColors": [
+        "9e6129",
+        "9e6129",
+        "9e6129",
+        "9e6129"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "chefhat",
+        "displayName": "chef hat",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 1000
+  },
+  "the-knight": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "211a14",
+      "hairColors": [],
+      "jerseyNumber": 8,
+      "kitColors": [
+        "0d0f14",
+        "0d0f14",
+        "090b0e",
+        "ffffff"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      },
+      {
+        "id": "devilhorns",
+        "displayName": "devil horns",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 3000
+  },
+  "teemo": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "211a14",
+      "hairColors": [],
+      "jerseyNumber": 1,
+      "kitColors": [
+        "ffd2a1",
+        "45200a",
+        "ffffff",
+        "ffffff"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "adventurebackpack",
+        "displayName": "adventure backpack",
+        "price": 1000
+      },
+      {
+        "id": "swirlglasses",
+        "displayName": "swirl glasses",
+        "price": 1000
+      },
+      {
+        "id": "strawhat",
+        "displayName": "straw hat",
+        "price": 1000
+      },
+      {
+        "id": "catears",
+        "displayName": "cat ears",
+        "price": 1000
+      },
+      {
+        "id": "sprout",
+        "displayName": "sprout",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 6000
+  },
+  "homer": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "f6cd1c",
+      "hairColors": [
+        "f6cd1c"
+      ],
+      "jerseyNumber": 1,
+      "kitColors": [
+        "ffffff",
+        "618fd6",
+        "ffffff",
+        "ffffff"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "nose_bandage",
+        "displayName": "nose bandage",
+        "price": 1000
+      },
+      {
+        "id": "facemask",
+        "displayName": "face mask",
+        "price": 1000
+      },
+      {
+        "id": "duckbeak",
+        "displayName": "duck beak",
+        "price": 1000
+      },
+      {
+        "id": "watermellon",
+        "displayName": "watermelon hat",
+        "price": 1000
+      },
+      {
+        "id": "horns",
+        "displayName": "horns",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 5000
+  },
+  "hitori-gotoh": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "veritas",
+      "hairColor": "ffafc4",
+      "hairColors": [
+        "ffafc4"
+      ],
+      "jerseyNumber": 0,
+      "kitColors": [
+        "fac3c8",
+        "23272a",
+        "f7f7f7",
+        "ff7c89"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "nose_bandage",
+        "displayName": "nose bandage",
+        "price": 1000
+      },
+      {
+        "id": "roundglasses",
+        "displayName": "round glasses",
+        "price": 1000
+      },
+      {
+        "id": "punk_glasses",
+        "displayName": "punk glasses",
+        "price": 1000
+      },
+      {
+        "id": "bow",
+        "displayName": "bow",
+        "price": 1000
+      },
+      {
+        "id": "aubade",
+        "displayName": "aubade",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 5000
+  },
+  "lebrooooon": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "211a14",
+      "hairColors": [],
+      "jerseyNumber": 23,
+      "kitColors": [
+        "f9cb39",
+        "f9cb39",
+        "4d00c8",
+        "4d00c8"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "watermellon",
+        "displayName": "watermelon hat",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 1000
+  },
+  "knuckles": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "wynd",
+      "hairColor": "e94066",
+      "hairColors": [
+        "e94066"
+      ],
+      "jerseyNumber": 9,
+      "kitColors": [
+        "e94067",
+        "aa3579",
+        "e0abd7",
+        "f2e5ec"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "eyepatch",
+        "displayName": "eyepatch",
+        "price": 1000
+      },
+      {
+        "id": "facemask",
+        "displayName": "face mask",
+        "price": 1000
+      },
+      {
+        "id": "swirlglasses",
+        "displayName": "swirl glasses",
+        "price": 1000
+      },
+      {
+        "id": "headscrew",
+        "displayName": "head screw",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 4000
+  },
+  "spider-man": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "211a14",
+      "hairColors": [],
+      "jerseyNumber": 0,
+      "kitColors": [
+        "ff3729",
+        "4c3dc6",
+        "4c3dc6",
+        "000000"
+      ]
+    },
+    "requiredAccessories": [],
+    "accessoryCost": 0
+  },
+  "mewtwo": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "f7e6fa",
+      "hairColors": [
+        "f7e6fa",
+        "5680a8"
+      ],
+      "jerseyNumber": 0,
+      "kitColors": [
+        "f7e6fa",
+        "f7e6fa",
+        "f7e6fa",
+        "976f94"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "straighttail",
+        "displayName": "straight tail",
+        "price": 1000
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "punk_glasses",
+        "displayName": "punk glasses",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      },
+      {
+        "id": "horns",
+        "displayName": "horns",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 5000
+  },
+  "asta": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "shrimpy",
+      "hairColor": "000000",
+      "hairColors": [
+        "000000"
+      ],
+      "jerseyNumber": 8,
+      "kitColors": [
+        "000000",
+        "000000",
+        "e90000",
+        "e90000"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "nose_bandage",
+        "displayName": "nose bandage",
+        "price": 1000
+      },
+      {
+        "id": "batwings",
+        "displayName": "bat wings",
+        "price": 1000
+      },
+      {
+        "id": "sleekvisor",
+        "displayName": "sleek visor",
+        "price": 1000
+      },
+      {
+        "id": "facemask",
+        "displayName": "face mask",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      },
+      {
+        "id": "horns",
+        "displayName": "horns",
+        "price": 1000
+      },
+      {
+        "id": "devilhorns",
+        "displayName": "devil horns",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 7000
+  },
+  "penny": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "0a3702",
+      "hairColors": [
+        "0a3702"
+      ],
+      "jerseyNumber": 0,
+      "kitColors": [
+        "1e98a3",
+        "1e98a3",
+        "1e98a3",
+        "396e73"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "straighttail",
+        "displayName": "straight tail",
+        "price": 1000
+      },
+      {
+        "id": "duckbeak",
+        "displayName": "duck beak",
+        "price": 1000
+      },
+      {
+        "id": "facemask",
+        "displayName": "face mask",
+        "price": 1000
+      },
+      {
+        "id": "strawhat",
+        "displayName": "straw hat",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 4000
+  },
+  "itachi": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "oody",
+      "hairColor": "000000",
+      "hairColors": [
+        "000000"
+      ],
+      "jerseyNumber": 92,
+      "kitColors": [
+        "000000",
+        "000000",
+        "020004",
+        "86130a"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "nose_bandage",
+        "displayName": "nose bandage",
+        "price": 1000
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      },
+      {
+        "id": "facemask",
+        "displayName": "face mask",
+        "price": 1000
+      },
+      {
+        "id": "bandana",
+        "displayName": "bandana",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 5000
+  },
+  "no-face": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "hairm10",
+      "hairColor": "000000",
+      "hairColors": [
+        "000000"
+      ],
+      "jerseyNumber": 1,
+      "kitColors": [
+        "000000",
+        "000000",
+        "ffffff",
+        "323232"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      },
+      {
+        "id": "eyepatch",
+        "displayName": "eyepatch",
+        "price": 1000
+      },
+      {
+        "id": "watermellon",
+        "displayName": "watermelon hat",
+        "price": 1000
+      },
+      {
+        "id": "headphones",
+        "displayName": "headphones",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 4000
+  },
+  "seitama": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "47301c",
+      "hairColors": [],
+      "jerseyNumber": 1,
+      "kitColors": [
+        "ffdc1c",
+        "ffdc1c",
+        "ffdc1c",
+        "000000"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 1000
+  },
+  "greninja": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "3869d2",
+      "hairColors": [
+        "3869d2",
+        "5680a8"
+      ],
+      "jerseyNumber": 0,
+      "kitColors": [
+        "3869d2",
+        "3869d2",
+        "fff0ac",
+        "0037a7"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "straighttail",
+        "displayName": "straight tail",
+        "price": 1000
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "punk_glasses",
+        "displayName": "punk glasses",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      },
+      {
+        "id": "horns",
+        "displayName": "horns",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 5000
+  },
+  "atsumu": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "hairtf16",
+      "hairColor": "e1a42b",
+      "hairColors": [
+        "e1a42b",
+        "46352d"
+      ],
+      "jerseyNumber": 7,
+      "kitColors": [
+        "141212",
+        "141212",
+        "ff8c00",
+        "f7f7ff"
+      ]
+    },
+    "requiredAccessories": [],
+    "accessoryCost": 0
+  },
+  "shrek": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "422b13",
+      "hairColors": [
+        "422b13"
+      ],
+      "jerseyNumber": 1,
+      "kitColors": [
+        "e0dbb9",
+        "351901",
+        "351901",
+        "503808"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "nose_bandage",
+        "displayName": "nose bandage",
+        "price": 1000
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "antennae",
+        "displayName": "antennae",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 3000
+  },
+  "minato": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "shrimpy",
+      "hairColor": "ffe48a",
+      "hairColors": [
+        "ffe48a"
+      ],
+      "jerseyNumber": 4,
+      "kitColors": [
+        "4b8955",
+        "1a5472",
+        "4a8153",
+        "ffffff"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      },
+      {
+        "id": "adventurebackpack",
+        "displayName": "adventure backpack",
+        "price": 1000
+      },
+      {
+        "id": "sleekvisor",
+        "displayName": "sleek visor",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      },
+      {
+        "id": "bandana",
+        "displayName": "bandana",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 6000
+  },
+  "buzz-lightyear": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "buzz",
+      "hairColor": "6325b8",
+      "hairColors": [
+        "6325b8"
+      ],
+      "jerseyNumber": 10,
+      "kitColors": [
+        "dde1e1",
+        "dde1e1",
+        "312d37",
+        "6325b8"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "adventurebackpack",
+        "displayName": "adventure backpack",
+        "price": 1000
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "fishbowl",
+        "displayName": "fish bowl",
+        "price": 1000
+      },
+      {
+        "id": "headphones",
+        "displayName": "headphones",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 4000
+  },
+  "lee-sin": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "00020b",
+      "hairColors": [
+        "00020b",
+        "000000"
+      ],
+      "jerseyNumber": 0,
+      "kitColors": [
+        "ffd19e",
+        "18161f",
+        "ffffff",
+        "c8a57e"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "eyepatch",
+        "displayName": "eyepatch",
+        "price": 1000
+      },
+      {
+        "id": "sleekvisor",
+        "displayName": "sleek visor",
+        "price": 1000
+      },
+      {
+        "id": "bandana",
+        "displayName": "bandana",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 3000
+  },
+  "robin": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "kai",
+      "hairColor": "161616",
+      "hairColors": [
+        "161616",
+        "000000"
+      ],
+      "jerseyNumber": 8,
+      "kitColors": [
+        "7f1f00",
+        "167e00",
+        "000000",
+        "fcda00"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 2000
+  },
+  "kakashi": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "kai",
+      "hairColor": "c4c7cc",
+      "hairColors": [
+        "c4c7cc"
+      ],
+      "jerseyNumber": 0,
+      "kitColors": [
+        "748572",
+        "2f344a",
+        "2f344a",
+        "2f344a"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "adventurebackpack",
+        "displayName": "adventure backpack",
+        "price": 1000
+      },
+      {
+        "id": "facemask",
+        "displayName": "face mask",
+        "price": 1000
+      },
+      {
+        "id": "swirlglasses",
+        "displayName": "swirl glasses",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      },
+      {
+        "id": "catears",
+        "displayName": "cat ears",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 5000
+  },
+  "batman-beyond": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "000000",
+      "hairColors": [
+        "000000",
+        "000000"
+      ],
+      "jerseyNumber": 8,
+      "kitColors": [
+        "000000",
+        "000000",
+        "000000",
+        "c7292e"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "devilhorns",
+        "displayName": "devil horns",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 3000
+  },
+  "avatar": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "483d3c",
+      "hairColors": [
+        "483d3c"
+      ],
+      "jerseyNumber": 1,
+      "kitColors": [
+        "da533f",
+        "ffc169",
+        "ffc169",
+        "ffc169"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "nose_bandage",
+        "displayName": "nose bandage",
+        "price": 1000
+      },
+      {
+        "id": "knight",
+        "displayName": "knight",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 4000
+  },
+  "megumin": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "wynd",
+      "hairColor": "765c60",
+      "hairColors": [
+        "765c60",
+        "856c5c"
+      ],
+      "jerseyNumber": 8,
+      "kitColors": [
+        "c24448",
+        "c24448",
+        "fac865",
+        "fac865"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      },
+      {
+        "id": "witch_hat",
+        "displayName": "witch hat",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 2000
+  },
+  "don-ramon": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "buzz",
+      "hairColor": "65523a",
+      "hairColors": [
+        "65523a"
+      ],
+      "jerseyNumber": 1,
+      "kitColors": [
+        "373740",
+        "495171",
+        "272730",
+        "0c0c0c"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "angryeffect",
+        "displayName": "anger mark",
+        "price": 1000
+      },
+      {
+        "id": "buckethat",
+        "displayName": "bucket hat",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 2000
+  },
+  "omni-man": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "buzz",
+      "hairColor": "2f2b2a",
+      "hairColors": [
+        "2f2b2a"
+      ],
+      "jerseyNumber": 0,
+      "kitColors": [
+        "ddedec",
+        "c9432e",
+        "c9432e",
+        "c9432e"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 2000
+  },
+  "colossal": {
+    "codecRevision": 0,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "buzz",
+      "hairColor": "fee8c9",
+      "hairColors": [
+        "fee8c9"
+      ],
+      "jerseyNumber": 8,
+      "kitColors": [
+        "c24545",
+        "fee8c9",
+        "c24545",
+        "fee8c9"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "sleekvisor",
+        "displayName": "sleek visor",
+        "price": 1000
+      },
+      {
+        "id": "roundglasses",
+        "displayName": "round glasses",
+        "price": 1000
+      },
+      {
+        "id": "facemask",
+        "displayName": "face mask",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 5000
+  },
+  "piccolo": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "211a14",
+      "hairColors": [],
+      "jerseyNumber": 1,
+      "kitColors": [
+        "523b6f",
+        "523b6f",
+        "523b6f",
+        "523b6f"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      },
+      {
+        "id": "beanie",
+        "displayName": "beanie",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 3000
+  },
+  "chopper": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "291400",
+      "hairColors": [
+        "291400"
+      ],
+      "jerseyNumber": 5,
+      "kitColors": [
+        "eba05e",
+        "41001e",
+        "eba05e",
+        "b57d4c"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "punk_glasses",
+        "displayName": "punk glasses",
+        "price": 1000
+      },
+      {
+        "id": "tophat",
+        "displayName": "top hat",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 3000
+  },
+  "reze": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "sagaraen",
+      "hairColor": "533ea7",
+      "hairColors": [
+        "533ea7",
+        "33b0cf"
+      ],
+      "jerseyNumber": 1,
+      "kitColors": [
+        "000000",
+        "000000",
+        "ffffff",
+        "ffffff"
+      ]
+    },
+    "requiredAccessories": [],
+    "accessoryCost": 0
+  },
+  "truth": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "000000",
+      "hairColors": [
+        "000000"
+      ],
+      "jerseyNumber": 42,
+      "kitColors": [
+        "ffffff",
+        "ffffff",
+        "ffffff",
+        "000000"
+      ]
+    },
+    "requiredAccessories": [],
+    "accessoryCost": 0
+  },
+  "gojo": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "spiky",
+      "hairColor": "f6f6f8",
+      "hairColors": [
+        "f6f6f8",
+        "ddedf3"
+      ],
+      "jerseyNumber": 6,
+      "kitColors": [
+        "27254c",
+        "27254c",
+        "27254c",
+        "27254c"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 2000
+  },
+  "hornet": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "ffffff",
+      "hairColors": [
+        "ffffff"
+      ],
+      "jerseyNumber": 0,
+      "kitColors": [
+        "17171c",
+        "17171c",
+        "17171c",
+        "ffffff"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "adventurehat",
+        "displayName": "adventure hat",
+        "price": 1000
+      },
+      {
+        "id": "devilhorns",
+        "displayName": "devil horns",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 4000
+  },
+  "michael-jackson": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "hairf14",
+      "hairColor": "151515",
+      "hairColors": [
+        "151515",
+        "000000"
+      ],
+      "jerseyNumber": 1,
+      "kitColors": [
+        "ffffff",
+        "ffffff",
+        "5facde",
+        "5facde"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "nose_bandage",
+        "displayName": "nose bandage",
+        "price": 1000
+      },
+      {
+        "id": "eyepatch",
+        "displayName": "eyepatch",
+        "price": 1000
+      },
+      {
+        "id": "tophat",
+        "displayName": "top hat",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 3000
+  },
+  "red-pikmin": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "f9c046",
+      "hairColors": [
+        "f9c046"
+      ],
+      "jerseyNumber": 1,
+      "kitColors": [
+        "dd2f2f",
+        "dd2f2f",
+        "dd2f2f",
+        "dd2f2f"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "sprout",
+        "displayName": "sprout",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 1000
+  },
+  "sportacus": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "buzz",
+      "hairColor": "513a23",
+      "hairColors": [
+        "513a23",
+        "fc0000"
+      ],
+      "jerseyNumber": 10,
+      "kitColors": [
+        "5978fa",
+        "5978fa",
+        "f5f5f5",
+        "fd9a2c"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "roundglasses",
+        "displayName": "round glasses",
+        "price": 1000
+      },
+      {
+        "id": "beanie",
+        "displayName": "beanie",
+        "price": 1000
+      },
+      {
+        "id": "visor",
+        "displayName": "visor",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 3000
+  },
+  "joker": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "butchwitch",
+      "hairColor": "050001",
+      "hairColors": [
+        "050001"
+      ],
+      "jerseyNumber": 66,
+      "kitColors": [
+        "000000",
+        "000000",
+        "fff2ed",
+        "505050"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      },
+      {
+        "id": "punk_glasses",
+        "displayName": "punk glasses",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 4000
+  },
+  "hatsune-miku": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "meku",
+      "hairColor": "00f9f6",
+      "hairColors": [
+        "00f9f6",
+        "1d1c00",
+        "f80060"
+      ],
+      "jerseyNumber": 12,
+      "kitColors": [
+        "cddedd",
+        "465150",
+        "00f4ff",
+        "ffffff"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "aubade",
+        "displayName": "aubade",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 1000
+  },
+  "lucario": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "cornrow",
+      "hairColor": "5680a8",
+      "hairColors": [
+        "5680a8",
+        "5680a8"
+      ],
+      "jerseyNumber": 0,
+      "kitColors": [
+        "e3d99b",
+        "5680a8",
+        "587e97",
+        "aaa7b0"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "straighttail",
+        "displayName": "straight tail",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      },
+      {
+        "id": "horns",
+        "displayName": "horns",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 3000
+  },
+  "johnny-joestar": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "ruri",
+      "hairColor": "ead55d",
+      "hairColors": [
+        "ead55d"
+      ],
+      "jerseyNumber": 93,
+      "kitColors": [
+        "ffffff",
+        "352dbc",
+        "ad987e",
+        "352dbc"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "nose_bandage",
+        "displayName": "nose bandage",
+        "price": 1000
+      },
+      {
+        "id": "swirlglasses",
+        "displayName": "swirl glasses",
+        "price": 1000
+      },
+      {
+        "id": "beanie",
+        "displayName": "beanie",
+        "price": 1000
+      },
+      {
+        "id": "devilhorns",
+        "displayName": "devil horns",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 6000
+  },
+  "cool-squirtle": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "5b5e89",
+      "hairColors": [
+        "5b5e89"
+      ],
+      "jerseyNumber": 42,
+      "kitColors": [
+        "fdff8a",
+        "fdff8a",
+        "a0d6f4",
+        "c7c87a"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "adventurebackpack",
+        "displayName": "adventure backpack",
+        "price": 1000
+      },
+      {
+        "id": "curltail",
+        "displayName": "curly tail",
+        "price": 1000
+      },
+      {
+        "id": "punk_glasses",
+        "displayName": "punk glasses",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 3000
+  },
+  "mahoraga": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "211a14",
+      "hairColors": [],
+      "jerseyNumber": 0,
+      "kitColors": [
+        "ffffff",
+        "000000",
+        "ffffff",
+        "bebeb7"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "price": 1000
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "price": 1000
+      },
+      {
+        "id": "punk_glasses",
+        "displayName": "punk glasses",
+        "price": 1000
+      },
+      {
+        "id": "sleekvisor",
+        "displayName": "sleek visor",
+        "price": 1000
+      },
+      {
+        "id": "halo",
+        "displayName": "halo",
+        "price": 1000
+      },
+      {
+        "id": "mouseear",
+        "displayName": "mouse ears",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 6000
+  },
+  "charizar-x": {
+    "codecRevision": 3,
+    "crcValid": true,
+    "resourceMatch": true,
+    "gameVersion": "1.0.3",
+    "gameTested": false,
+    "decoded": {
+      "hairId": "",
+      "hairColor": "211a14",
+      "hairColors": [],
+      "jerseyNumber": 6,
+      "kitColors": [
+        "333333",
+        "7fdfff",
+        "7fdfff",
+        "357779"
+      ]
+    },
+    "requiredAccessories": [
+      {
+        "id": "batwings",
+        "displayName": "bat wings",
+        "price": 1000
+      },
+      {
+        "id": "straighttail",
+        "displayName": "straight tail",
+        "price": 1000
+      },
+      {
+        "id": "punk_glasses",
+        "displayName": "punk glasses",
+        "price": 1000
+      },
+      {
+        "id": "devilhorns",
+        "displayName": "devil horns",
+        "price": 1000
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "price": 1000
+      }
+    ],
+    "accessoryCost": 5000
+  }
+}

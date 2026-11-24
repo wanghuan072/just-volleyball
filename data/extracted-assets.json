@@ -1,0 +1,4212 @@
+{
+  "checkedAt": "2026-11-23",
+  "sourceRoot": "D:\\wh\\202611\\just volleyball\\解包文件\\recovered_project",
+  "evidenceType": "Static recovered-game resource and script references; no game session executed.",
+  "countConvention": "Packaged base resources, not named official characters, skins, or guaranteed unlocked items.",
+  "limitations": [
+    "No runtime rendering or import verification is claimed.",
+    "Packaged sticker files do not establish selectable menu items.",
+    "Source provenance is recorded; no separate public redistribution license is asserted."
+  ],
+  "groups": [
+    {
+      "id": "eyes",
+      "label": "Eyes",
+      "count": 32,
+      "countConvention": "Unique base PNG files; texture layers excluded.",
+      "availability": "Referenced by FaceParts base-option scanner; unlock status not asserted.",
+      "provenance": [
+        {
+          "path": "game/character/face_parts.gd",
+          "line": 27,
+          "note": "Scanner accepts PNG base resources and de-duplicates import entries."
+        },
+        {
+          "path": "game/character/face_parts.gd",
+          "line": 40,
+          "note": "Excludes iris/fill/line/lash layer suffixes from the option count."
+        }
+      ],
+      "items": [
+        {
+          "id": "eye_1",
+          "name": "Eye 1",
+          "sourcePath": "game/character/faces/eyes/eye_1.png",
+          "image": "/images/game-parts/eyes-eye_1.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "7b76a3e9e6f365d166a72a8a619939dc29ff627e1e45cb888bacaefda62287c5"
+        },
+        {
+          "id": "eye_2",
+          "name": "Eye 2",
+          "sourcePath": "game/character/faces/eyes/eye_2.png",
+          "image": "/images/game-parts/eyes-eye_2.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "3ffcc513fc50b8af702d4cce0c3d8204fc7e473244eaa6e9adeefc054926826a"
+        },
+        {
+          "id": "eye_3",
+          "name": "Eye 3",
+          "sourcePath": "game/character/faces/eyes/eye_3.png",
+          "image": "/images/game-parts/eyes-eye_3.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "fb209b1734890eb1d876b23a6b92dbd0665376b884f2b791ddb6d9de94bd8e88"
+        },
+        {
+          "id": "eye_4",
+          "name": "Eye 4",
+          "sourcePath": "game/character/faces/eyes/eye_4.png",
+          "image": "/images/game-parts/eyes-eye_4.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "685a2130bf7173a24496ddaa0330706979582f5d8c6de5116066da40143e6901"
+        },
+        {
+          "id": "eye_5",
+          "name": "Eye 5",
+          "sourcePath": "game/character/faces/eyes/eye_5.png",
+          "image": "/images/game-parts/eyes-eye_5.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "9309c763e4a3fe7434cc547857e9dd4da2f54b9dc2e15701b0d125c4d2f7234e"
+        },
+        {
+          "id": "eye_6",
+          "name": "Eye 6",
+          "sourcePath": "game/character/faces/eyes/eye_6.png",
+          "image": "/images/game-parts/eyes-eye_6.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "117d0da7b06068375453c343bc86bc8eb2ded4a988d5aef1eb9088c45d3b183a"
+        },
+        {
+          "id": "eye_7",
+          "name": "Eye 7",
+          "sourcePath": "game/character/faces/eyes/eye_7.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "2a55f7fa56fe65e82fe6a9f8d2f47632b88a4978d246272ea953c0528ddf4a17"
+        },
+        {
+          "id": "eye_8",
+          "name": "Eye 8",
+          "sourcePath": "game/character/faces/eyes/eye_8.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "e71b7c22262cc91c4213fe6f9159b61c40c458101f04965904c46f3b154f2ad7"
+        },
+        {
+          "id": "eye_9",
+          "name": "Eye 9",
+          "sourcePath": "game/character/faces/eyes/eye_9.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "9e939fdce3465846c9a38d48cca01280c2a6d8cb99e029ca445a0bff4538c1ac"
+        },
+        {
+          "id": "eye_10",
+          "name": "Eye 10",
+          "sourcePath": "game/character/faces/eyes/eye_10.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "b70bb07a63cb37251838b37b9f1a899b951a2f2080b5e94e2fdc32cab802bca8"
+        },
+        {
+          "id": "eye_11",
+          "name": "Eye 11",
+          "sourcePath": "game/character/faces/eyes/eye_11.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "c21e38848373eb1def1d5260c81d11872edcfc8084ce3f4e6cab7e87d968c310"
+        },
+        {
+          "id": "eye_12",
+          "name": "Eye 12",
+          "sourcePath": "game/character/faces/eyes/eye_12.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "76d2862f5dcc331f6cd09100912ea18adf54c73d85b93b51146cc315880091ca"
+        },
+        {
+          "id": "eye_13",
+          "name": "Eye 13",
+          "sourcePath": "game/character/faces/eyes/eye_13.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "063f2bffcc407dbb4e69cb9f472ed3de06d13721489c824dafdde40539b6e481"
+        },
+        {
+          "id": "eye_14",
+          "name": "Eye 14",
+          "sourcePath": "game/character/faces/eyes/eye_14.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "f0273c6294b599389b81b59111cf30f5c35475ef50e2b65a4590b8b17c1b7c1e"
+        },
+        {
+          "id": "eye_15",
+          "name": "Eye 15",
+          "sourcePath": "game/character/faces/eyes/eye_15.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "4b9a838c6709e8fa8cffd68ecae95082409810a7e3a4b2d6dfd8a0b52a658fa4"
+        },
+        {
+          "id": "eye_16",
+          "name": "Eye 16",
+          "sourcePath": "game/character/faces/eyes/eye_16.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "5a14e7a800d53eabe19de31e413cd64c0a6cd81ca908d9a2656a0d1a9af129e7"
+        },
+        {
+          "id": "eye_17",
+          "name": "Eye 17",
+          "sourcePath": "game/character/faces/eyes/eye_17.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "ee3d127d620f02c03dc77ea3f2a7c252ece541721e057bd5dfd93a26a3711048"
+        },
+        {
+          "id": "eye_18",
+          "name": "Eye 18",
+          "sourcePath": "game/character/faces/eyes/eye_18.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "02695caabad25de55ac3fd124be21162dbea09a2a4eeb6904e20794048c15d6c"
+        },
+        {
+          "id": "eye_19",
+          "name": "Eye 19",
+          "sourcePath": "game/character/faces/eyes/eye_19.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "933aa7b4c806e7d61e6c44a99509dd2285afbd2dce3ebc865ca1b09da8b31862"
+        },
+        {
+          "id": "eye_20",
+          "name": "Eye 20",
+          "sourcePath": "game/character/faces/eyes/eye_20.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "e38c97742650b899cf74160feb7215bb940239c29f1a60f0204c45e5b5862f6a"
+        },
+        {
+          "id": "eye_21",
+          "name": "Eye 21",
+          "sourcePath": "game/character/faces/eyes/eye_21.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "27ad62a94483837d659de330c687b3417695f3f008fdaf4daf1a4ba7336bd92d"
+        },
+        {
+          "id": "eye_22",
+          "name": "Eye 22",
+          "sourcePath": "game/character/faces/eyes/eye_22.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "72c620767d897bc385ddee6727d6b935155c0bcedcbcc9ef582659a8449392c3"
+        },
+        {
+          "id": "eye_23",
+          "name": "Eye 23",
+          "sourcePath": "game/character/faces/eyes/eye_23.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "1d0d3c40bf246cf3aa3d47d18939d78d6e983e92478b465d8abe900e598c8c6d"
+        },
+        {
+          "id": "eyes_24",
+          "name": "Eye 24",
+          "sourcePath": "game/character/faces/eyes/eyes_24.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "6892fab07e73c4ae66b5b79f8b08a89994071d2ffa536073e58bad53b6950119"
+        },
+        {
+          "id": "eye_25",
+          "name": "Eye 25",
+          "sourcePath": "game/character/faces/eyes/eye_25.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "5878c8fdecb480b6396ffce8d997a91e06d1bf814bc00b93d04ca89d7db3bbbd"
+        },
+        {
+          "id": "eyes_25",
+          "name": "Eye 25",
+          "sourcePath": "game/character/faces/eyes/eyes_25.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "84ee458768b78302cb7b5c7409ade22fc577c443eae09e5113940112daf29afe"
+        },
+        {
+          "id": "eyes_26",
+          "name": "Eye 26",
+          "sourcePath": "game/character/faces/eyes/eyes_26.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "f764acdf11d9ec988d0c61988468c54cd7f7e5c0326ff966f24a95b31585fa23"
+        },
+        {
+          "id": "eyes_27",
+          "name": "Eye 27",
+          "sourcePath": "game/character/faces/eyes/eyes_27.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "d6b61653145fe3dca6f5839a21da099b69c8cca0150414b9e207b3e4e72846e7"
+        },
+        {
+          "id": "eyes_28",
+          "name": "Eye 28",
+          "sourcePath": "game/character/faces/eyes/eyes_28.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "b59f2e795ea4609f974f17336dae57488a42b8b4661fbf8a0938fcce4cdab564"
+        },
+        {
+          "id": "eyes_29",
+          "name": "Eye 29",
+          "sourcePath": "game/character/faces/eyes/eyes_29.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "22a86bbe4ecc318cf3dd1367f9f7b5ce21959aed56a91da1dce1e891aea8d8be"
+        },
+        {
+          "id": "eyes_30",
+          "name": "Eye 30",
+          "sourcePath": "game/character/faces/eyes/eyes_30.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "141d33c087811fc831ace8934a1e8417a161c77372ff5eceaf8dd14db7471c73"
+        },
+        {
+          "id": "eyes_31",
+          "name": "Eye 31",
+          "sourcePath": "game/character/faces/eyes/eyes_31.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "4e6e534b9855a56a735eff9071f249adf08b5576d7dc7a746039bdd930df1846"
+        }
+      ]
+    },
+    {
+      "id": "brows",
+      "label": "Eyebrows",
+      "count": 7,
+      "countConvention": "Unique base PNG files; texture layers excluded.",
+      "availability": "Referenced by FaceParts base-option scanner; unlock status not asserted.",
+      "provenance": [
+        {
+          "path": "game/character/face_parts.gd",
+          "line": 27,
+          "note": "Scanner accepts PNG base resources and de-duplicates import entries."
+        },
+        {
+          "path": "game/character/face_parts.gd",
+          "line": 40,
+          "note": "Excludes iris/fill/line/lash layer suffixes from the option count."
+        }
+      ],
+      "items": [
+        {
+          "id": "brow_1",
+          "name": "Brow 1",
+          "sourcePath": "game/character/faces/brows/brow_1.png",
+          "image": "/images/game-parts/brows-brow_1.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "4e0223f0c3e2956fca577a612e7e87585624a0f5282eec8253a077480451bf12"
+        },
+        {
+          "id": "brow_2",
+          "name": "Brow 2",
+          "sourcePath": "game/character/faces/brows/brow_2.png",
+          "image": "/images/game-parts/brows-brow_2.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "3c52428a047b725a7036f41531a7bf0f734f909a3ba031098a415e885a29b9df"
+        },
+        {
+          "id": "brow_3",
+          "name": "Brow 3",
+          "sourcePath": "game/character/faces/brows/brow_3.png",
+          "image": "/images/game-parts/brows-brow_3.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "4204b609dc5872a217ece50631557447eea97fa1e154d362d70c98f170fc5ca6"
+        },
+        {
+          "id": "brow_4",
+          "name": "Brow 4",
+          "sourcePath": "game/character/faces/brows/brow_4.png",
+          "image": "/images/game-parts/brows-brow_4.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "76dd5a0351869ce1ef0d3e532b09ef975abf187e5fd80fdeec3ac0916e4f0e5f"
+        },
+        {
+          "id": "brow_5",
+          "name": "Brow 5",
+          "sourcePath": "game/character/faces/brows/brow_5.png",
+          "image": "/images/game-parts/brows-brow_5.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "c3aa77a4e2f24521a9b31e8a1518541844be0b1daf3977c1654149c59fa57c82"
+        },
+        {
+          "id": "brow_6",
+          "name": "Brow 6",
+          "sourcePath": "game/character/faces/brows/brow_6.png",
+          "image": "/images/game-parts/brows-brow_6.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "27b4e92ab8548470c2bd022df56543797f98ad4357761613b4b61947cf4f6c7b"
+        },
+        {
+          "id": "brow_7",
+          "name": "Brow 7",
+          "sourcePath": "game/character/faces/brows/brow_7.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "f74e2d1ef16254817c1e33559b502d17d037d0a66edc07dcc9ec7dc5ead2f897"
+        }
+      ]
+    },
+    {
+      "id": "nose",
+      "label": "Noses",
+      "count": 5,
+      "countConvention": "Unique base PNG files; texture layers excluded.",
+      "availability": "Referenced by FaceParts base-option scanner; unlock status not asserted.",
+      "provenance": [
+        {
+          "path": "game/character/face_parts.gd",
+          "line": 27,
+          "note": "Scanner accepts PNG base resources and de-duplicates import entries."
+        },
+        {
+          "path": "game/character/face_parts.gd",
+          "line": 40,
+          "note": "Excludes iris/fill/line/lash layer suffixes from the option count."
+        }
+      ],
+      "items": [
+        {
+          "id": "nose_1",
+          "name": "Nose 1",
+          "sourcePath": "game/character/faces/nose/nose_1.png",
+          "image": "/images/game-parts/nose-nose_1.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "bfef1f1aca5e716cfe78da666918035e20f9b01fd1bb2f3d98bb4b0129df95aa"
+        },
+        {
+          "id": "nose_2",
+          "name": "Nose 2",
+          "sourcePath": "game/character/faces/nose/nose_2.png",
+          "image": "/images/game-parts/nose-nose_2.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "ff43aba1d79c53375772c1fdaa00caf20af04b97e218f069ff8fe4feca07f846"
+        },
+        {
+          "id": "nose_3",
+          "name": "Nose 3",
+          "sourcePath": "game/character/faces/nose/nose_3.png",
+          "image": "/images/game-parts/nose-nose_3.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "56e05f169759156ed2e1f1a07c5ca1ca6c9d2d1a5352f827b2c8dffbe51e581e"
+        },
+        {
+          "id": "nose_4",
+          "name": "Nose 4",
+          "sourcePath": "game/character/faces/nose/nose_4.png",
+          "image": "/images/game-parts/nose-nose_4.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "70c3823532ba892f7dcd299c7fabd75db02ce7e0b2071f057a4e69ba70da6b5c"
+        },
+        {
+          "id": "nose_5",
+          "name": "Nose 5",
+          "sourcePath": "game/character/faces/nose/nose_5.png",
+          "image": "/images/game-parts/nose-nose_5.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "74aefec701300bddec8e17b50203c2e15280f68f5658c4642870809eab57f903"
+        }
+      ]
+    },
+    {
+      "id": "mouth",
+      "label": "Mouths",
+      "count": 17,
+      "countConvention": "Unique base PNG files; texture layers excluded.",
+      "availability": "Referenced by FaceParts base-option scanner; unlock status not asserted.",
+      "provenance": [
+        {
+          "path": "game/character/face_parts.gd",
+          "line": 27,
+          "note": "Scanner accepts PNG base resources and de-duplicates import entries."
+        },
+        {
+          "path": "game/character/face_parts.gd",
+          "line": 40,
+          "note": "Excludes iris/fill/line/lash layer suffixes from the option count."
+        }
+      ],
+      "items": [
+        {
+          "id": "mouth_1",
+          "name": "Mouth 1",
+          "sourcePath": "game/character/faces/mouth/mouth_1.png",
+          "image": "/images/game-parts/mouth-mouth_1.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "f4b86bbafd7f1721a522c8a12c0938c4fa864840c7c9163c8fd3a5b9fdf55a37"
+        },
+        {
+          "id": "mouth_2",
+          "name": "Mouth 2",
+          "sourcePath": "game/character/faces/mouth/mouth_2.png",
+          "image": "/images/game-parts/mouth-mouth_2.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "a2d30346890256c6871b5b94b3928104742752ebc21c5c346fd163ef72f2e04a"
+        },
+        {
+          "id": "mouth_3",
+          "name": "Mouth 3",
+          "sourcePath": "game/character/faces/mouth/mouth_3.png",
+          "image": "/images/game-parts/mouth-mouth_3.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "48e994acbbef6e11caf380f7d7e621b332a7b4da4b686656c4df27d1a9e15c49"
+        },
+        {
+          "id": "mouth_4",
+          "name": "Mouth 4",
+          "sourcePath": "game/character/faces/mouth/mouth_4.png",
+          "image": "/images/game-parts/mouth-mouth_4.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "151d76d6ee7ad9df477d152482fb34e40988aec72fc94fa7f249693b5b7a4bab"
+        },
+        {
+          "id": "mouth_5",
+          "name": "Mouth 5",
+          "sourcePath": "game/character/faces/mouth/mouth_5.png",
+          "image": "/images/game-parts/mouth-mouth_5.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "bafe252a9be440ed3dd2c1d31dae6cb54bf5a55ab6ad95824c46a9f1349f22ba"
+        },
+        {
+          "id": "mouth_6",
+          "name": "Mouth 6",
+          "sourcePath": "game/character/faces/mouth/mouth_6.png",
+          "image": "/images/game-parts/mouth-mouth_6.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "c07933dc8ffd76105b6e3a25186fd5dfc49053b9646d7a05749c22827964dc1d"
+        },
+        {
+          "id": "mouth_7",
+          "name": "Mouth 7",
+          "sourcePath": "game/character/faces/mouth/mouth_7.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "8014484adb7e0d32a9f1033e4b2e0b6344ba9d282066657bab326fdfaec160f0"
+        },
+        {
+          "id": "mouth_8",
+          "name": "Mouth 8",
+          "sourcePath": "game/character/faces/mouth/mouth_8.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "a67c397ae2da6190fd7e875e41d37e2ec514a565bd055a072a9be6bfb18d7372"
+        },
+        {
+          "id": "mouth_9",
+          "name": "Mouth 9",
+          "sourcePath": "game/character/faces/mouth/mouth_9.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "c44a9f32e1088907e82f4479afa9814adb46f9ad7ab385c6bf10278601a923e6"
+        },
+        {
+          "id": "mouth_10",
+          "name": "Mouth 10",
+          "sourcePath": "game/character/faces/mouth/mouth_10.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "2a2efc4ce52ce653192a77ab143b05c7b9a7f753a312da5d4fa0cd6ca13df9fc"
+        },
+        {
+          "id": "mouth_11",
+          "name": "Mouth 11",
+          "sourcePath": "game/character/faces/mouth/mouth_11.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "e113c3c98197879f836bc678a865581927e8317dd0925b4daeb45ea1aff9d872"
+        },
+        {
+          "id": "mouth_12",
+          "name": "Mouth 12",
+          "sourcePath": "game/character/faces/mouth/mouth_12.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "804cf6f312b90912ba45e544f3b1a0bfba8390e9c5391c4f88430b4235c7a167"
+        },
+        {
+          "id": "mouth_13",
+          "name": "Mouth 13",
+          "sourcePath": "game/character/faces/mouth/mouth_13.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "da3b808b3731573ebe33395628fc410fcf7f0def4ed788b9d0e111ad17b5bf9d"
+        },
+        {
+          "id": "mouth_14",
+          "name": "Mouth 14",
+          "sourcePath": "game/character/faces/mouth/mouth_14.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "bfd179725c1f4ae0518617d448f3c9f31c6c4797c94d20655c42d03b72e11245"
+        },
+        {
+          "id": "mouth_15",
+          "name": "Mouth 15",
+          "sourcePath": "game/character/faces/mouth/mouth_15.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "9606ca46129f08ef1fe621da21f39555eff7bfc5b9470e223afb9bee7962f78c"
+        },
+        {
+          "id": "mouth_16",
+          "name": "Mouth 16",
+          "sourcePath": "game/character/faces/mouth/mouth_16.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "95769aa4e9f730f3f538da0ff50a25c73692f2e46bd9a5ab4252e931a576749b"
+        },
+        {
+          "id": "mouth_17",
+          "name": "Mouth 17",
+          "sourcePath": "game/character/faces/mouth/mouth_17.png",
+          "image": null,
+          "width": 1024,
+          "height": 1024,
+          "curated": false,
+          "sourceSha256": "49cfc7aaf59e3dd841a31461b4c926713a35a4812f57866e9f3f274165f25122"
+        }
+      ]
+    },
+    {
+      "id": "patterns",
+      "label": "Studio tile patterns",
+      "count": 84,
+      "countConvention": "PNG file count in source directory, not unlock count.",
+      "availability": "84 existing numbered tile resources; separate from the five procedural PATTERNS names.",
+      "provenance": [
+        {
+          "path": "game/character/studio/studio_canvas.gd",
+          "line": 27,
+          "note": "KENNEY_COUNT=84 and pattern_%02d.png path."
+        },
+        {
+          "path": "game/character/studio/studio_canvas.gd",
+          "line": 65,
+          "note": "tile_ids enumerates existing resources from 1 through 84."
+        },
+        {
+          "path": "game/character/studio/locker_studio.gd",
+          "line": 1774,
+          "note": "Studio pattern menu includes the tile IDs."
+        }
+      ],
+      "items": [
+        {
+          "id": "pattern_01",
+          "name": "Pattern 01",
+          "sourcePath": "game/character/studio/patterns/pattern_01.png",
+          "image": "/images/game-parts/patterns-pattern_01.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "dcdb93a668176e4666cced0ef1e7d3383b1f757732a682747f608a9309dc1390"
+        },
+        {
+          "id": "pattern_02",
+          "name": "Pattern 02",
+          "sourcePath": "game/character/studio/patterns/pattern_02.png",
+          "image": "/images/game-parts/patterns-pattern_02.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "65947c830111fa861078dd94b9bf72464aa554f02a0667d013f5cdb8f74fc60c"
+        },
+        {
+          "id": "pattern_03",
+          "name": "Pattern 03",
+          "sourcePath": "game/character/studio/patterns/pattern_03.png",
+          "image": "/images/game-parts/patterns-pattern_03.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "882d68085bf65bfcfb811977a6ee477b3b9d985a3dcf32bb420c2da045767325"
+        },
+        {
+          "id": "pattern_04",
+          "name": "Pattern 04",
+          "sourcePath": "game/character/studio/patterns/pattern_04.png",
+          "image": "/images/game-parts/patterns-pattern_04.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "98c288897106ecf0ec4df99a155eabd63585d357a7e995444a2053587285aeb5"
+        },
+        {
+          "id": "pattern_05",
+          "name": "Pattern 05",
+          "sourcePath": "game/character/studio/patterns/pattern_05.png",
+          "image": "/images/game-parts/patterns-pattern_05.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "faef081a5b899b73d318877b0358122ef151cd871434a0616cac2b116d6138c8"
+        },
+        {
+          "id": "pattern_06",
+          "name": "Pattern 06",
+          "sourcePath": "game/character/studio/patterns/pattern_06.png",
+          "image": "/images/game-parts/patterns-pattern_06.webp",
+          "width": 256,
+          "height": 256,
+          "curated": true,
+          "sourceSha256": "576a0123388fea992cc8b28601633e27ce111f753f4170a540e9e99920940cb5"
+        },
+        {
+          "id": "pattern_07",
+          "name": "Pattern 07",
+          "sourcePath": "game/character/studio/patterns/pattern_07.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "de0ff4ca2a2ca738fa51da99b14055e32ad0c889c509a74b423d96b9c02413b7"
+        },
+        {
+          "id": "pattern_08",
+          "name": "Pattern 08",
+          "sourcePath": "game/character/studio/patterns/pattern_08.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "78ca533f1cf9b835a9033b99ec097df3ae78da0e37aaebd511283385aea47785"
+        },
+        {
+          "id": "pattern_09",
+          "name": "Pattern 09",
+          "sourcePath": "game/character/studio/patterns/pattern_09.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "bf46d68331e30ef8e4660f6fa0991ecbc8aa181e1adb1a707851ceb18cabe92f"
+        },
+        {
+          "id": "pattern_10",
+          "name": "Pattern 10",
+          "sourcePath": "game/character/studio/patterns/pattern_10.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "118017d2e143cc4302e7dc05491abb05a344db3dceb6b5445dc59cc32eadbc60"
+        },
+        {
+          "id": "pattern_11",
+          "name": "Pattern 11",
+          "sourcePath": "game/character/studio/patterns/pattern_11.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "378c7dc57442e77bcfee5982def04ae0ed5aa74e4b5bb9138efef2d54c392823"
+        },
+        {
+          "id": "pattern_12",
+          "name": "Pattern 12",
+          "sourcePath": "game/character/studio/patterns/pattern_12.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "d75c1628ec89c055613df40c04484cc42d56bd75b58dbb9fc40e0bd2beec9f5b"
+        },
+        {
+          "id": "pattern_13",
+          "name": "Pattern 13",
+          "sourcePath": "game/character/studio/patterns/pattern_13.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "222ea8cdcb9098d1b6853c7684423caf432474dca4654a2d4d53a7b840c131fd"
+        },
+        {
+          "id": "pattern_14",
+          "name": "Pattern 14",
+          "sourcePath": "game/character/studio/patterns/pattern_14.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "f79364a0f5e1c60d8b03ac70cefa3dfc138073631eea3f95a8610f3affc9e072"
+        },
+        {
+          "id": "pattern_15",
+          "name": "Pattern 15",
+          "sourcePath": "game/character/studio/patterns/pattern_15.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "b444feb23bdddaaf7962e6eb9097f80125b93f678b7ab1711036c2cea4867868"
+        },
+        {
+          "id": "pattern_16",
+          "name": "Pattern 16",
+          "sourcePath": "game/character/studio/patterns/pattern_16.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "85ee0fe93a550583a6223535ec8fe8c044f79beb60983012a33e021659e2b0f8"
+        },
+        {
+          "id": "pattern_17",
+          "name": "Pattern 17",
+          "sourcePath": "game/character/studio/patterns/pattern_17.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "2c1b8f78b4f755267710d4c1f2e0033c1e5bc8cb011fd1fc7921e29ec5f659aa"
+        },
+        {
+          "id": "pattern_18",
+          "name": "Pattern 18",
+          "sourcePath": "game/character/studio/patterns/pattern_18.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "9c362c8ecff283b61b7d4e5b31a7db43ef06dcab4ffb1d6d10236a7026f14181"
+        },
+        {
+          "id": "pattern_19",
+          "name": "Pattern 19",
+          "sourcePath": "game/character/studio/patterns/pattern_19.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "ea2f32a56aca98e4535ca1c02cddc954811d1821306b981ee9c6a1b093afb71e"
+        },
+        {
+          "id": "pattern_20",
+          "name": "Pattern 20",
+          "sourcePath": "game/character/studio/patterns/pattern_20.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "93d8ffd7ee9417349065cba2984bff164b09617d8ed7295b9b7c1f8357537c91"
+        },
+        {
+          "id": "pattern_21",
+          "name": "Pattern 21",
+          "sourcePath": "game/character/studio/patterns/pattern_21.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "70b0c539b6e2abc8c66c706adc3dd83338481f76b3423bf8f23e579f58bec4dd"
+        },
+        {
+          "id": "pattern_22",
+          "name": "Pattern 22",
+          "sourcePath": "game/character/studio/patterns/pattern_22.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "6d63649df31d3e20d17f94ac55fa121ce04c2ad75bb335f3112cce78f7315ea3"
+        },
+        {
+          "id": "pattern_23",
+          "name": "Pattern 23",
+          "sourcePath": "game/character/studio/patterns/pattern_23.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "ee4dc8b18d45953e8ab93827dc9b72964377962888fa8a5210ee19dc5081fa3b"
+        },
+        {
+          "id": "pattern_24",
+          "name": "Pattern 24",
+          "sourcePath": "game/character/studio/patterns/pattern_24.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "ea964f298733f0d7dfdeef3475cb3797ec054340f6957b695eef6aaa8dd0bb45"
+        },
+        {
+          "id": "pattern_25",
+          "name": "Pattern 25",
+          "sourcePath": "game/character/studio/patterns/pattern_25.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "f844477e0aa7329bf10c90dceaf20bf90d0032d3994d56fe48b0345abf339db0"
+        },
+        {
+          "id": "pattern_26",
+          "name": "Pattern 26",
+          "sourcePath": "game/character/studio/patterns/pattern_26.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "c6d6b7d803562fb2e8fc7e50dfb523a77148b8881f47c5e7f164b9272fe4e3fc"
+        },
+        {
+          "id": "pattern_27",
+          "name": "Pattern 27",
+          "sourcePath": "game/character/studio/patterns/pattern_27.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "e08fb98e9aaf21a947836318a365fddc124c0a8b8c0d10d1630f60b7a0a3a7ca"
+        },
+        {
+          "id": "pattern_28",
+          "name": "Pattern 28",
+          "sourcePath": "game/character/studio/patterns/pattern_28.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "bf410e1e86fbbb1a6f3a05d44c4783b57e27fb7605ff616c6b7f9b2524f46ad0"
+        },
+        {
+          "id": "pattern_29",
+          "name": "Pattern 29",
+          "sourcePath": "game/character/studio/patterns/pattern_29.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "0a9f4c188491cd18ad7ecc5a89a92f22ce02cd20cfa110afc149116db6dc2afe"
+        },
+        {
+          "id": "pattern_30",
+          "name": "Pattern 30",
+          "sourcePath": "game/character/studio/patterns/pattern_30.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "aec66d1f20f49bbf4e0a60955cfa788b766a95d4c81263c466771e5d02bb3d07"
+        },
+        {
+          "id": "pattern_31",
+          "name": "Pattern 31",
+          "sourcePath": "game/character/studio/patterns/pattern_31.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "9447c80667799d93f2eb44ee4506ec348dc73a61ca4daac6449c24abde4393e5"
+        },
+        {
+          "id": "pattern_32",
+          "name": "Pattern 32",
+          "sourcePath": "game/character/studio/patterns/pattern_32.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "b800aa0f6bf2e1dba61ff53ed19ba61328fd0e79bc196945d3480504fdc174e4"
+        },
+        {
+          "id": "pattern_33",
+          "name": "Pattern 33",
+          "sourcePath": "game/character/studio/patterns/pattern_33.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "a911a49c8568806178777d184e8c414fc551f97ddb4b513cd4cfdff7d40f4af4"
+        },
+        {
+          "id": "pattern_34",
+          "name": "Pattern 34",
+          "sourcePath": "game/character/studio/patterns/pattern_34.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "8532f4f2fd365eb3046b2ead2dfa8e2ab4249e62ec25f7ebcec468f90ffe8db5"
+        },
+        {
+          "id": "pattern_35",
+          "name": "Pattern 35",
+          "sourcePath": "game/character/studio/patterns/pattern_35.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "54526b6afd9f307d00a1e6ff5bb712a52ef4affc502777804f4a78df50c26c1d"
+        },
+        {
+          "id": "pattern_36",
+          "name": "Pattern 36",
+          "sourcePath": "game/character/studio/patterns/pattern_36.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "4bb45fa8a86a7e0968a5bf318837168615c6b8afcba9778278f5569fb30ad83d"
+        },
+        {
+          "id": "pattern_37",
+          "name": "Pattern 37",
+          "sourcePath": "game/character/studio/patterns/pattern_37.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "8a8c4b5a00c926c2035f7abe3e9d7623c62dba02e973905265e76f4330097d79"
+        },
+        {
+          "id": "pattern_38",
+          "name": "Pattern 38",
+          "sourcePath": "game/character/studio/patterns/pattern_38.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "9b4e0115e2286cce938c6af29824e3bd3e0076dcc425388db62ff17ca0e7e908"
+        },
+        {
+          "id": "pattern_39",
+          "name": "Pattern 39",
+          "sourcePath": "game/character/studio/patterns/pattern_39.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "617f8bf2ad74fa8a7f2b76fbe4005bfd393cbcc68bb7dd0c6468c35a5c9d2777"
+        },
+        {
+          "id": "pattern_40",
+          "name": "Pattern 40",
+          "sourcePath": "game/character/studio/patterns/pattern_40.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "b7f9658820632dbe519511db4fc0d387914e17d42219c187cd215e5256b4e4fe"
+        },
+        {
+          "id": "pattern_41",
+          "name": "Pattern 41",
+          "sourcePath": "game/character/studio/patterns/pattern_41.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "b291794303432d2478c4159d6b02d10c63a630895640df82c2cba871bc7907e9"
+        },
+        {
+          "id": "pattern_42",
+          "name": "Pattern 42",
+          "sourcePath": "game/character/studio/patterns/pattern_42.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "5c3c0664316d153ecfd17d9346989cb69056ef95b081ee8c7301c5afb854982d"
+        },
+        {
+          "id": "pattern_43",
+          "name": "Pattern 43",
+          "sourcePath": "game/character/studio/patterns/pattern_43.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "f3dd0d458eddd8b761cb7665bcbb1ceeac32a592820607f4f3379bcd1697813a"
+        },
+        {
+          "id": "pattern_44",
+          "name": "Pattern 44",
+          "sourcePath": "game/character/studio/patterns/pattern_44.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "4cfad0b53fe8765c0eb3e1ab1dabaa9f5ffe19ce8a465226b87798f92a0c5f2d"
+        },
+        {
+          "id": "pattern_45",
+          "name": "Pattern 45",
+          "sourcePath": "game/character/studio/patterns/pattern_45.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "87038061e250455c0c34f5965e5899b49025388935584d0fdd067701dcb0eb04"
+        },
+        {
+          "id": "pattern_46",
+          "name": "Pattern 46",
+          "sourcePath": "game/character/studio/patterns/pattern_46.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "40ae0fa54dff4335257a645919755529da10088616b402034edbc3601b774c3a"
+        },
+        {
+          "id": "pattern_47",
+          "name": "Pattern 47",
+          "sourcePath": "game/character/studio/patterns/pattern_47.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "04ecd138e2a8ec55bcccbfd58d9d81004e2668d899421b33112fb0635bd15290"
+        },
+        {
+          "id": "pattern_48",
+          "name": "Pattern 48",
+          "sourcePath": "game/character/studio/patterns/pattern_48.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "4adc5075405bf67ceb61b5624e87d0269c0d8677c9fdbbc72276193ed594c3ea"
+        },
+        {
+          "id": "pattern_49",
+          "name": "Pattern 49",
+          "sourcePath": "game/character/studio/patterns/pattern_49.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "71f2a728f1346b0f90c63cc522ea7a25a089f31a6fc0e0fafdbdf61187147bfa"
+        },
+        {
+          "id": "pattern_50",
+          "name": "Pattern 50",
+          "sourcePath": "game/character/studio/patterns/pattern_50.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "5c0532ec9fc9f2277f16e40baf5db3596e54b4945a54b1d0eb472754d96ac7b7"
+        },
+        {
+          "id": "pattern_51",
+          "name": "Pattern 51",
+          "sourcePath": "game/character/studio/patterns/pattern_51.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "50aead0b5c66ac1ca6e9b40a90651df3c17ff43ffb293d3183cafaddd5a87994"
+        },
+        {
+          "id": "pattern_52",
+          "name": "Pattern 52",
+          "sourcePath": "game/character/studio/patterns/pattern_52.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "f589ff35eccbe465b966999719abda75331cda7b9a4f8d8d95b4604eca630641"
+        },
+        {
+          "id": "pattern_53",
+          "name": "Pattern 53",
+          "sourcePath": "game/character/studio/patterns/pattern_53.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "4aee8d8dae65a6ca9c687da337724e57f6377016092c5192f52b5080e24b9c0e"
+        },
+        {
+          "id": "pattern_54",
+          "name": "Pattern 54",
+          "sourcePath": "game/character/studio/patterns/pattern_54.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "6e18881cfe59ed87866aaeaf75db830343f5e7a50f00287f3a370017ec3e161d"
+        },
+        {
+          "id": "pattern_55",
+          "name": "Pattern 55",
+          "sourcePath": "game/character/studio/patterns/pattern_55.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "b26cc6849dbdd522be66481991631fa4f9ad96198ac3e09d3c3e85b7cebca7f8"
+        },
+        {
+          "id": "pattern_56",
+          "name": "Pattern 56",
+          "sourcePath": "game/character/studio/patterns/pattern_56.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "acc6537237640199069cff52c3c7c849e296fc85b8d0e811b368e9a3e7d9639a"
+        },
+        {
+          "id": "pattern_57",
+          "name": "Pattern 57",
+          "sourcePath": "game/character/studio/patterns/pattern_57.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "caa8446934ee30fb59b8469f0ca6919fd14f97bca38b768dab47f3cc53561eab"
+        },
+        {
+          "id": "pattern_58",
+          "name": "Pattern 58",
+          "sourcePath": "game/character/studio/patterns/pattern_58.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "f2072e43ce74273702d4c5b24f52245e4f14a8c41583cc76cb448191eee6f7a1"
+        },
+        {
+          "id": "pattern_59",
+          "name": "Pattern 59",
+          "sourcePath": "game/character/studio/patterns/pattern_59.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "33a066733e59f0549c6a39505fe3c48713260a3c0c30578977159dff181c3753"
+        },
+        {
+          "id": "pattern_60",
+          "name": "Pattern 60",
+          "sourcePath": "game/character/studio/patterns/pattern_60.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "88504c0bfd2b336af4e0ba5c1b07279959d18b4fd364d8770ba0c6fa7e8e9aeb"
+        },
+        {
+          "id": "pattern_61",
+          "name": "Pattern 61",
+          "sourcePath": "game/character/studio/patterns/pattern_61.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "b13411fbdfd6ea543d8071d253b64847cf8c0b8af395fc904118eb71ef22ccbb"
+        },
+        {
+          "id": "pattern_62",
+          "name": "Pattern 62",
+          "sourcePath": "game/character/studio/patterns/pattern_62.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "79046f4c7eac68df43386fe5ce40a9c1d4b0777c0a22cda8b261aa38c513c919"
+        },
+        {
+          "id": "pattern_63",
+          "name": "Pattern 63",
+          "sourcePath": "game/character/studio/patterns/pattern_63.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "d703243cdf6739d281043740171e3d2ba56bd59b5bb5842254a694ada1f78366"
+        },
+        {
+          "id": "pattern_64",
+          "name": "Pattern 64",
+          "sourcePath": "game/character/studio/patterns/pattern_64.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "3392855a9c73071ab585895e5fae16b95ca8da7214d9261783fbccaf044c8991"
+        },
+        {
+          "id": "pattern_65",
+          "name": "Pattern 65",
+          "sourcePath": "game/character/studio/patterns/pattern_65.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "1d802af139cfbe0e6c9c69db4be3514702cfeb3c9b095426c23a67149871256e"
+        },
+        {
+          "id": "pattern_66",
+          "name": "Pattern 66",
+          "sourcePath": "game/character/studio/patterns/pattern_66.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "d4081eb27b9deb729ed381837b8b9f749e5c0f2fb59069652846d5e232637a2f"
+        },
+        {
+          "id": "pattern_67",
+          "name": "Pattern 67",
+          "sourcePath": "game/character/studio/patterns/pattern_67.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "2250dc8f6cef321e96b2943153c33d26159df22b66f439e09e4fdbbf8cbfc66f"
+        },
+        {
+          "id": "pattern_68",
+          "name": "Pattern 68",
+          "sourcePath": "game/character/studio/patterns/pattern_68.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "4e14ebbcc91c155cb826a402ea725948048b05f318a929b662d49e7c6116904b"
+        },
+        {
+          "id": "pattern_69",
+          "name": "Pattern 69",
+          "sourcePath": "game/character/studio/patterns/pattern_69.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "b187aaf8c6a1a983a3d189e5e947e0ead8b09d0fcf751a4fda6f455f24fe2210"
+        },
+        {
+          "id": "pattern_70",
+          "name": "Pattern 70",
+          "sourcePath": "game/character/studio/patterns/pattern_70.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "e19f9247cd5ac295db2c18d8aa0322d964e89471dc1b77d01e144c39aac10c93"
+        },
+        {
+          "id": "pattern_71",
+          "name": "Pattern 71",
+          "sourcePath": "game/character/studio/patterns/pattern_71.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "a89111522d548c968d7cb3a2771c5b21d950c063d12a5e34d322e84195c2652e"
+        },
+        {
+          "id": "pattern_72",
+          "name": "Pattern 72",
+          "sourcePath": "game/character/studio/patterns/pattern_72.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "fe3eb5ffe0a62aba8074c4482880197305a3f496fdd51eb9c8e365b8f3fc533f"
+        },
+        {
+          "id": "pattern_73",
+          "name": "Pattern 73",
+          "sourcePath": "game/character/studio/patterns/pattern_73.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "cc5cf4ebbd96207e61c6fd4421dfceaa7b0a84c8368b35d24076209379a37975"
+        },
+        {
+          "id": "pattern_74",
+          "name": "Pattern 74",
+          "sourcePath": "game/character/studio/patterns/pattern_74.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "c270c2512348add5f96cd6207371dd60a2a2fcf312454f7a76470c5d697b6cc6"
+        },
+        {
+          "id": "pattern_75",
+          "name": "Pattern 75",
+          "sourcePath": "game/character/studio/patterns/pattern_75.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "eecc7a73c4d864df7c08cfdaba39868f6eb26ed18636b8c1139b2154c6f94bac"
+        },
+        {
+          "id": "pattern_76",
+          "name": "Pattern 76",
+          "sourcePath": "game/character/studio/patterns/pattern_76.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "e72462deaf346cf9ccceb8f7ec844da79003c61a2abec398c0aa70f230a09997"
+        },
+        {
+          "id": "pattern_77",
+          "name": "Pattern 77",
+          "sourcePath": "game/character/studio/patterns/pattern_77.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "75a637da4037250d2ad2927286f322a70bb70f9653faa3b8f0dad38a1dc704e2"
+        },
+        {
+          "id": "pattern_78",
+          "name": "Pattern 78",
+          "sourcePath": "game/character/studio/patterns/pattern_78.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "60976dadf80eb0aba73ed5820bad3432bc74668524f22a7e3fde093813e010c1"
+        },
+        {
+          "id": "pattern_79",
+          "name": "Pattern 79",
+          "sourcePath": "game/character/studio/patterns/pattern_79.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "904f43f342df4810349c5bfcf42134933502474519b720b4cf982e2dc8ae454b"
+        },
+        {
+          "id": "pattern_80",
+          "name": "Pattern 80",
+          "sourcePath": "game/character/studio/patterns/pattern_80.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "818cfbd4d2e9890eb4f83bd66f20279814f17a5f80ea5c801e7a28662860e3db"
+        },
+        {
+          "id": "pattern_81",
+          "name": "Pattern 81",
+          "sourcePath": "game/character/studio/patterns/pattern_81.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "92c259976f3216f861fc45426823a1386f94dbd6af09685d54868a69903e0d6d"
+        },
+        {
+          "id": "pattern_82",
+          "name": "Pattern 82",
+          "sourcePath": "game/character/studio/patterns/pattern_82.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "df559bdf819c20e749cfb5960d22e06455fd49d42ed45d0a1540e741ee1fd69e"
+        },
+        {
+          "id": "pattern_83",
+          "name": "Pattern 83",
+          "sourcePath": "game/character/studio/patterns/pattern_83.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "9ea5c6cdd28ca21d5d6b2bdeefd3041e99d97adaf0948f4b19035f2ff0a36b7a"
+        },
+        {
+          "id": "pattern_84",
+          "name": "Pattern 84",
+          "sourcePath": "game/character/studio/patterns/pattern_84.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "46c56dbc01bafb9431f2ec70ef785b3d623ccdb9bf855106276d4128d8566cd5"
+        }
+      ]
+    },
+    {
+      "id": "stickers",
+      "label": "Packaged sticker images",
+      "count": 26,
+      "countConvention": "PNG file count in source directory, not unlock count.",
+      "availability": "Packaged files only. Not established as selectable menu entries; SCRAP is empty.",
+      "provenance": [
+        {
+          "path": "game/character/studio/locker_studio.gd",
+          "line": 89,
+          "note": "SCRAP_DIR points to this folder."
+        },
+        {
+          "path": "game/character/studio/locker_studio.gd",
+          "line": 90,
+          "note": "SCRAP is empty in this recovered build."
+        },
+        {
+          "path": "game/character/studio/locker_studio.gd",
+          "line": 1733,
+          "note": "Menu builds four fixed STICKERS plus SCRAP; folder files alone do not establish menu availability."
+        }
+      ],
+      "items": [
+        {
+          "id": "burst_red",
+          "name": "Burst red",
+          "sourcePath": "game/character/studio/stickers/burst_red.png",
+          "image": null,
+          "width": 256,
+          "height": 256,
+          "curated": false,
+          "sourceSha256": "213c9c3f89f2bf1e429f7133463a20a1490099ca202041f8469e5017597cf09c"
+        },
+        {
+          "id": "burst_yellow",
+          "name": "Burst yellow",
+          "sourcePath": "game/character/studio/stickers/burst_yellow.png",
+          "image": null,
+          "width": 256,
+          "height": 256,
+          "curated": false,
+          "sourceSha256": "768de1d02e6d5b9d754e5843c0d50c829a3eafb1a37863c3755debbf699ff5da"
+        },
+        {
+          "id": "check",
+          "name": "Check",
+          "sourcePath": "game/character/studio/stickers/check.png",
+          "image": null,
+          "width": 256,
+          "height": 256,
+          "curated": false,
+          "sourceSha256": "ba2d1556c91116b282161bc1d855467d1bed3bb34bf65f4806185b8e150f4e0f"
+        },
+        {
+          "id": "cloud",
+          "name": "Cloud",
+          "sourcePath": "game/character/studio/stickers/cloud.png",
+          "image": null,
+          "width": 256,
+          "height": 180,
+          "curated": false,
+          "sourceSha256": "7a62a49582b0a6667b0ebd3e373c0265396729be1e02180aa27d4713cd456f48"
+        },
+        {
+          "id": "confetti",
+          "name": "Confetti",
+          "sourcePath": "game/character/studio/stickers/confetti.png",
+          "image": null,
+          "width": 256,
+          "height": 256,
+          "curated": false,
+          "sourceSha256": "f60bb50c253e2f38cb5a8920e882c7cba4cbc4703d7d69701f28e65c86fae3c4"
+        },
+        {
+          "id": "cross",
+          "name": "Cross",
+          "sourcePath": "game/character/studio/stickers/cross.png",
+          "image": null,
+          "width": 256,
+          "height": 256,
+          "curated": false,
+          "sourceSha256": "e0d4d11d696897327b8db8a58522073d0d07b0d3993d6fb41ea5d55b499e5f43"
+        },
+        {
+          "id": "flower",
+          "name": "Flower",
+          "sourcePath": "game/character/studio/stickers/flower.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "a9691ebdee48d287530cac2733f967578ab02135547c20493bde1e6ba1989167"
+        },
+        {
+          "id": "heart_pink",
+          "name": "Heart pink",
+          "sourcePath": "game/character/studio/stickers/heart_pink.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "0b682f2cf04790c68188a0b071c0a5d8b914a7fb88f7797183b9e7540b3fc64a"
+        },
+        {
+          "id": "heart_red",
+          "name": "Heart red",
+          "sourcePath": "game/character/studio/stickers/heart_red.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "9d39f8d57d8c3dbaa1bc933813848c6ecced8f11f082f04bde659e60ce362883"
+        },
+        {
+          "id": "lightning",
+          "name": "Lightning",
+          "sourcePath": "game/character/studio/stickers/lightning.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "edad24d841ddaf67cdcd47d52657cd94d0325b239b43850a2e6f8f833f2cbb52"
+        },
+        {
+          "id": "music_note",
+          "name": "Music note",
+          "sourcePath": "game/character/studio/stickers/music_note.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "3fb53864bc5ef730101928af4f6c689ba41fae91a1e48b75e599821b22ff0a92"
+        },
+        {
+          "id": "paperclip",
+          "name": "Paperclip",
+          "sourcePath": "game/character/studio/stickers/paperclip.png",
+          "image": null,
+          "width": 220,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "f25b478a7cd29dd56de86f173438cfe558897cf35b10bd856df14f4540434952"
+        },
+        {
+          "id": "pin_pink",
+          "name": "Pin pink",
+          "sourcePath": "game/character/studio/stickers/pin_pink.png",
+          "image": null,
+          "width": 360,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "da56137405bd5b9436b769be710651d0e59f74ac7b7b364d1d731b4ebebeea11"
+        },
+        {
+          "id": "polaroid",
+          "name": "Polaroid",
+          "sourcePath": "game/character/studio/stickers/polaroid.png",
+          "image": null,
+          "width": 440,
+          "height": 520,
+          "curated": false,
+          "sourceSha256": "cc94abaad4907da1d1d6087094ef87c51969d5f1ce5d755db04a70086648d059"
+        },
+        {
+          "id": "rainbow",
+          "name": "Rainbow",
+          "sourcePath": "game/character/studio/stickers/rainbow.png",
+          "image": null,
+          "width": 512,
+          "height": 300,
+          "curated": false,
+          "sourceSha256": "5c7a451f8beceb237cd700692f8e91dc5edb9f9aa4b785ff43e999aae8e5d6cc"
+        },
+        {
+          "id": "smiley",
+          "name": "Smiley",
+          "sourcePath": "game/character/studio/stickers/smiley.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "351d6a7d69271e634172de547820d13843cc0810efca6ec10b4998c227b714dd"
+        },
+        {
+          "id": "sparkle_white",
+          "name": "Sparkle white",
+          "sourcePath": "game/character/studio/stickers/sparkle_white.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "9640a0c0ae6b19fbcd32d9848e893608217f3f2121cfd3e1d7c1ffbb7978e22f"
+        },
+        {
+          "id": "sparkle_yellow",
+          "name": "Sparkle yellow",
+          "sourcePath": "game/character/studio/stickers/sparkle_yellow.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "2fc5164e3a4d8aa8655c7f8bf3efc30e3ec79d7d4f75177285530ccf8ae5995f"
+        },
+        {
+          "id": "speech_bubble",
+          "name": "Speech bubble",
+          "sourcePath": "game/character/studio/stickers/speech_bubble.png",
+          "image": null,
+          "width": 512,
+          "height": 420,
+          "curated": false,
+          "sourceSha256": "ff2547621003c397b6794fd0b52ae293fa03c12f01f2d4f6ae07f457c8b72c5d"
+        },
+        {
+          "id": "star_blue",
+          "name": "Star blue",
+          "sourcePath": "game/character/studio/stickers/star_blue.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "e00b68482890c1ee0304e13b97447eaaa1be0bf40b3677610cec05897feb4179"
+        },
+        {
+          "id": "star_pink",
+          "name": "Star pink",
+          "sourcePath": "game/character/studio/stickers/star_pink.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "1eb5f94fb96eb48f4666c6976c244852d6cf0b64ad96d277b3d810ff39193f36"
+        },
+        {
+          "id": "star_yellow",
+          "name": "Star yellow",
+          "sourcePath": "game/character/studio/stickers/star_yellow.png",
+          "image": null,
+          "width": 512,
+          "height": 512,
+          "curated": false,
+          "sourceSha256": "85cd43352bbb718026152ef9a4676e9ed4cdd13e1d7d860fc0cec3d25eb0d9db"
+        },
+        {
+          "id": "tape_blue",
+          "name": "Tape blue",
+          "sourcePath": "game/character/studio/stickers/tape_blue.png",
+          "image": null,
+          "width": 640,
+          "height": 170,
+          "curated": false,
+          "sourceSha256": "f006aacb29bca08351422a23408ab69ba092f293ce467dba5386e72ceb253572"
+        },
+        {
+          "id": "tape_mint",
+          "name": "Tape mint",
+          "sourcePath": "game/character/studio/stickers/tape_mint.png",
+          "image": null,
+          "width": 640,
+          "height": 170,
+          "curated": false,
+          "sourceSha256": "19818947be743e6aad8c840cce79be7bce0aa89fdc00d38efb615795ca7bf678"
+        },
+        {
+          "id": "tape_pink",
+          "name": "Tape pink",
+          "sourcePath": "game/character/studio/stickers/tape_pink.png",
+          "image": null,
+          "width": 640,
+          "height": 170,
+          "curated": false,
+          "sourceSha256": "f45a2696d9cc9ec519f0f9c0da347ce7ee701be5c9ab11b6eb648054c096d626"
+        },
+        {
+          "id": "tape_yellow",
+          "name": "Tape yellow",
+          "sourcePath": "game/character/studio/stickers/tape_yellow.png",
+          "image": null,
+          "width": 640,
+          "height": 170,
+          "curated": false,
+          "sourceSha256": "d577382b8840f8a54a5b8d390fd5e69c3f1aca44a238a63f61f65b7aeb1333e7"
+        }
+      ]
+    }
+  ],
+  "uiIcons": [
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "image": "/images/game-parts/icon-accessories.webp",
+      "width": 256,
+      "height": 256,
+      "sourcePath": "game/character/locker_icons/accessories.png",
+      "note": "Original transparent icon; white parts need a colored background."
+    },
+    {
+      "id": "body",
+      "name": "Body",
+      "image": "/images/game-parts/icon-body.webp",
+      "width": 256,
+      "height": 256,
+      "sourcePath": "game/character/locker_icons/body.png",
+      "note": "Original transparent icon; white parts need a colored background."
+    },
+    {
+      "id": "face",
+      "name": "Face",
+      "image": "/images/game-parts/icon-face.webp",
+      "width": 256,
+      "height": 256,
+      "sourcePath": "game/character/locker_icons/face.png",
+      "note": "Original transparent icon; white parts need a colored background."
+    },
+    {
+      "id": "hair",
+      "name": "Hair",
+      "image": "/images/game-parts/icon-hair.webp",
+      "width": 256,
+      "height": 256,
+      "sourcePath": "game/character/locker_icons/hair.png",
+      "note": "Original transparent icon; white parts need a colored background."
+    },
+    {
+      "id": "pencil",
+      "name": "Pencil",
+      "image": "/images/game-parts/icon-pencil.webp",
+      "width": 256,
+      "height": 256,
+      "sourcePath": "game/character/locker_icons/pencil.png",
+      "note": "Original transparent icon; white parts need a colored background."
+    },
+    {
+      "id": "studio",
+      "name": "Studio",
+      "image": "/images/game-parts/icon-studio.webp",
+      "width": 256,
+      "height": 256,
+      "sourcePath": "game/character/locker_icons/studio.png",
+      "note": "Original transparent icon; white parts need a colored background."
+    }
+  ],
+  "logo": {
+    "image": "/images/game-parts/jvlogo.webp",
+    "width": 800,
+    "height": 300,
+    "sourcePath": "game/logo/jvlogo_HD.png",
+    "provenance": [
+      {
+        "path": "game/ui/title.gd",
+        "line": 38,
+        "note": "Title preloads this HD logo."
+      },
+      {
+        "path": "game/ui/menu.gd",
+        "line": 36,
+        "note": "Menu uses the lower-resolution version of this logo."
+      }
+    ]
+  },
+  "accessories": {
+    "count": 76,
+    "countConvention": "AccessoryItem .tres resources in AccessoryCatalog.DIRS, including separately gated supporter resources; not a player ownership count.",
+    "provenance": [
+      {
+        "path": "game/character/accessory_catalog.gd",
+        "line": 16,
+        "note": "Three scanned folders."
+      },
+      {
+        "path": "game/character/accessory_catalog.gd",
+        "line": 85,
+        "note": "Supporter items skipped when Supporter.enabled is false."
+      },
+      {
+        "path": "game/character/accessory_item.gd",
+        "line": 47,
+        "note": "Default price is zero; supporter defaults false."
+      },
+      {
+        "path": "game/core/progression.gd",
+        "line": 301,
+        "note": "Ownership checks supporter, free price, economy-off, and player owned IDs."
+      },
+      {
+        "path": "game/shop/shop.gd",
+        "line": 1095,
+        "note": "Shop stocks accessories using configured price and name."
+      }
+    ],
+    "items": [
+      {
+        "id": "achromatic",
+        "displayName": "achromatic",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/achromatic.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/achromatic.blend",
+        "image": null
+      },
+      {
+        "id": "adventurebackpack",
+        "displayName": "adventure backpack",
+        "category": "extra",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/adventurebackpack.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/adventurebackpack.blend",
+        "image": null
+      },
+      {
+        "id": "adventurehat",
+        "displayName": "adventure hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/adventurehat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/adventurehat.blend",
+        "image": null
+      },
+      {
+        "id": "angryeffect",
+        "displayName": "anger mark",
+        "category": "face",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/angryeffect.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "price": 11
+        },
+        "meshSourcePath": "res://game/character/accessories/angryeffect.blend",
+        "image": null
+      },
+      {
+        "id": "antennae",
+        "displayName": "antennae",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/antennae.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/antennae.blend",
+        "image": null
+      },
+      {
+        "id": "applebeanie",
+        "displayName": "apple beanie",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/applebeanie.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/applebeanie.blend",
+        "image": null
+      },
+      {
+        "id": "astronauthelmet",
+        "displayName": "astronaut helmet",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/astronauthelmet.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/astronauthelmet.blend",
+        "image": null
+      },
+      {
+        "id": "aubade",
+        "displayName": "aubade",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/aubade.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/aubade.blend",
+        "image": null
+      },
+      {
+        "id": "backscythe",
+        "displayName": "back scythe",
+        "category": "extra",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/backscythe.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/backscythe.blend",
+        "image": null
+      },
+      {
+        "id": "bandana",
+        "displayName": "bandana",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/bandana.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/bandana.blend",
+        "image": null
+      },
+      {
+        "id": "baseballcap",
+        "displayName": "baseball cap",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/baseballcap.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/baseballcap.blend",
+        "image": null
+      },
+      {
+        "id": "batwings",
+        "displayName": "bat wings",
+        "category": "extra",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/batwings.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/batwings.blend",
+        "image": null
+      },
+      {
+        "id": "beanie",
+        "displayName": "beanie",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/beanie.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/beanie.blend",
+        "image": null
+      },
+      {
+        "id": "blockhat",
+        "displayName": "block hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/blockhat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/blockhat.blend",
+        "image": null
+      },
+      {
+        "id": "bow",
+        "displayName": "bow",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/bow.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/bow.blend",
+        "image": null
+      },
+      {
+        "id": "buckethat",
+        "displayName": "bucket hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/buckethat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/buckethat.blend",
+        "image": null
+      },
+      {
+        "id": "bunnybag",
+        "displayName": "bunny bag",
+        "category": "extra",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/bunnybag.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/bunnybag.blend",
+        "image": null
+      },
+      {
+        "id": "bunnyears",
+        "displayName": "bunny ears",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/bunnyears.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/bunnyears.blend",
+        "image": null
+      },
+      {
+        "id": "bunnyheadband",
+        "displayName": "bunny headband",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/bunnyheadband.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/bunnyheadband.blend",
+        "image": null
+      },
+      {
+        "id": "butterflywings",
+        "displayName": "butterfly wings",
+        "category": "extra",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/butterflywings.tres",
+        "sourceLine": 9,
+        "fieldLines": {
+          "id": 9,
+          "display_name": 10,
+          "category": 12,
+          "price": 14
+        },
+        "meshSourcePath": "res://game/character/accessories/butterflywings.blend",
+        "image": null
+      },
+      {
+        "id": "candyhat",
+        "displayName": "candy hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/candyhat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/candyhat.blend",
+        "image": null
+      },
+      {
+        "id": "cape",
+        "displayName": "cape",
+        "category": "extra",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/cape.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/cape.blend",
+        "image": null
+      },
+      {
+        "id": "catbaseballcap",
+        "displayName": "cat cap",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/catbaseballcap.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/catbaseballcap.blend",
+        "image": null
+      },
+      {
+        "id": "catears",
+        "displayName": "cat ears",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/catears.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/catears.blend",
+        "image": null
+      },
+      {
+        "id": "chefhat",
+        "displayName": "chef hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/chefhat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/chefhat.blend",
+        "image": null
+      },
+      {
+        "id": "cloverhat",
+        "displayName": "clover hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/cloverhat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/cloverhat.blend",
+        "image": null
+      },
+      {
+        "id": "coldcap",
+        "displayName": "winter hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/coldcap.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/coldcap.blend",
+        "image": null
+      },
+      {
+        "id": "cowboyhat",
+        "displayName": "cowboy hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/cowboyhat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/cowboyhat.blend",
+        "image": null
+      },
+      {
+        "id": "crown",
+        "displayName": "crown",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/crown.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/crown.blend",
+        "image": null
+      },
+      {
+        "id": "curltail",
+        "displayName": "curly tail",
+        "category": "extra",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/curltail.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/curltail.blend",
+        "image": null
+      },
+      {
+        "id": "devilhorns",
+        "displayName": "devil horns",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/devilhorns.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/devilhorns.blend",
+        "image": null
+      },
+      {
+        "id": "duckbeak",
+        "displayName": "duck beak",
+        "category": "face",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/duckbeak.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/duckbeak.blend",
+        "image": null
+      },
+      {
+        "id": "eyepatch",
+        "displayName": "eyepatch",
+        "category": "face",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/eyepatch.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "price": 11
+        },
+        "meshSourcePath": "res://game/character/accessories/eyepatch.blend",
+        "image": null
+      },
+      {
+        "id": "facemask",
+        "displayName": "face mask",
+        "category": "face",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/facemask.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/facemask.blend",
+        "image": null
+      },
+      {
+        "id": "fishbowl",
+        "displayName": "fish bowl",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/fishbowl.tres",
+        "sourceLine": 10,
+        "fieldLines": {
+          "id": 10,
+          "display_name": 11,
+          "category": 13,
+          "price": 14
+        },
+        "meshSourcePath": "res://game/character/accessories/fishbowl.blend",
+        "image": null
+      },
+      {
+        "id": "frogcap",
+        "displayName": "frog cap",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/frogcap.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/frogcap.blend",
+        "image": null
+      },
+      {
+        "id": "froghat",
+        "displayName": "frog hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/froghat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/froghat.blend",
+        "image": null
+      },
+      {
+        "id": "fryingpothat",
+        "displayName": "frying pot hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/fryingpothat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/fryingpothat.blend",
+        "image": null
+      },
+      {
+        "id": "halo",
+        "displayName": "halo",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/halo.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/halo.blend",
+        "image": null
+      },
+      {
+        "id": "headband",
+        "displayName": "headband",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/headband.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/headband.blend",
+        "image": null
+      },
+      {
+        "id": "headphones",
+        "displayName": "headphones",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/headphones.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/headphones.blend",
+        "image": null
+      },
+      {
+        "id": "headscrew",
+        "displayName": "head screw",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/headscrew.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/headscrew.blend",
+        "image": null
+      },
+      {
+        "id": "horns",
+        "displayName": "horns",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/horns.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/horns.blend",
+        "image": null
+      },
+      {
+        "id": "jellohat",
+        "displayName": "jello hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/jellohat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/jellohat.blend",
+        "image": null
+      },
+      {
+        "id": "jesterhat",
+        "displayName": "jester hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/jesterhat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/jesterhat.blend",
+        "image": null
+      },
+      {
+        "id": "key",
+        "displayName": "key",
+        "category": "extra",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/key.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/key.blend",
+        "image": null
+      },
+      {
+        "id": "knight",
+        "displayName": "knight",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/knight.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/knight.blend",
+        "image": null
+      },
+      {
+        "id": "mlgglasses",
+        "displayName": "mlg glasses",
+        "category": "face",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/mlgglasses.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "price": 11
+        },
+        "meshSourcePath": "res://game/character/accessories/mlgglasses.blend",
+        "image": null
+      },
+      {
+        "id": "mouseear",
+        "displayName": "mouse ears",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/mouseear.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/mouseear.blend",
+        "image": null
+      },
+      {
+        "id": "nose_bandage",
+        "displayName": "nose bandage",
+        "category": "extra",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/nose_bandage.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/nose_bandage.blend",
+        "image": null
+      },
+      {
+        "id": "orangebeanie",
+        "displayName": "orange beanie",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/orangebeanie.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/orangebeanie.blend",
+        "image": null
+      },
+      {
+        "id": "partyhat",
+        "displayName": "party hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/partyhat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/partyhat.blend",
+        "image": null
+      },
+      {
+        "id": "punk_glasses",
+        "displayName": "punk glasses",
+        "category": "face",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/punk_glasses.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "price": 11
+        },
+        "meshSourcePath": "res://game/character/accessories/punk_glasses.blend",
+        "image": null
+      },
+      {
+        "id": "rainbowtophat",
+        "displayName": "rainbow top hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/rainbowtophat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/rainbowtophat.blend",
+        "image": null
+      },
+      {
+        "id": "roundglasses",
+        "displayName": "round glasses",
+        "category": "face",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/roundglasses.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "price": 11
+        },
+        "meshSourcePath": "res://game/character/accessories/roundglasses.blend",
+        "image": null
+      },
+      {
+        "id": "royalcrown",
+        "displayName": "royal crown",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/royalcrown.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/royalcrown.blend",
+        "image": null
+      },
+      {
+        "id": "scarf",
+        "displayName": "scarf",
+        "category": "extra",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/scarf.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/scarf.blend",
+        "image": null
+      },
+      {
+        "id": "sleekvisor",
+        "displayName": "sleek visor",
+        "category": "face",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/sleekvisor.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "price": 11
+        },
+        "meshSourcePath": "res://game/character/accessories/sleekvisor.blend",
+        "image": null
+      },
+      {
+        "id": "snailhat",
+        "displayName": "snail hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/snailhat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/snailhat.blend",
+        "image": null
+      },
+      {
+        "id": "spinny_hat",
+        "displayName": "spinny hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/spinny_hat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/SPINNY HAT.blend",
+        "image": null
+      },
+      {
+        "id": "sprout",
+        "displayName": "sprout",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/sprout.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/sprout.blend",
+        "image": null
+      },
+      {
+        "id": "square_glasses",
+        "displayName": "square glasses",
+        "category": "face",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/square_glasses.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "price": 11
+        },
+        "meshSourcePath": "res://game/character/accessories/square_glasses.blend",
+        "image": null
+      },
+      {
+        "id": "straighttail",
+        "displayName": "straight tail",
+        "category": "extra",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/straighttail.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/straighttail.blend",
+        "image": null
+      },
+      {
+        "id": "strawhat",
+        "displayName": "straw hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/strawhat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/strawhat.blend",
+        "image": null
+      },
+      {
+        "id": "sunflowerhead",
+        "displayName": "sunflower",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/sunflowerhead.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/sunflowerhead.blend",
+        "image": null
+      },
+      {
+        "id": "swirlglasses",
+        "displayName": "swirl glasses",
+        "category": "face",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/swirlglasses.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "price": 11
+        },
+        "meshSourcePath": "res://game/character/accessories/swirlglasses.blend",
+        "image": null
+      },
+      {
+        "id": "tophat",
+        "displayName": "top hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/tophat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/tophat.blend",
+        "image": null
+      },
+      {
+        "id": "trafficconehat",
+        "displayName": "traffic cone",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/trafficconehat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/trafficconehat.blend",
+        "image": null
+      },
+      {
+        "id": "visor",
+        "displayName": "visor",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/visor.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/visor.blend",
+        "image": null
+      },
+      {
+        "id": "watermellon",
+        "displayName": "watermelon hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/watermellon.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/watermellon.blend",
+        "image": null
+      },
+      {
+        "id": "wings",
+        "displayName": "wings",
+        "category": "extra",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/wings.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/wings.blend",
+        "image": null
+      },
+      {
+        "id": "witch_hat",
+        "displayName": "witch hat",
+        "category": "head",
+        "price": 1000,
+        "priceUnit": "in-game coins",
+        "supporter": false,
+        "acquisition": "Purchase with in-game coins",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/accessories/witch_hat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "price": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/witch hat.blend",
+        "image": null
+      },
+      {
+        "id": "supporter_cape",
+        "displayName": "supporter cape",
+        "category": "extra",
+        "price": 0,
+        "priceUnit": "in-game coins",
+        "supporter": true,
+        "acquisition": "Supporter ownership required",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/supporter/supporter_cape.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "supporter": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/cape.blend",
+        "image": null
+      },
+      {
+        "id": "supporter_hat",
+        "displayName": "supporter hat",
+        "category": "head",
+        "price": 0,
+        "priceUnit": "in-game coins",
+        "supporter": true,
+        "acquisition": "Supporter ownership required",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/supporter/supporter_hat.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "supporter": 12
+        },
+        "meshSourcePath": "res://game/character/accessories/tophat.blend",
+        "image": null
+      },
+      {
+        "id": "supporter_scarf",
+        "displayName": "supporter scarf",
+        "category": "extra",
+        "price": 0,
+        "priceUnit": "in-game coins",
+        "supporter": true,
+        "acquisition": "Supporter ownership required",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/supporter/supporter_scarf.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "supporter": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/scarf.blend",
+        "image": null
+      },
+      {
+        "id": "supporter_wings",
+        "displayName": "supporter wings",
+        "category": "extra",
+        "price": 0,
+        "priceUnit": "in-game coins",
+        "supporter": true,
+        "acquisition": "Supporter ownership required",
+        "achievementCondition": null,
+        "achievementNote": "No achievement condition field in AccessoryItem schema or this resource; title achievements are a separate system.",
+        "sourcePath": "game/character/supporter/supporter_wings.tres",
+        "sourceLine": 8,
+        "fieldLines": {
+          "id": 8,
+          "display_name": 9,
+          "category": 11,
+          "supporter": 13
+        },
+        "meshSourcePath": "res://game/character/accessories/wings.blend",
+        "image": null
+      }
+    ]
+  },
+  "hair": {
+    "count": 83,
+    "includesBaldOption": false,
+    "countConvention": "Discovered unique blend resource identifiers. CharacterConfig prepends an empty/bald choice; no unlock claim.",
+    "provenance": [
+      {
+        "path": "game/character/character_config.gd",
+        "line": 51,
+        "note": "Strip one import/remap wrapper and accept blend."
+      },
+      {
+        "path": "game/character/character_config.gd",
+        "line": 63,
+        "note": "Discover and sort meshes, prepend empty bald ID."
+      },
+      {
+        "path": "game/character/model_rig.gd",
+        "line": 47,
+        "note": "Hair scene path template."
+      }
+    ],
+    "items": [
+      {
+        "id": "2twists",
+        "name": "2twists",
+        "sourcePath": "game/character/hair/2twists.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/2twists.glb",
+        "image": null
+      },
+      {
+        "id": "afro",
+        "name": "afro",
+        "sourcePath": "game/character/hair/afro.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/afro.glb",
+        "image": null
+      },
+      {
+        "id": "brother",
+        "name": "brother",
+        "sourcePath": "game/character/hair/brother.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/brother.glb",
+        "image": null
+      },
+      {
+        "id": "butchwitch",
+        "name": "butchwitch",
+        "sourcePath": "game/character/hair/butchwitch.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/butchwitch.glb",
+        "image": null
+      },
+      {
+        "id": "buzz",
+        "name": "buzz",
+        "sourcePath": "game/character/hair/buzz.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/buzz.glb",
+        "image": null
+      },
+      {
+        "id": "coilfro",
+        "name": "coilfro",
+        "sourcePath": "game/character/hair/coilfro.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/coilfro.glb",
+        "image": null
+      },
+      {
+        "id": "cornrow",
+        "name": "cornrow",
+        "sourcePath": "game/character/hair/cornrow.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/cornrow.glb",
+        "image": null
+      },
+      {
+        "id": "curves",
+        "name": "curves",
+        "sourcePath": "game/character/hair/curves.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/curves.glb",
+        "image": null
+      },
+      {
+        "id": "dai",
+        "name": "dai",
+        "sourcePath": "game/character/hair/dai.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/dai.glb",
+        "image": null
+      },
+      {
+        "id": "dreadfull",
+        "name": "dreadfull",
+        "sourcePath": "game/character/hair/dreadfull.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/dreadfull.glb",
+        "image": null
+      },
+      {
+        "id": "dreadlong",
+        "name": "dreadlong",
+        "sourcePath": "game/character/hair/dreadlong.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/dreadlong.glb",
+        "image": null
+      },
+      {
+        "id": "fall",
+        "name": "fall",
+        "sourcePath": "game/character/hair/fall.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/fall.glb",
+        "image": null
+      },
+      {
+        "id": "hae",
+        "name": "hae",
+        "sourcePath": "game/character/hair/hae.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hae.glb",
+        "image": null
+      },
+      {
+        "id": "hairf10",
+        "name": "hairf10",
+        "sourcePath": "game/character/hair/hairf10.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf10.glb",
+        "image": null
+      },
+      {
+        "id": "hairf11",
+        "name": "hairf11",
+        "sourcePath": "game/character/hair/hairf11.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf11.glb",
+        "image": null
+      },
+      {
+        "id": "hairf12",
+        "name": "hairf12",
+        "sourcePath": "game/character/hair/hairf12.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf12.glb",
+        "image": null
+      },
+      {
+        "id": "hairf13",
+        "name": "hairf13",
+        "sourcePath": "game/character/hair/hairf13.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf13.glb",
+        "image": null
+      },
+      {
+        "id": "hairf14",
+        "name": "hairf14",
+        "sourcePath": "game/character/hair/hairf14.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf14.glb",
+        "image": null
+      },
+      {
+        "id": "hairf15",
+        "name": "hairf15",
+        "sourcePath": "game/character/hair/hairf15.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf15.glb",
+        "image": null
+      },
+      {
+        "id": "hairf17",
+        "name": "hairf17",
+        "sourcePath": "game/character/hair/hairf17.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf17.glb",
+        "image": null
+      },
+      {
+        "id": "hairf18",
+        "name": "hairf18",
+        "sourcePath": "game/character/hair/hairf18.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf18.glb",
+        "image": null
+      },
+      {
+        "id": "hairf19",
+        "name": "hairf19",
+        "sourcePath": "game/character/hair/hairf19.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf19.glb",
+        "image": null
+      },
+      {
+        "id": "hairf20",
+        "name": "hairf20",
+        "sourcePath": "game/character/hair/hairf20.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf20.glb",
+        "image": null
+      },
+      {
+        "id": "hairf5",
+        "name": "hairf5",
+        "sourcePath": "game/character/hair/hairf5.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf5.glb",
+        "image": null
+      },
+      {
+        "id": "hairf6",
+        "name": "hairf6",
+        "sourcePath": "game/character/hair/hairf6.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf6.glb",
+        "image": null
+      },
+      {
+        "id": "hairf7",
+        "name": "hairf7",
+        "sourcePath": "game/character/hair/hairf7.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf7.glb",
+        "image": null
+      },
+      {
+        "id": "hairf8",
+        "name": "hairf8",
+        "sourcePath": "game/character/hair/hairf8.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairf8.glb",
+        "image": null
+      },
+      {
+        "id": "hairm1",
+        "name": "hairm1",
+        "sourcePath": "game/character/hair/hairm1.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm1.glb",
+        "image": null
+      },
+      {
+        "id": "hairm10",
+        "name": "hairm10",
+        "sourcePath": "game/character/hair/hairm10.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm10.glb",
+        "image": null
+      },
+      {
+        "id": "hairm11",
+        "name": "hairm11",
+        "sourcePath": "game/character/hair/hairm11.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm11.glb",
+        "image": null
+      },
+      {
+        "id": "hairm12",
+        "name": "hairm12",
+        "sourcePath": "game/character/hair/hairm12.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm12.glb",
+        "image": null
+      },
+      {
+        "id": "hairm13",
+        "name": "hairm13",
+        "sourcePath": "game/character/hair/hairm13.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm13.glb",
+        "image": null
+      },
+      {
+        "id": "hairm14",
+        "name": "hairm14",
+        "sourcePath": "game/character/hair/hairm14.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm14.glb",
+        "image": null
+      },
+      {
+        "id": "hairm15",
+        "name": "hairm15",
+        "sourcePath": "game/character/hair/hairm15.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm15.glb",
+        "image": null
+      },
+      {
+        "id": "hairm16",
+        "name": "hairm16",
+        "sourcePath": "game/character/hair/hairm16.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm16.glb",
+        "image": null
+      },
+      {
+        "id": "hairm17",
+        "name": "hairm17",
+        "sourcePath": "game/character/hair/hairm17.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm17.glb",
+        "image": null
+      },
+      {
+        "id": "hairm18",
+        "name": "hairm18",
+        "sourcePath": "game/character/hair/hairm18.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm18.glb",
+        "image": null
+      },
+      {
+        "id": "hairm19",
+        "name": "hairm19",
+        "sourcePath": "game/character/hair/hairm19.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm19.glb",
+        "image": null
+      },
+      {
+        "id": "hairm20",
+        "name": "hairm20",
+        "sourcePath": "game/character/hair/hairm20.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm20.glb",
+        "image": null
+      },
+      {
+        "id": "hairm6",
+        "name": "hairm6",
+        "sourcePath": "game/character/hair/hairm6.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm6.glb",
+        "image": null
+      },
+      {
+        "id": "hairm7",
+        "name": "hairm7",
+        "sourcePath": "game/character/hair/hairm7.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm7.glb",
+        "image": null
+      },
+      {
+        "id": "hairm8",
+        "name": "hairm8",
+        "sourcePath": "game/character/hair/hairm8.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm8.glb",
+        "image": null
+      },
+      {
+        "id": "hairm9",
+        "name": "hairm9",
+        "sourcePath": "game/character/hair/hairm9.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairm9.glb",
+        "image": null
+      },
+      {
+        "id": "hairtf16",
+        "name": "hairtf16",
+        "sourcePath": "game/character/hair/hairtf16.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hairtf16.glb",
+        "image": null
+      },
+      {
+        "id": "halfdread",
+        "name": "halfdread",
+        "sourcePath": "game/character/hair/halfdread.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/halfdread.glb",
+        "image": null
+      },
+      {
+        "id": "hightop",
+        "name": "hightop",
+        "sourcePath": "game/character/hair/hightop.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hightop.glb",
+        "image": null
+      },
+      {
+        "id": "hopefulwitch",
+        "name": "hopefulwitch",
+        "sourcePath": "game/character/hair/hopefulwitch.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hopefulwitch.glb",
+        "image": null
+      },
+      {
+        "id": "hue",
+        "name": "hue",
+        "sourcePath": "game/character/hair/hue.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/hue.glb",
+        "image": null
+      },
+      {
+        "id": "jasmine",
+        "name": "jasmine",
+        "sourcePath": "game/character/hair/jasmine.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/jasmine.glb",
+        "image": null
+      },
+      {
+        "id": "jeremy",
+        "name": "jeremy",
+        "sourcePath": "game/character/hair/jeremy.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/jeremy.glb",
+        "image": null
+      },
+      {
+        "id": "kage",
+        "name": "kage",
+        "sourcePath": "game/character/hair/kage.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/kage.glb",
+        "image": null
+      },
+      {
+        "id": "kai",
+        "name": "kai",
+        "sourcePath": "game/character/hair/kai.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/kai.glb",
+        "image": null
+      },
+      {
+        "id": "kasa",
+        "name": "kasa",
+        "sourcePath": "game/character/hair/kasa.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/kasa.glb",
+        "image": null
+      },
+      {
+        "id": "ko",
+        "name": "ko",
+        "sourcePath": "game/character/hair/ko.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/ko.glb",
+        "image": null
+      },
+      {
+        "id": "longhair",
+        "name": "longhair",
+        "sourcePath": "game/character/hair/longhair.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/longhair.glb",
+        "image": null
+      },
+      {
+        "id": "maka",
+        "name": "maka",
+        "sourcePath": "game/character/hair/maka.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/maka.glb",
+        "image": null
+      },
+      {
+        "id": "mamii",
+        "name": "mamii",
+        "sourcePath": "game/character/hair/mamii.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/mamii.glb",
+        "image": null
+      },
+      {
+        "id": "mao",
+        "name": "mao",
+        "sourcePath": "game/character/hair/mao.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/mao.glb",
+        "image": null
+      },
+      {
+        "id": "marcy",
+        "name": "marcy",
+        "sourcePath": "game/character/hair/marcy.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/marcy.glb",
+        "image": null
+      },
+      {
+        "id": "may",
+        "name": "may",
+        "sourcePath": "game/character/hair/may.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/may.glb",
+        "image": null
+      },
+      {
+        "id": "megan",
+        "name": "megan",
+        "sourcePath": "game/character/hair/megan.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/megan.glb",
+        "image": null
+      },
+      {
+        "id": "meku",
+        "name": "meku",
+        "sourcePath": "game/character/hair/meku.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/meku.glb",
+        "image": null
+      },
+      {
+        "id": "messydreads",
+        "name": "messydreads",
+        "sourcePath": "game/character/hair/messydreads.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/messydreads.glb",
+        "image": null
+      },
+      {
+        "id": "mob",
+        "name": "mob",
+        "sourcePath": "game/character/hair/mob.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/mob.glb",
+        "image": null
+      },
+      {
+        "id": "momhair",
+        "name": "momhair",
+        "sourcePath": "game/character/hair/momhair.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/momhair.glb",
+        "image": null
+      },
+      {
+        "id": "oody",
+        "name": "oody",
+        "sourcePath": "game/character/hair/oody.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/oody.glb",
+        "image": null
+      },
+      {
+        "id": "ponytail",
+        "name": "ponytail",
+        "sourcePath": "game/character/hair/ponytail.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/ponytail.glb",
+        "image": null
+      },
+      {
+        "id": "powder",
+        "name": "powder",
+        "sourcePath": "game/character/hair/powder.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/powder.glb",
+        "image": null
+      },
+      {
+        "id": "ps68",
+        "name": "ps68",
+        "sourcePath": "game/character/hair/ps68.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/ps68.glb",
+        "image": null
+      },
+      {
+        "id": "ruri",
+        "name": "ruri",
+        "sourcePath": "game/character/hair/ruri.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/ruri.glb",
+        "image": null
+      },
+      {
+        "id": "sagaraen",
+        "name": "sagaraen",
+        "sourcePath": "game/character/hair/sagaraen.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/sagaraen.glb",
+        "image": null
+      },
+      {
+        "id": "shrimpy",
+        "name": "shrimpy",
+        "sourcePath": "game/character/hair/shrimpy.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/shrimpy.glb",
+        "image": null
+      },
+      {
+        "id": "spiky",
+        "name": "spiky",
+        "sourcePath": "game/character/hair/spiky.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/spiky.glb",
+        "image": null
+      },
+      {
+        "id": "swirls",
+        "name": "swirls",
+        "sourcePath": "game/character/hair/swirls.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/swirls.glb",
+        "image": null
+      },
+      {
+        "id": "swirlyhair",
+        "name": "swirlyhair",
+        "sourcePath": "game/character/hair/swirlyhair.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/swirlyhair.glb",
+        "image": null
+      },
+      {
+        "id": "teto",
+        "name": "teto",
+        "sourcePath": "game/character/hair/teto.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/teto.glb",
+        "image": null
+      },
+      {
+        "id": "topfade",
+        "name": "topfade",
+        "sourcePath": "game/character/hair/topfade.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/topfade.glb",
+        "image": null
+      },
+      {
+        "id": "topknot",
+        "name": "topknot",
+        "sourcePath": "game/character/hair/topknot.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/topknot.glb",
+        "image": null
+      },
+      {
+        "id": "twisttie",
+        "name": "twisttie",
+        "sourcePath": "game/character/hair/twisttie.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/twisttie.glb",
+        "image": null
+      },
+      {
+        "id": "van",
+        "name": "van",
+        "sourcePath": "game/character/hair/van.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/van.glb",
+        "image": null
+      },
+      {
+        "id": "veritas",
+        "name": "veritas",
+        "sourcePath": "game/character/hair/veritas.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/veritas.glb",
+        "image": null
+      },
+      {
+        "id": "wynd",
+        "name": "wynd",
+        "sourcePath": "game/character/hair/wynd.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/wynd.glb",
+        "image": null
+      },
+      {
+        "id": "yumee",
+        "name": "yumee",
+        "sourcePath": "game/character/hair/yumee.blend.import",
+        "recoveredModelPath": ".assets/game/character/hair/yumee.glb",
+        "image": null
+      }
+    ]
+  },
+  "studioStickers": {
+    "count": 4,
+    "countConvention": "Fixed STICKERS array used to populate this build menu; SCRAP empty.",
+    "provenance": [
+      {
+        "path": "game/character/studio/locker_studio.gd",
+        "line": 81,
+        "note": "Four fixed logo/ball resources."
+      },
+      {
+        "path": "game/character/studio/locker_studio.gd",
+        "line": 90,
+        "note": "No additional SCRAP IDs."
+      },
+      {
+        "path": "game/character/studio/locker_studio.gd",
+        "line": 1733,
+        "note": "Menu enumerates STICKERS plus SCRAP."
+      }
+    ],
+    "items": [
+      {
+        "id": "jvlogo_HD",
+        "name": "jvlogo HD",
+        "sourcePath": "game/logo/jvlogo_HD.png",
+        "image": "/images/game-parts/studio-jvlogo_HD.webp",
+        "width": 256,
+        "height": 96
+      },
+      {
+        "id": "ball_nationals",
+        "name": "ball nationals",
+        "sourcePath": "game/images/gameballs/ball_nationals.png",
+        "image": "/images/game-parts/studio-ball_nationals.webp",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "id": "ball_outdoor",
+        "name": "ball outdoor",
+        "sourcePath": "game/images/gameballs/ball_outdoor.png",
+        "image": "/images/game-parts/studio-ball_outdoor.webp",
+        "width": 256,
+        "height": 256
+      },
+      {
+        "id": "ball_school",
+        "name": "ball school",
+        "sourcePath": "game/images/gameballs/ball_school.png",
+        "image": "/images/game-parts/studio-ball_school.webp",
+        "width": 256,
+        "height": 256
+      }
+    ]
+  }
+}

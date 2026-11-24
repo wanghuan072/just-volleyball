@@ -1,0 +1,893 @@
+{
+  "patterns": [
+    {
+      "id": "pattern_01",
+      "name": "Pattern 01",
+      "image": "/images/locker/patterns/pattern_01.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_01.png",
+      "sourceSha256": "dcdb93a668176e4666cced0ef1e7d3383b1f757732a682747f608a9309dc1390",
+      "imageSha256": "dcdb93a668176e4666cced0ef1e7d3383b1f757732a682747f608a9309dc1390"
+    },
+    {
+      "id": "pattern_02",
+      "name": "Pattern 02",
+      "image": "/images/locker/patterns/pattern_02.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_02.png",
+      "sourceSha256": "65947c830111fa861078dd94b9bf72464aa554f02a0667d013f5cdb8f74fc60c",
+      "imageSha256": "65947c830111fa861078dd94b9bf72464aa554f02a0667d013f5cdb8f74fc60c"
+    },
+    {
+      "id": "pattern_03",
+      "name": "Pattern 03",
+      "image": "/images/locker/patterns/pattern_03.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_03.png",
+      "sourceSha256": "882d68085bf65bfcfb811977a6ee477b3b9d985a3dcf32bb420c2da045767325",
+      "imageSha256": "882d68085bf65bfcfb811977a6ee477b3b9d985a3dcf32bb420c2da045767325"
+    },
+    {
+      "id": "pattern_04",
+      "name": "Pattern 04",
+      "image": "/images/locker/patterns/pattern_04.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_04.png",
+      "sourceSha256": "98c288897106ecf0ec4df99a155eabd63585d357a7e995444a2053587285aeb5",
+      "imageSha256": "98c288897106ecf0ec4df99a155eabd63585d357a7e995444a2053587285aeb5"
+    },
+    {
+      "id": "pattern_05",
+      "name": "Pattern 05",
+      "image": "/images/locker/patterns/pattern_05.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_05.png",
+      "sourceSha256": "faef081a5b899b73d318877b0358122ef151cd871434a0616cac2b116d6138c8",
+      "imageSha256": "faef081a5b899b73d318877b0358122ef151cd871434a0616cac2b116d6138c8"
+    },
+    {
+      "id": "pattern_06",
+      "name": "Pattern 06",
+      "image": "/images/locker/patterns/pattern_06.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_06.png",
+      "sourceSha256": "576a0123388fea992cc8b28601633e27ce111f753f4170a540e9e99920940cb5",
+      "imageSha256": "576a0123388fea992cc8b28601633e27ce111f753f4170a540e9e99920940cb5"
+    },
+    {
+      "id": "pattern_07",
+      "name": "Pattern 07",
+      "image": "/images/locker/patterns/pattern_07.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_07.png",
+      "sourceSha256": "de0ff4ca2a2ca738fa51da99b14055e32ad0c889c509a74b423d96b9c02413b7",
+      "imageSha256": "de0ff4ca2a2ca738fa51da99b14055e32ad0c889c509a74b423d96b9c02413b7"
+    },
+    {
+      "id": "pattern_08",
+      "name": "Pattern 08",
+      "image": "/images/locker/patterns/pattern_08.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_08.png",
+      "sourceSha256": "78ca533f1cf9b835a9033b99ec097df3ae78da0e37aaebd511283385aea47785",
+      "imageSha256": "78ca533f1cf9b835a9033b99ec097df3ae78da0e37aaebd511283385aea47785"
+    },
+    {
+      "id": "pattern_09",
+      "name": "Pattern 09",
+      "image": "/images/locker/patterns/pattern_09.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_09.png",
+      "sourceSha256": "bf46d68331e30ef8e4660f6fa0991ecbc8aa181e1adb1a707851ceb18cabe92f",
+      "imageSha256": "bf46d68331e30ef8e4660f6fa0991ecbc8aa181e1adb1a707851ceb18cabe92f"
+    },
+    {
+      "id": "pattern_10",
+      "name": "Pattern 10",
+      "image": "/images/locker/patterns/pattern_10.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_10.png",
+      "sourceSha256": "118017d2e143cc4302e7dc05491abb05a344db3dceb6b5445dc59cc32eadbc60",
+      "imageSha256": "118017d2e143cc4302e7dc05491abb05a344db3dceb6b5445dc59cc32eadbc60"
+    },
+    {
+      "id": "pattern_11",
+      "name": "Pattern 11",
+      "image": "/images/locker/patterns/pattern_11.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_11.png",
+      "sourceSha256": "378c7dc57442e77bcfee5982def04ae0ed5aa74e4b5bb9138efef2d54c392823",
+      "imageSha256": "378c7dc57442e77bcfee5982def04ae0ed5aa74e4b5bb9138efef2d54c392823"
+    },
+    {
+      "id": "pattern_12",
+      "name": "Pattern 12",
+      "image": "/images/locker/patterns/pattern_12.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_12.png",
+      "sourceSha256": "d75c1628ec89c055613df40c04484cc42d56bd75b58dbb9fc40e0bd2beec9f5b",
+      "imageSha256": "d75c1628ec89c055613df40c04484cc42d56bd75b58dbb9fc40e0bd2beec9f5b"
+    },
+    {
+      "id": "pattern_13",
+      "name": "Pattern 13",
+      "image": "/images/locker/patterns/pattern_13.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_13.png",
+      "sourceSha256": "222ea8cdcb9098d1b6853c7684423caf432474dca4654a2d4d53a7b840c131fd",
+      "imageSha256": "222ea8cdcb9098d1b6853c7684423caf432474dca4654a2d4d53a7b840c131fd"
+    },
+    {
+      "id": "pattern_14",
+      "name": "Pattern 14",
+      "image": "/images/locker/patterns/pattern_14.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_14.png",
+      "sourceSha256": "f79364a0f5e1c60d8b03ac70cefa3dfc138073631eea3f95a8610f3affc9e072",
+      "imageSha256": "f79364a0f5e1c60d8b03ac70cefa3dfc138073631eea3f95a8610f3affc9e072"
+    },
+    {
+      "id": "pattern_15",
+      "name": "Pattern 15",
+      "image": "/images/locker/patterns/pattern_15.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_15.png",
+      "sourceSha256": "b444feb23bdddaaf7962e6eb9097f80125b93f678b7ab1711036c2cea4867868",
+      "imageSha256": "b444feb23bdddaaf7962e6eb9097f80125b93f678b7ab1711036c2cea4867868"
+    },
+    {
+      "id": "pattern_16",
+      "name": "Pattern 16",
+      "image": "/images/locker/patterns/pattern_16.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_16.png",
+      "sourceSha256": "85ee0fe93a550583a6223535ec8fe8c044f79beb60983012a33e021659e2b0f8",
+      "imageSha256": "85ee0fe93a550583a6223535ec8fe8c044f79beb60983012a33e021659e2b0f8"
+    },
+    {
+      "id": "pattern_17",
+      "name": "Pattern 17",
+      "image": "/images/locker/patterns/pattern_17.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_17.png",
+      "sourceSha256": "2c1b8f78b4f755267710d4c1f2e0033c1e5bc8cb011fd1fc7921e29ec5f659aa",
+      "imageSha256": "2c1b8f78b4f755267710d4c1f2e0033c1e5bc8cb011fd1fc7921e29ec5f659aa"
+    },
+    {
+      "id": "pattern_18",
+      "name": "Pattern 18",
+      "image": "/images/locker/patterns/pattern_18.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_18.png",
+      "sourceSha256": "9c362c8ecff283b61b7d4e5b31a7db43ef06dcab4ffb1d6d10236a7026f14181",
+      "imageSha256": "9c362c8ecff283b61b7d4e5b31a7db43ef06dcab4ffb1d6d10236a7026f14181"
+    },
+    {
+      "id": "pattern_19",
+      "name": "Pattern 19",
+      "image": "/images/locker/patterns/pattern_19.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_19.png",
+      "sourceSha256": "ea2f32a56aca98e4535ca1c02cddc954811d1821306b981ee9c6a1b093afb71e",
+      "imageSha256": "ea2f32a56aca98e4535ca1c02cddc954811d1821306b981ee9c6a1b093afb71e"
+    },
+    {
+      "id": "pattern_20",
+      "name": "Pattern 20",
+      "image": "/images/locker/patterns/pattern_20.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_20.png",
+      "sourceSha256": "93d8ffd7ee9417349065cba2984bff164b09617d8ed7295b9b7c1f8357537c91",
+      "imageSha256": "93d8ffd7ee9417349065cba2984bff164b09617d8ed7295b9b7c1f8357537c91"
+    },
+    {
+      "id": "pattern_21",
+      "name": "Pattern 21",
+      "image": "/images/locker/patterns/pattern_21.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_21.png",
+      "sourceSha256": "70b0c539b6e2abc8c66c706adc3dd83338481f76b3423bf8f23e579f58bec4dd",
+      "imageSha256": "70b0c539b6e2abc8c66c706adc3dd83338481f76b3423bf8f23e579f58bec4dd"
+    },
+    {
+      "id": "pattern_22",
+      "name": "Pattern 22",
+      "image": "/images/locker/patterns/pattern_22.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_22.png",
+      "sourceSha256": "6d63649df31d3e20d17f94ac55fa121ce04c2ad75bb335f3112cce78f7315ea3",
+      "imageSha256": "6d63649df31d3e20d17f94ac55fa121ce04c2ad75bb335f3112cce78f7315ea3"
+    },
+    {
+      "id": "pattern_23",
+      "name": "Pattern 23",
+      "image": "/images/locker/patterns/pattern_23.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_23.png",
+      "sourceSha256": "ee4dc8b18d45953e8ab93827dc9b72964377962888fa8a5210ee19dc5081fa3b",
+      "imageSha256": "ee4dc8b18d45953e8ab93827dc9b72964377962888fa8a5210ee19dc5081fa3b"
+    },
+    {
+      "id": "pattern_24",
+      "name": "Pattern 24",
+      "image": "/images/locker/patterns/pattern_24.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_24.png",
+      "sourceSha256": "ea964f298733f0d7dfdeef3475cb3797ec054340f6957b695eef6aaa8dd0bb45",
+      "imageSha256": "ea964f298733f0d7dfdeef3475cb3797ec054340f6957b695eef6aaa8dd0bb45"
+    },
+    {
+      "id": "pattern_25",
+      "name": "Pattern 25",
+      "image": "/images/locker/patterns/pattern_25.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_25.png",
+      "sourceSha256": "f844477e0aa7329bf10c90dceaf20bf90d0032d3994d56fe48b0345abf339db0",
+      "imageSha256": "f844477e0aa7329bf10c90dceaf20bf90d0032d3994d56fe48b0345abf339db0"
+    },
+    {
+      "id": "pattern_26",
+      "name": "Pattern 26",
+      "image": "/images/locker/patterns/pattern_26.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_26.png",
+      "sourceSha256": "c6d6b7d803562fb2e8fc7e50dfb523a77148b8881f47c5e7f164b9272fe4e3fc",
+      "imageSha256": "c6d6b7d803562fb2e8fc7e50dfb523a77148b8881f47c5e7f164b9272fe4e3fc"
+    },
+    {
+      "id": "pattern_27",
+      "name": "Pattern 27",
+      "image": "/images/locker/patterns/pattern_27.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_27.png",
+      "sourceSha256": "e08fb98e9aaf21a947836318a365fddc124c0a8b8c0d10d1630f60b7a0a3a7ca",
+      "imageSha256": "e08fb98e9aaf21a947836318a365fddc124c0a8b8c0d10d1630f60b7a0a3a7ca"
+    },
+    {
+      "id": "pattern_28",
+      "name": "Pattern 28",
+      "image": "/images/locker/patterns/pattern_28.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_28.png",
+      "sourceSha256": "bf410e1e86fbbb1a6f3a05d44c4783b57e27fb7605ff616c6b7f9b2524f46ad0",
+      "imageSha256": "bf410e1e86fbbb1a6f3a05d44c4783b57e27fb7605ff616c6b7f9b2524f46ad0"
+    },
+    {
+      "id": "pattern_29",
+      "name": "Pattern 29",
+      "image": "/images/locker/patterns/pattern_29.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_29.png",
+      "sourceSha256": "0a9f4c188491cd18ad7ecc5a89a92f22ce02cd20cfa110afc149116db6dc2afe",
+      "imageSha256": "0a9f4c188491cd18ad7ecc5a89a92f22ce02cd20cfa110afc149116db6dc2afe"
+    },
+    {
+      "id": "pattern_30",
+      "name": "Pattern 30",
+      "image": "/images/locker/patterns/pattern_30.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_30.png",
+      "sourceSha256": "aec66d1f20f49bbf4e0a60955cfa788b766a95d4c81263c466771e5d02bb3d07",
+      "imageSha256": "aec66d1f20f49bbf4e0a60955cfa788b766a95d4c81263c466771e5d02bb3d07"
+    },
+    {
+      "id": "pattern_31",
+      "name": "Pattern 31",
+      "image": "/images/locker/patterns/pattern_31.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_31.png",
+      "sourceSha256": "9447c80667799d93f2eb44ee4506ec348dc73a61ca4daac6449c24abde4393e5",
+      "imageSha256": "9447c80667799d93f2eb44ee4506ec348dc73a61ca4daac6449c24abde4393e5"
+    },
+    {
+      "id": "pattern_32",
+      "name": "Pattern 32",
+      "image": "/images/locker/patterns/pattern_32.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_32.png",
+      "sourceSha256": "b800aa0f6bf2e1dba61ff53ed19ba61328fd0e79bc196945d3480504fdc174e4",
+      "imageSha256": "b800aa0f6bf2e1dba61ff53ed19ba61328fd0e79bc196945d3480504fdc174e4"
+    },
+    {
+      "id": "pattern_33",
+      "name": "Pattern 33",
+      "image": "/images/locker/patterns/pattern_33.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_33.png",
+      "sourceSha256": "a911a49c8568806178777d184e8c414fc551f97ddb4b513cd4cfdff7d40f4af4",
+      "imageSha256": "a911a49c8568806178777d184e8c414fc551f97ddb4b513cd4cfdff7d40f4af4"
+    },
+    {
+      "id": "pattern_34",
+      "name": "Pattern 34",
+      "image": "/images/locker/patterns/pattern_34.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_34.png",
+      "sourceSha256": "8532f4f2fd365eb3046b2ead2dfa8e2ab4249e62ec25f7ebcec468f90ffe8db5",
+      "imageSha256": "8532f4f2fd365eb3046b2ead2dfa8e2ab4249e62ec25f7ebcec468f90ffe8db5"
+    },
+    {
+      "id": "pattern_35",
+      "name": "Pattern 35",
+      "image": "/images/locker/patterns/pattern_35.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_35.png",
+      "sourceSha256": "54526b6afd9f307d00a1e6ff5bb712a52ef4affc502777804f4a78df50c26c1d",
+      "imageSha256": "54526b6afd9f307d00a1e6ff5bb712a52ef4affc502777804f4a78df50c26c1d"
+    },
+    {
+      "id": "pattern_36",
+      "name": "Pattern 36",
+      "image": "/images/locker/patterns/pattern_36.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_36.png",
+      "sourceSha256": "4bb45fa8a86a7e0968a5bf318837168615c6b8afcba9778278f5569fb30ad83d",
+      "imageSha256": "4bb45fa8a86a7e0968a5bf318837168615c6b8afcba9778278f5569fb30ad83d"
+    },
+    {
+      "id": "pattern_37",
+      "name": "Pattern 37",
+      "image": "/images/locker/patterns/pattern_37.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_37.png",
+      "sourceSha256": "8a8c4b5a00c926c2035f7abe3e9d7623c62dba02e973905265e76f4330097d79",
+      "imageSha256": "8a8c4b5a00c926c2035f7abe3e9d7623c62dba02e973905265e76f4330097d79"
+    },
+    {
+      "id": "pattern_38",
+      "name": "Pattern 38",
+      "image": "/images/locker/patterns/pattern_38.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_38.png",
+      "sourceSha256": "9b4e0115e2286cce938c6af29824e3bd3e0076dcc425388db62ff17ca0e7e908",
+      "imageSha256": "9b4e0115e2286cce938c6af29824e3bd3e0076dcc425388db62ff17ca0e7e908"
+    },
+    {
+      "id": "pattern_39",
+      "name": "Pattern 39",
+      "image": "/images/locker/patterns/pattern_39.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_39.png",
+      "sourceSha256": "617f8bf2ad74fa8a7f2b76fbe4005bfd393cbcc68bb7dd0c6468c35a5c9d2777",
+      "imageSha256": "617f8bf2ad74fa8a7f2b76fbe4005bfd393cbcc68bb7dd0c6468c35a5c9d2777"
+    },
+    {
+      "id": "pattern_40",
+      "name": "Pattern 40",
+      "image": "/images/locker/patterns/pattern_40.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_40.png",
+      "sourceSha256": "b7f9658820632dbe519511db4fc0d387914e17d42219c187cd215e5256b4e4fe",
+      "imageSha256": "b7f9658820632dbe519511db4fc0d387914e17d42219c187cd215e5256b4e4fe"
+    },
+    {
+      "id": "pattern_41",
+      "name": "Pattern 41",
+      "image": "/images/locker/patterns/pattern_41.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_41.png",
+      "sourceSha256": "b291794303432d2478c4159d6b02d10c63a630895640df82c2cba871bc7907e9",
+      "imageSha256": "b291794303432d2478c4159d6b02d10c63a630895640df82c2cba871bc7907e9"
+    },
+    {
+      "id": "pattern_42",
+      "name": "Pattern 42",
+      "image": "/images/locker/patterns/pattern_42.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_42.png",
+      "sourceSha256": "5c3c0664316d153ecfd17d9346989cb69056ef95b081ee8c7301c5afb854982d",
+      "imageSha256": "5c3c0664316d153ecfd17d9346989cb69056ef95b081ee8c7301c5afb854982d"
+    },
+    {
+      "id": "pattern_43",
+      "name": "Pattern 43",
+      "image": "/images/locker/patterns/pattern_43.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_43.png",
+      "sourceSha256": "f3dd0d458eddd8b761cb7665bcbb1ceeac32a592820607f4f3379bcd1697813a",
+      "imageSha256": "f3dd0d458eddd8b761cb7665bcbb1ceeac32a592820607f4f3379bcd1697813a"
+    },
+    {
+      "id": "pattern_44",
+      "name": "Pattern 44",
+      "image": "/images/locker/patterns/pattern_44.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_44.png",
+      "sourceSha256": "4cfad0b53fe8765c0eb3e1ab1dabaa9f5ffe19ce8a465226b87798f92a0c5f2d",
+      "imageSha256": "4cfad0b53fe8765c0eb3e1ab1dabaa9f5ffe19ce8a465226b87798f92a0c5f2d"
+    },
+    {
+      "id": "pattern_45",
+      "name": "Pattern 45",
+      "image": "/images/locker/patterns/pattern_45.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_45.png",
+      "sourceSha256": "87038061e250455c0c34f5965e5899b49025388935584d0fdd067701dcb0eb04",
+      "imageSha256": "87038061e250455c0c34f5965e5899b49025388935584d0fdd067701dcb0eb04"
+    },
+    {
+      "id": "pattern_46",
+      "name": "Pattern 46",
+      "image": "/images/locker/patterns/pattern_46.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_46.png",
+      "sourceSha256": "40ae0fa54dff4335257a645919755529da10088616b402034edbc3601b774c3a",
+      "imageSha256": "40ae0fa54dff4335257a645919755529da10088616b402034edbc3601b774c3a"
+    },
+    {
+      "id": "pattern_47",
+      "name": "Pattern 47",
+      "image": "/images/locker/patterns/pattern_47.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_47.png",
+      "sourceSha256": "04ecd138e2a8ec55bcccbfd58d9d81004e2668d899421b33112fb0635bd15290",
+      "imageSha256": "04ecd138e2a8ec55bcccbfd58d9d81004e2668d899421b33112fb0635bd15290"
+    },
+    {
+      "id": "pattern_48",
+      "name": "Pattern 48",
+      "image": "/images/locker/patterns/pattern_48.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_48.png",
+      "sourceSha256": "4adc5075405bf67ceb61b5624e87d0269c0d8677c9fdbbc72276193ed594c3ea",
+      "imageSha256": "4adc5075405bf67ceb61b5624e87d0269c0d8677c9fdbbc72276193ed594c3ea"
+    },
+    {
+      "id": "pattern_49",
+      "name": "Pattern 49",
+      "image": "/images/locker/patterns/pattern_49.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_49.png",
+      "sourceSha256": "71f2a728f1346b0f90c63cc522ea7a25a089f31a6fc0e0fafdbdf61187147bfa",
+      "imageSha256": "71f2a728f1346b0f90c63cc522ea7a25a089f31a6fc0e0fafdbdf61187147bfa"
+    },
+    {
+      "id": "pattern_50",
+      "name": "Pattern 50",
+      "image": "/images/locker/patterns/pattern_50.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_50.png",
+      "sourceSha256": "5c0532ec9fc9f2277f16e40baf5db3596e54b4945a54b1d0eb472754d96ac7b7",
+      "imageSha256": "5c0532ec9fc9f2277f16e40baf5db3596e54b4945a54b1d0eb472754d96ac7b7"
+    },
+    {
+      "id": "pattern_51",
+      "name": "Pattern 51",
+      "image": "/images/locker/patterns/pattern_51.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_51.png",
+      "sourceSha256": "50aead0b5c66ac1ca6e9b40a90651df3c17ff43ffb293d3183cafaddd5a87994",
+      "imageSha256": "50aead0b5c66ac1ca6e9b40a90651df3c17ff43ffb293d3183cafaddd5a87994"
+    },
+    {
+      "id": "pattern_52",
+      "name": "Pattern 52",
+      "image": "/images/locker/patterns/pattern_52.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_52.png",
+      "sourceSha256": "f589ff35eccbe465b966999719abda75331cda7b9a4f8d8d95b4604eca630641",
+      "imageSha256": "f589ff35eccbe465b966999719abda75331cda7b9a4f8d8d95b4604eca630641"
+    },
+    {
+      "id": "pattern_53",
+      "name": "Pattern 53",
+      "image": "/images/locker/patterns/pattern_53.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_53.png",
+      "sourceSha256": "4aee8d8dae65a6ca9c687da337724e57f6377016092c5192f52b5080e24b9c0e",
+      "imageSha256": "4aee8d8dae65a6ca9c687da337724e57f6377016092c5192f52b5080e24b9c0e"
+    },
+    {
+      "id": "pattern_54",
+      "name": "Pattern 54",
+      "image": "/images/locker/patterns/pattern_54.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_54.png",
+      "sourceSha256": "6e18881cfe59ed87866aaeaf75db830343f5e7a50f00287f3a370017ec3e161d",
+      "imageSha256": "6e18881cfe59ed87866aaeaf75db830343f5e7a50f00287f3a370017ec3e161d"
+    },
+    {
+      "id": "pattern_55",
+      "name": "Pattern 55",
+      "image": "/images/locker/patterns/pattern_55.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_55.png",
+      "sourceSha256": "b26cc6849dbdd522be66481991631fa4f9ad96198ac3e09d3c3e85b7cebca7f8",
+      "imageSha256": "b26cc6849dbdd522be66481991631fa4f9ad96198ac3e09d3c3e85b7cebca7f8"
+    },
+    {
+      "id": "pattern_56",
+      "name": "Pattern 56",
+      "image": "/images/locker/patterns/pattern_56.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_56.png",
+      "sourceSha256": "acc6537237640199069cff52c3c7c849e296fc85b8d0e811b368e9a3e7d9639a",
+      "imageSha256": "acc6537237640199069cff52c3c7c849e296fc85b8d0e811b368e9a3e7d9639a"
+    },
+    {
+      "id": "pattern_57",
+      "name": "Pattern 57",
+      "image": "/images/locker/patterns/pattern_57.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_57.png",
+      "sourceSha256": "caa8446934ee30fb59b8469f0ca6919fd14f97bca38b768dab47f3cc53561eab",
+      "imageSha256": "caa8446934ee30fb59b8469f0ca6919fd14f97bca38b768dab47f3cc53561eab"
+    },
+    {
+      "id": "pattern_58",
+      "name": "Pattern 58",
+      "image": "/images/locker/patterns/pattern_58.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_58.png",
+      "sourceSha256": "f2072e43ce74273702d4c5b24f52245e4f14a8c41583cc76cb448191eee6f7a1",
+      "imageSha256": "f2072e43ce74273702d4c5b24f52245e4f14a8c41583cc76cb448191eee6f7a1"
+    },
+    {
+      "id": "pattern_59",
+      "name": "Pattern 59",
+      "image": "/images/locker/patterns/pattern_59.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_59.png",
+      "sourceSha256": "33a066733e59f0549c6a39505fe3c48713260a3c0c30578977159dff181c3753",
+      "imageSha256": "33a066733e59f0549c6a39505fe3c48713260a3c0c30578977159dff181c3753"
+    },
+    {
+      "id": "pattern_60",
+      "name": "Pattern 60",
+      "image": "/images/locker/patterns/pattern_60.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_60.png",
+      "sourceSha256": "88504c0bfd2b336af4e0ba5c1b07279959d18b4fd364d8770ba0c6fa7e8e9aeb",
+      "imageSha256": "88504c0bfd2b336af4e0ba5c1b07279959d18b4fd364d8770ba0c6fa7e8e9aeb"
+    },
+    {
+      "id": "pattern_61",
+      "name": "Pattern 61",
+      "image": "/images/locker/patterns/pattern_61.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_61.png",
+      "sourceSha256": "b13411fbdfd6ea543d8071d253b64847cf8c0b8af395fc904118eb71ef22ccbb",
+      "imageSha256": "b13411fbdfd6ea543d8071d253b64847cf8c0b8af395fc904118eb71ef22ccbb"
+    },
+    {
+      "id": "pattern_62",
+      "name": "Pattern 62",
+      "image": "/images/locker/patterns/pattern_62.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_62.png",
+      "sourceSha256": "79046f4c7eac68df43386fe5ce40a9c1d4b0777c0a22cda8b261aa38c513c919",
+      "imageSha256": "79046f4c7eac68df43386fe5ce40a9c1d4b0777c0a22cda8b261aa38c513c919"
+    },
+    {
+      "id": "pattern_63",
+      "name": "Pattern 63",
+      "image": "/images/locker/patterns/pattern_63.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_63.png",
+      "sourceSha256": "d703243cdf6739d281043740171e3d2ba56bd59b5bb5842254a694ada1f78366",
+      "imageSha256": "d703243cdf6739d281043740171e3d2ba56bd59b5bb5842254a694ada1f78366"
+    },
+    {
+      "id": "pattern_64",
+      "name": "Pattern 64",
+      "image": "/images/locker/patterns/pattern_64.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_64.png",
+      "sourceSha256": "3392855a9c73071ab585895e5fae16b95ca8da7214d9261783fbccaf044c8991",
+      "imageSha256": "3392855a9c73071ab585895e5fae16b95ca8da7214d9261783fbccaf044c8991"
+    },
+    {
+      "id": "pattern_65",
+      "name": "Pattern 65",
+      "image": "/images/locker/patterns/pattern_65.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_65.png",
+      "sourceSha256": "1d802af139cfbe0e6c9c69db4be3514702cfeb3c9b095426c23a67149871256e",
+      "imageSha256": "1d802af139cfbe0e6c9c69db4be3514702cfeb3c9b095426c23a67149871256e"
+    },
+    {
+      "id": "pattern_66",
+      "name": "Pattern 66",
+      "image": "/images/locker/patterns/pattern_66.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_66.png",
+      "sourceSha256": "d4081eb27b9deb729ed381837b8b9f749e5c0f2fb59069652846d5e232637a2f",
+      "imageSha256": "d4081eb27b9deb729ed381837b8b9f749e5c0f2fb59069652846d5e232637a2f"
+    },
+    {
+      "id": "pattern_67",
+      "name": "Pattern 67",
+      "image": "/images/locker/patterns/pattern_67.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_67.png",
+      "sourceSha256": "2250dc8f6cef321e96b2943153c33d26159df22b66f439e09e4fdbbf8cbfc66f",
+      "imageSha256": "2250dc8f6cef321e96b2943153c33d26159df22b66f439e09e4fdbbf8cbfc66f"
+    },
+    {
+      "id": "pattern_68",
+      "name": "Pattern 68",
+      "image": "/images/locker/patterns/pattern_68.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_68.png",
+      "sourceSha256": "4e14ebbcc91c155cb826a402ea725948048b05f318a929b662d49e7c6116904b",
+      "imageSha256": "4e14ebbcc91c155cb826a402ea725948048b05f318a929b662d49e7c6116904b"
+    },
+    {
+      "id": "pattern_69",
+      "name": "Pattern 69",
+      "image": "/images/locker/patterns/pattern_69.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_69.png",
+      "sourceSha256": "b187aaf8c6a1a983a3d189e5e947e0ead8b09d0fcf751a4fda6f455f24fe2210",
+      "imageSha256": "b187aaf8c6a1a983a3d189e5e947e0ead8b09d0fcf751a4fda6f455f24fe2210"
+    },
+    {
+      "id": "pattern_70",
+      "name": "Pattern 70",
+      "image": "/images/locker/patterns/pattern_70.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_70.png",
+      "sourceSha256": "e19f9247cd5ac295db2c18d8aa0322d964e89471dc1b77d01e144c39aac10c93",
+      "imageSha256": "e19f9247cd5ac295db2c18d8aa0322d964e89471dc1b77d01e144c39aac10c93"
+    },
+    {
+      "id": "pattern_71",
+      "name": "Pattern 71",
+      "image": "/images/locker/patterns/pattern_71.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_71.png",
+      "sourceSha256": "a89111522d548c968d7cb3a2771c5b21d950c063d12a5e34d322e84195c2652e",
+      "imageSha256": "a89111522d548c968d7cb3a2771c5b21d950c063d12a5e34d322e84195c2652e"
+    },
+    {
+      "id": "pattern_72",
+      "name": "Pattern 72",
+      "image": "/images/locker/patterns/pattern_72.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_72.png",
+      "sourceSha256": "fe3eb5ffe0a62aba8074c4482880197305a3f496fdd51eb9c8e365b8f3fc533f",
+      "imageSha256": "fe3eb5ffe0a62aba8074c4482880197305a3f496fdd51eb9c8e365b8f3fc533f"
+    },
+    {
+      "id": "pattern_73",
+      "name": "Pattern 73",
+      "image": "/images/locker/patterns/pattern_73.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_73.png",
+      "sourceSha256": "cc5cf4ebbd96207e61c6fd4421dfceaa7b0a84c8368b35d24076209379a37975",
+      "imageSha256": "cc5cf4ebbd96207e61c6fd4421dfceaa7b0a84c8368b35d24076209379a37975"
+    },
+    {
+      "id": "pattern_74",
+      "name": "Pattern 74",
+      "image": "/images/locker/patterns/pattern_74.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_74.png",
+      "sourceSha256": "c270c2512348add5f96cd6207371dd60a2a2fcf312454f7a76470c5d697b6cc6",
+      "imageSha256": "c270c2512348add5f96cd6207371dd60a2a2fcf312454f7a76470c5d697b6cc6"
+    },
+    {
+      "id": "pattern_75",
+      "name": "Pattern 75",
+      "image": "/images/locker/patterns/pattern_75.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_75.png",
+      "sourceSha256": "eecc7a73c4d864df7c08cfdaba39868f6eb26ed18636b8c1139b2154c6f94bac",
+      "imageSha256": "eecc7a73c4d864df7c08cfdaba39868f6eb26ed18636b8c1139b2154c6f94bac"
+    },
+    {
+      "id": "pattern_76",
+      "name": "Pattern 76",
+      "image": "/images/locker/patterns/pattern_76.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_76.png",
+      "sourceSha256": "e72462deaf346cf9ccceb8f7ec844da79003c61a2abec398c0aa70f230a09997",
+      "imageSha256": "e72462deaf346cf9ccceb8f7ec844da79003c61a2abec398c0aa70f230a09997"
+    },
+    {
+      "id": "pattern_77",
+      "name": "Pattern 77",
+      "image": "/images/locker/patterns/pattern_77.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_77.png",
+      "sourceSha256": "75a637da4037250d2ad2927286f322a70bb70f9653faa3b8f0dad38a1dc704e2",
+      "imageSha256": "75a637da4037250d2ad2927286f322a70bb70f9653faa3b8f0dad38a1dc704e2"
+    },
+    {
+      "id": "pattern_78",
+      "name": "Pattern 78",
+      "image": "/images/locker/patterns/pattern_78.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_78.png",
+      "sourceSha256": "60976dadf80eb0aba73ed5820bad3432bc74668524f22a7e3fde093813e010c1",
+      "imageSha256": "60976dadf80eb0aba73ed5820bad3432bc74668524f22a7e3fde093813e010c1"
+    },
+    {
+      "id": "pattern_79",
+      "name": "Pattern 79",
+      "image": "/images/locker/patterns/pattern_79.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_79.png",
+      "sourceSha256": "904f43f342df4810349c5bfcf42134933502474519b720b4cf982e2dc8ae454b",
+      "imageSha256": "904f43f342df4810349c5bfcf42134933502474519b720b4cf982e2dc8ae454b"
+    },
+    {
+      "id": "pattern_80",
+      "name": "Pattern 80",
+      "image": "/images/locker/patterns/pattern_80.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_80.png",
+      "sourceSha256": "818cfbd4d2e9890eb4f83bd66f20279814f17a5f80ea5c801e7a28662860e3db",
+      "imageSha256": "818cfbd4d2e9890eb4f83bd66f20279814f17a5f80ea5c801e7a28662860e3db"
+    },
+    {
+      "id": "pattern_81",
+      "name": "Pattern 81",
+      "image": "/images/locker/patterns/pattern_81.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_81.png",
+      "sourceSha256": "92c259976f3216f861fc45426823a1386f94dbd6af09685d54868a69903e0d6d",
+      "imageSha256": "92c259976f3216f861fc45426823a1386f94dbd6af09685d54868a69903e0d6d"
+    },
+    {
+      "id": "pattern_82",
+      "name": "Pattern 82",
+      "image": "/images/locker/patterns/pattern_82.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_82.png",
+      "sourceSha256": "df559bdf819c20e749cfb5960d22e06455fd49d42ed45d0a1540e741ee1fd69e",
+      "imageSha256": "df559bdf819c20e749cfb5960d22e06455fd49d42ed45d0a1540e741ee1fd69e"
+    },
+    {
+      "id": "pattern_83",
+      "name": "Pattern 83",
+      "image": "/images/locker/patterns/pattern_83.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_83.png",
+      "sourceSha256": "9ea5c6cdd28ca21d5d6b2bdeefd3041e99d97adaf0948f4b19035f2ff0a36b7a",
+      "imageSha256": "9ea5c6cdd28ca21d5d6b2bdeefd3041e99d97adaf0948f4b19035f2ff0a36b7a"
+    },
+    {
+      "id": "pattern_84",
+      "name": "Pattern 84",
+      "image": "/images/locker/patterns/pattern_84.png",
+      "width": 512,
+      "height": 512,
+      "sourcePath": "game/character/studio/patterns/pattern_84.png",
+      "sourceSha256": "46c56dbc01bafb9431f2ec70ef785b3d623ccdb9bf855106276d4128d8566cd5",
+      "imageSha256": "46c56dbc01bafb9431f2ec70ef785b3d623ccdb9bf855106276d4128d8566cd5"
+    }
+  ],
+  "stickers": [
+    {
+      "id": "jvlogo_HD",
+      "name": "jvlogo HD",
+      "image": "/images/locker/stickers/jvlogo_HD.png",
+      "width": 4096,
+      "height": 1536,
+      "sourcePath": "game/logo/jvlogo_HD.png",
+      "sourceSha256": "dfaefd7277f577155a95b7478ed121985900d4e119ac9283e09106b915080bce",
+      "imageSha256": "dfaefd7277f577155a95b7478ed121985900d4e119ac9283e09106b915080bce"
+    },
+    {
+      "id": "ball_nationals",
+      "name": "ball nationals",
+      "image": "/images/locker/stickers/ball_nationals.png",
+      "width": 500,
+      "height": 500,
+      "sourcePath": "game/images/gameballs/ball_nationals.png",
+      "sourceSha256": "e60d4d7db7eb0f12594160daeda33937a9aafa33becf5ffd15a25fa96fddaa7f",
+      "imageSha256": "e60d4d7db7eb0f12594160daeda33937a9aafa33becf5ffd15a25fa96fddaa7f"
+    },
+    {
+      "id": "ball_outdoor",
+      "name": "ball outdoor",
+      "image": "/images/locker/stickers/ball_outdoor.png",
+      "width": 500,
+      "height": 500,
+      "sourcePath": "game/images/gameballs/ball_outdoor.png",
+      "sourceSha256": "03d3ea556a59beb47b78e3714b885073fdb6ec429acd64f23d6775ddce863719",
+      "imageSha256": "03d3ea556a59beb47b78e3714b885073fdb6ec429acd64f23d6775ddce863719"
+    },
+    {
+      "id": "ball_school",
+      "name": "ball school",
+      "image": "/images/locker/stickers/ball_school.png",
+      "width": 500,
+      "height": 500,
+      "sourcePath": "game/images/gameballs/ball_school.png",
+      "sourceSha256": "fd8705da3cb12b7bff6bd8c8ccd54ff8ef674b772ea75e59b52a71525d52a1ca",
+      "imageSha256": "fd8705da3cb12b7bff6bd8c8ccd54ff8ef674b772ea75e59b52a71525d52a1ca"
+    }
+  ],
+  "provenance": {
+    "method": "Byte-identical original PNG copies; no resizing or image conversion",
+    "sourceRoot": "D:\\wh\\202611\\just volleyball\\解包文件\\recovered_project",
+    "gameVersion": "1.0.3",
+    "stickerMenuSource": "game/character/studio/locker_studio.gd:81-90",
+    "patternSource": "game/character/studio/patterns/"
+  }
+}

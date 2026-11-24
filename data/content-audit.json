@@ -1,0 +1,105 @@
+{
+  "reviewedAt": "2026-11-23T08:16:34.595Z",
+  "method": "Individual catalog-page comparison, official Steam store/API and developer announcements, first-person community tutorial. Repeated aggregator data is not independent proof of an in-game test.",
+  "skinChecks": [
+    {
+      "slug": "hinata",
+      "sourceUrl": "https://jvlocker.com/s/90",
+      "imageSourceUrl": "https://img.jvlocker.com/20266eef-bf4c-49e6-b897-2ad1ab3933e5.webp",
+      "codeLength": 119,
+      "codeSha256": "902d7f5bdadb542065893c6190019b36cad50efbbada5906f2b3f614baef2f44",
+      "localPreviewSha256": "f6870d9f3e8e12314513500d69a35d47c8a23198499b78341e8627aae83509e1",
+      "sourceComparison": "Code and image URL manually compared with the individual source listing; exact match.",
+      "originalCreator": null,
+      "listingAccount": "@community",
+      "gameImportTested": false
+    },
+    {
+      "slug": "kageyama",
+      "sourceUrl": "https://jvlocker.com/s/91",
+      "imageSourceUrl": "https://img.jvlocker.com/5ada2a79-978c-415d-b8c7-fc6d595e4eb1.webp",
+      "codeLength": 120,
+      "codeSha256": "f0c8525db3d2394cdd700d72060d1d6ae12753e8cdbe6be6d1395f6fc1e450bf",
+      "localPreviewSha256": "321050fcbdc0563a1a04fd0e49cd343267ba6f654f315ff6cc43f79cf908c449",
+      "sourceComparison": "Code and image URL manually compared with the individual source listing; exact match.",
+      "originalCreator": null,
+      "listingAccount": "@community",
+      "gameImportTested": false
+    },
+    {
+      "slug": "gear-5-luffy",
+      "sourceUrl": "https://jvlocker.com/s/17",
+      "imageSourceUrl": "https://img.jvlocker.com/ab082672-856f-479b-add7-3a2d7bf4363d.webp",
+      "codeLength": 239,
+      "codeSha256": "643e5a0a47f70a3f274ecd210319e0eb9c20b6bd8e12caf81143ea7db6d49eb9",
+      "localPreviewSha256": "81ae875e8693ef9348a9cbb0e48dbd11658c47dbd963b4b3e7e0ab9fee236b09",
+      "sourceComparison": "Code and image URL manually compared with the individual source listing; exact match.",
+      "originalCreator": null,
+      "listingAccount": "@community",
+      "gameImportTested": false
+    },
+    {
+      "slug": "itadori-yuji",
+      "sourceUrl": "https://jvlocker.com/s/24",
+      "imageSourceUrl": "https://img.jvlocker.com/9349590c-4911-48fa-9c06-76356310d679.webp",
+      "codeLength": 196,
+      "codeSha256": "e0cefcc3eecf211517ff42c0f64ccdc8dad3140cb6376a8a63d5577105390e46",
+      "localPreviewSha256": "5f418163208804cecd9c2f439cb50ea046ad4b7de7e661b0ec0afbcbae9cd9f2",
+      "sourceComparison": "Code and image URL manually compared with the individual source listing; exact match.",
+      "originalCreator": null,
+      "listingAccount": "@community",
+      "gameImportTested": false
+    },
+    {
+      "slug": "nishinoya",
+      "sourceUrl": "https://jvlocker.com/s/96",
+      "imageSourceUrl": "https://img.jvlocker.com/ecb9c15b-707f-49a2-b9f1-9db9c5f64862.webp",
+      "codeLength": 144,
+      "codeSha256": "527d7c2b1d62be5383baa86a359136d3b1cdc48c580c38087c86cf86e282c051",
+      "localPreviewSha256": "5b8d9634d93530fe8640432582e87287adcd686bcc0c046532bb411918536358",
+      "sourceComparison": "Code and image URL manually compared with the individual source listing; exact match.",
+      "originalCreator": null,
+      "listingAccount": "@community",
+      "gameImportTested": false
+    },
+    {
+      "slug": "frieren",
+      "sourceUrl": "https://jvlocker.com/s/78",
+      "imageSourceUrl": "https://img.jvlocker.com/728ad999-0e79-4d2b-84b6-cb035aa33baa.webp",
+      "codeLength": 176,
+      "codeSha256": "e5444bde56a2be8576f3ffdf7c0015ad25fed2768e1c5ec290810b18a14ac4d5",
+      "localPreviewSha256": "4d12d644e6591bd60548dba8793509a641e9a389b5f8c5d4748d1c307bffe12b",
+      "sourceComparison": "Code and image URL manually compared with the individual source listing; exact match.",
+      "originalCreator": null,
+      "listingAccount": "@community",
+      "gameImportTested": false
+    }
+  ],
+  "officialSources": [
+    {
+      "topic": "Release and platform",
+      "url": "https://store.steampowered.com/app/5037200/"
+    },
+    {
+      "topic": "Official Discord invitation",
+      "url": "https://store.steampowered.com/news/app/5037200/view/1848664643360317",
+      "invite": "https://discord.gg/kKT98kf2wV"
+    },
+    {
+      "topic": "Demo announcement",
+      "url": "https://store.steampowered.com/news/app/5037200/view/1846651706691057",
+      "publishedAt": "2026-10-19T16:22:19Z"
+    },
+    {
+      "topic": "Community controls and jump-floater input",
+      "url": "https://note.com/asanue/n/n6f14084b0e6a",
+      "independentlyTested": false
+    }
+  ],
+  "lockerImage": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/ccd2413308fc6cabbc82c6e3d7bd813cc3b29889/ss_ccd2413308fc6cabbc82c6e3d7bd813cc3b29889.1920x1080.jpg?t=1794852941",
+    "source": "Official Steam appdetails screenshot id 8",
+    "path": "/images/game/locker.webp"
+  },
+  "publicationStatus": "Six source-listed community looks republished after game 1.0.3 static codec and resource checks; game import remains untested. See preset-evidence.json."
+}

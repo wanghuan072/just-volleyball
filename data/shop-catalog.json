@@ -1,0 +1,2994 @@
+{
+  "gameVersion": "1.0.3",
+  "titles": [
+    {
+      "id": "100_percent",
+      "name": "100%",
+      "price": 300
+    },
+    {
+      "id": "200_percent",
+      "name": "200%",
+      "price": 300
+    },
+    {
+      "id": "300",
+      "name": "300",
+      "price": 300
+    },
+    {
+      "id": "ace",
+      "name": "ace",
+      "price": 300
+    },
+    {
+      "id": "actual_giant",
+      "name": "Actual Giant",
+      "price": null,
+      "achievementId": "actual_giant",
+      "requirement": "save a character with the highest possible height"
+    },
+    {
+      "id": "addict",
+      "name": "addict",
+      "price": 150
+    },
+    {
+      "id": "afk",
+      "name": "AFK",
+      "price": 300
+    },
+    {
+      "id": "again",
+      "name": "again!",
+      "price": 300
+    },
+    {
+      "id": "agile",
+      "name": "agile",
+      "price": 150
+    },
+    {
+      "id": "air_fryer",
+      "name": "air fryer",
+      "price": 150
+    },
+    {
+      "id": "alchemist",
+      "name": "alchemist",
+      "price": 150
+    },
+    {
+      "id": "all_for_one",
+      "name": "all for one",
+      "price": 600
+    },
+    {
+      "id": "all_seeing",
+      "name": "all seeing",
+      "price": 300
+    },
+    {
+      "id": "alpha",
+      "name": "alpha",
+      "price": 300
+    },
+    {
+      "id": "always_look_up",
+      "name": "always look up",
+      "price": 600
+    },
+    {
+      "id": "always_looking_up",
+      "name": "always looking up",
+      "price": 600
+    },
+    {
+      "id": "angel",
+      "name": "angel",
+      "price": 150
+    },
+    {
+      "id": "animal",
+      "name": "animal",
+      "price": 150
+    },
+    {
+      "id": "anime",
+      "name": "anime",
+      "price": 150
+    },
+    {
+      "id": "annoying",
+      "name": "annoying",
+      "price": 150
+    },
+    {
+      "id": "antagonist",
+      "name": "antagonist",
+      "price": 150
+    },
+    {
+      "id": "anxious",
+      "name": "anxious",
+      "price": 150
+    },
+    {
+      "id": "assassin",
+      "name": "assassin",
+      "price": 150
+    },
+    {
+      "id": "aura",
+      "name": "aura",
+      "price": 150
+    },
+    {
+      "id": "avenger",
+      "name": "avenger",
+      "price": 300
+    },
+    {
+      "id": "back_and_forth",
+      "name": "back and forth",
+      "price": 300
+    },
+    {
+      "id": "baka",
+      "name": "baka",
+      "price": 300
+    },
+    {
+      "id": "ball_boy",
+      "name": "Ball Boy",
+      "price": null,
+      "achievementId": "ball_boy",
+      "requirement": "receive 1000 balls"
+    },
+    {
+      "id": "bam",
+      "name": "BAM",
+      "price": 300
+    },
+    {
+      "id": "bark",
+      "name": "bark",
+      "price": 150
+    },
+    {
+      "id": "bashful",
+      "name": "bashful",
+      "price": 150
+    },
+    {
+      "id": "be_strong",
+      "name": "be strong",
+      "price": 300
+    },
+    {
+      "id": "bean",
+      "name": "bean",
+      "price": 150
+    },
+    {
+      "id": "beautiful",
+      "name": "beautiful",
+      "price": 150
+    },
+    {
+      "id": "beginner",
+      "name": "beginner",
+      "price": 150
+    },
+    {
+      "id": "believer",
+      "name": "believer",
+      "price": 150
+    },
+    {
+      "id": "benchwarmer",
+      "name": "benchwarmer",
+      "price": 300
+    },
+    {
+      "id": "best_boy",
+      "name": "best boy",
+      "price": 300
+    },
+    {
+      "id": "best_girl",
+      "name": "best girl",
+      "price": 300
+    },
+    {
+      "id": "beta",
+      "name": "beta",
+      "price": 300
+    },
+    {
+      "id": "beyond",
+      "name": "beyond",
+      "price": 150
+    },
+    {
+      "id": "big_body",
+      "name": "Big Body",
+      "price": null,
+      "achievementId": "big_body",
+      "requirement": "score a point after breaking someone's block with a spike"
+    },
+    {
+      "id": "bipolar",
+      "name": "bipolar",
+      "price": 150
+    },
+    {
+      "id": "black_flash",
+      "name": "black flash",
+      "price": 600
+    },
+    {
+      "id": "blazing",
+      "name": "blazing",
+      "price": 150
+    },
+    {
+      "id": "bloom",
+      "name": "bloom",
+      "price": 150
+    },
+    {
+      "id": "blooming_talent",
+      "name": "blooming talent",
+      "price": 600
+    },
+    {
+      "id": "blud",
+      "name": "blud",
+      "price": 300
+    },
+    {
+      "id": "boke",
+      "name": "boke",
+      "price": 300
+    },
+    {
+      "id": "bordem",
+      "name": "bordem",
+      "price": 150
+    },
+    {
+      "id": "bored",
+      "name": "bored",
+      "price": 150
+    },
+    {
+      "id": "bot",
+      "name": "bot",
+      "price": 150
+    },
+    {
+      "id": "brazil",
+      "name": "brazil",
+      "price": 300
+    },
+    {
+      "id": "broken_heart",
+      "name": "broken heart",
+      "price": 300
+    },
+    {
+      "id": "burger",
+      "name": "burger",
+      "price": 150
+    },
+    {
+      "id": "butter_fingers",
+      "name": "butter fingers",
+      "price": 300
+    },
+    {
+      "id": "cannon",
+      "name": "cannon",
+      "price": 150
+    },
+    {
+      "id": "cap",
+      "name": "cap",
+      "price": 150
+    },
+    {
+      "id": "captain",
+      "name": "captain",
+      "price": 150
+    },
+    {
+      "id": "cartoon",
+      "name": "cartoon",
+      "price": 150
+    },
+    {
+      "id": "casual",
+      "name": "casual",
+      "price": 150
+    },
+    {
+      "id": "cat",
+      "name": "cat",
+      "price": 150
+    },
+    {
+      "id": "challenger",
+      "name": "challenger",
+      "price": 300
+    },
+    {
+      "id": "champion",
+      "name": "champion",
+      "price": 300
+    },
+    {
+      "id": "chan",
+      "name": "chan",
+      "price": 300
+    },
+    {
+      "id": "chibi",
+      "name": "chibi",
+      "price": 300
+    },
+    {
+      "id": "china",
+      "name": "china",
+      "price": 300
+    },
+    {
+      "id": "chitterputt",
+      "name": "ChitterPutt",
+      "price": 600
+    },
+    {
+      "id": "chopped",
+      "name": "chopped",
+      "price": 300
+    },
+    {
+      "id": "chosen_one",
+      "name": "chosen one",
+      "price": 300
+    },
+    {
+      "id": "chud",
+      "name": "chud",
+      "price": 300
+    },
+    {
+      "id": "clumsy",
+      "name": "clumsy",
+      "price": 150
+    },
+    {
+      "id": "clutch",
+      "name": "clutch",
+      "price": 300
+    },
+    {
+      "id": "clutz",
+      "name": "clutz",
+      "price": 150
+    },
+    {
+      "id": "collector",
+      "name": "collector",
+      "price": 150
+    },
+    {
+      "id": "complex",
+      "name": "complex",
+      "price": 150
+    },
+    {
+      "id": "confident",
+      "name": "confident",
+      "price": 150
+    },
+    {
+      "id": "connections",
+      "name": "connections",
+      "price": 150
+    },
+    {
+      "id": "content_creator",
+      "name": "content creator",
+      "price": 300
+    },
+    {
+      "id": "controller_player",
+      "name": "controller player",
+      "price": 300
+    },
+    {
+      "id": "cool",
+      "name": "cool",
+      "price": 150
+    },
+    {
+      "id": "corner_merchant",
+      "name": "corner merchant",
+      "price": 300
+    },
+    {
+      "id": "corny",
+      "name": "corny",
+      "price": 150
+    },
+    {
+      "id": "cosplay",
+      "name": "cosplay",
+      "price": 150
+    },
+    {
+      "id": "court_king",
+      "name": "King of The Court",
+      "price": null,
+      "achievementId": "court_king",
+      "requirement": "set 100 balls that resulted in a point"
+    },
+    {
+      "id": "cozy",
+      "name": "cozy",
+      "price": 150
+    },
+    {
+      "id": "cpu",
+      "name": "cpu",
+      "price": 300
+    },
+    {
+      "id": "crazy",
+      "name": "crazy",
+      "price": 150
+    },
+    {
+      "id": "cringe",
+      "name": "cringe",
+      "price": 150
+    },
+    {
+      "id": "critter",
+      "name": "critter",
+      "price": 150
+    },
+    {
+      "id": "crow",
+      "name": "crow",
+      "price": 150
+    },
+    {
+      "id": "curse",
+      "name": "curse",
+      "price": 150
+    },
+    {
+      "id": "cut_merchant",
+      "name": "cut merchant",
+      "price": 300
+    },
+    {
+      "id": "cute",
+      "name": "cute",
+      "price": 150
+    },
+    {
+      "id": "cutie",
+      "name": "cutie",
+      "price": 150
+    },
+    {
+      "id": "d1",
+      "name": "D1",
+      "price": 300
+    },
+    {
+      "id": "d2",
+      "name": "D2",
+      "price": 300
+    },
+    {
+      "id": "d3",
+      "name": "D3",
+      "price": 300
+    },
+    {
+      "id": "dark",
+      "name": "dark",
+      "price": 150
+    },
+    {
+      "id": "daydreamer",
+      "name": "daydreamer",
+      "price": 150
+    },
+    {
+      "id": "dayo",
+      "name": "dayo",
+      "price": 300
+    },
+    {
+      "id": "dead",
+      "name": "dead",
+      "price": 150
+    },
+    {
+      "id": "dead_calm",
+      "name": "dead calm",
+      "price": 300
+    },
+    {
+      "id": "decoy",
+      "name": "Decoy",
+      "price": null,
+      "achievementId": "decoy",
+      "requirement": "choose 10 as your jersey number"
+    },
+    {
+      "id": "defensive_specialist",
+      "name": "defensive specialist",
+      "price": 300
+    },
+    {
+      "id": "demon",
+      "name": "demon",
+      "price": 150
+    },
+    {
+      "id": "desperate",
+      "name": "desperate",
+      "price": 150
+    },
+    {
+      "id": "despicable",
+      "name": "despicable",
+      "price": 150
+    },
+    {
+      "id": "destiny",
+      "name": "destiny",
+      "price": 150
+    },
+    {
+      "id": "devin",
+      "name": "devin",
+      "price": 150
+    },
+    {
+      "id": "devoted",
+      "name": "devoted",
+      "price": 150
+    },
+    {
+      "id": "dingus",
+      "name": "dingus",
+      "price": 150
+    },
+    {
+      "id": "diva",
+      "name": "diva",
+      "price": 300
+    },
+    {
+      "id": "dive_pro",
+      "name": "dive pro",
+      "price": 300
+    },
+    {
+      "id": "diver",
+      "name": "diver",
+      "price": 150
+    },
+    {
+      "id": "divine",
+      "name": "divine",
+      "price": 150
+    },
+    {
+      "id": "dog",
+      "name": "dog",
+      "price": 150
+    },
+    {
+      "id": "dolphin",
+      "name": "dolphin",
+      "price": 150
+    },
+    {
+      "id": "domain",
+      "name": "domain",
+      "price": 300
+    },
+    {
+      "id": "donkey",
+      "name": "donkey",
+      "price": 150
+    },
+    {
+      "id": "dont_give_up",
+      "name": "Don't Give Up",
+      "price": null,
+      "achievementId": "dont_give_up",
+      "requirement": "earn a break point"
+    },
+    {
+      "id": "dont_look_down",
+      "name": "don't look down",
+      "price": 600
+    },
+    {
+      "id": "dont_mind",
+      "name": "don't mind",
+      "price": 300
+    },
+    {
+      "id": "dork",
+      "name": "dork",
+      "price": 150
+    },
+    {
+      "id": "downloaded",
+      "name": "downloaded",
+      "price": 150
+    },
+    {
+      "id": "dreamy",
+      "name": "dreamy",
+      "price": 150
+    },
+    {
+      "id": "drip",
+      "name": "drip",
+      "price": 300
+    },
+    {
+      "id": "duck",
+      "name": "duck",
+      "price": 150
+    },
+    {
+      "id": "easy",
+      "name": "easy",
+      "price": 150
+    },
+    {
+      "id": "eclipse",
+      "name": "eclipse",
+      "price": 150
+    },
+    {
+      "id": "effort",
+      "name": "effort",
+      "price": 150
+    },
+    {
+      "id": "ego",
+      "name": "ego",
+      "price": 150
+    },
+    {
+      "id": "egoist",
+      "name": "egoist",
+      "price": 150
+    },
+    {
+      "id": "elegant",
+      "name": "elegant",
+      "price": 150
+    },
+    {
+      "id": "embarrassed",
+      "name": "Embarrassed",
+      "price": null,
+      "achievementId": "embarrassed",
+      "requirement": "miss a receive, resulting in the ball deflecting off of you"
+    },
+    {
+      "id": "employed",
+      "name": "employed",
+      "price": 300
+    },
+    {
+      "id": "enthusiast",
+      "name": "enthusiast",
+      "price": 150
+    },
+    {
+      "id": "everyday",
+      "name": "everyday",
+      "price": 150
+    },
+    {
+      "id": "everyone",
+      "name": "@everyone",
+      "price": 600
+    },
+    {
+      "id": "evil",
+      "name": "evil",
+      "price": 150
+    },
+    {
+      "id": "evolution",
+      "name": "evolution",
+      "price": 150
+    },
+    {
+      "id": "expert",
+      "name": "expert",
+      "price": 150
+    },
+    {
+      "id": "ez",
+      "name": "ez",
+      "price": 300
+    },
+    {
+      "id": "face_cat",
+      "name": ":3",
+      "price": 300
+    },
+    {
+      "id": "face_first",
+      "name": "face first",
+      "price": 150
+    },
+    {
+      "id": "face_happy",
+      "name": "^_^",
+      "price": 300
+    },
+    {
+      "id": "face_receiver",
+      "name": "face receiver",
+      "price": 300
+    },
+    {
+      "id": "face_stare",
+      "name": "O_O",
+      "price": 300
+    },
+    {
+      "id": "face_wink",
+      "name": ";)",
+      "price": 300
+    },
+    {
+      "id": "fair",
+      "name": "fair",
+      "price": 150
+    },
+    {
+      "id": "faith",
+      "name": "faith",
+      "price": 150
+    },
+    {
+      "id": "fanatic",
+      "name": "fanatic",
+      "price": 150
+    },
+    {
+      "id": "fanboy",
+      "name": "fanboy",
+      "price": 300
+    },
+    {
+      "id": "fangirl",
+      "name": "fangirl",
+      "price": 300
+    },
+    {
+      "id": "fate",
+      "name": "fate",
+      "price": 150
+    },
+    {
+      "id": "fight",
+      "name": "fight",
+      "price": 150
+    },
+    {
+      "id": "fighter",
+      "name": "fighter",
+      "price": 150
+    },
+    {
+      "id": "finally_here",
+      "name": "finally here",
+      "price": 300
+    },
+    {
+      "id": "fire",
+      "name": "fire",
+      "price": 150
+    },
+    {
+      "id": "floor_inspector",
+      "name": "floor inspector",
+      "price": 300
+    },
+    {
+      "id": "fluffy",
+      "name": "fluffy",
+      "price": 150
+    },
+    {
+      "id": "fly",
+      "name": "Fly",
+      "price": null,
+      "achievementId": "fly",
+      "requirement": "bam jump for the first time"
+    },
+    {
+      "id": "fly_high",
+      "name": "Fly High",
+      "price": null,
+      "achievementId": "fly_high",
+      "requirement": "score a point after performing a bam jump"
+    },
+    {
+      "id": "fomo",
+      "name": "fomo",
+      "price": 300
+    },
+    {
+      "id": "football",
+      "name": "football",
+      "price": 150
+    },
+    {
+      "id": "four_eyes",
+      "name": "four eyes",
+      "price": 300
+    },
+    {
+      "id": "freak",
+      "name": "freak",
+      "price": 150
+    },
+    {
+      "id": "free_time",
+      "name": "free time",
+      "price": 300
+    },
+    {
+      "id": "free_to_play",
+      "name": "free to play",
+      "price": 300
+    },
+    {
+      "id": "freedom",
+      "name": "freedom",
+      "price": 150
+    },
+    {
+      "id": "freeze",
+      "name": "freeze",
+      "price": 150
+    },
+    {
+      "id": "friend",
+      "name": "friend",
+      "price": 150
+    },
+    {
+      "id": "fries",
+      "name": "fries",
+      "price": 150
+    },
+    {
+      "id": "from_the_concrete",
+      "name": "From the Concrete",
+      "price": null,
+      "achievementId": "from_the_concrete",
+      "requirement": "open just volleyball for the first time"
+    },
+    {
+      "id": "frutiger_aero",
+      "name": "frutiger aero",
+      "price": 600
+    },
+    {
+      "id": "full_auto",
+      "name": "full auto",
+      "price": 300
+    },
+    {
+      "id": "full_metal",
+      "name": "full metal",
+      "price": 600
+    },
+    {
+      "id": "full_power",
+      "name": "full power",
+      "price": 300
+    },
+    {
+      "id": "full_tilt",
+      "name": "full tilt",
+      "price": 300
+    },
+    {
+      "id": "funny",
+      "name": "funny",
+      "price": 150
+    },
+    {
+      "id": "fuwa_fuwa",
+      "name": "fuwa fuwa",
+      "price": 300
+    },
+    {
+      "id": "game_over",
+      "name": "game over",
+      "price": 300
+    },
+    {
+      "id": "gamer",
+      "name": "gamer",
+      "price": 150
+    },
+    {
+      "id": "gamer_dad",
+      "name": "gamer dad",
+      "price": 300
+    },
+    {
+      "id": "gamer_mom",
+      "name": "gamer mom",
+      "price": 300
+    },
+    {
+      "id": "gap",
+      "name": "gap",
+      "price": 150
+    },
+    {
+      "id": "gas",
+      "name": "gas",
+      "price": 300
+    },
+    {
+      "id": "geek",
+      "name": "geek",
+      "price": 150
+    },
+    {
+      "id": "genius",
+      "name": "genius",
+      "price": 150
+    },
+    {
+      "id": "genki",
+      "name": "genki",
+      "price": 300
+    },
+    {
+      "id": "getting_better",
+      "name": "Getting Better",
+      "price": null,
+      "achievementId": "getting_better",
+      "requirement": "win your first match"
+    },
+    {
+      "id": "gg",
+      "name": "GG",
+      "price": 300
+    },
+    {
+      "id": "gifted",
+      "name": "gifted",
+      "price": 150
+    },
+    {
+      "id": "gimmick",
+      "name": "gimmick",
+      "price": 150
+    },
+    {
+      "id": "glorp",
+      "name": "glorp",
+      "price": 150
+    },
+    {
+      "id": "go_next",
+      "name": "Go Next",
+      "price": null,
+      "achievementId": "go_next",
+      "requirement": "play 200 matches"
+    },
+    {
+      "id": "goat",
+      "name": "goat",
+      "price": 300
+    },
+    {
+      "id": "godot",
+      "name": "godot",
+      "price": 150
+    },
+    {
+      "id": "godspeed",
+      "name": "godspeed",
+      "price": 300
+    },
+    {
+      "id": "gomen",
+      "name": "gomen",
+      "price": 300
+    },
+    {
+      "id": "goody_two_shoes",
+      "name": "goody two-shoes",
+      "price": 300
+    },
+    {
+      "id": "goofball",
+      "name": "goofball",
+      "price": 150
+    },
+    {
+      "id": "goofy",
+      "name": "goofy",
+      "price": 150
+    },
+    {
+      "id": "greatest_decoy",
+      "name": "greatest decoy",
+      "price": 600
+    },
+    {
+      "id": "grind",
+      "name": "grind",
+      "price": 150
+    },
+    {
+      "id": "guardian_deity",
+      "name": "Guardian Deity",
+      "price": null,
+      "achievementId": "guardian_deity",
+      "requirement": "receive 100 balls with a dive"
+    },
+    {
+      "id": "guess_monster",
+      "name": "guess monster",
+      "price": 600
+    },
+    {
+      "id": "gym_rat",
+      "name": "Gym Rat",
+      "price": 150
+    },
+    {
+      "id": "habit",
+      "name": "habit",
+      "price": 150
+    },
+    {
+      "id": "halo",
+      "name": "halo",
+      "price": 150
+    },
+    {
+      "id": "hammer_time",
+      "name": "Hammer Time",
+      "price": 300
+    },
+    {
+      "id": "happy",
+      "name": "happy",
+      "price": 150
+    },
+    {
+      "id": "heart",
+      "name": "heart",
+      "price": 150
+    },
+    {
+      "id": "heartless",
+      "name": "heartless",
+      "price": 300
+    },
+    {
+      "id": "heavy_hitter",
+      "name": "Heavy Hitter",
+      "price": 300
+    },
+    {
+      "id": "heist",
+      "name": "heist",
+      "price": 150
+    },
+    {
+      "id": "her",
+      "name": "her",
+      "price": 150
+    },
+    {
+      "id": "hero",
+      "name": "hero",
+      "price": 150
+    },
+    {
+      "id": "hey_hey_hey",
+      "name": "hey hey hey!",
+      "price": 600
+    },
+    {
+      "id": "hey_lol",
+      "name": "hey lol",
+      "price": 300
+    },
+    {
+      "id": "hi",
+      "name": "hi",
+      "price": 150
+    },
+    {
+      "id": "hiatus",
+      "name": "hiatus",
+      "price": 150
+    },
+    {
+      "id": "hikikomori",
+      "name": "hikikomori",
+      "price": 300
+    },
+    {
+      "id": "him",
+      "name": "him",
+      "price": 150
+    },
+    {
+      "id": "hobbyist",
+      "name": "hobbyist",
+      "price": 150
+    },
+    {
+      "id": "hope",
+      "name": "hope",
+      "price": 150
+    },
+    {
+      "id": "hunger",
+      "name": "Hunger",
+      "price": null,
+      "achievementId": "hunger",
+      "requirement": "spike off the first touch"
+    },
+    {
+      "id": "hunter",
+      "name": "hunter",
+      "price": 150
+    },
+    {
+      "id": "hydrated",
+      "name": "hydrated",
+      "price": 150
+    },
+    {
+      "id": "hype",
+      "name": "hype",
+      "price": 150
+    },
+    {
+      "id": "hyper",
+      "name": "hyper",
+      "price": 150
+    },
+    {
+      "id": "ifykyk",
+      "name": "ifykyk",
+      "price": 300
+    },
+    {
+      "id": "im_better",
+      "name": "i'm better",
+      "price": 300
+    },
+    {
+      "id": "im_here",
+      "name": "i'm here",
+      "price": 300
+    },
+    {
+      "id": "immortal",
+      "name": "immortal",
+      "price": 300
+    },
+    {
+      "id": "impostor",
+      "name": "impostor",
+      "price": 600
+    },
+    {
+      "id": "infinity",
+      "name": "infinity",
+      "price": 150
+    },
+    {
+      "id": "insane",
+      "name": "insane",
+      "price": 150
+    },
+    {
+      "id": "inspirational",
+      "name": "inspirational",
+      "price": 300
+    },
+    {
+      "id": "iron_wall",
+      "name": "iron wall",
+      "price": 600
+    },
+    {
+      "id": "italy",
+      "name": "italy",
+      "price": 300
+    },
+    {
+      "id": "its_just_volleyball",
+      "name": "It's Just Volleyball",
+      "price": null,
+      "achievementId": "its_just_volleyball",
+      "requirement": "complete the tutorial"
+    },
+    {
+      "id": "its_time",
+      "name": "it's time",
+      "price": 300
+    },
+    {
+      "id": "jack_of_all",
+      "name": "jack of all",
+      "price": 300
+    },
+    {
+      "id": "japan",
+      "name": "japan",
+      "price": 300
+    },
+    {
+      "id": "john_volleyball",
+      "name": "John Volleyball",
+      "price": null,
+      "achievementId": "john_volleyball",
+      "requirement": "unlock every main achievement"
+    },
+    {
+      "id": "jokester",
+      "name": "jokester",
+      "price": 150
+    },
+    {
+      "id": "joy",
+      "name": "joy",
+      "price": 150
+    },
+    {
+      "id": "junior",
+      "name": "junior",
+      "price": 150
+    },
+    {
+      "id": "junkie",
+      "name": "junkie",
+      "price": 150
+    },
+    {
+      "id": "just_a_boy",
+      "name": "just a boy",
+      "price": 300
+    },
+    {
+      "id": "just_a_club",
+      "name": "just a club",
+      "price": 600
+    },
+    {
+      "id": "just_a_girl",
+      "name": "just a girl",
+      "price": 300
+    },
+    {
+      "id": "just_for_fun",
+      "name": "just for fun",
+      "price": 300
+    },
+    {
+      "id": "kansai",
+      "name": "kansai",
+      "price": 300
+    },
+    {
+      "id": "kawaii",
+      "name": "kawaii",
+      "price": 300
+    },
+    {
+      "id": "kbm",
+      "name": "KBM",
+      "price": 300
+    },
+    {
+      "id": "kitty",
+      "name": "kitty",
+      "price": 150
+    },
+    {
+      "id": "kokusen",
+      "name": "kokusen",
+      "price": 600
+    },
+    {
+      "id": "kun",
+      "name": "kun",
+      "price": 300
+    },
+    {
+      "id": "l_mans",
+      "name": "L mans",
+      "price": 300
+    },
+    {
+      "id": "larp",
+      "name": "larp",
+      "price": 150
+    },
+    {
+      "id": "last_boss",
+      "name": "last boss",
+      "price": 300
+    },
+    {
+      "id": "lazy",
+      "name": "lazy",
+      "price": 150
+    },
+    {
+      "id": "leader",
+      "name": "leader",
+      "price": 150
+    },
+    {
+      "id": "leap",
+      "name": "leap",
+      "price": 150
+    },
+    {
+      "id": "leap_of_faith",
+      "name": "Leap of Faith",
+      "price": null,
+      "achievementId": "leap_of_faith",
+      "requirement": "score a spike while your team is down on match point"
+    },
+    {
+      "id": "leg_day",
+      "name": "Leg Day",
+      "price": null,
+      "achievementId": "leg_day",
+      "requirement": "jump 1000 times"
+    },
+    {
+      "id": "legend",
+      "name": "legend",
+      "price": 150
+    },
+    {
+      "id": "liar",
+      "name": "liar",
+      "price": 150
+    },
+    {
+      "id": "libero",
+      "name": "libero",
+      "price": 300
+    },
+    {
+      "id": "life_line",
+      "name": "life line",
+      "price": 300
+    },
+    {
+      "id": "life_or_death",
+      "name": "life or death",
+      "price": 300
+    },
+    {
+      "id": "light",
+      "name": "light",
+      "price": 150
+    },
+    {
+      "id": "limit",
+      "name": "limit",
+      "price": 150
+    },
+    {
+      "id": "limitless",
+      "name": "limitless",
+      "price": 150
+    },
+    {
+      "id": "lion",
+      "name": "lion",
+      "price": 150
+    },
+    {
+      "id": "little_giant",
+      "name": "Little Giant",
+      "price": null,
+      "achievementId": "little_giant",
+      "requirement": "save a character with the lowest possible height"
+    },
+    {
+      "id": "lmao",
+      "name": "lmao",
+      "price": 300
+    },
+    {
+      "id": "locked_in",
+      "name": "locked in",
+      "price": 300
+    },
+    {
+      "id": "looking_up",
+      "name": "looking up",
+      "price": 300
+    },
+    {
+      "id": "loser",
+      "name": "loser",
+      "price": 150
+    },
+    {
+      "id": "love",
+      "name": "love",
+      "price": 150
+    },
+    {
+      "id": "lucky",
+      "name": "lucky",
+      "price": 150
+    },
+    {
+      "id": "m2_spam",
+      "name": "m2 spam",
+      "price": 300
+    },
+    {
+      "id": "machine",
+      "name": "machine",
+      "price": 150
+    },
+    {
+      "id": "mad",
+      "name": "mad",
+      "price": 150
+    },
+    {
+      "id": "mad_dog",
+      "name": "mad dog",
+      "price": 600
+    },
+    {
+      "id": "madness",
+      "name": "madness",
+      "price": 150
+    },
+    {
+      "id": "mage",
+      "name": "mage",
+      "price": 150
+    },
+    {
+      "id": "manipulator",
+      "name": "manipulator",
+      "price": 300
+    },
+    {
+      "id": "marathon",
+      "name": "marathon",
+      "price": 150
+    },
+    {
+      "id": "memories",
+      "name": "memories",
+      "price": 150
+    },
+    {
+      "id": "menace",
+      "name": "menace",
+      "price": 300
+    },
+    {
+      "id": "mental",
+      "name": "mental",
+      "price": 150
+    },
+    {
+      "id": "meow",
+      "name": "meow",
+      "price": 150
+    },
+    {
+      "id": "mid",
+      "name": "mid",
+      "price": 300
+    },
+    {
+      "id": "middle_blocker",
+      "name": "middle blocker",
+      "price": 300
+    },
+    {
+      "id": "mine",
+      "name": "mine",
+      "price": 150
+    },
+    {
+      "id": "minion",
+      "name": "minion",
+      "price": 150
+    },
+    {
+      "id": "minus_tempo",
+      "name": "minus tempo",
+      "price": 600
+    },
+    {
+      "id": "mo_ippon",
+      "name": "mo ippon",
+      "price": 600
+    },
+    {
+      "id": "mobile",
+      "name": "mobile",
+      "price": 150
+    },
+    {
+      "id": "mobile_player",
+      "name": "mobile player",
+      "price": 300
+    },
+    {
+      "id": "moe",
+      "name": "moe",
+      "price": 300
+    },
+    {
+      "id": "mom",
+      "name": "mom",
+      "price": 150
+    },
+    {
+      "id": "money_spread",
+      "name": "money spread",
+      "price": 10000
+    },
+    {
+      "id": "moot",
+      "name": "moot",
+      "price": 300
+    },
+    {
+      "id": "motion",
+      "name": "motion",
+      "price": 150
+    },
+    {
+      "id": "motion_controls",
+      "name": "motion controls",
+      "price": 300
+    },
+    {
+      "id": "mr_average",
+      "name": "mr average",
+      "price": 300
+    },
+    {
+      "id": "mud",
+      "name": "mud",
+      "price": 150
+    },
+    {
+      "id": "musician",
+      "name": "musician",
+      "price": 150
+    },
+    {
+      "id": "my_story",
+      "name": "my story",
+      "price": 300
+    },
+    {
+      "id": "my_time",
+      "name": "my time",
+      "price": 300
+    },
+    {
+      "id": "nah_id_win",
+      "name": "nah, i'd win",
+      "price": 600
+    },
+    {
+      "id": "neck_and_neck",
+      "name": "Neck and Neck",
+      "price": null,
+      "achievementId": "neck_and_neck",
+      "requirement": "win a deuce set"
+    },
+    {
+      "id": "neet",
+      "name": "neet",
+      "price": 300
+    },
+    {
+      "id": "neko",
+      "name": "neko",
+      "price": 300
+    },
+    {
+      "id": "nerd",
+      "name": "nerd",
+      "price": 150
+    },
+    {
+      "id": "net_magnet",
+      "name": "net magnet",
+      "price": 300
+    },
+    {
+      "id": "never_give_up",
+      "name": "never give up",
+      "price": 300
+    },
+    {
+      "id": "new_frontier",
+      "name": "new frontier",
+      "price": 300
+    },
+    {
+      "id": "new_king",
+      "name": "new king",
+      "price": 300
+    },
+    {
+      "id": "nice_receive",
+      "name": "nice receive",
+      "price": 300
+    },
+    {
+      "id": "nice_serve",
+      "name": "Nice Serve!",
+      "price": null,
+      "achievementId": "nice_serve",
+      "requirement": "score your first ace on a serve"
+    },
+    {
+      "id": "ninja",
+      "name": "ninja",
+      "price": 150
+    },
+    {
+      "id": "nobody",
+      "name": "nobody",
+      "price": 300
+    },
+    {
+      "id": "noob",
+      "name": "noob",
+      "price": 150
+    },
+    {
+      "id": "nostalgic",
+      "name": "nostalgic",
+      "price": 150
+    },
+    {
+      "id": "not_alone",
+      "name": "Not Alone",
+      "price": null,
+      "achievementId": "not_alone",
+      "requirement": "score a point after a combo of three"
+    },
+    {
+      "id": "npc",
+      "name": "npc",
+      "price": 300
+    },
+    {
+      "id": "number_1",
+      "name": "#1",
+      "price": 600
+    },
+    {
+      "id": "number_10",
+      "name": "#10",
+      "price": 150
+    },
+    {
+      "id": "number_2",
+      "name": "#2",
+      "price": 300
+    },
+    {
+      "id": "number_3",
+      "name": "#3",
+      "price": 300
+    },
+    {
+      "id": "number_4",
+      "name": "#4",
+      "price": 150
+    },
+    {
+      "id": "number_5",
+      "name": "#5",
+      "price": 150
+    },
+    {
+      "id": "number_6",
+      "name": "#6",
+      "price": 150
+    },
+    {
+      "id": "number_7",
+      "name": "#7",
+      "price": 150
+    },
+    {
+      "id": "number_8",
+      "name": "#8",
+      "price": 150
+    },
+    {
+      "id": "number_9",
+      "name": "#9",
+      "price": 150
+    },
+    {
+      "id": "one_crazy_idea",
+      "name": "one crazy idea",
+      "price": 600
+    },
+    {
+      "id": "one_for_all",
+      "name": "one for all",
+      "price": 600
+    },
+    {
+      "id": "one_man_army",
+      "name": "one man army",
+      "price": 300
+    },
+    {
+      "id": "one_more",
+      "name": "one more",
+      "price": 300
+    },
+    {
+      "id": "one_more_point",
+      "name": "one more point",
+      "price": 600
+    },
+    {
+      "id": "oomf",
+      "name": "oomf",
+      "price": 300
+    },
+    {
+      "id": "oops",
+      "name": "oops",
+      "price": 150
+    },
+    {
+      "id": "open",
+      "name": "Open!",
+      "price": null,
+      "achievementId": "open",
+      "requirement": "set a high ball, resulting in a point"
+    },
+    {
+      "id": "opposite_hitter",
+      "name": "opposite hitter",
+      "price": 300
+    },
+    {
+      "id": "out_of_steam",
+      "name": "Out of Steam",
+      "price": null,
+      "achievementId": "out_of_steam",
+      "requirement": "get burnt out in the middle of a match"
+    },
+    {
+      "id": "outdoors_volleyball",
+      "name": "outdoors volleyball",
+      "price": 150
+    },
+    {
+      "id": "outside_hitter",
+      "name": "outside hitter",
+      "price": 300
+    },
+    {
+      "id": "overrated",
+      "name": "overrated",
+      "price": 300
+    },
+    {
+      "id": "overthinker",
+      "name": "overthinker",
+      "price": 150
+    },
+    {
+      "id": "owari_da",
+      "name": "owari da",
+      "price": 600
+    },
+    {
+      "id": "owo",
+      "name": "owo",
+      "price": 300
+    },
+    {
+      "id": "panic_diver",
+      "name": "panic diver",
+      "price": 300
+    },
+    {
+      "id": "pathetic",
+      "name": "pathetic",
+      "price": 150
+    },
+    {
+      "id": "patient",
+      "name": "patient",
+      "price": 150
+    },
+    {
+      "id": "peachy",
+      "name": "peachy",
+      "price": 150
+    },
+    {
+      "id": "peak",
+      "name": "peak",
+      "price": 300
+    },
+    {
+      "id": "pick_yourself_up",
+      "name": "Pick Yourself Up",
+      "price": null,
+      "achievementId": "pick_yourself_up",
+      "requirement": "win a match after losing your previous match"
+    },
+    {
+      "id": "pieces_of_powder",
+      "name": "pieces of powder",
+      "price": 600
+    },
+    {
+      "id": "pinch_server",
+      "name": "Pinch Server",
+      "price": null,
+      "achievementId": "pinch_server",
+      "requirement": "win the point off your jump float serve"
+    },
+    {
+      "id": "pixels",
+      "name": "pixels",
+      "price": 150
+    },
+    {
+      "id": "planned",
+      "name": "Planned",
+      "price": null,
+      "achievementId": "planned",
+      "requirement": "score a point using your foot"
+    },
+    {
+      "id": "platinum_goofy",
+      "name": "platinum goofy",
+      "price": 300
+    },
+    {
+      "id": "play_to_win",
+      "name": "play to win",
+      "price": 300
+    },
+    {
+      "id": "playmaker",
+      "name": "playmaker",
+      "price": 300
+    },
+    {
+      "id": "plotting",
+      "name": "plotting",
+      "price": 150
+    },
+    {
+      "id": "poland",
+      "name": "poland",
+      "price": 300
+    },
+    {
+      "id": "polished_instinct",
+      "name": "polished instinct",
+      "price": 600
+    },
+    {
+      "id": "precision",
+      "name": "Precision",
+      "price": null,
+      "achievementId": "precision",
+      "requirement": "score a point that landed on the line"
+    },
+    {
+      "id": "prepared",
+      "name": "prepared",
+      "price": 150
+    },
+    {
+      "id": "pretty",
+      "name": "pretty",
+      "price": 150
+    },
+    {
+      "id": "prodigy",
+      "name": "prodigy",
+      "price": 150
+    },
+    {
+      "id": "professional",
+      "name": "professional",
+      "price": 150
+    },
+    {
+      "id": "promise",
+      "name": "promise",
+      "price": 150
+    },
+    {
+      "id": "protagonist",
+      "name": "protagonist",
+      "price": 150
+    },
+    {
+      "id": "pure",
+      "name": "pure",
+      "price": 150
+    },
+    {
+      "id": "queen_of_the_court",
+      "name": "Queen of The Court",
+      "price": null,
+      "achievementId": "court_king",
+      "requirement": "set 100 balls that resulted in a point"
+    },
+    {
+      "id": "quick_attack",
+      "name": "quick attack",
+      "price": 300
+    },
+    {
+      "id": "quick_merchant",
+      "name": "quick merchant",
+      "price": 300
+    },
+    {
+      "id": "quickster",
+      "name": "quickster",
+      "price": 150
+    },
+    {
+      "id": "rage",
+      "name": "rage",
+      "price": 150
+    },
+    {
+      "id": "rally",
+      "name": "rally",
+      "price": 150
+    },
+    {
+      "id": "random",
+      "name": "random",
+      "price": 150
+    },
+    {
+      "id": "rebirth",
+      "name": "rebirth",
+      "price": 150
+    },
+    {
+      "id": "recreational",
+      "name": "recreational",
+      "price": 150
+    },
+    {
+      "id": "ref",
+      "name": "ref",
+      "price": 150
+    },
+    {
+      "id": "referee",
+      "name": "referee",
+      "price": 300
+    },
+    {
+      "id": "regular",
+      "name": "Regular",
+      "price": 150
+    },
+    {
+      "id": "reincarnated",
+      "name": "reincarnated",
+      "price": 300
+    },
+    {
+      "id": "repost",
+      "name": "repost",
+      "price": 150
+    },
+    {
+      "id": "retro",
+      "name": "retro",
+      "price": 150
+    },
+    {
+      "id": "revenger",
+      "name": "revenger",
+      "price": 300
+    },
+    {
+      "id": "rising_star",
+      "name": "rising star",
+      "price": 300
+    },
+    {
+      "id": "rival",
+      "name": "rival",
+      "price": 150
+    },
+    {
+      "id": "robot",
+      "name": "robot",
+      "price": 150
+    },
+    {
+      "id": "rolling_thunder",
+      "name": "Rolling Thunder",
+      "price": null,
+      "achievementId": "rolling_thunder",
+      "requirement": "save a ball while using the side roll"
+    },
+    {
+      "id": "romantic",
+      "name": "romantic",
+      "price": 150
+    },
+    {
+      "id": "rookie",
+      "name": "rookie",
+      "price": 150
+    },
+    {
+      "id": "runner",
+      "name": "runner",
+      "price": 150
+    },
+    {
+      "id": "russia",
+      "name": "russia",
+      "price": 300
+    },
+    {
+      "id": "sama",
+      "name": "sama",
+      "price": 300
+    },
+    {
+      "id": "san",
+      "name": "san",
+      "price": 300
+    },
+    {
+      "id": "sasageyo",
+      "name": "sasageyo!",
+      "price": 600
+    },
+    {
+      "id": "save",
+      "name": "save",
+      "price": 150
+    },
+    {
+      "id": "savior",
+      "name": "savior",
+      "price": 300
+    },
+    {
+      "id": "second_nature",
+      "name": "second nature",
+      "price": 300
+    },
+    {
+      "id": "self_worth",
+      "name": "self worth",
+      "price": 300
+    },
+    {
+      "id": "senpai",
+      "name": "senpai",
+      "price": 300
+    },
+    {
+      "id": "sensei",
+      "name": "sensei",
+      "price": 300
+    },
+    {
+      "id": "serbia",
+      "name": "serbia",
+      "price": 300
+    },
+    {
+      "id": "setter",
+      "name": "setter",
+      "price": 300
+    },
+    {
+      "id": "shadow",
+      "name": "shadow",
+      "price": 150
+    },
+    {
+      "id": "sharpshooter",
+      "name": "sharpshooter",
+      "price": 300
+    },
+    {
+      "id": "shine",
+      "name": "shine",
+      "price": 150
+    },
+    {
+      "id": "shojo",
+      "name": "shojo",
+      "price": 300
+    },
+    {
+      "id": "showstopper",
+      "name": "showstopper",
+      "price": 300
+    },
+    {
+      "id": "shrimp",
+      "name": "shrimp",
+      "price": 150
+    },
+    {
+      "id": "shut_in",
+      "name": "shut in",
+      "price": 300
+    },
+    {
+      "id": "sigma",
+      "name": "sigma",
+      "price": 300
+    },
+    {
+      "id": "silly",
+      "name": "silly",
+      "price": 150
+    },
+    {
+      "id": "silly_billy",
+      "name": "silly billy",
+      "price": 300
+    },
+    {
+      "id": "silly_goose",
+      "name": "silly goose",
+      "price": 300
+    },
+    {
+      "id": "simple",
+      "name": "simple",
+      "price": 150
+    },
+    {
+      "id": "simple_volleyball",
+      "name": "simple volleyball",
+      "price": 300
+    },
+    {
+      "id": "sinister",
+      "name": "sinister",
+      "price": 150
+    },
+    {
+      "id": "six_eyes",
+      "name": "six eyes",
+      "price": 600
+    },
+    {
+      "id": "skill_gap",
+      "name": "skill gap",
+      "price": 300
+    },
+    {
+      "id": "sksksk",
+      "name": "SKSKSK",
+      "price": 300
+    },
+    {
+      "id": "sleepy",
+      "name": "sleepy",
+      "price": 150
+    },
+    {
+      "id": "smash_every_wall",
+      "name": "smash every wall",
+      "price": 600
+    },
+    {
+      "id": "smelly",
+      "name": "smelly",
+      "price": 150
+    },
+    {
+      "id": "so_retro",
+      "name": "so retro",
+      "price": 300
+    },
+    {
+      "id": "soccer",
+      "name": "soccer",
+      "price": 150
+    },
+    {
+      "id": "soul",
+      "name": "soul",
+      "price": 150
+    },
+    {
+      "id": "specs",
+      "name": "specs",
+      "price": 150
+    },
+    {
+      "id": "speed",
+      "name": "speed",
+      "price": 150
+    },
+    {
+      "id": "speedster",
+      "name": "speedster",
+      "price": 150
+    },
+    {
+      "id": "spiker",
+      "name": "spiker",
+      "price": 150
+    },
+    {
+      "id": "sports_fan",
+      "name": "sports fan",
+      "price": 300
+    },
+    {
+      "id": "stand_proud",
+      "name": "stand proud",
+      "price": 600
+    },
+    {
+      "id": "star",
+      "name": "star",
+      "price": 150
+    },
+    {
+      "id": "start_today",
+      "name": "start today",
+      "price": 300
+    },
+    {
+      "id": "stellar",
+      "name": "stellar",
+      "price": 150
+    },
+    {
+      "id": "streamer",
+      "name": "streamer",
+      "price": 300
+    },
+    {
+      "id": "strong",
+      "name": "strong",
+      "price": 150
+    },
+    {
+      "id": "studious",
+      "name": "studious",
+      "price": 150
+    },
+    {
+      "id": "stupid",
+      "name": "stupid",
+      "price": 150
+    },
+    {
+      "id": "stutter",
+      "name": "stutter",
+      "price": 150
+    },
+    {
+      "id": "sunshine",
+      "name": "sunshine",
+      "price": 150
+    },
+    {
+      "id": "superstar",
+      "name": "SuperStar",
+      "price": 300
+    },
+    {
+      "id": "surpassing_limits",
+      "name": "Surpassing Limits",
+      "price": null,
+      "achievementId": "surpassing_limits",
+      "requirement": "get two dive receives back to back"
+    },
+    {
+      "id": "swag",
+      "name": "swag",
+      "price": 300
+    },
+    {
+      "id": "sweat",
+      "name": "sweat",
+      "price": 150
+    },
+    {
+      "id": "sweetheart",
+      "name": "sweetheart",
+      "price": 150
+    },
+    {
+      "id": "swifty",
+      "name": "swifty",
+      "price": 300
+    },
+    {
+      "id": "talented",
+      "name": "talented",
+      "price": 150
+    },
+    {
+      "id": "tea_time",
+      "name": "tea time",
+      "price": 300
+    },
+    {
+      "id": "team_player",
+      "name": "team player",
+      "price": 300
+    },
+    {
+      "id": "tenacity",
+      "name": "tenacity",
+      "price": 150
+    },
+    {
+      "id": "the_ace",
+      "name": "The Ace",
+      "price": null,
+      "achievementId": "the_ace",
+      "requirement": "gain 100 points from spikes"
+    },
+    {
+      "id": "the_beginning",
+      "name": "the beginning",
+      "price": 300
+    },
+    {
+      "id": "the_end",
+      "name": "the end",
+      "price": 300
+    },
+    {
+      "id": "the_honored_one",
+      "name": "the honored one",
+      "price": 600
+    },
+    {
+      "id": "the_wall",
+      "name": "The Wall",
+      "price": 600
+    },
+    {
+      "id": "the_worst_one",
+      "name": "the worst one",
+      "price": 300
+    },
+    {
+      "id": "they",
+      "name": "they",
+      "price": 150
+    },
+    {
+      "id": "threat",
+      "name": "threat",
+      "price": 150
+    },
+    {
+      "id": "throw",
+      "name": "throw",
+      "price": 150
+    },
+    {
+      "id": "time_traveler",
+      "name": "time traveler",
+      "price": 300
+    },
+    {
+      "id": "timeless_hero",
+      "name": "timeless hero",
+      "price": 600
+    },
+    {
+      "id": "tmko",
+      "name": "tmko",
+      "price": 300
+    },
+    {
+      "id": "tobe",
+      "name": "tobe",
+      "price": 600
+    },
+    {
+      "id": "together",
+      "name": "together",
+      "price": 150
+    },
+    {
+      "id": "token",
+      "name": "token",
+      "price": 150
+    },
+    {
+      "id": "tokyo",
+      "name": "tokyo",
+      "price": 300
+    },
+    {
+      "id": "tomodachi",
+      "name": "tomodachi",
+      "price": 300
+    },
+    {
+      "id": "troll",
+      "name": "troll",
+      "price": 150
+    },
+    {
+      "id": "trust",
+      "name": "trust",
+      "price": 150
+    },
+    {
+      "id": "try_hard",
+      "name": "try hard",
+      "price": 300
+    },
+    {
+      "id": "tryhard",
+      "name": "tryhard",
+      "price": 300
+    },
+    {
+      "id": "tsundere",
+      "name": "tsundere",
+      "price": 300
+    },
+    {
+      "id": "tuff",
+      "name": "tuff",
+      "price": 300
+    },
+    {
+      "id": "tutorial",
+      "name": "tutorial",
+      "price": 150
+    },
+    {
+      "id": "twin",
+      "name": "twin",
+      "price": 150
+    },
+    {
+      "id": "ugly",
+      "name": "ugly",
+      "price": 150
+    },
+    {
+      "id": "ultimate_weapon",
+      "name": "Ultimate Weapon",
+      "price": null,
+      "achievementId": "ultimate_weapon",
+      "requirement": "score a quick attack"
+    },
+    {
+      "id": "undead",
+      "name": "undead",
+      "price": 150
+    },
+    {
+      "id": "underrated",
+      "name": "underrated",
+      "price": 300
+    },
+    {
+      "id": "unemployed",
+      "name": "unemployed",
+      "price": 300
+    },
+    {
+      "id": "united_states",
+      "name": "united states",
+      "price": 300
+    },
+    {
+      "id": "unknown",
+      "name": "unknown",
+      "price": 150
+    },
+    {
+      "id": "unleashed",
+      "name": "unleashed",
+      "price": 150
+    },
+    {
+      "id": "unlucky",
+      "name": "unlucky",
+      "price": 150
+    },
+    {
+      "id": "unpredictable",
+      "name": "Unpredictable",
+      "price": null,
+      "achievementId": "unpredictable",
+      "requirement": "block an attack by shifting your hands"
+    },
+    {
+      "id": "usa",
+      "name": "USA",
+      "price": 300
+    },
+    {
+      "id": "uwu",
+      "name": "uwu",
+      "price": 300
+    },
+    {
+      "id": "valid",
+      "name": "valid",
+      "price": 300
+    },
+    {
+      "id": "vibes",
+      "name": "vibes",
+      "price": 150
+    },
+    {
+      "id": "viral",
+      "name": "viral",
+      "price": 150
+    },
+    {
+      "id": "virtual_reality",
+      "name": "virtual reality",
+      "price": 150
+    },
+    {
+      "id": "void",
+      "name": "void",
+      "price": 150
+    },
+    {
+      "id": "volleyball",
+      "name": "volleyball",
+      "price": 150
+    },
+    {
+      "id": "w_mans",
+      "name": "W mans",
+      "price": 300
+    },
+    {
+      "id": "wall_up",
+      "name": "Wall Up",
+      "price": 300
+    },
+    {
+      "id": "wallbreaker",
+      "name": "wallbreaker",
+      "price": 300
+    },
+    {
+      "id": "warm_up",
+      "name": "Warm Up",
+      "price": 150
+    },
+    {
+      "id": "wasd",
+      "name": "WASD",
+      "price": 300
+    },
+    {
+      "id": "washed",
+      "name": "washed",
+      "price": 300
+    },
+    {
+      "id": "way_of_the_ace",
+      "name": "way of the ace",
+      "price": 600
+    },
+    {
+      "id": "we_got_next",
+      "name": "we got next",
+      "price": 300
+    },
+    {
+      "id": "weak",
+      "name": "weak",
+      "price": 150
+    },
+    {
+      "id": "who_youll_become",
+      "name": "who you'll become",
+      "price": 600
+    },
+    {
+      "id": "wholesome",
+      "name": "wholesome",
+      "price": 150
+    },
+    {
+      "id": "wildcard",
+      "name": "wildcard",
+      "price": 150
+    },
+    {
+      "id": "wing",
+      "name": "wing",
+      "price": 150
+    },
+    {
+      "id": "winner",
+      "name": "winner",
+      "price": 150
+    },
+    {
+      "id": "witch",
+      "name": "witch",
+      "price": 150
+    },
+    {
+      "id": "wonder",
+      "name": "wonder",
+      "price": 150
+    },
+    {
+      "id": "worth",
+      "name": "worth",
+      "price": 150
+    },
+    {
+      "id": "xd",
+      "name": "XD",
+      "price": 300
+    },
+    {
+      "id": "yaoi",
+      "name": "yaoi",
+      "price": 300
+    },
+    {
+      "id": "yapper",
+      "name": "Yapper",
+      "price": null,
+      "achievementId": "yapper",
+      "requirement": "use quick chat 1000 times"
+    },
+    {
+      "id": "yuri",
+      "name": "yuri",
+      "price": 300
+    },
+    {
+      "id": "zen",
+      "name": "zen",
+      "price": 150
+    },
+    {
+      "id": "zigzag",
+      "name": "ZigZag",
+      "price": 300
+    }
+  ],
+  "effects": [
+    {
+      "id": "black_sparks",
+      "name": "black sparks",
+      "price": 1500
+    },
+    {
+      "id": "bouncy",
+      "name": "bouncy",
+      "price": 400
+    },
+    {
+      "id": "camo",
+      "name": "camo",
+      "price": 200
+    },
+    {
+      "id": "checker",
+      "name": "checkers",
+      "price": 200
+    },
+    {
+      "id": "chrome",
+      "name": "chrome",
+      "price": 400
+    },
+    {
+      "id": "confetti",
+      "name": "confetti",
+      "price": 700
+    },
+    {
+      "id": "crown",
+      "name": "crown",
+      "price": 700
+    },
+    {
+      "id": "curse",
+      "name": "curse",
+      "price": 700
+    },
+    {
+      "id": "cutesy",
+      "name": "cutesy",
+      "price": 700
+    },
+    {
+      "id": "electric",
+      "name": "electric",
+      "price": 700
+    },
+    {
+      "id": "glitch",
+      "name": "glitch",
+      "price": 1000
+    },
+    {
+      "id": "glow",
+      "name": "glow",
+      "price": 200
+    },
+    {
+      "id": "hologram",
+      "name": "hologram",
+      "price": 700
+    },
+    {
+      "id": "lava",
+      "name": "lava",
+      "price": 700
+    },
+    {
+      "id": "pixel",
+      "name": "8bit",
+      "price": 400
+    },
+    {
+      "id": "polka",
+      "name": "polka dots",
+      "price": 200
+    },
+    {
+      "id": "rainbow",
+      "name": "rainbow",
+      "price": 1000
+    },
+    {
+      "id": "stage_beach",
+      "name": "beach",
+      "price": 200
+    },
+    {
+      "id": "stage_clouds",
+      "name": "clouds",
+      "price": 200
+    },
+    {
+      "id": "stage_grass",
+      "name": "grass court",
+      "price": 200
+    },
+    {
+      "id": "stage_nationals",
+      "name": "nationals arena",
+      "price": 200
+    },
+    {
+      "id": "stage_outer_space",
+      "name": "outer space",
+      "price": 200
+    },
+    {
+      "id": "stage_practice",
+      "name": "practice gym",
+      "price": 200
+    },
+    {
+      "id": "stage_school",
+      "name": "school gym",
+      "price": 200
+    },
+    {
+      "id": "stage_tutorial",
+      "name": "tutorial",
+      "price": 200
+    },
+    {
+      "id": "stars",
+      "name": "space",
+      "price": 400
+    },
+    {
+      "id": "typewriter",
+      "name": "typewriter",
+      "price": 400
+    },
+    {
+      "id": "volleyballs",
+      "name": "volleyballs",
+      "price": 400
+    },
+    {
+      "id": "water",
+      "name": "water",
+      "price": 400
+    },
+    {
+      "id": "wiggle",
+      "name": "wiggle",
+      "price": 400
+    }
+  ],
+  "freeEffects": [
+    {
+      "id": "flag_ar",
+      "name": "argentina flag",
+      "price": 0
+    },
+    {
+      "id": "flag_au",
+      "name": "australia flag",
+      "price": 0
+    },
+    {
+      "id": "flag_br",
+      "name": "brazil flag",
+      "price": 0
+    },
+    {
+      "id": "flag_ca",
+      "name": "canada flag",
+      "price": 0
+    },
+    {
+      "id": "flag_cn",
+      "name": "china flag",
+      "price": 0
+    },
+    {
+      "id": "flag_de",
+      "name": "germany flag",
+      "price": 0
+    },
+    {
+      "id": "flag_es",
+      "name": "spain flag",
+      "price": 0
+    },
+    {
+      "id": "flag_fr",
+      "name": "france flag",
+      "price": 0
+    },
+    {
+      "id": "flag_gb",
+      "name": "uk flag",
+      "price": 0
+    },
+    {
+      "id": "flag_hu",
+      "name": "hungary flag",
+      "price": 0
+    },
+    {
+      "id": "flag_it",
+      "name": "italy flag",
+      "price": 0
+    },
+    {
+      "id": "flag_jp",
+      "name": "japan flag",
+      "price": 0
+    },
+    {
+      "id": "flag_mx",
+      "name": "mexico flag",
+      "price": 0
+    },
+    {
+      "id": "flag_nl",
+      "name": "netherlands flag",
+      "price": 0
+    },
+    {
+      "id": "flag_ph",
+      "name": "philippines flag",
+      "price": 0
+    },
+    {
+      "id": "flag_pl",
+      "name": "poland flag",
+      "price": 0
+    },
+    {
+      "id": "flag_pt",
+      "name": "portugal flag",
+      "price": 0
+    },
+    {
+      "id": "flag_rs",
+      "name": "serbia flag",
+      "price": 0
+    },
+    {
+      "id": "flag_ru",
+      "name": "russia flag",
+      "price": 0
+    },
+    {
+      "id": "flag_tr",
+      "name": "turkey flag",
+      "price": 0
+    },
+    {
+      "id": "flag_ua",
+      "name": "ukraine flag",
+      "price": 0
+    },
+    {
+      "id": "flag_us",
+      "name": "usa flag",
+      "price": 0
+    }
+  ]
+}

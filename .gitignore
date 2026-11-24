@@ -1,0 +1,63 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Generated native Locker runtime and machine-specific setup
+artifacts/locker-runtime/
+artifacts/locker-engine/local-config.json
+artifacts/locker-engine/locker-render.pck
+artifacts/locker-engine/manifest.json
+artifacts/locker-engine/overlay/
+
+# Local investigation captures, native binaries and generated renderer packs.
+# Keep the reproducible renderer sources and test fixtures in the repository.
+artifacts/*
+!artifacts/locker-engine/
+!artifacts/quarantined-skins/
+!artifacts/prelaunch-audit-*.md
+artifacts/locker-engine/*
+!artifacts/locker-engine/README.md
+!artifacts/locker-engine/prepare.py
+!artifacts/locker-engine/locker-driver.gd
+!artifacts/locker-engine/locker-driver.tscn
+
+__pycache__/
+*.py[cod]

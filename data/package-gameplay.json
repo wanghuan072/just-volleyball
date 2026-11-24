@@ -1,0 +1,1059 @@
+{
+  "version": "1.0.3",
+  "packageSha256": "7bd0d38b1005acee9720c9b4dad6588586949dfad3576102b73b289697c2ea98",
+  "analysis": "Read-only recovered scripts/resources; not runtime-tested. Numeric Godot key identities additionally corroborated by input_prompts.gd88–89.",
+  "versionSource": {
+    "file": "game/core/game_config.gd",
+    "line": 1303
+  },
+  "controls": [
+    {
+      "action": "move_forward",
+      "key": "W",
+      "source": {
+        "file": "project.godot",
+        "line": 91
+      }
+    },
+    {
+      "action": "move_back",
+      "key": "S",
+      "source": {
+        "file": "project.godot",
+        "line": 97
+      }
+    },
+    {
+      "action": "move_left",
+      "key": "A",
+      "source": {
+        "file": "project.godot",
+        "line": 79
+      }
+    },
+    {
+      "action": "move_right",
+      "key": "D",
+      "source": {
+        "file": "project.godot",
+        "line": 85
+      }
+    },
+    {
+      "action": "jump",
+      "key": "Space",
+      "source": {
+        "file": "project.godot",
+        "line": 123
+      }
+    },
+    {
+      "action": "contact",
+      "key": "Left mouse button",
+      "source": {
+        "file": "project.godot",
+        "line": 129
+      }
+    },
+    {
+      "action": "set",
+      "key": "E",
+      "source": {
+        "file": "project.godot",
+        "line": 135
+      }
+    },
+    {
+      "action": "dive",
+      "key": "Right mouse button",
+      "source": {
+        "file": "project.godot",
+        "line": 152
+      }
+    },
+    {
+      "action": "serve",
+      "key": "R",
+      "source": {
+        "file": "project.godot",
+        "line": 164
+      }
+    },
+    {
+      "action": "strafe",
+      "key": "Shift",
+      "source": {
+        "file": "project.godot",
+        "line": 170
+      }
+    },
+    {
+      "action": "sprint",
+      "key": "Ctrl",
+      "source": {
+        "file": "project.godot",
+        "line": 233
+      }
+    },
+    {
+      "action": "camera_toggle",
+      "key": "C",
+      "source": {
+        "file": "project.godot",
+        "line": 158
+      }
+    },
+    {
+      "action": "chat_toggle",
+      "key": "T",
+      "source": {
+        "file": "project.godot",
+        "line": 141
+      }
+    },
+    {
+      "action": "block",
+      "key": "Right mouse button",
+      "source": {
+        "file": "game/core/input_binds.gd",
+        "line": 95
+      }
+    }
+  ],
+  "controlsNotes": [
+    "Defaults are rebindable; active profile wins.",
+    "Shift=strafe; Ctrl=sprint. Their numeric keycodes are4194325 and4194326 respectively.",
+    "Block is registered by InputBinds when absent; dive and block share right mouse contextually."
+  ],
+  "controlCorroboration": [
+    {
+      "file": "game/core/input_prompts.gd",
+      "line": 88
+    },
+    {
+      "file": "game/core/input_prompts.gd",
+      "line": 89
+    },
+    {
+      "file": "game/core/input_binds.gd",
+      "line": 148
+    }
+  ],
+  "rules": {
+    "teamSizes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "defaultTeamSize": 2,
+    "pointsPerSet": 7,
+    "setsToWin": 2,
+    "winByTwo": true,
+    "serveSeconds": 15,
+    "maxLocalPlayers": 4,
+    "sources": [
+      {
+        "file": "game/core/game_config.gd",
+        "line": 1113
+      },
+      {
+        "file": "game/core/game_config.gd",
+        "line": 1120
+      },
+      {
+        "file": "game/core/game_config.gd",
+        "line": 1144
+      },
+      {
+        "file": "game/core/game_config.gd",
+        "line": 1991
+      },
+      {
+        "file": "game/core/local_players.gd",
+        "line": 36
+      }
+    ]
+  },
+  "maps": {
+    "assumptions": "Full-release static registry view: not demo and not public_beta; resource existence checked in recovered tree, not runtime import success. Variants inherit venue; hidden/beta flags tested on own dictionary as Stage._listed does.",
+    "all": [
+      {
+        "id": "nationals",
+        "title": "Nationals Arena",
+        "base": null,
+        "variant": false,
+        "hidden": false,
+        "betaHidden": false,
+        "venue": "res://game/stage/kits/nationals.tscn",
+        "source": {
+          "file": "game/stage/stage.gd",
+          "line": 206
+        },
+        "venueRecovered": true
+      },
+      {
+        "id": "school",
+        "title": "School Gym",
+        "base": null,
+        "variant": false,
+        "hidden": false,
+        "betaHidden": true,
+        "venue": "res://game/stage/kits/school.tscn",
+        "source": {
+          "file": "game/stage/stage.gd",
+          "line": 309
+        },
+        "venueRecovered": true
+      },
+      {
+        "id": "practice",
+        "title": "School Gym (practice)",
+        "base": "school",
+        "variant": true,
+        "hidden": false,
+        "betaHidden": false,
+        "venue": "res://game/stage/kits/school.tscn",
+        "source": {
+          "file": "game/stage/stage.gd",
+          "line": 399
+        },
+        "venueRecovered": true
+      },
+      {
+        "id": "jpgym",
+        "title": "Crow Gym",
+        "base": null,
+        "variant": false,
+        "hidden": true,
+        "betaHidden": false,
+        "venue": "res://game/stage/kits/jpgym.tscn",
+        "source": {
+          "file": "game/stage/stage.gd",
+          "line": 425
+        },
+        "venueRecovered": false
+      },
+      {
+        "id": "clouds",
+        "title": "Clouds",
+        "base": null,
+        "variant": false,
+        "hidden": false,
+        "betaHidden": false,
+        "venue": "res://game/stage/kits/clouds.tscn",
+        "source": {
+          "file": "game/stage/stage.gd",
+          "line": 525
+        },
+        "venueRecovered": true
+      },
+      {
+        "id": "outer_space",
+        "title": "Outer Space",
+        "base": null,
+        "variant": false,
+        "hidden": false,
+        "betaHidden": false,
+        "venue": "res://game/stage/kits/outer_space.tscn",
+        "source": {
+          "file": "game/stage/stage.gd",
+          "line": 574
+        },
+        "venueRecovered": true
+      },
+      {
+        "id": "void",
+        "title": "Training Space",
+        "base": null,
+        "variant": false,
+        "hidden": true,
+        "betaHidden": false,
+        "venue": "res://game/stage/kits/void.tscn",
+        "source": {
+          "file": "game/stage/stage.gd",
+          "line": 622
+        },
+        "venueRecovered": true
+      },
+      {
+        "id": "tutorial",
+        "title": "Tutorial",
+        "base": "void",
+        "variant": false,
+        "hidden": false,
+        "betaHidden": false,
+        "venue": "res://game/stage/kits/void.tscn",
+        "source": {
+          "file": "game/stage/stage.gd",
+          "line": 665
+        },
+        "venueRecovered": true
+      },
+      {
+        "id": "training",
+        "title": "Training Centre",
+        "base": null,
+        "variant": false,
+        "hidden": true,
+        "betaHidden": false,
+        "venue": "res://game/stage/kits/training.tscn",
+        "source": {
+          "file": "game/stage/stage.gd",
+          "line": 701
+        },
+        "venueRecovered": true
+      },
+      {
+        "id": "beach",
+        "title": "Beach",
+        "base": null,
+        "variant": false,
+        "hidden": false,
+        "betaHidden": false,
+        "venue": "res://game/stage/kits/beach.tscn",
+        "source": {
+          "file": "game/stage/stage.gd",
+          "line": 716
+        },
+        "venueRecovered": true
+      },
+      {
+        "id": "grass",
+        "title": "Grass Court",
+        "base": null,
+        "variant": false,
+        "hidden": false,
+        "betaHidden": false,
+        "venue": "res://game/stage/kits/grass.tscn",
+        "source": {
+          "file": "game/stage/stage.gd",
+          "line": 772
+        },
+        "venueRecovered": true
+      }
+    ],
+    "fullReleaseVisible": [
+      "nationals",
+      "school",
+      "practice",
+      "clouds",
+      "outer_space",
+      "tutorial",
+      "beach",
+      "grass"
+    ],
+    "hidden": [
+      "jpgym",
+      "void",
+      "training"
+    ],
+    "betaRestricted": [
+      "school"
+    ],
+    "filterSources": [
+      {
+        "file": "game/stage/stage.gd",
+        "line": 853
+      },
+      {
+        "file": "game/stage/stage.gd",
+        "line": 872
+      },
+      {
+        "file": "game/stage/stage.gd",
+        "line": 899
+      }
+    ]
+  },
+  "manual": {
+    "path": "game/ui/how_to_text.json",
+    "loaderSource": {
+      "file": "game/ui/how_to_panel.gd",
+      "line": 21
+    },
+    "sectionCount": 49,
+    "categories": [
+      {
+        "name": "controls",
+        "groups": [
+          {
+            "title": "",
+            "sections": [
+              {
+                "id": "0.2",
+                "title": "controls",
+                "line": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "the basics",
+        "groups": [
+          {
+            "title": "the basics of volleyball",
+            "sections": [
+              {
+                "id": "1.1",
+                "title": "what is volleyball?",
+                "line": 29
+              },
+              {
+                "id": "1.2",
+                "title": "three touches",
+                "line": 37
+              }
+            ]
+          },
+          {
+            "title": "what is just volleyball?",
+            "sections": [
+              {
+                "id": "2.1",
+                "title": "arcade volleyball",
+                "line": 52
+              },
+              {
+                "id": "2.2",
+                "title": "getting good",
+                "line": 61
+              }
+            ]
+          },
+          {
+            "title": "just volleyball default rules",
+            "sections": [
+              {
+                "id": "3.1",
+                "title": "scoring",
+                "line": 74
+              },
+              {
+                "id": "3.2",
+                "title": "serving rules",
+                "line": 83
+              },
+              {
+                "id": "3.3",
+                "title": "faults",
+                "line": 92
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "the screen",
+        "groups": [
+          {
+            "title": "the cursor system",
+            "sections": [
+              {
+                "id": "4.1",
+                "title": "your cursor",
+                "line": 138
+              },
+              {
+                "id": "4.2",
+                "title": "what it means",
+                "line": 146
+              }
+            ]
+          },
+          {
+            "title": "reading the screen",
+            "sections": [
+              {
+                "id": "5.1",
+                "title": "the ball",
+                "line": 159
+              },
+              {
+                "id": "5.2",
+                "title": "the reach marker",
+                "line": 168
+              },
+              {
+                "id": "5.3",
+                "title": "spiked balls",
+                "line": 206
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "moving",
+        "groups": [
+          {
+            "title": "movement",
+            "sections": [
+              {
+                "id": "8.1",
+                "title": "moving around",
+                "line": 224
+              },
+              {
+                "id": "8.2",
+                "title": "strafing",
+                "line": 233
+              },
+              {
+                "id": "8.3",
+                "title": "sprinting",
+                "line": 242
+              },
+              {
+                "id": "8.4",
+                "title": "bumping into people",
+                "line": 250
+              }
+            ]
+          },
+          {
+            "title": "jumping",
+            "sections": [
+              {
+                "id": "9.1",
+                "title": "the jump",
+                "line": 263
+              },
+              {
+                "id": "9.2",
+                "title": "bam jump",
+                "line": 272
+              },
+              {
+                "id": "9.3",
+                "title": "tilting",
+                "line": 280
+              }
+            ]
+          },
+          {
+            "title": "stamina",
+            "sections": [
+              {
+                "id": "15.1",
+                "title": "the stamina bar",
+                "line": 295
+              },
+              {
+                "id": "15.2",
+                "title": "burn out",
+                "line": 303
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "receiving",
+        "groups": [
+          {
+            "title": "receiving",
+            "sections": [
+              {
+                "id": "10.1",
+                "title": "positioning",
+                "line": 322
+              },
+              {
+                "id": "10.2",
+                "title": "the receive",
+                "line": 331
+              },
+              {
+                "id": "10.3",
+                "title": "diving",
+                "line": 340
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "setting",
+        "groups": [
+          {
+            "title": "setting",
+            "sections": [
+              {
+                "id": "11.1",
+                "title": "the set",
+                "line": 359
+              },
+              {
+                "id": "11.2",
+                "title": "high sets and quick sets",
+                "line": 368
+              },
+              {
+                "id": "11.3",
+                "title": "jump sets",
+                "line": 377
+              },
+              {
+                "id": "11.4",
+                "title": "setter dump",
+                "line": 386
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "attacking",
+        "groups": [
+          {
+            "title": "attacking",
+            "sections": [
+              {
+                "id": "12.1",
+                "title": "the spike",
+                "line": 405
+              },
+              {
+                "id": "12.2",
+                "title": "power",
+                "line": 414
+              },
+              {
+                "id": "12.3",
+                "title": "tilting your spike",
+                "line": 423
+              },
+              {
+                "id": "12.4",
+                "title": "against the block",
+                "line": 432
+              },
+              {
+                "id": "12.6",
+                "title": "some advice",
+                "line": 441
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "blocking",
+        "groups": [
+          {
+            "title": "blocking",
+            "sections": [
+              {
+                "id": "13.1",
+                "title": "the block",
+                "line": 458
+              },
+              {
+                "id": "13.2",
+                "title": "timing",
+                "line": 467
+              },
+              {
+                "id": "13.3",
+                "title": "facing",
+                "line": 477
+              },
+              {
+                "id": "13.4",
+                "title": "mind games",
+                "line": 485
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "serving",
+        "groups": [
+          {
+            "title": "serving",
+            "sections": [
+              {
+                "id": "14.1",
+                "title": "the toss",
+                "line": 502
+              },
+              {
+                "id": "14.2",
+                "title": "the serves",
+                "line": 511
+              },
+              {
+                "id": "14.3",
+                "title": "standard serve",
+                "line": 536
+              },
+              {
+                "id": "14.4",
+                "title": "jump serve",
+                "line": 545
+              },
+              {
+                "id": "14.5",
+                "title": "jump floater",
+                "line": 554
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "everything else",
+        "groups": [
+          {
+            "title": "personalization",
+            "sections": [
+              {
+                "id": "6.1",
+                "title": "make it yours",
+                "line": 572
+              }
+            ]
+          },
+          {
+            "title": "communications",
+            "sections": [
+              {
+                "id": "7.1",
+                "title": "chat and quick chat",
+                "line": 586
+              }
+            ]
+          },
+          {
+            "title": "settings and cameras",
+            "sections": [
+              {
+                "id": "16.1",
+                "title": "cameras",
+                "line": 600
+              },
+              {
+                "id": "16.2",
+                "title": "helpful settings",
+                "line": 609
+              },
+              {
+                "id": "16.3",
+                "title": "aiming on a controller",
+                "line": 638
+              }
+            ]
+          },
+          {
+            "title": "closing",
+            "sections": [
+              {
+                "id": "17.1",
+                "title": "go try it!",
+                "line": 650
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "topics": {
+    "rules": {
+      "summary": [
+        "Teams normally have three touches to return the ball; blocks do not use one.",
+        "Consecutive touches by the same player are allowed in1v1, but otherwise restricted.",
+        "Default sets are first to7 with a two-point margin; two set wins take the match.",
+        "Serve behind the end line within15seconds; jump before crossing into play. Serve attacks, tips and blocks are prohibited."
+      ],
+      "sourceLines": [
+        40,
+        42,
+        77,
+        86,
+        87
+      ],
+      "sources": [
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 40
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 42
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 77
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 86
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 87
+        }
+      ]
+    },
+    "set": {
+      "summary": [
+        "Tap E for a slower toss toward the cursor.",
+        "Charge E while aiming near yourself for a high set; aim farther away for a quicker set.",
+        "An airborne set changes tempo. For a setter dump, aim across the net, jump set while tilting forward and stay in front of the attack line."
+      ],
+      "sourceLines": [
+        362,
+        363,
+        371,
+        372,
+        380,
+        389
+      ],
+      "codeSources": [
+        {
+          "file": "game/player/player.gd",
+          "line": 4549
+        },
+        {
+          "file": "game/player/player.gd",
+          "line": 4584
+        }
+      ],
+      "sources": [
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 362
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 363
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 371
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 372
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 380
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 389
+        }
+      ]
+    },
+    "spike": {
+      "summary": [
+        "Jump, charge contact, then release while pointing the cursor across the net.",
+        "Contact near the jump apex gives full power; approach direction and the third team touch can add power.",
+        "Left/right aerial tilt curves the shot; forward tilt gives a flatter faster attack and backward tilt gives a softer higher one."
+      ],
+      "sourceLines": [
+        408,
+        417,
+        418,
+        426,
+        427
+      ],
+      "sources": [
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 408
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 417
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 418
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 426
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 427
+        }
+      ]
+    },
+    "float": {
+      "summary": [
+        "Toss the ball, get airborne and tilt backward as you contact it to produce a jump floater.",
+        "Power charge changes the amount of float shake.",
+        "Take off behind the end line to avoid a foot fault."
+      ],
+      "sourceLines": [
+        548,
+        557
+      ],
+      "codeSources": [
+        {
+          "file": "game/player/player.gd",
+          "line": 7869
+        },
+        {
+          "file": "game/player/player.gd",
+          "line": 6285
+        }
+      ],
+      "sources": [
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 548
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 557
+        }
+      ]
+    },
+    "receive": {
+      "summary": [
+        "Reduce movement before receiving to improve control.",
+        "Use the cursor to choose where the outgoing ball should travel.",
+        "A dive automatically targets the predicted ball position; keep aiming the cursor at the desired pass destination."
+      ],
+      "sourceLines": [
+        334,
+        343,
+        344
+      ],
+      "sources": [
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 334
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 343
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 344
+        }
+      ]
+    },
+    "block": {
+      "summary": [
+        "Jump first, then hold the block input at the right moment while facing the attacker.",
+        "Timing and cursor direction affect the rebound. Late blocks are less controlled.",
+        "The centre of the hands can stop a ball sharply; edge contacts may be tooled."
+      ],
+      "sourceLines": [
+        461,
+        471,
+        472,
+        480
+      ],
+      "sources": [
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 461
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 471
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 472
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 480
+        }
+      ]
+    },
+    "movement": {
+      "summary": [
+        "Shift strafing cancels horizontal momentum and keeps the character facing the cursor.",
+        "Ctrl or a double-tapped movement direction sprints and uses stamina.",
+        "A short jump tap gives a small jump; charge and release for more height. Holding too long causes decay."
+      ],
+      "sourceLines": [
+        235,
+        236,
+        245,
+        266,
+        267,
+        298
+      ],
+      "sources": [
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 235
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 236
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 245
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 266
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 267
+        },
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 298
+        }
+      ]
+    },
+    "progression": {
+      "summary": [
+        "Matches award XP and coins. Levels, purchased accessories and username titles form part of personalization.",
+        "Faces, height and body build are customizable; this is broader than uniform recolouring."
+      ],
+      "sourceLines": [
+        575
+      ],
+      "codeSources": [
+        {
+          "file": "game/core/progression.gd",
+          "line": 24
+        },
+        {
+          "file": "game/core/progression.gd",
+          "line": 68
+        },
+        {
+          "file": "game/core/progression.gd",
+          "line": 195
+        },
+        {
+          "file": "game/main/main.gd",
+          "line": 10291
+        }
+      ],
+      "sources": [
+        {
+          "file": "game/ui/how_to_text.json",
+          "line": 575
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Static content does not establish present server activity, external prices or currently available downloads.",
+    "Registered maps and scripts are not automatically public features; launch filters and resources apply.",
+    "No full verbatim manual text is reproduced here."
+  ]
+}

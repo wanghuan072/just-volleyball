@@ -1,0 +1,1355 @@
+{
+  "method": "Exact listed JV2 decoded by LookShare, then CharacterPortrait.render with recovered game resources, isolated lifecycle and common camera framing. No third-party preview image used.",
+  "items": [
+    {
+      "slug": "hinata",
+      "image": "/images/players/hinata.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "902d7f5bdadb542065893c6190019b36cad50efbbada5906f2b3f614baef2f44",
+      "imageSha256": "b3d08b750db34eba4699b8b2aacb1b3741aef9c02066d5e38496b3feb66b7297",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 16.5,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        221,
+        263,
+        739,
+        1149
+      ]
+    },
+    {
+      "slug": "kageyama",
+      "image": "/images/players/kageyama.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "f0c8525db3d2394cdd700d72060d1d6ae12753e8cdbe6be6d1395f6fc1e450bf",
+      "imageSha256": "2a50bb9570512f1465bce49a25f40d7c0dae84ca67886ff816d3204dfe9d2405",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 16.5,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        221,
+        285,
+        739,
+        1149
+      ]
+    },
+    {
+      "slug": "gear-5-luffy",
+      "image": "/images/players/gear-5-luffy.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "643e5a0a47f70a3f274ecd210319e0eb9c20b6bd8e12caf81143ea7db6d49eb9",
+      "imageSha256": "50b0c01454f5d2ba05587a6bf3b2ea0f5f97f77cce3c51b350df459a745b6ec8",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 16.5,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        209,
+        56,
+        762,
+        1149
+      ]
+    },
+    {
+      "slug": "itadori-yuji",
+      "image": "/images/players/itadori-yuji.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "e0cefcc3eecf211517ff42c0f64ccdc8dad3140cb6376a8a63d5577105390e46",
+      "imageSha256": "100e8974762e2271ce40ad8cee51ce43c785be56a41dfda457242a8af4af3c38",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 16.5,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        221,
+        263,
+        739,
+        1149
+      ]
+    },
+    {
+      "slug": "nishinoya",
+      "image": "/images/players/nishinoya.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "527d7c2b1d62be5383baa86a359136d3b1cdc48c580c38087c86cf86e282c051",
+      "imageSha256": "a05f0a6fd47589501b9390d6a72042bc98732607acbba59a86c430c68ec5fbaf",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 16.5,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        221,
+        324,
+        739,
+        1149
+      ]
+    },
+    {
+      "slug": "frieren",
+      "image": "/images/players/frieren.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "e5444bde56a2be8576f3ffdf7c0015ad25fed2768e1c5ec290810b18a14ac4d5",
+      "imageSha256": "9f1989751b848fae854fd5786f8391aafbc44a904f86a30ea924f29ce5da75dd",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 16.5,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        221,
+        361,
+        739,
+        1149
+      ]
+    },
+    {
+      "slug": "tungtung",
+      "image": "/images/players/tungtung.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "1b292e84aea557d42bd9dae90872617c9d34d8c474d4986cd9d14c142d0118b3",
+      "imageSha256": "e0e1e825e267561e455cbaf748658fabee828ea672991272dc5d417e5bc03eb2",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        156,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "the-knight",
+      "image": "/images/players/the-knight.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "52f9c524b753e7e557a3cebceea82fb8c713145d54ee88d9932fec988d0af9ef",
+      "imageSha256": "bf15d021859771e94fc94f5aca5bfe6c83d0e8956d0c61f8d0e1999473690398",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        347,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "teemo",
+      "image": "/images/players/teemo.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "29846401f81558bc6818ece50a44d77b6013011f0784d2d939193314b978ebb5",
+      "imageSha256": "ca966e54ec51645c280564a8f3710ce13c5329ab6a126f5a1a0b0d3de6207fd2",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        387,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "homer",
+      "image": "/images/players/homer.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "86d40bd54b39b3c646eeb3b686bebf2079ea97ad4fb5fc00aa04b1afa735c619",
+      "imageSha256": "1163af46f0c4a7714e938a2b7723f1c87f48c628e36a689bf2ebe187ee82cd68",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        321,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "hitori-gotoh",
+      "image": "/images/players/hitori-gotoh.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "86bcfbf62100f35deb3317d1767e0154892321b4b4ba9931d007f65ac97b5466",
+      "imageSha256": "0e2dcc786babfa70e201691da8afc9564f8aa186b72e66d15d925e0fe635617d",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        396,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "lebrooooon",
+      "image": "/images/players/lebrooooon.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "254aa5d27878321fcad53f5f6288c7f2bb7e3de933bab6b76b9416096cfaea25",
+      "imageSha256": "42fd3816d4f2d51b16ebb3c633bbcf19eb0f8d4613bfff23443767747bbe9b61",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        380,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "knuckles",
+      "image": "/images/players/knuckles.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "fc0e800a7a0ab5b2b08059d4c4455680f04c2c153f01503b4b0f3a61bdce377d",
+      "imageSha256": "c3050b0112757da0aaeaf8124fd003b5f836b97eb593afa3859a5cb5d425a993",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        326,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "spider-man",
+      "image": "/images/players/spider-man.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "e23f30fd3a41953d14822b664999a6bf1bbcf8cb4ccdb2d4b0e671da5a665d55",
+      "imageSha256": "3d37cd9bb7927f248c7901c24e1def02315dd745f13af2f2eb8f36498c356187",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        388,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "mewtwo",
+      "image": "/images/players/mewtwo.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "504dd83ae90dbc3f9a2ffc297811d586cc16c00936bb7c4ef6ecad3f7aa6ae62",
+      "imageSha256": "3a133beefb95cacdd5e9a06830f6e0f950c86ac29849b799fabba06a2c8ac671",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        300,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "asta",
+      "image": "/images/players/asta.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "9b8c95b96f33ed7c5ac6931399ad0c08dfa85d44692a91897c33e4d8a4d0186b",
+      "imageSha256": "9438843dab423d923e3e518622e49d8e95a9a45a090bcdbb199bef4b352e7424",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        103,
+        218,
+        857,
+        1036
+      ]
+    },
+    {
+      "slug": "penny",
+      "image": "/images/players/penny.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "8badef3109009ada2e87f6e8663dbfb042121184519224e0c940935dcf5f7c61",
+      "imageSha256": "f3af00bba313b815355ef3e58e59d266bb1f5c348edd01c7895c2f79964ef49a",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        401,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "itachi",
+      "image": "/images/players/itachi.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "2bc7b8b46669f1edef95648e04b7c7a6c2d145bee50fa9b567244fd3d2a66056",
+      "imageSha256": "88ac3f577d73a33d6998b08b4a594db2bb9bafb2cfeef4fedc1e35d745307bc3",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        306,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "no-face",
+      "image": "/images/players/no-face.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "f8f7befc4ec1edad5457eadaf108c6ccf4c703c927f61e1057f2341380989d73",
+      "imageSha256": "10b530794ea9cf905b6d424df61a343b6bc980c2a855101a0d94c90ed6a73e0f",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        344,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "seitama",
+      "image": "/images/players/seitama.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "a83836c0df38be79c8eeb589739fe5528c09371440857f484390edd24e939cd2",
+      "imageSha256": "0f40ba3944ce7c699207079730d1fed0946f742c66bb67257dac23fe7f34ed95",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        397,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "greninja",
+      "image": "/images/players/greninja.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "c6dbf8f242ce339edf0d3014d00ec3a0918c6d16bf9945e1811f43952e7bea25",
+      "imageSha256": "9297d254bcdc9f33f17f980096f1bf914791582a78b128e1e0c8a23304b1e6be",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        379,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "atsumu",
+      "image": "/images/players/atsumu.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "01636c7819d56054f21f9033fa360e927518ebab6781769979ee1c74ee7995bf",
+      "imageSha256": "c0ff0199ec1bee835c7999426b9d9a13380b848a1ba7cb049bbe9aa85ed718c2",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        403,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "shrek",
+      "image": "/images/players/shrek.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "ab6b37e7c497a12ae0bee9e6bd011bb5a7327911a09fff9dc96cf16e3e5a4851",
+      "imageSha256": "657ed60e372a1961840742b8db64c15520b78c3d9462a5a6a8e3c646aa9bc071",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        349,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "minato",
+      "image": "/images/players/minato.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "d35d3cd1374a14a278db0eff65926dc65344a1ec2c6585919ff34f484bed204c",
+      "imageSha256": "a53978d47f5220e636a44c1d7282871f623fcff1f2966b4dbaa9e597349b0ba0",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        253,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "buzz-lightyear",
+      "image": "/images/players/buzz-lightyear.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "8f193d85c823e11cc40576172dd71612b51d25263a768520e1b35cf27fab32c2",
+      "imageSha256": "ea4d4aa3fdc8ae5866a819ba11f25c71b6a434ad598720a62913cf2208d8c9b6",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        402,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "lee-sin",
+      "image": "/images/players/lee-sin.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "fae4bee8e4da9b5857868151f9cbcd51b81a92269b780e73d882ced8f5e102ff",
+      "imageSha256": "05a1b763008e21fd7eb177d6f4346badba658830de52236bc023218804945b6f",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        361,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "robin",
+      "image": "/images/players/robin.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "13a28ed6b321a01628fff549ddcc880702c04d6559cdbbe65958f7a66f2f6bc3",
+      "imageSha256": "af5962613d375fbf1f2791e39c55090419d05f4e6cb723552288ee6ffcd0d2cb",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        303,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "kakashi",
+      "image": "/images/players/kakashi.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "14700233313daaf5ec4cf479dda4dbf5a2a005af89df46c16c42879ed6d38a25",
+      "imageSha256": "b85f48375866b1caad1ee01c8da48fc478a27dae27bfb3d842aa68bfbafb607b",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        271,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "batman-beyond",
+      "image": "/images/players/batman-beyond.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "06f47081e77d1a0fea2ce33a72c22b1d403571c7cc6bb665d6b7f2f123363801",
+      "imageSha256": "58cc5444e435cec519fd02c4e5ad79e3cc9986c46ffcb7d2a2305e201778fc73",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        304,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "avatar",
+      "image": "/images/players/avatar.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "8ca21a389519f43de956aae1281850d6a1c5eebbecee8cf0753f76cfd527d60c",
+      "imageSha256": "0c1efc1c5cb9ba6bf7813ab55e9092d05cde05ca1fc72e41fb734b2e37aa1c7f",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        393,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "megumin",
+      "image": "/images/players/megumin.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "99a33c5e7cbb3ea00d59b482c02c6cfeddecc50de8d2ffd0a13a5199ce181831",
+      "imageSha256": "0a20ee48a0a829095f900b694b0af303d0a5c7225740a281045d68e3c353d387",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        171,
+        242,
+        789,
+        1036
+      ]
+    },
+    {
+      "slug": "don-ramon",
+      "image": "/images/players/don-ramon.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "fd9ddbd27343e44f63fd3134b1608dc71a73ebbd19118f19ef12cf7a0c8e32e2",
+      "imageSha256": "831a018af5808da07ce503ddc5598c0eb70716448378a3cdbe21f8ae55997330",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        328,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "omni-man",
+      "image": "/images/players/omni-man.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "d5f51ac2f23a8a5a3d6366f8c684d5e42feeeddbd4e89b9cad998dbd9a3c5764",
+      "imageSha256": "dc1b908ae0018f8353d4f877aa8442e9eb0febb91a3974e491a4a2984ab1c24e",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        355,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "colossal",
+      "image": "/images/players/colossal.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "67bbc6979e18d1623b77cfd1ac07cf1716c0e7c41e18ff863a9a70a3ecf34c40",
+      "imageSha256": "bf1714fef77b126ede24f13eab541d35f2a958b92283831f5baf4ad377ecf569",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        355,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "piccolo",
+      "image": "/images/players/piccolo.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "44878ab6984553b828366e888b463282d4392819ca7f0c9850861029c1f41e06",
+      "imageSha256": "faf7c909c934185aa9191957e87ddd2f567b9323a13314fa85b91a5a19d89b5f",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        303,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "chopper",
+      "image": "/images/players/chopper.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "0abcd304c88ba1d5b8bcc9e2ac1fb42e3c5a1cd6c14042ef49041b2e2c4736c5",
+      "imageSha256": "9b39607cf9a46b4876b00c7491336d28c01c4c8f47cc226f84bc85a12b68217b",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        339,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "reze",
+      "image": "/images/players/reze.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "6783792c116409470f935ea489ed85d4047f1641bafa474483c4e3173d8b2449",
+      "imageSha256": "bcfe9e14af39fc68731eaace0249dfad62b2a8963fc62d8e9c69eb6c3125ab0d",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        364,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "truth",
+      "image": "/images/players/truth.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "fe55fc35887c60770e5ef96c7520f09aeaf75dda4f7a12b726cd5957b84a8aeb",
+      "imageSha256": "54d804766ab224f4868c74ef62f569baae680502e937a4f72d2e2c8a181920b4",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        382,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "gojo",
+      "image": "/images/players/gojo.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "23957ffcf6a39cac50f0bf1069c15add025e3cbb727aa1b690f35951fe35c079",
+      "imageSha256": "669e7d89f62a9c1f4083e2864189f8af8218d645ef70c0ab6bf3952e58a08ed4",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        351,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "hornet",
+      "image": "/images/players/hornet.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "a7d2010ead8bee731a0f9f734d2d7c2fb6eb1846643d87883436ad19edd26bec",
+      "imageSha256": "fb955f895e44cc84ae51dd4b34d2e75cade84404c62594f263f8867dc2ee0ce3",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        294,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "michael-jackson",
+      "image": "/images/players/michael-jackson.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "bca2f1c19beba766aafa3ada17b63f4e315f4c7fdc238f42e1dc0502121767e9",
+      "imageSha256": "140d55ff21db604be52f28a8698b4f9dc80a5d05f925fe34c5575aaf392206d1",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        344,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "red-pikmin",
+      "image": "/images/players/red-pikmin.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "fc8656d02d21f4ca58dd156787ce7cb556b871e9a6eecdb14995c81bdd69c792",
+      "imageSha256": "ae4b09cb76770c89f48a90fc00da90c5c0a697d6b579202deb069a4e0223c057",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        363,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "sportacus",
+      "image": "/images/players/sportacus.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "6ed6b728f356ceaec3723b144d391814b30374f5af7b917a423afb97f65de267",
+      "imageSha256": "b5b47288b2e4cd910b46ab7b8eb35f7706fa77eb294185dad8436484c81cf34d",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        313,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "joker",
+      "image": "/images/players/joker.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "619de31b0d6be282e183ee0bb6deb23ad3751198e50d50683e6aa76adae00cc4",
+      "imageSha256": "cdcbbae1a3170397c95cc8fe7a9872625fa29ad6b34d698e80f773f27bd51658",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        316,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "hatsune-miku",
+      "image": "/images/players/hatsune-miku.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "c46eb1b795b9cb6647557fd2a2b57f18369dcd66dc921d1788bbb233ed9f5122",
+      "imageSha256": "2e6d171baa2f24ac5280f111ad6cfc0aac0fc0802298328c4c0ce43374725965",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        403,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "lucario",
+      "image": "/images/players/lucario.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "dfff599292e8f1e07c38e24356c8db5765cfc8b931737e1c505d8fe68b9ca422",
+      "imageSha256": "976717e66e3277fa0c1bd9313f6ba7aefafab89fe4b3db2a97545b45f8eee85e",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        241,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "johnny-joestar",
+      "image": "/images/players/johnny-joestar.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "7a71497ef797046913330c9d9175b515c2162ff123e281ebbe6a890f59c524cc",
+      "imageSha256": "604188f8ea090a7fa1ec3f1581db471ccaf197e4781b98145a7d7d33fae2e9b7",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        306,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "cool-squirtle",
+      "image": "/images/players/cool-squirtle.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "daddc1130b7fc68e2cfbcaa99f1164bf4e351325257da13992603f639cb08aec",
+      "imageSha256": "bc74a93d0c73e360c991f78f42bf743ad7509090527900ec109a7dbe8d660ab6",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        275,
+        433,
+        685,
+        1036
+      ]
+    },
+    {
+      "slug": "mahoraga",
+      "image": "/images/players/mahoraga.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "3e1e64be176475ce7443f224785f8b29ae51194bbf9327480da5f377ac15a20d",
+      "imageSha256": "c4905cb25d2f8d4791b3f91d9ac82954238dcfa5ed1b207192972588cc13be7e",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        238,
+        184,
+        716,
+        1036
+      ]
+    },
+    {
+      "slug": "charizar-x",
+      "image": "/images/players/charizar-x.png",
+      "width": 960,
+      "height": 1240,
+      "codeSha256": "becc1d384ec43cf31c4efe66efabd79adee68ef17e3895cf378ea9c2458e0306",
+      "imageSha256": "d93fd692b52fab2bcd650239ec5c95b510168e2d26248d8ff217ca437f52df95",
+      "gameResourcesVersion": "1.0.3",
+      "engine": "Godot 4.8-dev (GDRE)",
+      "modelPath": "res://game/character/models/player_char.blend",
+      "sourceFunction": "game/character/character_portrait.gd:426",
+      "cameraDistance": 21.0,
+      "cameraLook": [
+        0,
+        1.18,
+        0
+      ],
+      "pose": "game portrait pose, single front view",
+      "gameImportTested": false,
+      "rendered": true,
+      "alphaBounds": [
+        118,
+        257,
+        842,
+        1036
+      ]
+    }
+  ]
+}

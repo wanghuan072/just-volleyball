@@ -1,0 +1,200 @@
+[
+  {
+    "slug": "future-updates-ranked-music",
+    "title": "Ranked, Additonal Music, Bug fixes - Future Update Yapping",
+    "publishedAt": "2026-11-23T00:12:27+08:00",
+    "version": null,
+    "summary": "See the planned work on ranked matches, music, cosmetics, maps and practice, along with the developer’s targets and the features still being considered.",
+    "content": [
+      {
+        "heading": "Bug fixes and stability",
+        "text": "The developer is collecting fixes into a larger patch and testing them together to reduce the chance that a rushed fix introduces another issue. The announcement does not give a complete finalized changelog."
+      },
+      {
+        "heading": "Lost levels and chips",
+        "text": "Backend tools to restore lost levels and chips are being investigated. Players affected by lost progress were advised to keep screenshots of previous profiles, playtime and clips for a future recovery request. Preset recovery was not offered in this announcement."
+      },
+      {
+        "heading": "Player reports and muting",
+        "text": "More automated report handling is being considered. During a match, open Pause → Players & Teams and select a player to mute them. This hides their chat and distracting avatar content. Improvements to vote kicking, including party-related cases, are also being considered."
+      },
+      {
+        "heading": "Quickplay queues",
+        "text": "Queue time depends on region, time of day and selected formats. Selecting several formats does not guarantee a faster match. The developer reported that 2v2 was the most played quick-match format at the time of the announcement; this is a dated observation, not a live population ranking."
+      },
+      {
+        "heading": "Ranked matchmaking",
+        "text": "A first experimental ranked mode is in development. Early December 2026 was the target if testing went well, with a later release possible. Match formats and rating behavior were still being decided. The proposal included monthly rank resets, and players were told to expect longer queues in less populated regions."
+      },
+      {
+        "heading": "Additional match music",
+        "text": "Two more tracks were being planned with October_Stereo, bringing the proposed match soundtrack to three tracks. Late December 2026 or early January 2027 was the discussed window, subject to development."
+      },
+      {
+        "heading": "Cosmetics, maps and variations",
+        "text": "More hairstyles, headwear, face and mouth options, maps and map variations were proposed. The developer hoped to group additions into a larger early-December patch. An item list and final release date were not confirmed."
+      },
+      {
+        "heading": "Practice and freeplay",
+        "text": "Scenario drills, more detailed learning sequences and extra freeplay controls were discussed. A ball cannon and freely spawning bots were examples of possible tools. The developer expected this work to follow later, likely in 2027."
+      },
+      {
+        "heading": "Casual and story-mode ideas",
+        "text": "A social mode, a chaotic roguelike mode and a possible story-based career experience were discussed as ideas. Story scenes, rewards and local support were possibilities under consideration. These ideas follow the higher-priority work above and have no confirmed release schedule."
+      }
+    ],
+    "sourceUrl": "https://store.steampowered.com/news/app/5037200/view/1849827110438848",
+    "updatedAt": "2026-11-23T15:02:27.146077+08:00"
+  },
+  {
+    "slug": "new-player-tips",
+    "title": "New Player PSA - Tips & Tricks",
+    "publishedAt": "2026-11-21T21:19:36+08:00",
+    "version": null,
+    "summary": "Get into position before receiving, keep space for teammates and time your jump around the set. Use bot games and replays to work on the next rally.",
+    "content": [
+      {
+        "heading": "Start in a suitable lobby",
+        "text": "Learn the controls in local play, bot matches or a private lobby with friends. A custom public lobby can use server tags to describe the intended experience. Use the server browser to find a setting that suits your skill level."
+      },
+      {
+        "heading": "Receive from the right position",
+        "text": "Move into the ball’s path before receiving. Sprint toward the landing area during serves, use the floor indicator to judge the trajectory, and keep your aim prepared for your setter. Pressing receive alone cannot compensate for being out of position."
+      },
+      {
+        "heading": "Use dives deliberately",
+        "text": "Check whether walking or sprinting can reach the ball before diving. A mistimed dive can use stamina and knock teammates down. Reserve it for situations where the extra reach is needed."
+      },
+      {
+        "heading": "Protect the backline",
+        "text": "Spread out and cover different areas. When everyone approaches the net to attack, the backcourt is left open. Keeping the ball in play and covering an attacker are valuable contributions to the rally."
+      },
+      {
+        "heading": "Approach and jump earlier",
+        "text": "For a normal attack on a set, aim to be airborne as the ball comes over you. Work toward contacting it near the top of the jump, and adjust the approach to the height and speed of the set."
+      },
+      {
+        "heading": "Watch replays and other players",
+        "text": "Review positioning, jump timing and where a rally broke down. Use Career to revisit available replays and compare your approach with other players. Repeat the movement in bot matches before taking it back into quickplay."
+      },
+      {
+        "heading": "Read the in-game help",
+        "text": "The How to Play section explains mechanics and includes additional advice. Structured practice drills were not available at launch, so bot games and private sessions are the recommended ways to practice in the meantime."
+      }
+    ],
+    "sourceUrl": "https://store.steampowered.com/news/app/5037200/view/1849827110435491",
+    "updatedAt": "2026-11-23T15:02:27.146077+08:00"
+  },
+  {
+    "slug": "patch-1-0-3",
+    "title": "1.0.3",
+    "publishedAt": "2026-11-21T11:06:56+08:00",
+    "version": "1.0.3",
+    "summary": "Quick match no longer applies the matchmaking penalty introduced in the earlier patch. The developer plans to reconsider how that system should work.",
+    "content": [
+      {
+        "heading": "Quick-match penalty removed",
+        "text": "Version 1.0.3 removes the matchmaking penalty introduced in the earlier update. The developer was unhappy with how it behaved and intends to reconsider the system."
+      },
+      {
+        "heading": "How this changes the previous notes",
+        "text": "The penalty additions in v1.0.1 and related v1.0.2 fixes are historical changes. Use the v1.0.3 removal when checking the penalty status described by this update history. The announcement does not state that all other match-result or loss-recording rules were removed."
+      }
+    ],
+    "sourceUrl": "https://store.steampowered.com/news/app/5037200/view/1849827110434476",
+    "updatedAt": "2026-11-23T15:02:27.146077+08:00"
+  },
+  {
+    "slug": "patch-1-0-2",
+    "title": "v1.0.2",
+    "publishedAt": "2026-11-21T06:33:01+08:00",
+    "version": "1.0.2",
+    "summary": "Fixed a case where leaving after the game had been called still applied a matchmaking penalty. The penalty itself was subsequently removed in v1.0.3.",
+    "content": [
+      {
+        "heading": "Quick-match exit correction",
+        "text": "Fixed a case where leaving after the game had been called still applied a matchmaking penalty. The penalty itself was subsequently removed in v1.0.3."
+      },
+      {
+        "heading": "Host migration statistics",
+        "text": "Fixed statistics failing to carry over when the match host changed."
+      },
+      {
+        "heading": "Returning to the lobby",
+        "text": "Added a warning explaining the matchmaking penalty when returning to the lobby. This reflects the penalty system at the time of v1.0.2."
+      },
+      {
+        "heading": "Server browser",
+        "text": "Applied server-browser optimizations."
+      }
+    ],
+    "sourceUrl": "https://store.steampowered.com/news/app/5037200/view/1849827110433944",
+    "updatedAt": "2026-11-24T08:00:00+08:00"
+  },
+  {
+    "slug": "patch-1-0-1",
+    "title": "just volleyball update 1.0.1",
+    "publishedAt": "2026-11-20T23:05:09+08:00",
+    "version": "1.0.1",
+    "summary": "This patch required players to update before continuing online play.",
+    "content": [
+      {
+        "heading": "Online update requirement",
+        "text": "This patch required players to update before continuing online play."
+      },
+      {
+        "heading": "Team balancing and quick match",
+        "text": "Added backend changes to improve team balance for grouped players. Added a Find Match button to quick-match results, a limited reconnect opportunity after leaving, and loss recording for leaving before a match ends. Matchmaking penalties were introduced here and later removed in v1.0.3."
+      },
+      {
+        "heading": "Host migration and spectator controls",
+        "text": "Fixed set scores resetting to 0–0 during host migration, pausing being unavailable during migration, and spectator or free cameras moving while typing in chat."
+      },
+      {
+        "heading": "Server discovery",
+        "text": "Fixed servers failing to appear correctly in the server browser."
+      },
+      {
+        "heading": "Career and replay favorites",
+        "text": "Updated Career to show total win rate and match history. Added match favorites to help preserve replays players want to revisit."
+      },
+      {
+        "heading": "Achievement tracking",
+        "text": "Corrected time counting for After Hours and the way net collisions count toward Concussed."
+      },
+      {
+        "heading": "Locker accessory adjustment",
+        "text": "Fixed position labels failing to appear for some accessories."
+      },
+      {
+        "heading": "Gameplay input and stability",
+        "text": "Fixed a queued set action failing to register after a teammate’s touch. Added an exit confirmation and addressed several crashes."
+      },
+      {
+        "heading": "Titles and credits",
+        "text": "Removed the gamedev, dev and developer titles following impersonation misuse. Added several titles, including one tied to completing all achievements, and updated the credits."
+      },
+      {
+        "heading": "New-player matchmaking",
+        "text": "The developer described a preference for matching players at level 10 or below together. Joining a party with a higher-level player bypasses that preference."
+      }
+    ],
+    "sourceUrl": "https://store.steampowered.com/news/app/5037200/view/1849827110432569",
+    "updatedAt": "2026-11-24T08:00:00+08:00"
+  },
+  {
+    "slug": "controller-fixes",
+    "title": "Controller fixes",
+    "publishedAt": "2026-11-17T04:08:27+08:00",
+    "version": null,
+    "summary": "Re-enabled controller-related functionality that had remained disabled after the release review. The developer advised fully restarting Steam if the correction was not taking effect.",
+    "content": [
+      {
+        "heading": "Controller functionality restored",
+        "text": "Re-enabled controller-related functionality that had remained disabled after the release review. The developer advised fully restarting Steam if the correction was not taking effect."
+      }
+    ],
+    "sourceUrl": "https://store.steampowered.com/news/app/5037200/view/1849458702691178",
+    "updatedAt": "2026-11-24T08:00:00+08:00"
+  }
+]

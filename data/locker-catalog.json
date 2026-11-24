@@ -1,0 +1,4116 @@
+{
+  "gameVersion": "1.0.3",
+  "hair": [
+    {
+      "id": "",
+      "label": "Bald",
+      "image": "/images/locker/hair/bald.webp"
+    },
+    {
+      "id": "2twists",
+      "label": "2twists",
+      "image": "/images/locker/hair/2twists.webp",
+      "sourcePath": "game/character/hair/2twists.blend.import"
+    },
+    {
+      "id": "afro",
+      "label": "afro",
+      "image": "/images/locker/hair/afro.webp",
+      "sourcePath": "game/character/hair/afro.blend.import"
+    },
+    {
+      "id": "brother",
+      "label": "brother",
+      "image": "/images/locker/hair/brother.webp",
+      "sourcePath": "game/character/hair/brother.blend.import"
+    },
+    {
+      "id": "butchwitch",
+      "label": "butchwitch",
+      "image": "/images/locker/hair/butchwitch.webp",
+      "sourcePath": "game/character/hair/butchwitch.blend.import"
+    },
+    {
+      "id": "buzz",
+      "label": "buzz",
+      "image": "/images/locker/hair/buzz.webp",
+      "sourcePath": "game/character/hair/buzz.blend.import"
+    },
+    {
+      "id": "coilfro",
+      "label": "coilfro",
+      "image": "/images/locker/hair/coilfro.webp",
+      "sourcePath": "game/character/hair/coilfro.blend.import"
+    },
+    {
+      "id": "cornrow",
+      "label": "cornrow",
+      "image": "/images/locker/hair/cornrow.webp",
+      "sourcePath": "game/character/hair/cornrow.blend.import"
+    },
+    {
+      "id": "curves",
+      "label": "curves",
+      "image": "/images/locker/hair/curves.webp",
+      "sourcePath": "game/character/hair/curves.blend.import"
+    },
+    {
+      "id": "dai",
+      "label": "dai",
+      "image": "/images/locker/hair/dai.webp",
+      "sourcePath": "game/character/hair/dai.blend.import"
+    },
+    {
+      "id": "dreadfull",
+      "label": "dreadfull",
+      "image": "/images/locker/hair/dreadfull.webp",
+      "sourcePath": "game/character/hair/dreadfull.blend.import"
+    },
+    {
+      "id": "dreadlong",
+      "label": "dreadlong",
+      "image": "/images/locker/hair/dreadlong.webp",
+      "sourcePath": "game/character/hair/dreadlong.blend.import"
+    },
+    {
+      "id": "fall",
+      "label": "fall",
+      "image": "/images/locker/hair/fall.webp",
+      "sourcePath": "game/character/hair/fall.blend.import"
+    },
+    {
+      "id": "hae",
+      "label": "hae",
+      "image": "/images/locker/hair/hae.webp",
+      "sourcePath": "game/character/hair/hae.blend.import"
+    },
+    {
+      "id": "hairf10",
+      "label": "hairf10",
+      "image": "/images/locker/hair/hairf10.webp",
+      "sourcePath": "game/character/hair/hairf10.blend.import"
+    },
+    {
+      "id": "hairf11",
+      "label": "hairf11",
+      "image": "/images/locker/hair/hairf11.webp",
+      "sourcePath": "game/character/hair/hairf11.blend.import"
+    },
+    {
+      "id": "hairf12",
+      "label": "hairf12",
+      "image": "/images/locker/hair/hairf12.webp",
+      "sourcePath": "game/character/hair/hairf12.blend.import"
+    },
+    {
+      "id": "hairf13",
+      "label": "hairf13",
+      "image": "/images/locker/hair/hairf13.webp",
+      "sourcePath": "game/character/hair/hairf13.blend.import"
+    },
+    {
+      "id": "hairf14",
+      "label": "hairf14",
+      "image": "/images/locker/hair/hairf14.webp",
+      "sourcePath": "game/character/hair/hairf14.blend.import"
+    },
+    {
+      "id": "hairf15",
+      "label": "hairf15",
+      "image": "/images/locker/hair/hairf15.webp",
+      "sourcePath": "game/character/hair/hairf15.blend.import"
+    },
+    {
+      "id": "hairf17",
+      "label": "hairf17",
+      "image": "/images/locker/hair/hairf17.webp",
+      "sourcePath": "game/character/hair/hairf17.blend.import"
+    },
+    {
+      "id": "hairf18",
+      "label": "hairf18",
+      "image": "/images/locker/hair/hairf18.webp",
+      "sourcePath": "game/character/hair/hairf18.blend.import"
+    },
+    {
+      "id": "hairf19",
+      "label": "hairf19",
+      "image": "/images/locker/hair/hairf19.webp",
+      "sourcePath": "game/character/hair/hairf19.blend.import"
+    },
+    {
+      "id": "hairf20",
+      "label": "hairf20",
+      "image": "/images/locker/hair/hairf20.webp",
+      "sourcePath": "game/character/hair/hairf20.blend.import"
+    },
+    {
+      "id": "hairf5",
+      "label": "hairf5",
+      "image": "/images/locker/hair/hairf5.webp",
+      "sourcePath": "game/character/hair/hairf5.blend.import"
+    },
+    {
+      "id": "hairf6",
+      "label": "hairf6",
+      "image": "/images/locker/hair/hairf6.webp",
+      "sourcePath": "game/character/hair/hairf6.blend.import"
+    },
+    {
+      "id": "hairf7",
+      "label": "hairf7",
+      "image": "/images/locker/hair/hairf7.webp",
+      "sourcePath": "game/character/hair/hairf7.blend.import"
+    },
+    {
+      "id": "hairf8",
+      "label": "hairf8",
+      "image": "/images/locker/hair/hairf8.webp",
+      "sourcePath": "game/character/hair/hairf8.blend.import"
+    },
+    {
+      "id": "hairm1",
+      "label": "hairm1",
+      "image": "/images/locker/hair/hairm1.webp",
+      "sourcePath": "game/character/hair/hairm1.blend.import"
+    },
+    {
+      "id": "hairm10",
+      "label": "hairm10",
+      "image": "/images/locker/hair/hairm10.webp",
+      "sourcePath": "game/character/hair/hairm10.blend.import"
+    },
+    {
+      "id": "hairm11",
+      "label": "hairm11",
+      "image": "/images/locker/hair/hairm11.webp",
+      "sourcePath": "game/character/hair/hairm11.blend.import"
+    },
+    {
+      "id": "hairm12",
+      "label": "hairm12",
+      "image": "/images/locker/hair/hairm12.webp",
+      "sourcePath": "game/character/hair/hairm12.blend.import"
+    },
+    {
+      "id": "hairm13",
+      "label": "hairm13",
+      "image": "/images/locker/hair/hairm13.webp",
+      "sourcePath": "game/character/hair/hairm13.blend.import"
+    },
+    {
+      "id": "hairm14",
+      "label": "hairm14",
+      "image": "/images/locker/hair/hairm14.webp",
+      "sourcePath": "game/character/hair/hairm14.blend.import"
+    },
+    {
+      "id": "hairm15",
+      "label": "hairm15",
+      "image": "/images/locker/hair/hairm15.webp",
+      "sourcePath": "game/character/hair/hairm15.blend.import"
+    },
+    {
+      "id": "hairm16",
+      "label": "hairm16",
+      "image": "/images/locker/hair/hairm16.webp",
+      "sourcePath": "game/character/hair/hairm16.blend.import"
+    },
+    {
+      "id": "hairm17",
+      "label": "hairm17",
+      "image": "/images/locker/hair/hairm17.webp",
+      "sourcePath": "game/character/hair/hairm17.blend.import"
+    },
+    {
+      "id": "hairm18",
+      "label": "hairm18",
+      "image": "/images/locker/hair/hairm18.webp",
+      "sourcePath": "game/character/hair/hairm18.blend.import"
+    },
+    {
+      "id": "hairm19",
+      "label": "hairm19",
+      "image": "/images/locker/hair/hairm19.webp",
+      "sourcePath": "game/character/hair/hairm19.blend.import"
+    },
+    {
+      "id": "hairm20",
+      "label": "hairm20",
+      "image": "/images/locker/hair/hairm20.webp",
+      "sourcePath": "game/character/hair/hairm20.blend.import"
+    },
+    {
+      "id": "hairm6",
+      "label": "hairm6",
+      "image": "/images/locker/hair/hairm6.webp",
+      "sourcePath": "game/character/hair/hairm6.blend.import"
+    },
+    {
+      "id": "hairm7",
+      "label": "hairm7",
+      "image": "/images/locker/hair/hairm7.webp",
+      "sourcePath": "game/character/hair/hairm7.blend.import"
+    },
+    {
+      "id": "hairm8",
+      "label": "hairm8",
+      "image": "/images/locker/hair/hairm8.webp",
+      "sourcePath": "game/character/hair/hairm8.blend.import"
+    },
+    {
+      "id": "hairm9",
+      "label": "hairm9",
+      "image": "/images/locker/hair/hairm9.webp",
+      "sourcePath": "game/character/hair/hairm9.blend.import"
+    },
+    {
+      "id": "hairtf16",
+      "label": "hairtf16",
+      "image": "/images/locker/hair/hairtf16.webp",
+      "sourcePath": "game/character/hair/hairtf16.blend.import"
+    },
+    {
+      "id": "halfdread",
+      "label": "halfdread",
+      "image": "/images/locker/hair/halfdread.webp",
+      "sourcePath": "game/character/hair/halfdread.blend.import"
+    },
+    {
+      "id": "hightop",
+      "label": "hightop",
+      "image": "/images/locker/hair/hightop.webp",
+      "sourcePath": "game/character/hair/hightop.blend.import"
+    },
+    {
+      "id": "hopefulwitch",
+      "label": "hopefulwitch",
+      "image": "/images/locker/hair/hopefulwitch.webp",
+      "sourcePath": "game/character/hair/hopefulwitch.blend.import"
+    },
+    {
+      "id": "hue",
+      "label": "hue",
+      "image": "/images/locker/hair/hue.webp",
+      "sourcePath": "game/character/hair/hue.blend.import"
+    },
+    {
+      "id": "jasmine",
+      "label": "jasmine",
+      "image": "/images/locker/hair/jasmine.webp",
+      "sourcePath": "game/character/hair/jasmine.blend.import"
+    },
+    {
+      "id": "jeremy",
+      "label": "jeremy",
+      "image": "/images/locker/hair/jeremy.webp",
+      "sourcePath": "game/character/hair/jeremy.blend.import"
+    },
+    {
+      "id": "kage",
+      "label": "kage",
+      "image": "/images/locker/hair/kage.webp",
+      "sourcePath": "game/character/hair/kage.blend.import"
+    },
+    {
+      "id": "kai",
+      "label": "kai",
+      "image": "/images/locker/hair/kai.webp",
+      "sourcePath": "game/character/hair/kai.blend.import"
+    },
+    {
+      "id": "kasa",
+      "label": "kasa",
+      "image": "/images/locker/hair/kasa.webp",
+      "sourcePath": "game/character/hair/kasa.blend.import"
+    },
+    {
+      "id": "ko",
+      "label": "ko",
+      "image": "/images/locker/hair/ko.webp",
+      "sourcePath": "game/character/hair/ko.blend.import"
+    },
+    {
+      "id": "longhair",
+      "label": "longhair",
+      "image": "/images/locker/hair/longhair.webp",
+      "sourcePath": "game/character/hair/longhair.blend.import"
+    },
+    {
+      "id": "maka",
+      "label": "maka",
+      "image": "/images/locker/hair/maka.webp",
+      "sourcePath": "game/character/hair/maka.blend.import"
+    },
+    {
+      "id": "mamii",
+      "label": "mamii",
+      "image": "/images/locker/hair/mamii.webp",
+      "sourcePath": "game/character/hair/mamii.blend.import"
+    },
+    {
+      "id": "mao",
+      "label": "mao",
+      "image": "/images/locker/hair/mao.webp",
+      "sourcePath": "game/character/hair/mao.blend.import"
+    },
+    {
+      "id": "marcy",
+      "label": "marcy",
+      "image": "/images/locker/hair/marcy.webp",
+      "sourcePath": "game/character/hair/marcy.blend.import"
+    },
+    {
+      "id": "may",
+      "label": "may",
+      "image": "/images/locker/hair/may.webp",
+      "sourcePath": "game/character/hair/may.blend.import"
+    },
+    {
+      "id": "megan",
+      "label": "megan",
+      "image": "/images/locker/hair/megan.webp",
+      "sourcePath": "game/character/hair/megan.blend.import"
+    },
+    {
+      "id": "meku",
+      "label": "meku",
+      "image": "/images/locker/hair/meku.webp",
+      "sourcePath": "game/character/hair/meku.blend.import"
+    },
+    {
+      "id": "messydreads",
+      "label": "messydreads",
+      "image": "/images/locker/hair/messydreads.webp",
+      "sourcePath": "game/character/hair/messydreads.blend.import"
+    },
+    {
+      "id": "mob",
+      "label": "mob",
+      "image": "/images/locker/hair/mob.webp",
+      "sourcePath": "game/character/hair/mob.blend.import"
+    },
+    {
+      "id": "momhair",
+      "label": "momhair",
+      "image": "/images/locker/hair/momhair.webp",
+      "sourcePath": "game/character/hair/momhair.blend.import"
+    },
+    {
+      "id": "oody",
+      "label": "oody",
+      "image": "/images/locker/hair/oody.webp",
+      "sourcePath": "game/character/hair/oody.blend.import"
+    },
+    {
+      "id": "ponytail",
+      "label": "ponytail",
+      "image": "/images/locker/hair/ponytail.webp",
+      "sourcePath": "game/character/hair/ponytail.blend.import"
+    },
+    {
+      "id": "powder",
+      "label": "powder",
+      "image": "/images/locker/hair/powder.webp",
+      "sourcePath": "game/character/hair/powder.blend.import"
+    },
+    {
+      "id": "ps68",
+      "label": "ps68",
+      "image": "/images/locker/hair/ps68.webp",
+      "sourcePath": "game/character/hair/ps68.blend.import"
+    },
+    {
+      "id": "ruri",
+      "label": "ruri",
+      "image": "/images/locker/hair/ruri.webp",
+      "sourcePath": "game/character/hair/ruri.blend.import"
+    },
+    {
+      "id": "sagaraen",
+      "label": "sagaraen",
+      "image": "/images/locker/hair/sagaraen.webp",
+      "sourcePath": "game/character/hair/sagaraen.blend.import"
+    },
+    {
+      "id": "shrimpy",
+      "label": "shrimpy",
+      "image": "/images/locker/hair/shrimpy.webp",
+      "sourcePath": "game/character/hair/shrimpy.blend.import"
+    },
+    {
+      "id": "spiky",
+      "label": "spiky",
+      "image": "/images/locker/hair/spiky.webp",
+      "sourcePath": "game/character/hair/spiky.blend.import"
+    },
+    {
+      "id": "swirls",
+      "label": "swirls",
+      "image": "/images/locker/hair/swirls.webp",
+      "sourcePath": "game/character/hair/swirls.blend.import"
+    },
+    {
+      "id": "swirlyhair",
+      "label": "swirlyhair",
+      "image": "/images/locker/hair/swirlyhair.webp",
+      "sourcePath": "game/character/hair/swirlyhair.blend.import"
+    },
+    {
+      "id": "teto",
+      "label": "teto",
+      "image": "/images/locker/hair/teto.webp",
+      "sourcePath": "game/character/hair/teto.blend.import"
+    },
+    {
+      "id": "topfade",
+      "label": "topfade",
+      "image": "/images/locker/hair/topfade.webp",
+      "sourcePath": "game/character/hair/topfade.blend.import"
+    },
+    {
+      "id": "topknot",
+      "label": "topknot",
+      "image": "/images/locker/hair/topknot.webp",
+      "sourcePath": "game/character/hair/topknot.blend.import"
+    },
+    {
+      "id": "twisttie",
+      "label": "twisttie",
+      "image": "/images/locker/hair/twisttie.webp",
+      "sourcePath": "game/character/hair/twisttie.blend.import"
+    },
+    {
+      "id": "van",
+      "label": "van",
+      "image": "/images/locker/hair/van.webp",
+      "sourcePath": "game/character/hair/van.blend.import"
+    },
+    {
+      "id": "veritas",
+      "label": "veritas",
+      "image": "/images/locker/hair/veritas.webp",
+      "sourcePath": "game/character/hair/veritas.blend.import"
+    },
+    {
+      "id": "wynd",
+      "label": "wynd",
+      "image": "/images/locker/hair/wynd.webp",
+      "sourcePath": "game/character/hair/wynd.blend.import"
+    },
+    {
+      "id": "yumee",
+      "label": "yumee",
+      "image": "/images/locker/hair/yumee.webp",
+      "sourcePath": "game/character/hair/yumee.blend.import"
+    }
+  ],
+  "facialHair": [
+    {
+      "id": "",
+      "label": "None",
+      "image": "/images/locker/beard/none.webp"
+    },
+    {
+      "id": "BigFullBeard",
+      "label": "Bigfullbeard",
+      "sourcePath": "game/character/facial_hair/BigFullBeard.blend.import",
+      "image": "/images/locker/beard/BigFullBeard.webp"
+    },
+    {
+      "id": "f06",
+      "label": "F06",
+      "sourcePath": "game/character/facial_hair/f06.blend.import",
+      "image": "/images/locker/beard/f06.webp"
+    },
+    {
+      "id": "fullbeard",
+      "label": "Fullbeard",
+      "sourcePath": "game/character/facial_hair/fullbeard.blend.import",
+      "image": "/images/locker/beard/fullbeard.webp"
+    },
+    {
+      "id": "goatee",
+      "label": "Goatee",
+      "sourcePath": "game/character/facial_hair/goatee.blend.import",
+      "image": "/images/locker/beard/goatee.webp"
+    },
+    {
+      "id": "goatee_stache",
+      "label": "Goatee Stache",
+      "sourcePath": "game/character/facial_hair/goatee_stache.blend.import",
+      "image": "/images/locker/beard/goatee_stache.webp"
+    },
+    {
+      "id": "lashstache",
+      "label": "Lashstache",
+      "sourcePath": "game/character/facial_hair/lashstache.blend.import",
+      "image": "/images/locker/beard/lashstache.webp"
+    },
+    {
+      "id": "stache",
+      "label": "Stache",
+      "sourcePath": "game/character/facial_hair/stache.blend.import",
+      "image": "/images/locker/beard/stache.webp"
+    }
+  ],
+  "faces": {
+    "eyes": [
+      {
+        "id": "eye_1",
+        "label": "Eye 1",
+        "index": 0,
+        "image": "/images/game-parts/eyes-eye_1.webp",
+        "sourcePath": "game/character/faces/eyes/eye_1.png"
+      },
+      {
+        "id": "eye_2",
+        "label": "Eye 2",
+        "index": 1,
+        "image": "/images/game-parts/eyes-eye_2.webp",
+        "sourcePath": "game/character/faces/eyes/eye_2.png"
+      },
+      {
+        "id": "eye_3",
+        "label": "Eye 3",
+        "index": 2,
+        "image": "/images/game-parts/eyes-eye_3.webp",
+        "sourcePath": "game/character/faces/eyes/eye_3.png"
+      },
+      {
+        "id": "eye_4",
+        "label": "Eye 4",
+        "index": 3,
+        "image": "/images/game-parts/eyes-eye_4.webp",
+        "sourcePath": "game/character/faces/eyes/eye_4.png"
+      },
+      {
+        "id": "eye_5",
+        "label": "Eye 5",
+        "index": 4,
+        "image": "/images/game-parts/eyes-eye_5.webp",
+        "sourcePath": "game/character/faces/eyes/eye_5.png"
+      },
+      {
+        "id": "eye_6",
+        "label": "Eye 6",
+        "index": 5,
+        "image": "/images/game-parts/eyes-eye_6.webp",
+        "sourcePath": "game/character/faces/eyes/eye_6.png"
+      },
+      {
+        "id": "eye_7",
+        "label": "Eye 7",
+        "index": 6,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_7.png"
+      },
+      {
+        "id": "eye_8",
+        "label": "Eye 8",
+        "index": 7,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_8.png"
+      },
+      {
+        "id": "eye_9",
+        "label": "Eye 9",
+        "index": 8,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_9.png"
+      },
+      {
+        "id": "eye_10",
+        "label": "Eye 10",
+        "index": 9,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_10.png"
+      },
+      {
+        "id": "eye_11",
+        "label": "Eye 11",
+        "index": 10,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_11.png"
+      },
+      {
+        "id": "eye_12",
+        "label": "Eye 12",
+        "index": 11,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_12.png"
+      },
+      {
+        "id": "eye_13",
+        "label": "Eye 13",
+        "index": 12,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_13.png"
+      },
+      {
+        "id": "eye_14",
+        "label": "Eye 14",
+        "index": 13,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_14.png"
+      },
+      {
+        "id": "eye_15",
+        "label": "Eye 15",
+        "index": 14,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_15.png"
+      },
+      {
+        "id": "eye_16",
+        "label": "Eye 16",
+        "index": 15,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_16.png"
+      },
+      {
+        "id": "eye_17",
+        "label": "Eye 17",
+        "index": 16,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_17.png"
+      },
+      {
+        "id": "eye_18",
+        "label": "Eye 18",
+        "index": 17,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_18.png"
+      },
+      {
+        "id": "eye_19",
+        "label": "Eye 19",
+        "index": 18,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_19.png"
+      },
+      {
+        "id": "eye_20",
+        "label": "Eye 20",
+        "index": 19,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_20.png"
+      },
+      {
+        "id": "eye_21",
+        "label": "Eye 21",
+        "index": 20,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_21.png"
+      },
+      {
+        "id": "eye_22",
+        "label": "Eye 22",
+        "index": 21,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_22.png"
+      },
+      {
+        "id": "eye_23",
+        "label": "Eye 23",
+        "index": 22,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_23.png"
+      },
+      {
+        "id": "eyes_24",
+        "label": "Eye 24",
+        "index": 23,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eyes_24.png"
+      },
+      {
+        "id": "eye_25",
+        "label": "Eye 25",
+        "index": 24,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eye_25.png"
+      },
+      {
+        "id": "eyes_25",
+        "label": "Eye 25",
+        "index": 25,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eyes_25.png"
+      },
+      {
+        "id": "eyes_26",
+        "label": "Eye 26",
+        "index": 26,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eyes_26.png"
+      },
+      {
+        "id": "eyes_27",
+        "label": "Eye 27",
+        "index": 27,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eyes_27.png"
+      },
+      {
+        "id": "eyes_28",
+        "label": "Eye 28",
+        "index": 28,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eyes_28.png"
+      },
+      {
+        "id": "eyes_29",
+        "label": "Eye 29",
+        "index": 29,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eyes_29.png"
+      },
+      {
+        "id": "eyes_30",
+        "label": "Eye 30",
+        "index": 30,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eyes_30.png"
+      },
+      {
+        "id": "eyes_31",
+        "label": "Eye 31",
+        "index": 31,
+        "image": null,
+        "sourcePath": "game/character/faces/eyes/eyes_31.png"
+      }
+    ],
+    "brows": [
+      {
+        "id": "brow_1",
+        "label": "Brow 1",
+        "index": 0,
+        "image": "/images/game-parts/brows-brow_1.webp",
+        "sourcePath": "game/character/faces/brows/brow_1.png"
+      },
+      {
+        "id": "brow_2",
+        "label": "Brow 2",
+        "index": 1,
+        "image": "/images/game-parts/brows-brow_2.webp",
+        "sourcePath": "game/character/faces/brows/brow_2.png"
+      },
+      {
+        "id": "brow_3",
+        "label": "Brow 3",
+        "index": 2,
+        "image": "/images/game-parts/brows-brow_3.webp",
+        "sourcePath": "game/character/faces/brows/brow_3.png"
+      },
+      {
+        "id": "brow_4",
+        "label": "Brow 4",
+        "index": 3,
+        "image": "/images/game-parts/brows-brow_4.webp",
+        "sourcePath": "game/character/faces/brows/brow_4.png"
+      },
+      {
+        "id": "brow_5",
+        "label": "Brow 5",
+        "index": 4,
+        "image": "/images/game-parts/brows-brow_5.webp",
+        "sourcePath": "game/character/faces/brows/brow_5.png"
+      },
+      {
+        "id": "brow_6",
+        "label": "Brow 6",
+        "index": 5,
+        "image": "/images/game-parts/brows-brow_6.webp",
+        "sourcePath": "game/character/faces/brows/brow_6.png"
+      },
+      {
+        "id": "brow_7",
+        "label": "Brow 7",
+        "index": 6,
+        "image": null,
+        "sourcePath": "game/character/faces/brows/brow_7.png"
+      }
+    ],
+    "nose": [
+      {
+        "id": "nose_1",
+        "label": "Nose 1",
+        "index": 0,
+        "image": "/images/game-parts/nose-nose_1.webp",
+        "sourcePath": "game/character/faces/nose/nose_1.png"
+      },
+      {
+        "id": "nose_2",
+        "label": "Nose 2",
+        "index": 1,
+        "image": "/images/game-parts/nose-nose_2.webp",
+        "sourcePath": "game/character/faces/nose/nose_2.png"
+      },
+      {
+        "id": "nose_3",
+        "label": "Nose 3",
+        "index": 2,
+        "image": "/images/game-parts/nose-nose_3.webp",
+        "sourcePath": "game/character/faces/nose/nose_3.png"
+      },
+      {
+        "id": "nose_4",
+        "label": "Nose 4",
+        "index": 3,
+        "image": "/images/game-parts/nose-nose_4.webp",
+        "sourcePath": "game/character/faces/nose/nose_4.png"
+      },
+      {
+        "id": "nose_5",
+        "label": "Nose 5",
+        "index": 4,
+        "image": "/images/game-parts/nose-nose_5.webp",
+        "sourcePath": "game/character/faces/nose/nose_5.png"
+      }
+    ],
+    "mouth": [
+      {
+        "id": "mouth_1",
+        "label": "Mouth 1",
+        "index": 0,
+        "image": "/images/game-parts/mouth-mouth_1.webp",
+        "sourcePath": "game/character/faces/mouth/mouth_1.png"
+      },
+      {
+        "id": "mouth_2",
+        "label": "Mouth 2",
+        "index": 1,
+        "image": "/images/game-parts/mouth-mouth_2.webp",
+        "sourcePath": "game/character/faces/mouth/mouth_2.png"
+      },
+      {
+        "id": "mouth_3",
+        "label": "Mouth 3",
+        "index": 2,
+        "image": "/images/game-parts/mouth-mouth_3.webp",
+        "sourcePath": "game/character/faces/mouth/mouth_3.png"
+      },
+      {
+        "id": "mouth_4",
+        "label": "Mouth 4",
+        "index": 3,
+        "image": "/images/game-parts/mouth-mouth_4.webp",
+        "sourcePath": "game/character/faces/mouth/mouth_4.png"
+      },
+      {
+        "id": "mouth_5",
+        "label": "Mouth 5",
+        "index": 4,
+        "image": "/images/game-parts/mouth-mouth_5.webp",
+        "sourcePath": "game/character/faces/mouth/mouth_5.png"
+      },
+      {
+        "id": "mouth_6",
+        "label": "Mouth 6",
+        "index": 5,
+        "image": "/images/game-parts/mouth-mouth_6.webp",
+        "sourcePath": "game/character/faces/mouth/mouth_6.png"
+      },
+      {
+        "id": "mouth_7",
+        "label": "Mouth 7",
+        "index": 6,
+        "image": null,
+        "sourcePath": "game/character/faces/mouth/mouth_7.png"
+      },
+      {
+        "id": "mouth_8",
+        "label": "Mouth 8",
+        "index": 7,
+        "image": null,
+        "sourcePath": "game/character/faces/mouth/mouth_8.png"
+      },
+      {
+        "id": "mouth_9",
+        "label": "Mouth 9",
+        "index": 8,
+        "image": null,
+        "sourcePath": "game/character/faces/mouth/mouth_9.png"
+      },
+      {
+        "id": "mouth_10",
+        "label": "Mouth 10",
+        "index": 9,
+        "image": null,
+        "sourcePath": "game/character/faces/mouth/mouth_10.png"
+      },
+      {
+        "id": "mouth_11",
+        "label": "Mouth 11",
+        "index": 10,
+        "image": null,
+        "sourcePath": "game/character/faces/mouth/mouth_11.png"
+      },
+      {
+        "id": "mouth_12",
+        "label": "Mouth 12",
+        "index": 11,
+        "image": null,
+        "sourcePath": "game/character/faces/mouth/mouth_12.png"
+      },
+      {
+        "id": "mouth_13",
+        "label": "Mouth 13",
+        "index": 12,
+        "image": null,
+        "sourcePath": "game/character/faces/mouth/mouth_13.png"
+      },
+      {
+        "id": "mouth_14",
+        "label": "Mouth 14",
+        "index": 13,
+        "image": null,
+        "sourcePath": "game/character/faces/mouth/mouth_14.png"
+      },
+      {
+        "id": "mouth_15",
+        "label": "Mouth 15",
+        "index": 14,
+        "image": null,
+        "sourcePath": "game/character/faces/mouth/mouth_15.png"
+      },
+      {
+        "id": "mouth_16",
+        "label": "Mouth 16",
+        "index": 15,
+        "image": null,
+        "sourcePath": "game/character/faces/mouth/mouth_16.png"
+      },
+      {
+        "id": "mouth_17",
+        "label": "Mouth 17",
+        "index": 16,
+        "image": null,
+        "sourcePath": "game/character/faces/mouth/mouth_17.png"
+      }
+    ],
+    "blush": [
+      {
+        "id": "circle",
+        "label": "Circle",
+        "index": 0,
+        "sourcePath": "game/character/faces/blush/circle.png",
+        "image": "/images/locker/blush-circle.png"
+      },
+      {
+        "id": "dashes",
+        "label": "Dashes",
+        "index": 1,
+        "sourcePath": "game/character/faces/blush/dashes.png",
+        "image": "/images/locker/blush-dashes.png"
+      },
+      {
+        "id": "band",
+        "label": "Band",
+        "index": 2,
+        "sourcePath": "game/character/faces/blush/band.png",
+        "image": "/images/locker/blush-band.png"
+      },
+      {
+        "id": "freckles",
+        "label": "Freckles",
+        "index": 3,
+        "sourcePath": "game/character/faces/blush/freckles.png",
+        "image": "/images/locker/blush-freckles.png"
+      },
+      {
+        "id": "aublush",
+        "label": "Aublush",
+        "index": 4,
+        "sourcePath": "game/character/faces/blush/aublush.png",
+        "image": "/images/locker/blush-aublush.png"
+      },
+      {
+        "id": "blushwhisk",
+        "label": "Blushwhisk",
+        "index": 5,
+        "sourcePath": "game/character/faces/blush/blushwhisk.png",
+        "image": "/images/locker/blush-blushwhisk.png"
+      },
+      {
+        "id": "swirl",
+        "label": "Swirl",
+        "index": 6,
+        "sourcePath": "game/character/faces/blush/swirl.png",
+        "image": "/images/locker/blush-swirl.png"
+      }
+    ]
+  },
+  "accessories": [
+    {
+      "id": "achromatic",
+      "label": "achromatic",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/achromatic.tres",
+      "modelPath": "res://game/character/accessories/achromatic.blend"
+    },
+    {
+      "id": "adventurebackpack",
+      "label": "adventure backpack",
+      "category": "extra",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/adventurebackpack.tres",
+      "modelPath": "res://game/character/accessories/adventurebackpack.blend"
+    },
+    {
+      "id": "adventurehat",
+      "label": "adventure hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/adventurehat.tres",
+      "modelPath": "res://game/character/accessories/adventurehat.blend"
+    },
+    {
+      "id": "angryeffect",
+      "label": "anger mark",
+      "category": "face",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/angryeffect.tres",
+      "modelPath": "res://game/character/accessories/angryeffect.blend"
+    },
+    {
+      "id": "antennae",
+      "label": "antennae",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/antennae.tres",
+      "modelPath": "res://game/character/accessories/antennae.blend"
+    },
+    {
+      "id": "applebeanie",
+      "label": "apple beanie",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/applebeanie.tres",
+      "modelPath": "res://game/character/accessories/applebeanie.blend"
+    },
+    {
+      "id": "astronauthelmet",
+      "label": "astronaut helmet",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/astronauthelmet.tres",
+      "modelPath": "res://game/character/accessories/astronauthelmet.blend"
+    },
+    {
+      "id": "aubade",
+      "label": "aubade",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/aubade.tres",
+      "modelPath": "res://game/character/accessories/aubade.blend"
+    },
+    {
+      "id": "backscythe",
+      "label": "back scythe",
+      "category": "extra",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/backscythe.tres",
+      "modelPath": "res://game/character/accessories/backscythe.blend"
+    },
+    {
+      "id": "bandana",
+      "label": "bandana",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/bandana.tres",
+      "modelPath": "res://game/character/accessories/bandana.blend"
+    },
+    {
+      "id": "baseballcap",
+      "label": "baseball cap",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/baseballcap.tres",
+      "modelPath": "res://game/character/accessories/baseballcap.blend"
+    },
+    {
+      "id": "batwings",
+      "label": "bat wings",
+      "category": "extra",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/batwings.tres",
+      "modelPath": "res://game/character/accessories/batwings.blend"
+    },
+    {
+      "id": "beanie",
+      "label": "beanie",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/beanie.tres",
+      "modelPath": "res://game/character/accessories/beanie.blend"
+    },
+    {
+      "id": "blockhat",
+      "label": "block hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/blockhat.tres",
+      "modelPath": "res://game/character/accessories/blockhat.blend"
+    },
+    {
+      "id": "bow",
+      "label": "bow",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/bow.tres",
+      "modelPath": "res://game/character/accessories/bow.blend"
+    },
+    {
+      "id": "buckethat",
+      "label": "bucket hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/buckethat.tres",
+      "modelPath": "res://game/character/accessories/buckethat.blend"
+    },
+    {
+      "id": "bunnybag",
+      "label": "bunny bag",
+      "category": "extra",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/bunnybag.tres",
+      "modelPath": "res://game/character/accessories/bunnybag.blend"
+    },
+    {
+      "id": "bunnyears",
+      "label": "bunny ears",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/bunnyears.tres",
+      "modelPath": "res://game/character/accessories/bunnyears.blend"
+    },
+    {
+      "id": "bunnyheadband",
+      "label": "bunny headband",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/bunnyheadband.tres",
+      "modelPath": "res://game/character/accessories/bunnyheadband.blend"
+    },
+    {
+      "id": "butterflywings",
+      "label": "butterfly wings",
+      "category": "extra",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/butterflywings.tres",
+      "modelPath": "res://game/character/accessories/butterflywings.blend"
+    },
+    {
+      "id": "candyhat",
+      "label": "candy hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/candyhat.tres",
+      "modelPath": "res://game/character/accessories/candyhat.blend"
+    },
+    {
+      "id": "cape",
+      "label": "cape",
+      "category": "extra",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/cape.tres",
+      "modelPath": "res://game/character/accessories/cape.blend"
+    },
+    {
+      "id": "catbaseballcap",
+      "label": "cat cap",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/catbaseballcap.tres",
+      "modelPath": "res://game/character/accessories/catbaseballcap.blend"
+    },
+    {
+      "id": "catears",
+      "label": "cat ears",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/catears.tres",
+      "modelPath": "res://game/character/accessories/catears.blend"
+    },
+    {
+      "id": "chefhat",
+      "label": "chef hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/chefhat.tres",
+      "modelPath": "res://game/character/accessories/chefhat.blend"
+    },
+    {
+      "id": "cloverhat",
+      "label": "clover hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/cloverhat.tres",
+      "modelPath": "res://game/character/accessories/cloverhat.blend"
+    },
+    {
+      "id": "coldcap",
+      "label": "winter hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/coldcap.tres",
+      "modelPath": "res://game/character/accessories/coldcap.blend"
+    },
+    {
+      "id": "cowboyhat",
+      "label": "cowboy hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/cowboyhat.tres",
+      "modelPath": "res://game/character/accessories/cowboyhat.blend"
+    },
+    {
+      "id": "crown",
+      "label": "crown",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/crown.tres",
+      "modelPath": "res://game/character/accessories/crown.blend"
+    },
+    {
+      "id": "curltail",
+      "label": "curly tail",
+      "category": "extra",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/curltail.tres",
+      "modelPath": "res://game/character/accessories/curltail.blend"
+    },
+    {
+      "id": "devilhorns",
+      "label": "devil horns",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/devilhorns.tres",
+      "modelPath": "res://game/character/accessories/devilhorns.blend"
+    },
+    {
+      "id": "duckbeak",
+      "label": "duck beak",
+      "category": "face",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/duckbeak.tres",
+      "modelPath": "res://game/character/accessories/duckbeak.blend"
+    },
+    {
+      "id": "eyepatch",
+      "label": "eyepatch",
+      "category": "face",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/eyepatch.tres",
+      "modelPath": "res://game/character/accessories/eyepatch.blend"
+    },
+    {
+      "id": "facemask",
+      "label": "face mask",
+      "category": "face",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/facemask.tres",
+      "modelPath": "res://game/character/accessories/facemask.blend"
+    },
+    {
+      "id": "fishbowl",
+      "label": "fish bowl",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/fishbowl.tres",
+      "modelPath": "res://game/character/accessories/fishbowl.blend"
+    },
+    {
+      "id": "frogcap",
+      "label": "frog cap",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/frogcap.tres",
+      "modelPath": "res://game/character/accessories/frogcap.blend"
+    },
+    {
+      "id": "froghat",
+      "label": "frog hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/froghat.tres",
+      "modelPath": "res://game/character/accessories/froghat.blend"
+    },
+    {
+      "id": "fryingpothat",
+      "label": "frying pot hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/fryingpothat.tres",
+      "modelPath": "res://game/character/accessories/fryingpothat.blend"
+    },
+    {
+      "id": "halo",
+      "label": "halo",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/halo.tres",
+      "modelPath": "res://game/character/accessories/halo.blend"
+    },
+    {
+      "id": "headband",
+      "label": "headband",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/headband.tres",
+      "modelPath": "res://game/character/accessories/headband.blend"
+    },
+    {
+      "id": "headphones",
+      "label": "headphones",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/headphones.tres",
+      "modelPath": "res://game/character/accessories/headphones.blend"
+    },
+    {
+      "id": "headscrew",
+      "label": "head screw",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/headscrew.tres",
+      "modelPath": "res://game/character/accessories/headscrew.blend"
+    },
+    {
+      "id": "horns",
+      "label": "horns",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/horns.tres",
+      "modelPath": "res://game/character/accessories/horns.blend"
+    },
+    {
+      "id": "jellohat",
+      "label": "jello hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/jellohat.tres",
+      "modelPath": "res://game/character/accessories/jellohat.blend"
+    },
+    {
+      "id": "jesterhat",
+      "label": "jester hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/jesterhat.tres",
+      "modelPath": "res://game/character/accessories/jesterhat.blend"
+    },
+    {
+      "id": "key",
+      "label": "key",
+      "category": "extra",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/key.tres",
+      "modelPath": "res://game/character/accessories/key.blend"
+    },
+    {
+      "id": "knight",
+      "label": "knight",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/knight.tres",
+      "modelPath": "res://game/character/accessories/knight.blend"
+    },
+    {
+      "id": "mlgglasses",
+      "label": "mlg glasses",
+      "category": "face",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/mlgglasses.tres",
+      "modelPath": "res://game/character/accessories/mlgglasses.blend"
+    },
+    {
+      "id": "mouseear",
+      "label": "mouse ears",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/mouseear.tres",
+      "modelPath": "res://game/character/accessories/mouseear.blend"
+    },
+    {
+      "id": "nose_bandage",
+      "label": "nose bandage",
+      "category": "extra",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/nose_bandage.tres",
+      "modelPath": "res://game/character/accessories/nose_bandage.blend"
+    },
+    {
+      "id": "orangebeanie",
+      "label": "orange beanie",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/orangebeanie.tres",
+      "modelPath": "res://game/character/accessories/orangebeanie.blend"
+    },
+    {
+      "id": "partyhat",
+      "label": "party hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/partyhat.tres",
+      "modelPath": "res://game/character/accessories/partyhat.blend"
+    },
+    {
+      "id": "punk_glasses",
+      "label": "punk glasses",
+      "category": "face",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/punk_glasses.tres",
+      "modelPath": "res://game/character/accessories/punk_glasses.blend"
+    },
+    {
+      "id": "rainbowtophat",
+      "label": "rainbow top hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/rainbowtophat.tres",
+      "modelPath": "res://game/character/accessories/rainbowtophat.blend"
+    },
+    {
+      "id": "roundglasses",
+      "label": "round glasses",
+      "category": "face",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/roundglasses.tres",
+      "modelPath": "res://game/character/accessories/roundglasses.blend"
+    },
+    {
+      "id": "royalcrown",
+      "label": "royal crown",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/royalcrown.tres",
+      "modelPath": "res://game/character/accessories/royalcrown.blend"
+    },
+    {
+      "id": "scarf",
+      "label": "scarf",
+      "category": "extra",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/scarf.tres",
+      "modelPath": "res://game/character/accessories/scarf.blend"
+    },
+    {
+      "id": "sleekvisor",
+      "label": "sleek visor",
+      "category": "face",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/sleekvisor.tres",
+      "modelPath": "res://game/character/accessories/sleekvisor.blend"
+    },
+    {
+      "id": "snailhat",
+      "label": "snail hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/snailhat.tres",
+      "modelPath": "res://game/character/accessories/snailhat.blend"
+    },
+    {
+      "id": "spinny_hat",
+      "label": "spinny hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/spinny_hat.tres",
+      "modelPath": "res://game/character/accessories/SPINNY HAT.blend"
+    },
+    {
+      "id": "sprout",
+      "label": "sprout",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/sprout.tres",
+      "modelPath": "res://game/character/accessories/sprout.blend"
+    },
+    {
+      "id": "square_glasses",
+      "label": "square glasses",
+      "category": "face",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/square_glasses.tres",
+      "modelPath": "res://game/character/accessories/square_glasses.blend"
+    },
+    {
+      "id": "straighttail",
+      "label": "straight tail",
+      "category": "extra",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/straighttail.tres",
+      "modelPath": "res://game/character/accessories/straighttail.blend"
+    },
+    {
+      "id": "strawhat",
+      "label": "straw hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/strawhat.tres",
+      "modelPath": "res://game/character/accessories/strawhat.blend"
+    },
+    {
+      "id": "sunflowerhead",
+      "label": "sunflower",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/sunflowerhead.tres",
+      "modelPath": "res://game/character/accessories/sunflowerhead.blend"
+    },
+    {
+      "id": "swirlglasses",
+      "label": "swirl glasses",
+      "category": "face",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/swirlglasses.tres",
+      "modelPath": "res://game/character/accessories/swirlglasses.blend"
+    },
+    {
+      "id": "tophat",
+      "label": "top hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/tophat.tres",
+      "modelPath": "res://game/character/accessories/tophat.blend"
+    },
+    {
+      "id": "trafficconehat",
+      "label": "traffic cone",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/trafficconehat.tres",
+      "modelPath": "res://game/character/accessories/trafficconehat.blend"
+    },
+    {
+      "id": "visor",
+      "label": "visor",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/visor.tres",
+      "modelPath": "res://game/character/accessories/visor.blend"
+    },
+    {
+      "id": "watermellon",
+      "label": "watermelon hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/watermellon.tres",
+      "modelPath": "res://game/character/accessories/watermellon.blend"
+    },
+    {
+      "id": "wings",
+      "label": "wings",
+      "category": "extra",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/wings.tres",
+      "modelPath": "res://game/character/accessories/wings.blend"
+    },
+    {
+      "id": "witch_hat",
+      "label": "witch hat",
+      "category": "head",
+      "price": 1000,
+      "supporter": false,
+      "availableInBuild": true,
+      "availabilitySource": "game/character/accessory_catalog.gd:_scan",
+      "sourcePath": "game/character/accessories/witch_hat.tres",
+      "modelPath": "res://game/character/accessories/witch hat.blend"
+    },
+    {
+      "id": "supporter_cape",
+      "label": "supporter cape",
+      "category": "extra",
+      "price": 0,
+      "supporter": true,
+      "availableInBuild": false,
+      "availabilitySource": "game/core/supporter.gd:33,101-105; game/character/accessory_catalog.gd:78-80",
+      "sourcePath": "game/character/supporter/supporter_cape.tres",
+      "modelPath": "res://game/character/accessories/cape.blend"
+    },
+    {
+      "id": "supporter_hat",
+      "label": "supporter hat",
+      "category": "head",
+      "price": 0,
+      "supporter": true,
+      "availableInBuild": false,
+      "availabilitySource": "game/core/supporter.gd:33,101-105; game/character/accessory_catalog.gd:78-80",
+      "sourcePath": "game/character/supporter/supporter_hat.tres",
+      "modelPath": "res://game/character/accessories/tophat.blend"
+    },
+    {
+      "id": "supporter_scarf",
+      "label": "supporter scarf",
+      "category": "extra",
+      "price": 0,
+      "supporter": true,
+      "availableInBuild": false,
+      "availabilitySource": "game/core/supporter.gd:33,101-105; game/character/accessory_catalog.gd:78-80",
+      "sourcePath": "game/character/supporter/supporter_scarf.tres",
+      "modelPath": "res://game/character/accessories/scarf.blend"
+    },
+    {
+      "id": "supporter_wings",
+      "label": "supporter wings",
+      "category": "extra",
+      "price": 0,
+      "supporter": true,
+      "availableInBuild": false,
+      "availabilitySource": "game/core/supporter.gd:33,101-105; game/character/accessory_catalog.gd:78-80",
+      "sourcePath": "game/character/supporter/supporter_wings.tres",
+      "modelPath": "res://game/character/accessories/wings.blend"
+    }
+  ],
+  "fields": [
+    {
+      "key": "skin",
+      "label": "Skin tone",
+      "default": 0,
+      "section": "body",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "Skin tone 1",
+          "color": "fffaf7"
+        },
+        {
+          "value": 1,
+          "label": "Skin tone 2",
+          "color": "fcf2e6"
+        },
+        {
+          "value": 2,
+          "label": "Skin tone 3",
+          "color": "faebd6"
+        },
+        {
+          "value": 3,
+          "label": "Skin tone 4",
+          "color": "ffdeba"
+        },
+        {
+          "value": 4,
+          "label": "Skin tone 5",
+          "color": "f5cca1"
+        },
+        {
+          "value": 5,
+          "label": "Skin tone 6",
+          "color": "e6b585"
+        },
+        {
+          "value": 6,
+          "label": "Skin tone 7",
+          "color": "cc996b"
+        },
+        {
+          "value": 7,
+          "label": "Skin tone 8",
+          "color": "a87852"
+        },
+        {
+          "value": 8,
+          "label": "Skin tone 9",
+          "color": "855c3d"
+        },
+        {
+          "value": 9,
+          "label": "Skin tone 10",
+          "color": "66452e"
+        },
+        {
+          "value": 10,
+          "label": "Skin tone 11",
+          "color": "473021"
+        },
+        {
+          "value": 11,
+          "label": "Skin tone 12",
+          "color": "2e1f17"
+        }
+      ]
+    },
+    {
+      "key": "skx",
+      "label": "Custom skin colour",
+      "default": false,
+      "section": "body",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "boolean"
+    },
+    {
+      "key": "skc",
+      "label": "Skin colour",
+      "default": "ffdeba",
+      "section": "body",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "hs",
+      "label": "Head shape",
+      "default": 0,
+      "section": "body",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "Default"
+        },
+        {
+          "value": 1,
+          "label": "Sharp"
+        },
+        {
+          "value": 2,
+          "label": "Square"
+        },
+        {
+          "value": 3,
+          "label": "Round"
+        }
+      ]
+    },
+    {
+      "key": "ear",
+      "label": "Ear shape",
+      "default": "",
+      "section": "body",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": "",
+          "label": "Default"
+        },
+        {
+          "value": "Pointy",
+          "label": "Pointy"
+        },
+        {
+          "value": "None",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "key": "lh",
+      "label": "Left handed",
+      "default": false,
+      "section": "body",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "boolean"
+    },
+    {
+      "key": "h",
+      "label": "Height",
+      "default": 0.5,
+      "section": "body",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "w",
+      "label": "Build",
+      "default": 0.5,
+      "section": "body",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "hair",
+      "label": "Hairstyle",
+      "default": "2twists",
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": "",
+          "label": "Bald"
+        },
+        {
+          "value": "2twists",
+          "label": "2twists"
+        },
+        {
+          "value": "afro",
+          "label": "afro"
+        },
+        {
+          "value": "brother",
+          "label": "brother"
+        },
+        {
+          "value": "butchwitch",
+          "label": "butchwitch"
+        },
+        {
+          "value": "buzz",
+          "label": "buzz"
+        },
+        {
+          "value": "coilfro",
+          "label": "coilfro"
+        },
+        {
+          "value": "cornrow",
+          "label": "cornrow"
+        },
+        {
+          "value": "curves",
+          "label": "curves"
+        },
+        {
+          "value": "dai",
+          "label": "dai"
+        },
+        {
+          "value": "dreadfull",
+          "label": "dreadfull"
+        },
+        {
+          "value": "dreadlong",
+          "label": "dreadlong"
+        },
+        {
+          "value": "fall",
+          "label": "fall"
+        },
+        {
+          "value": "hae",
+          "label": "hae"
+        },
+        {
+          "value": "hairf10",
+          "label": "hairf10"
+        },
+        {
+          "value": "hairf11",
+          "label": "hairf11"
+        },
+        {
+          "value": "hairf12",
+          "label": "hairf12"
+        },
+        {
+          "value": "hairf13",
+          "label": "hairf13"
+        },
+        {
+          "value": "hairf14",
+          "label": "hairf14"
+        },
+        {
+          "value": "hairf15",
+          "label": "hairf15"
+        },
+        {
+          "value": "hairf17",
+          "label": "hairf17"
+        },
+        {
+          "value": "hairf18",
+          "label": "hairf18"
+        },
+        {
+          "value": "hairf19",
+          "label": "hairf19"
+        },
+        {
+          "value": "hairf20",
+          "label": "hairf20"
+        },
+        {
+          "value": "hairf5",
+          "label": "hairf5"
+        },
+        {
+          "value": "hairf6",
+          "label": "hairf6"
+        },
+        {
+          "value": "hairf7",
+          "label": "hairf7"
+        },
+        {
+          "value": "hairf8",
+          "label": "hairf8"
+        },
+        {
+          "value": "hairm1",
+          "label": "hairm1"
+        },
+        {
+          "value": "hairm10",
+          "label": "hairm10"
+        },
+        {
+          "value": "hairm11",
+          "label": "hairm11"
+        },
+        {
+          "value": "hairm12",
+          "label": "hairm12"
+        },
+        {
+          "value": "hairm13",
+          "label": "hairm13"
+        },
+        {
+          "value": "hairm14",
+          "label": "hairm14"
+        },
+        {
+          "value": "hairm15",
+          "label": "hairm15"
+        },
+        {
+          "value": "hairm16",
+          "label": "hairm16"
+        },
+        {
+          "value": "hairm17",
+          "label": "hairm17"
+        },
+        {
+          "value": "hairm18",
+          "label": "hairm18"
+        },
+        {
+          "value": "hairm19",
+          "label": "hairm19"
+        },
+        {
+          "value": "hairm20",
+          "label": "hairm20"
+        },
+        {
+          "value": "hairm6",
+          "label": "hairm6"
+        },
+        {
+          "value": "hairm7",
+          "label": "hairm7"
+        },
+        {
+          "value": "hairm8",
+          "label": "hairm8"
+        },
+        {
+          "value": "hairm9",
+          "label": "hairm9"
+        },
+        {
+          "value": "hairtf16",
+          "label": "hairtf16"
+        },
+        {
+          "value": "halfdread",
+          "label": "halfdread"
+        },
+        {
+          "value": "hightop",
+          "label": "hightop"
+        },
+        {
+          "value": "hopefulwitch",
+          "label": "hopefulwitch"
+        },
+        {
+          "value": "hue",
+          "label": "hue"
+        },
+        {
+          "value": "jasmine",
+          "label": "jasmine"
+        },
+        {
+          "value": "jeremy",
+          "label": "jeremy"
+        },
+        {
+          "value": "kage",
+          "label": "kage"
+        },
+        {
+          "value": "kai",
+          "label": "kai"
+        },
+        {
+          "value": "kasa",
+          "label": "kasa"
+        },
+        {
+          "value": "ko",
+          "label": "ko"
+        },
+        {
+          "value": "longhair",
+          "label": "longhair"
+        },
+        {
+          "value": "maka",
+          "label": "maka"
+        },
+        {
+          "value": "mamii",
+          "label": "mamii"
+        },
+        {
+          "value": "mao",
+          "label": "mao"
+        },
+        {
+          "value": "marcy",
+          "label": "marcy"
+        },
+        {
+          "value": "may",
+          "label": "may"
+        },
+        {
+          "value": "megan",
+          "label": "megan"
+        },
+        {
+          "value": "meku",
+          "label": "meku"
+        },
+        {
+          "value": "messydreads",
+          "label": "messydreads"
+        },
+        {
+          "value": "mob",
+          "label": "mob"
+        },
+        {
+          "value": "momhair",
+          "label": "momhair"
+        },
+        {
+          "value": "oody",
+          "label": "oody"
+        },
+        {
+          "value": "ponytail",
+          "label": "ponytail"
+        },
+        {
+          "value": "powder",
+          "label": "powder"
+        },
+        {
+          "value": "ps68",
+          "label": "ps68"
+        },
+        {
+          "value": "ruri",
+          "label": "ruri"
+        },
+        {
+          "value": "sagaraen",
+          "label": "sagaraen"
+        },
+        {
+          "value": "shrimpy",
+          "label": "shrimpy"
+        },
+        {
+          "value": "spiky",
+          "label": "spiky"
+        },
+        {
+          "value": "swirls",
+          "label": "swirls"
+        },
+        {
+          "value": "swirlyhair",
+          "label": "swirlyhair"
+        },
+        {
+          "value": "teto",
+          "label": "teto"
+        },
+        {
+          "value": "topfade",
+          "label": "topfade"
+        },
+        {
+          "value": "topknot",
+          "label": "topknot"
+        },
+        {
+          "value": "twisttie",
+          "label": "twisttie"
+        },
+        {
+          "value": "van",
+          "label": "van"
+        },
+        {
+          "value": "veritas",
+          "label": "veritas"
+        },
+        {
+          "value": "wynd",
+          "label": "wynd"
+        },
+        {
+          "value": "yumee",
+          "label": "yumee"
+        }
+      ]
+    },
+    {
+      "key": "hc",
+      "label": "Hair palette",
+      "default": 0,
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "Hair palette 1",
+          "color": "211a14"
+        },
+        {
+          "value": 1,
+          "label": "Hair palette 2",
+          "color": "47301c"
+        },
+        {
+          "value": 2,
+          "label": "Hair palette 3",
+          "color": "7a5226"
+        },
+        {
+          "value": 3,
+          "label": "Hair palette 4",
+          "color": "b88c42"
+        },
+        {
+          "value": 4,
+          "label": "Hair palette 5",
+          "color": "dec98c"
+        },
+        {
+          "value": 5,
+          "label": "Hair palette 6",
+          "color": "8c170f"
+        },
+        {
+          "value": 6,
+          "label": "Hair palette 7",
+          "color": "595961"
+        },
+        {
+          "value": 7,
+          "label": "Hair palette 8",
+          "color": "e0e0e6"
+        },
+        {
+          "value": 8,
+          "label": "Hair palette 9",
+          "color": "3d59a6"
+        },
+        {
+          "value": 9,
+          "label": "Hair palette 10",
+          "color": "8c4099"
+        },
+        {
+          "value": 10,
+          "label": "Hair palette 11",
+          "color": "d973a6"
+        },
+        {
+          "value": 11,
+          "label": "Hair palette 12",
+          "color": "338c66"
+        }
+      ]
+    },
+    {
+      "key": "hcol",
+      "label": "Hair colour",
+      "default": "211a14",
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "hfl",
+      "label": "Mirror hair",
+      "default": false,
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "boolean"
+    },
+    {
+      "key": "es",
+      "label": "Eyes",
+      "default": 0,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "Eye 1",
+          "image": "/images/game-parts/eyes-eye_1.webp"
+        },
+        {
+          "value": 1,
+          "label": "Eye 2",
+          "image": "/images/game-parts/eyes-eye_2.webp"
+        },
+        {
+          "value": 2,
+          "label": "Eye 3",
+          "image": "/images/game-parts/eyes-eye_3.webp"
+        },
+        {
+          "value": 3,
+          "label": "Eye 4",
+          "image": "/images/game-parts/eyes-eye_4.webp"
+        },
+        {
+          "value": 4,
+          "label": "Eye 5",
+          "image": "/images/game-parts/eyes-eye_5.webp"
+        },
+        {
+          "value": 5,
+          "label": "Eye 6",
+          "image": "/images/game-parts/eyes-eye_6.webp"
+        },
+        {
+          "value": 6,
+          "label": "Eye 7",
+          "image": null
+        },
+        {
+          "value": 7,
+          "label": "Eye 8",
+          "image": null
+        },
+        {
+          "value": 8,
+          "label": "Eye 9",
+          "image": null
+        },
+        {
+          "value": 9,
+          "label": "Eye 10",
+          "image": null
+        },
+        {
+          "value": 10,
+          "label": "Eye 11",
+          "image": null
+        },
+        {
+          "value": 11,
+          "label": "Eye 12",
+          "image": null
+        },
+        {
+          "value": 12,
+          "label": "Eye 13",
+          "image": null
+        },
+        {
+          "value": 13,
+          "label": "Eye 14",
+          "image": null
+        },
+        {
+          "value": 14,
+          "label": "Eye 15",
+          "image": null
+        },
+        {
+          "value": 15,
+          "label": "Eye 16",
+          "image": null
+        },
+        {
+          "value": 16,
+          "label": "Eye 17",
+          "image": null
+        },
+        {
+          "value": 17,
+          "label": "Eye 18",
+          "image": null
+        },
+        {
+          "value": 18,
+          "label": "Eye 19",
+          "image": null
+        },
+        {
+          "value": 19,
+          "label": "Eye 20",
+          "image": null
+        },
+        {
+          "value": 20,
+          "label": "Eye 21",
+          "image": null
+        },
+        {
+          "value": 21,
+          "label": "Eye 22",
+          "image": null
+        },
+        {
+          "value": 22,
+          "label": "Eye 23",
+          "image": null
+        },
+        {
+          "value": 23,
+          "label": "Eye 24",
+          "image": null
+        },
+        {
+          "value": 24,
+          "label": "Eye 25",
+          "image": null
+        },
+        {
+          "value": 25,
+          "label": "Eye 25",
+          "image": null
+        },
+        {
+          "value": 26,
+          "label": "Eye 26",
+          "image": null
+        },
+        {
+          "value": 27,
+          "label": "Eye 27",
+          "image": null
+        },
+        {
+          "value": 28,
+          "label": "Eye 28",
+          "image": null
+        },
+        {
+          "value": 29,
+          "label": "Eye 29",
+          "image": null
+        },
+        {
+          "value": 30,
+          "label": "Eye 30",
+          "image": null
+        },
+        {
+          "value": 31,
+          "label": "Eye 31",
+          "image": null
+        }
+      ]
+    },
+    {
+      "key": "eyc",
+      "label": "Iris colour",
+      "default": "000000",
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "elc",
+      "label": "Eyelash colour",
+      "default": "000000",
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "ez",
+      "label": "Eye size",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "ew",
+      "label": "Eye width",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "eyz",
+      "label": "Eye height scale",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "eh",
+      "label": "Eye vertical position",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "ex",
+      "label": "Eye spacing",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "er",
+      "label": "Eye rotation",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "epx",
+      "label": "Eye horizontal position",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "bs",
+      "label": "Eyebrows",
+      "default": 0,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": -1,
+          "label": "None"
+        },
+        {
+          "value": 0,
+          "label": "Brow 1",
+          "image": "/images/game-parts/brows-brow_1.webp"
+        },
+        {
+          "value": 1,
+          "label": "Brow 2",
+          "image": "/images/game-parts/brows-brow_2.webp"
+        },
+        {
+          "value": 2,
+          "label": "Brow 3",
+          "image": "/images/game-parts/brows-brow_3.webp"
+        },
+        {
+          "value": 3,
+          "label": "Brow 4",
+          "image": "/images/game-parts/brows-brow_4.webp"
+        },
+        {
+          "value": 4,
+          "label": "Brow 5",
+          "image": "/images/game-parts/brows-brow_5.webp"
+        },
+        {
+          "value": 5,
+          "label": "Brow 6",
+          "image": "/images/game-parts/brows-brow_6.webp"
+        },
+        {
+          "value": 6,
+          "label": "Brow 7",
+          "image": null
+        }
+      ]
+    },
+    {
+      "key": "bwc",
+      "label": "Eyebrow colour",
+      "default": "000000",
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "bh",
+      "label": "Brow vertical position",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "br",
+      "label": "Brow rotation",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "bsp",
+      "label": "Brow spacing",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "bsz",
+      "label": "Brow size",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "bwid",
+      "label": "Brow width",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "bht",
+      "label": "Brow height scale",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "bpx",
+      "label": "Brow horizontal position",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "ms",
+      "label": "Mouth",
+      "default": 0,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "Mouth 1",
+          "image": "/images/game-parts/mouth-mouth_1.webp"
+        },
+        {
+          "value": 1,
+          "label": "Mouth 2",
+          "image": "/images/game-parts/mouth-mouth_2.webp"
+        },
+        {
+          "value": 2,
+          "label": "Mouth 3",
+          "image": "/images/game-parts/mouth-mouth_3.webp"
+        },
+        {
+          "value": 3,
+          "label": "Mouth 4",
+          "image": "/images/game-parts/mouth-mouth_4.webp"
+        },
+        {
+          "value": 4,
+          "label": "Mouth 5",
+          "image": "/images/game-parts/mouth-mouth_5.webp"
+        },
+        {
+          "value": 5,
+          "label": "Mouth 6",
+          "image": "/images/game-parts/mouth-mouth_6.webp"
+        },
+        {
+          "value": 6,
+          "label": "Mouth 7",
+          "image": null
+        },
+        {
+          "value": 7,
+          "label": "Mouth 8",
+          "image": null
+        },
+        {
+          "value": 8,
+          "label": "Mouth 9",
+          "image": null
+        },
+        {
+          "value": 9,
+          "label": "Mouth 10",
+          "image": null
+        },
+        {
+          "value": 10,
+          "label": "Mouth 11",
+          "image": null
+        },
+        {
+          "value": 11,
+          "label": "Mouth 12",
+          "image": null
+        },
+        {
+          "value": 12,
+          "label": "Mouth 13",
+          "image": null
+        },
+        {
+          "value": 13,
+          "label": "Mouth 14",
+          "image": null
+        },
+        {
+          "value": 14,
+          "label": "Mouth 15",
+          "image": null
+        },
+        {
+          "value": 15,
+          "label": "Mouth 16",
+          "image": null
+        },
+        {
+          "value": 16,
+          "label": "Mouth 17",
+          "image": null
+        }
+      ]
+    },
+    {
+      "key": "mz",
+      "label": "Mouth size",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "mw",
+      "label": "Mouth width",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "my",
+      "label": "Mouth height scale",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "mh",
+      "label": "Mouth vertical position",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "mr",
+      "label": "Mouth rotation",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "mpx",
+      "label": "Mouth horizontal position",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "ns",
+      "label": "Nose",
+      "default": 0,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": -1,
+          "label": "None"
+        },
+        {
+          "value": 0,
+          "label": "Nose 1",
+          "image": "/images/game-parts/nose-nose_1.webp"
+        },
+        {
+          "value": 1,
+          "label": "Nose 2",
+          "image": "/images/game-parts/nose-nose_2.webp"
+        },
+        {
+          "value": 2,
+          "label": "Nose 3",
+          "image": "/images/game-parts/nose-nose_3.webp"
+        },
+        {
+          "value": 3,
+          "label": "Nose 4",
+          "image": "/images/game-parts/nose-nose_4.webp"
+        },
+        {
+          "value": 4,
+          "label": "Nose 5",
+          "image": "/images/game-parts/nose-nose_5.webp"
+        }
+      ]
+    },
+    {
+      "key": "nfl",
+      "label": "Mirror nose",
+      "default": false,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "boolean"
+    },
+    {
+      "key": "nz",
+      "label": "Nose size",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "nw",
+      "label": "Nose width",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "ny",
+      "label": "Nose height scale",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "nh",
+      "label": "Nose vertical position",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "nx",
+      "label": "Nose horizontal position",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "bl",
+      "label": "Show blush",
+      "default": false,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "boolean"
+    },
+    {
+      "key": "blk",
+      "label": "Blush style",
+      "default": "circle",
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": "circle",
+          "label": "Circle"
+        },
+        {
+          "value": "dashes",
+          "label": "Dashes"
+        },
+        {
+          "value": "band",
+          "label": "Band"
+        },
+        {
+          "value": "freckles",
+          "label": "Freckles"
+        },
+        {
+          "value": "aublush",
+          "label": "Aublush"
+        },
+        {
+          "value": "blushwhisk",
+          "label": "Blushwhisk"
+        },
+        {
+          "value": "swirl",
+          "label": "Swirl"
+        }
+      ]
+    },
+    {
+      "key": "blc",
+      "label": "Blush colour",
+      "default": "f58585",
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "bz",
+      "label": "Blush size",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "bw",
+      "label": "Blush width",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "bhy",
+      "label": "Blush height scale",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "bx",
+      "label": "Blush spacing",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "bo",
+      "label": "Blush opacity",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "blr",
+      "label": "Blush rotation",
+      "default": 0.5,
+      "section": "face",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "fh",
+      "label": "Facial hair",
+      "default": "",
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": "",
+          "label": "None"
+        },
+        {
+          "value": "BigFullBeard",
+          "label": "Bigfullbeard"
+        },
+        {
+          "value": "f06",
+          "label": "F06"
+        },
+        {
+          "value": "fullbeard",
+          "label": "Fullbeard"
+        },
+        {
+          "value": "goatee",
+          "label": "Goatee"
+        },
+        {
+          "value": "goatee_stache",
+          "label": "Goatee Stache"
+        },
+        {
+          "value": "lashstache",
+          "label": "Lashstache"
+        },
+        {
+          "value": "stache",
+          "label": "Stache"
+        }
+      ]
+    },
+    {
+      "key": "fpx",
+      "label": "Beard horizontal position",
+      "default": 0.5,
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "fpy",
+      "label": "Beard vertical position",
+      "default": 0.5,
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "fpz",
+      "label": "Beard depth",
+      "default": 0.5,
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "frx",
+      "label": "Beard X rotation",
+      "default": 0.5,
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "fry",
+      "label": "Beard Y rotation",
+      "default": 0.5,
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "frz",
+      "label": "Beard Z rotation",
+      "default": 0.5,
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "fsc",
+      "label": "Beard scale",
+      "default": 0.5,
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "fsx",
+      "label": "Beard width",
+      "default": 0.5,
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "fsy",
+      "label": "Beard height",
+      "default": 0.5,
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "fsz",
+      "label": "Beard depth scale",
+      "default": 0.5,
+      "section": "hair",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "vo",
+      "label": "Voice preset",
+      "default": 2,
+      "section": "voice",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "Rough"
+        },
+        {
+          "value": 1,
+          "label": "Low"
+        },
+        {
+          "value": 2,
+          "label": "Regular"
+        },
+        {
+          "value": 3,
+          "label": "High"
+        },
+        {
+          "value": 4,
+          "label": "Squeaky"
+        }
+      ]
+    },
+    {
+      "key": "vpk",
+      "label": "Voice pack",
+      "default": 1,
+      "section": "voice",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 1,
+          "label": "Voice pack 1"
+        }
+      ]
+    },
+    {
+      "key": "vp",
+      "label": "Voice pitch",
+      "default": 0.42,
+      "section": "voice",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "vs",
+      "label": "Voice speed",
+      "default": 0.5,
+      "section": "voice",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "unit",
+      "min": 0,
+      "max": 1,
+      "step": 0.02
+    },
+    {
+      "key": "num",
+      "label": "Jersey number",
+      "default": 1,
+      "section": "outfit",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "integer",
+      "min": 0,
+      "max": 99,
+      "step": 1
+    },
+    {
+      "key": "kst",
+      "label": "Uniform pattern",
+      "default": 0,
+      "section": "outfit",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "stripes",
+          "image": "/images/locker/kit/0.webp"
+        },
+        {
+          "value": 1,
+          "label": "front",
+          "image": "/images/locker/kit/1.webp"
+        },
+        {
+          "value": 2,
+          "label": "back",
+          "image": "/images/locker/kit/2.webp"
+        },
+        {
+          "value": 3,
+          "label": "collar",
+          "image": "/images/locker/kit/3.webp"
+        },
+        {
+          "value": 4,
+          "label": "bands",
+          "image": "/images/locker/kit/4.webp"
+        },
+        {
+          "value": 5,
+          "label": "stripes + bands",
+          "image": "/images/locker/kit/5.webp"
+        },
+        {
+          "value": 6,
+          "label": "front + hems",
+          "image": "/images/locker/kit/6.webp"
+        },
+        {
+          "value": 7,
+          "label": "plain",
+          "image": "/images/locker/kit/7.webp"
+        }
+      ]
+    },
+    {
+      "key": "sl",
+      "label": "Shorts length",
+      "default": 0,
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "Regular"
+        },
+        {
+          "value": 1,
+          "label": "Short"
+        },
+        {
+          "value": 2,
+          "label": "Long"
+        },
+        {
+          "value": 3,
+          "label": "Super Short"
+        }
+      ]
+    },
+    {
+      "key": "skl",
+      "label": "Socks length",
+      "default": 0,
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "Short"
+        },
+        {
+          "value": 1,
+          "label": "Long"
+        }
+      ]
+    },
+    {
+      "key": "gso",
+      "label": "Wear socks",
+      "default": true,
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "boolean"
+    },
+    {
+      "key": "sk",
+      "label": "Socks colour",
+      "default": "17171c",
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "gkp",
+      "label": "Wear kneepads",
+      "default": true,
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "boolean"
+    },
+    {
+      "key": "kps",
+      "label": "Right kneepad style",
+      "default": 0,
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "Short"
+        },
+        {
+          "value": 1,
+          "label": "Long"
+        }
+      ]
+    },
+    {
+      "key": "kpsl",
+      "label": "Left kneepad style",
+      "default": 0,
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "Short"
+        },
+        {
+          "value": 1,
+          "label": "Long"
+        }
+      ]
+    },
+    {
+      "key": "kpw",
+      "label": "Kneepad side",
+      "default": 0,
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "Both"
+        },
+        {
+          "value": 1,
+          "label": "Right"
+        },
+        {
+          "value": 2,
+          "label": "Left"
+        }
+      ]
+    },
+    {
+      "key": "kpm",
+      "label": "Match kneepads",
+      "default": true,
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "boolean"
+    },
+    {
+      "key": "kp",
+      "label": "Right kneepad colour",
+      "default": "17171c",
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "kpl",
+      "label": "Left kneepad colour",
+      "default": "17171c",
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "sh",
+      "label": "Right shoe colour",
+      "default": "17171c",
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "shm",
+      "label": "Match shoes",
+      "default": true,
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "boolean"
+    },
+    {
+      "key": "shl",
+      "label": "Left shoe colour",
+      "default": "17171c",
+      "section": "gear",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "gt",
+      "label": "Casual shirt colour",
+      "default": "ecebe3",
+      "section": "outfit",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "gs",
+      "label": "Casual shorts colour",
+      "default": "618fd6",
+      "section": "outfit",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "gsh",
+      "label": "Casual shirt",
+      "default": 0,
+      "section": "outfit",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "select",
+      "options": [
+        {
+          "value": 0,
+          "label": "Tee"
+        },
+        {
+          "value": 1,
+          "label": "Tank Top"
+        },
+        {
+          "value": 2,
+          "label": "Sports Bra"
+        },
+        {
+          "value": 3,
+          "label": "Hoodie"
+        }
+      ]
+    },
+    {
+      "key": "hdc",
+      "label": "Hoodie colour",
+      "default": "4d8cf2",
+      "section": "outfit",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "color"
+    },
+    {
+      "key": "hdx",
+      "label": "Custom hoodie colour",
+      "default": false,
+      "section": "outfit",
+      "sourcePath": "game/character/look_pack.gd",
+      "kind": "boolean"
+    },
+    {
+      "key": "kh.0",
+      "label": "Jersey colour",
+      "kind": "color",
+      "default": "4d8cf2",
+      "section": "outfit",
+      "sourcePath": "game/character/character_config.gd:450"
+    },
+    {
+      "key": "kh.1",
+      "label": "Shorts colour",
+      "kind": "color",
+      "default": "17171c",
+      "section": "outfit",
+      "sourcePath": "game/character/character_config.gd:450"
+    },
+    {
+      "key": "kh.2",
+      "label": "Trim colour",
+      "kind": "color",
+      "default": "ffffff",
+      "section": "outfit",
+      "sourcePath": "game/character/character_config.gd:450"
+    },
+    {
+      "key": "kh.3",
+      "label": "Number colour",
+      "kind": "color",
+      "default": "ffffff",
+      "section": "outfit",
+      "sourcePath": "game/character/character_config.gd:450"
+    }
+  ],
+  "defaults": {
+    "acc": {},
+    "bh": 0.5,
+    "bht": 0.5,
+    "bhy": 0.5,
+    "bl": false,
+    "blc": "f58585",
+    "blk": "circle",
+    "blr": 0.5,
+    "blsh": 0,
+    "bo": 0.5,
+    "bpx": 0.5,
+    "br": 0.5,
+    "bs": 0,
+    "bsp": 0.5,
+    "bsz": 0.5,
+    "bw": 0.5,
+    "bwc": "000000",
+    "bwid": 0.5,
+    "bx": 0.5,
+    "bz": 0.5,
+    "ear": "",
+    "eh": 0.5,
+    "elc": "000000",
+    "epx": 0.5,
+    "er": 0.5,
+    "es": 0,
+    "ew": 0.5,
+    "ex": 0.5,
+    "eyc": "000000",
+    "eyz": 0.5,
+    "ez": 0.5,
+    "face": 0,
+    "fh": "",
+    "fhcols": [],
+    "fpx": 0.5,
+    "fpy": 0.5,
+    "fpz": 0.5,
+    "frx": 0.5,
+    "fry": 0.5,
+    "frz": 0.5,
+    "fsc": 0.5,
+    "fsx": 0.5,
+    "fsy": 0.5,
+    "fsz": 0.5,
+    "gg": {
+      "gkp": true,
+      "gso": true,
+      "kp": "17171c",
+      "kpl": "17171c",
+      "kpm": true,
+      "kps": 0,
+      "kpsl": 0,
+      "kpw": 0,
+      "sh": "17171c",
+      "shl": "17171c",
+      "shm": true,
+      "sk": "17171c",
+      "skl": 0,
+      "sl": 0
+    },
+    "gkp": true,
+    "gs": "618fd6",
+    "gsh": 0,
+    "gso": true,
+    "gt": "ecebe3",
+    "h": 0.5,
+    "hair": "2twists",
+    "hc": 0,
+    "hcol": "211a14",
+    "hcols": [],
+    "hdc": "4d8cf2",
+    "hdx": false,
+    "hfl": false,
+    "hgrad": [],
+    "hs": 0,
+    "kh": [
+      "4d8cf2",
+      "17171c",
+      "ffffff",
+      "ffffff"
+    ],
+    "kp": "17171c",
+    "kpl": "17171c",
+    "kpm": true,
+    "kps": 0,
+    "kpsl": 0,
+    "kpw": 0,
+    "kst": 0,
+    "lh": false,
+    "mh": 0.5,
+    "mpx": 0.5,
+    "mr": 0.5,
+    "ms": 0,
+    "mw": 0.5,
+    "my": 0.5,
+    "mz": 0.5,
+    "name": "",
+    "nfl": false,
+    "nh": 0.5,
+    "ns": 0,
+    "num": 1,
+    "nw": 0.5,
+    "nx": 0.5,
+    "ny": 0.5,
+    "nz": 0.5,
+    "sh": "17171c",
+    "shl": "17171c",
+    "shm": true,
+    "sk": "17171c",
+    "skc": "ffdeba",
+    "skin": 0,
+    "skl": 0,
+    "skx": false,
+    "sl": 0,
+    "vo": 2,
+    "vp": 0.42,
+    "vpk": 1,
+    "vs": 0.5,
+    "w": 0.5
+  },
+  "accessorySlots": [
+    "head",
+    "head2",
+    "head3",
+    "face",
+    "face2",
+    "face3",
+    "extra",
+    "extra2",
+    "extra3"
+  ],
+  "accessoryMoves": [
+    "px",
+    "py",
+    "pz",
+    "rx",
+    "ry",
+    "rz",
+    "sc",
+    "sx",
+    "sy",
+    "sz"
+  ],
+  "palettes": {
+    "skin": [
+      "fffaf7",
+      "fcf2e6",
+      "faebd6",
+      "ffdeba",
+      "f5cca1",
+      "e6b585",
+      "cc996b",
+      "a87852",
+      "855c3d",
+      "66452e",
+      "473021",
+      "2e1f17"
+    ],
+    "hair": [
+      "211a14",
+      "47301c",
+      "7a5226",
+      "b88c42",
+      "dec98c",
+      "8c170f",
+      "595961",
+      "e0e0e6",
+      "3d59a6",
+      "8c4099",
+      "d973a6",
+      "338c66"
+    ]
+  },
+  "limits": {
+    "maxAccessorySlots": 12,
+    "maxAccessoryColors": 8,
+    "maxHairColors": 8,
+    "maxRenderableAccessorySlots": 9,
+    "maxSerializedAccessorySlots": 12
+  },
+  "provenance": {
+    "sourceRoot": "D:\\wh\\202611\\just volleyball\\解包文件\\recovered_project",
+    "sources": [
+      "game/character/character_config.gd",
+      "game/character/face_parts.gd",
+      "game/character/look_pack.gd",
+      "game/core/team_kits.gd"
+    ],
+    "characterConfigSha256": "da2c57f76c4c1cd2d26610b5e230fc270a415cb35da8042e60f61e68c7b76ea7",
+    "notes": [
+      "Resource counts do not establish account ownership.",
+      "Short UI field keys preserve CharacterConfig.to_dict names.",
+      "Codec array/dictionary fields remain available through advanced JSON.",
+      "Supporter.ENABLED=false in this build; no developer supporter flag is enabled. Four supporter resources are retained as disabled catalog records, not wearable choices.",
+      "CharacterConfig sanitizes up to 12 serialized accessory entries, but ModelRig.set_accessories only renders the standard nine ACC_SLOTS (model_rig.gd:3922-3930)."
+    ]
+  },
+  "skinTones": [
+    "fffaf7",
+    "fcf2e6",
+    "faebd6",
+    "ffdeba",
+    "f5cca1",
+    "e6b585",
+    "cc996b",
+    "a87852",
+    "855c3d",
+    "66452e",
+    "473021",
+    "2e1f17"
+  ],
+  "headShapes": [
+    {
+      "value": 0,
+      "label": "Default"
+    },
+    {
+      "value": 1,
+      "label": "Sharp"
+    },
+    {
+      "value": 2,
+      "label": "Square"
+    },
+    {
+      "value": 3,
+      "label": "Round"
+    }
+  ],
+  "ears": [
+    {
+      "value": "",
+      "label": "Default"
+    },
+    {
+      "value": "Pointy",
+      "label": "Pointy"
+    },
+    {
+      "value": "None",
+      "label": "None"
+    }
+  ],
+  "kitStyles": [
+    {
+      "value": 0,
+      "label": "stripes",
+      "image": "/images/locker/kit/0.webp"
+    },
+    {
+      "value": 1,
+      "label": "front",
+      "image": "/images/locker/kit/1.webp"
+    },
+    {
+      "value": 2,
+      "label": "back",
+      "image": "/images/locker/kit/2.webp"
+    },
+    {
+      "value": 3,
+      "label": "collar",
+      "image": "/images/locker/kit/3.webp"
+    },
+    {
+      "value": 4,
+      "label": "bands",
+      "image": "/images/locker/kit/4.webp"
+    },
+    {
+      "value": 5,
+      "label": "stripes + bands",
+      "image": "/images/locker/kit/5.webp"
+    },
+    {
+      "value": 6,
+      "label": "front + hems",
+      "image": "/images/locker/kit/6.webp"
+    },
+    {
+      "value": 7,
+      "label": "plain",
+      "image": "/images/locker/kit/7.webp"
+    }
+  ],
+  "shirtShapes": [
+    {
+      "value": 0,
+      "label": "Tee"
+    },
+    {
+      "value": 1,
+      "label": "Tank Top"
+    },
+    {
+      "value": 2,
+      "label": "Sports Bra"
+    },
+    {
+      "value": 3,
+      "label": "Hoodie"
+    }
+  ],
+  "defaultSource": {
+    "method": "Original engine CharacterConfig / LookShare export round-trip defaults",
+    "sourcePath": "artifacts/locker-engine/probe/result.json",
+    "sha256": "7a4d8d53ffb0865a446be54aff56aa0861844a697920d927a1051504468d451f",
+    "engine": "4.8-dev (gh)"
+  },
+  "availableAccessoryCount": 72,
+  "disabledAccessoryCount": 4
+}

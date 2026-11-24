@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1491" height="1055" viewBox="0 0 1491 1055" fill="none">
+<path fill="#FFD747" d="M0 0h1491v1055H0z"/>
+<g stroke="#FFF2A4" stroke-width="8" opacity=".6"><path d="M-150 150C240 70 100-80 440-110M-120 690 1150-70M-50 880 1410-40M300 1100 1610 130M800 1100 1550 510"/><path d="M90 195 1100-50M-90 580l850-700"/></g>
+<g fill="#F4FAFF"><path d="M0 134c36-1 64 31 55 65 30 0 48 20 52 47L0 207zM1491 131c-47-2-75 28-69 64-30-4-53 17-57 45l126-49zM0 632c30-8 51 9 56 32 24-3 47 11 54 30L0 739z"/></g>
+<g fill="#9CB93C"><path d="M0 253c27 9 40 38 36 76l-36 18zM1491 246c-38-5-66 19-67 61l67 13zM0 836c35-6 61 15 68 64l-68 18zM1491 813c-49-2-70 47-67 82l67-6z"/></g>
+<g fill="#BED05A"><ellipse cx="12" cy="292" rx="17" ry="24"/><ellipse cx="54" cy="307" rx="20" ry="30"/><ellipse cx="1451" cy="286" rx="21" ry="25"/><ellipse cx="1478" cy="263" rx="18" ry="28"/></g>
+<g fill="#fff" opacity=".8"><ellipse cx="20" cy="301" rx="4" ry="7" transform="rotate(-35 20 301)"/><ellipse cx="1440" cy="284" rx="4" ry="7" transform="rotate(35 1440 284)"/></g>
+<path d="m0 320 110 35v116L0 485zm1491-10-100 38v130l100 7z" fill="#E7AF30" fill-opacity=".6"/>
+<g stroke="#FFF8DA"><path d="m0 320 112 34M0 473l112-5m1267-118 112-38m-112 160 112 2" stroke-width="9"/><path d="m25 328 2 148m24-140 2 140m25-131 2 128m25-119 2 117M0 366l110 23M0 407l110 10M0 449l110-1m1292-105-2 131m26-140-2 140m26-150-2 150m27-160-2 160m-80-97 98-25m-98 67 98-13m-98 53 98-2" stroke-width="4"/></g>
+<g stroke="#FFEFA1" stroke-width="6"><path d="m0 523 94-31M0 790l104-117m1288-131 99 37m-105 110 105 86"/></g>
+<g fill="#5FB2D9"><ellipse cx="9" cy="813" rx="10" ry="17" transform="rotate(-30 9 813)"/><ellipse cx="40" cy="833" rx="6" ry="8" transform="rotate(35 40 833)"/></g>
+<g transform="translate(10 983) rotate(-20)"><circle r="67" fill="white" stroke="#11264E" stroke-width="7"/><path d="M-55-38C-9-49 25-8 23 60M-19-64C-35-14-32 33 3 65M60-25C11-19-21 16-34 56" stroke="#1454E8" stroke-width="18"/><path d="M-43-51C0-39 33-6 36 47M-7-65C-28-6-12 41 17 63" stroke="#FFD747" stroke-width="13"/></g>
+<g transform="translate(1485 973) rotate(20)"><circle r="67" fill="white" stroke="#11264E" stroke-width="7"/><path d="M-55-38C-9-49 25-8 23 60M-19-64C-35-14-32 33 3 65M60-25C11-19-21 16-34 56" stroke="#1454E8" stroke-width="18"/><path d="M-43-51C0-39 33-6 36 47M-7-65C-28-6-12 41 17 63" stroke="#FFD747" stroke-width="13"/></g>
+</svg>

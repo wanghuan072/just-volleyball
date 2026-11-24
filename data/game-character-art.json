@@ -1,0 +1,2011 @@
+{
+  "version": "1.0.3",
+  "count": 200,
+  "usageSource": {
+    "path": "game/court/gym_crowd.gd",
+    "directoryLine": 10,
+    "loadLine": 149
+  },
+  "items": [
+    {
+      "id": "fan_000",
+      "label": "Spectator 001",
+      "image": "/images/game-characters/fan_000.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_000.png",
+      "sha256": "a727b1d9042972c9bed3aa5a3f39b1900c5d1eeb71cd24b619be1a18fe143a1b",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_001",
+      "label": "Spectator 002",
+      "image": "/images/game-characters/fan_001.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_001.png",
+      "sha256": "353ece039b9cfdb99576a8840e543fe6544e086d84aae675df9b4a0f43328a41",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_002",
+      "label": "Spectator 003",
+      "image": "/images/game-characters/fan_002.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_002.png",
+      "sha256": "d1181b44bdf44fdb33d97748a8e68d996c7e9ae08f2ed8e41189b21fcc49fdb4",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_003",
+      "label": "Spectator 004",
+      "image": "/images/game-characters/fan_003.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_003.png",
+      "sha256": "900c6153f9e492c7c8e533ae809166b22f993ab0942f8ff2c2df0cbb083b8390",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_004",
+      "label": "Spectator 005",
+      "image": "/images/game-characters/fan_004.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_004.png",
+      "sha256": "41e77eb18c4904426fb39aef4234527b6f07f0298e3aab569e9acd035e883bef",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_005",
+      "label": "Spectator 006",
+      "image": "/images/game-characters/fan_005.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_005.png",
+      "sha256": "fc56bf83aea063b195cf536347c6fb5ce2555222efb5884fe84ffdfe0fd95332",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_006",
+      "label": "Spectator 007",
+      "image": "/images/game-characters/fan_006.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_006.png",
+      "sha256": "c5a8d457cba65dc898a409882c51ba2ca70dee9ab94df054975ee57f35c34bed",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_007",
+      "label": "Spectator 008",
+      "image": "/images/game-characters/fan_007.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_007.png",
+      "sha256": "42de342c661fb87030430a3451f5410252e5e9fce30d2965724157823c54bc6f",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_008",
+      "label": "Spectator 009",
+      "image": "/images/game-characters/fan_008.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_008.png",
+      "sha256": "f33539e98a2aa9b29f9e505aa7f2ac533993e54ea1432fa908eb4ae01e7c2b29",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_009",
+      "label": "Spectator 010",
+      "image": "/images/game-characters/fan_009.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_009.png",
+      "sha256": "724156dfae84c8abae8475ae28bdb91ef708109d2bc269c578d30906e1e1b57b",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_010",
+      "label": "Spectator 011",
+      "image": "/images/game-characters/fan_010.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_010.png",
+      "sha256": "fe468777420f53d7c8b66a1914be7fa9aedb14f77603560600c7542236ac05c2",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_011",
+      "label": "Spectator 012",
+      "image": "/images/game-characters/fan_011.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_011.png",
+      "sha256": "fb7ffba53ffca3dc81ddf4feffc2c22ca246836543c0802bac07702d0b158608",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_012",
+      "label": "Spectator 013",
+      "image": "/images/game-characters/fan_012.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_012.png",
+      "sha256": "2bccf3cc1a8b8f93bbbace72d9a78117921c4cd0be3cb4d815da098eb84fe421",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_013",
+      "label": "Spectator 014",
+      "image": "/images/game-characters/fan_013.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_013.png",
+      "sha256": "c53b30d0ebea67c8077e2bfbe103ceb196b8e3721fdf3ccb5e82400ec6cc060e",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_014",
+      "label": "Spectator 015",
+      "image": "/images/game-characters/fan_014.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_014.png",
+      "sha256": "3ac3eccb9cab7ea889b4d80a6df9fc28e7e0e7ad75a44bc74b861f24e23c5cb1",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_015",
+      "label": "Spectator 016",
+      "image": "/images/game-characters/fan_015.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_015.png",
+      "sha256": "d914eab5f9f44c91bb8a035e928ed2208afa2debbcac9937229086690f8e9cd5",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_016",
+      "label": "Spectator 017",
+      "image": "/images/game-characters/fan_016.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_016.png",
+      "sha256": "d84698518559dcbf8403a3f349eca56728d18a3c697758d7d1717d0c665716cb",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_017",
+      "label": "Spectator 018",
+      "image": "/images/game-characters/fan_017.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_017.png",
+      "sha256": "3b438bfff1a151ee46a3ad316771682090c6a8889ae7c8b58b505afc09ac94a4",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_018",
+      "label": "Spectator 019",
+      "image": "/images/game-characters/fan_018.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_018.png",
+      "sha256": "768bc5062e0d027c1b02911ecd6a968f8a442af8c158b3d839fe74825f5e3a3a",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_019",
+      "label": "Spectator 020",
+      "image": "/images/game-characters/fan_019.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_019.png",
+      "sha256": "f1ca6a9265c7172a3464723df47df3149f232d013fd0e8c35ed18f13635ff204",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_020",
+      "label": "Spectator 021",
+      "image": "/images/game-characters/fan_020.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_020.png",
+      "sha256": "5e5fed476d0f7070b5ea10603287b418d8db7b9a95d98dc8ca1a60e8d1250624",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_021",
+      "label": "Spectator 022",
+      "image": "/images/game-characters/fan_021.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_021.png",
+      "sha256": "2b167c10f29655c9618d9a684f53e750cecf3712d1ef4f57d98111442946caff",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_022",
+      "label": "Spectator 023",
+      "image": "/images/game-characters/fan_022.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_022.png",
+      "sha256": "9ab9c026de9fe9bfba5773f9f28b56ec7d002f458f0332713dec69f3a6501abc",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_023",
+      "label": "Spectator 024",
+      "image": "/images/game-characters/fan_023.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_023.png",
+      "sha256": "bb43192f9da6eda94044feea2d8f0ea5fa8e9261a0b48240e847b14f459f049e",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_024",
+      "label": "Spectator 025",
+      "image": "/images/game-characters/fan_024.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_024.png",
+      "sha256": "f26bf4f0dc74c48406cb0adcbd3391ce909cd4e579817f64b4f632a529d3cf22",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_025",
+      "label": "Spectator 026",
+      "image": "/images/game-characters/fan_025.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_025.png",
+      "sha256": "f89207fe7ffea864b4d00d2103c8019532b98fcb40d5439f1bf878a53a68b625",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_026",
+      "label": "Spectator 027",
+      "image": "/images/game-characters/fan_026.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_026.png",
+      "sha256": "980cf1fd27099382292c111ea689920e14b42361ab720ee45cfc2bbba02576e7",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_027",
+      "label": "Spectator 028",
+      "image": "/images/game-characters/fan_027.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_027.png",
+      "sha256": "9bbea93200f8bae452e6892e998bf2451e74da218b4fb4641df1ba503039d2fb",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_028",
+      "label": "Spectator 029",
+      "image": "/images/game-characters/fan_028.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_028.png",
+      "sha256": "7d0fa91b68eed888c65bdf2d3c4eff9ced913cdde873ef66b817439ddf94634a",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_029",
+      "label": "Spectator 030",
+      "image": "/images/game-characters/fan_029.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_029.png",
+      "sha256": "f3eebec856194a7d5e617399bbfc10cfff760350a7fa68cde6d1f3c8ecba84fe",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_030",
+      "label": "Spectator 031",
+      "image": "/images/game-characters/fan_030.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_030.png",
+      "sha256": "53a63461eead347b545b4c11a5ec1b3eab41afc3f231e5c85930fb4919a895b2",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_031",
+      "label": "Spectator 032",
+      "image": "/images/game-characters/fan_031.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_031.png",
+      "sha256": "285272aa4a5c0dcd18625e573801b93147bde6493c9868cb3babb6f1888b7d33",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_032",
+      "label": "Spectator 033",
+      "image": "/images/game-characters/fan_032.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_032.png",
+      "sha256": "90755abb4a5ace97555de088725131c9fef46f5f9311e5a38804cd0a97d89da3",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_033",
+      "label": "Spectator 034",
+      "image": "/images/game-characters/fan_033.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_033.png",
+      "sha256": "c4af0d11bae5bedfa66bf08b1c9065f1ff50f08549f3c0d5d6eafd3d96e2010f",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_034",
+      "label": "Spectator 035",
+      "image": "/images/game-characters/fan_034.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_034.png",
+      "sha256": "83b1ce9f18eb6390ad5c0174ccea735fc4175177fc9fe50c6f3f1b448a7dc1e2",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_035",
+      "label": "Spectator 036",
+      "image": "/images/game-characters/fan_035.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_035.png",
+      "sha256": "ff23026bb995b5a3254632b43ba5563daff8e05c22b9428e57bfd70d06ac2b3c",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_036",
+      "label": "Spectator 037",
+      "image": "/images/game-characters/fan_036.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_036.png",
+      "sha256": "154c7aea51e4a27e274de875960d3e9a6dbe4817040962225622954e8b5a0ea2",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_037",
+      "label": "Spectator 038",
+      "image": "/images/game-characters/fan_037.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_037.png",
+      "sha256": "3415395351102b1575ff3866317e6189d00872cc2a6dd9a97405055069e75e9e",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_038",
+      "label": "Spectator 039",
+      "image": "/images/game-characters/fan_038.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_038.png",
+      "sha256": "219d2024e61c49aff1b5234b242ac715c0113e3ba7550535c24dcc3924d2347a",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_039",
+      "label": "Spectator 040",
+      "image": "/images/game-characters/fan_039.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_039.png",
+      "sha256": "e4f5b22862587cce14bada5a52a352c54084a3473b4cc125015f421187b1651e",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_040",
+      "label": "Spectator 041",
+      "image": "/images/game-characters/fan_040.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_040.png",
+      "sha256": "f5e60d618c5f03684fe498c3205f60606710eb3ebc83886c177b31f4f7a82e4e",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_041",
+      "label": "Spectator 042",
+      "image": "/images/game-characters/fan_041.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_041.png",
+      "sha256": "7336b9524777639cdf6fcf6e4c0a232d1efd555d4210b03256c169f1c410e29a",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_042",
+      "label": "Spectator 043",
+      "image": "/images/game-characters/fan_042.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_042.png",
+      "sha256": "d506146bd3da9831064615b68332293efab49f73cf0d081737e08ce468d8b0dc",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_043",
+      "label": "Spectator 044",
+      "image": "/images/game-characters/fan_043.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_043.png",
+      "sha256": "696d83d57c55c3b7533ca431bb4218e2ecfc15ec52a0a860a9db80a32a348751",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_044",
+      "label": "Spectator 045",
+      "image": "/images/game-characters/fan_044.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_044.png",
+      "sha256": "673f7d9b26056ddc111b0b24210515f647b74fe9fd526342c8b9eae2604e52f2",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_045",
+      "label": "Spectator 046",
+      "image": "/images/game-characters/fan_045.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_045.png",
+      "sha256": "ba73ba661e267f38fe8a944e0fd3430dcf26205f538914608aabb6543c6a1df9",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_046",
+      "label": "Spectator 047",
+      "image": "/images/game-characters/fan_046.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_046.png",
+      "sha256": "5e635f7e418390ce5daead7e0d7eeb1041b847ac1f248b0e24749acd032fc9a8",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_047",
+      "label": "Spectator 048",
+      "image": "/images/game-characters/fan_047.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_047.png",
+      "sha256": "37017f9b9b394fe71464928f047ea009a6810ad546444f7f167393312c6b2f42",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_048",
+      "label": "Spectator 049",
+      "image": "/images/game-characters/fan_048.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_048.png",
+      "sha256": "5c58680e0848a494ffb6bde6c6e560f97c5d328fbab0b89c504645037f5978cc",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_049",
+      "label": "Spectator 050",
+      "image": "/images/game-characters/fan_049.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_049.png",
+      "sha256": "c3e7817d2985890e54d074481d04f06b88d1dd2205afe93409938f686ab106b4",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_050",
+      "label": "Spectator 051",
+      "image": "/images/game-characters/fan_050.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_050.png",
+      "sha256": "11cafcac67e6f19cf570d33b19a75cdc6040af027a03e6e2d468bbf3869b5493",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_051",
+      "label": "Spectator 052",
+      "image": "/images/game-characters/fan_051.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_051.png",
+      "sha256": "b95d19f309be26354724188da7d71c4de0ee6a6146c3d7e5dad506f7d4cdc990",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_052",
+      "label": "Spectator 053",
+      "image": "/images/game-characters/fan_052.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_052.png",
+      "sha256": "aac881dc09276bf09ef1b8034cfed7f4aa2219fd41fa71e1d0b6edb96c132198",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_053",
+      "label": "Spectator 054",
+      "image": "/images/game-characters/fan_053.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_053.png",
+      "sha256": "fb51ea66eb00d1ecad9f341579142f00d19c0aff1103f9b1e345cada713c84ad",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_054",
+      "label": "Spectator 055",
+      "image": "/images/game-characters/fan_054.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_054.png",
+      "sha256": "12738c8c8a16493bae98f1d9eae51ae7db75bf093b3d31af2d7b731c39424bf5",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_055",
+      "label": "Spectator 056",
+      "image": "/images/game-characters/fan_055.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_055.png",
+      "sha256": "d81f121a3c7b48142dee5f014a151ac57488c861abafb24c88612af8d442af03",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_056",
+      "label": "Spectator 057",
+      "image": "/images/game-characters/fan_056.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_056.png",
+      "sha256": "d6ebec124c145f38aecf5a99d6201aee5f317637b07a5df9b5cf8a2f7bb32468",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_057",
+      "label": "Spectator 058",
+      "image": "/images/game-characters/fan_057.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_057.png",
+      "sha256": "9c41953c1069acf2420a140ae6d25faefa3b735290d6e1ac13de9a7efa8c7666",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_058",
+      "label": "Spectator 059",
+      "image": "/images/game-characters/fan_058.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_058.png",
+      "sha256": "02ac7771d604579db37d72edeed60a780f6f9f95037229d79a7dc0e354672a96",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_059",
+      "label": "Spectator 060",
+      "image": "/images/game-characters/fan_059.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_059.png",
+      "sha256": "a7ff45317084fc8d64bf292632207eac7a8567d60752f4620e130755508fdd37",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_060",
+      "label": "Spectator 061",
+      "image": "/images/game-characters/fan_060.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_060.png",
+      "sha256": "db1354cf576dd4d288075ea4b6ad645d6c8337dd4944ec2456e8bc897997e188",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_061",
+      "label": "Spectator 062",
+      "image": "/images/game-characters/fan_061.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_061.png",
+      "sha256": "f099ae9fcb2eb6e1861a3bcc90d8a658ea4e5000745c9af01d67243ce653adf4",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_062",
+      "label": "Spectator 063",
+      "image": "/images/game-characters/fan_062.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_062.png",
+      "sha256": "9b61c38d8464167f6008995ddc335fc8ab3c8c062443d5801f9a1efd31708c91",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_063",
+      "label": "Spectator 064",
+      "image": "/images/game-characters/fan_063.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_063.png",
+      "sha256": "0402ce7f5ca43f89d0d5355d4255c8023a31d239feb05ee41622d526c167019d",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_064",
+      "label": "Spectator 065",
+      "image": "/images/game-characters/fan_064.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_064.png",
+      "sha256": "291ce133297399348fdd34ea54c706a1d0cac11a49817a8bd802d5632cbd487d",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_065",
+      "label": "Spectator 066",
+      "image": "/images/game-characters/fan_065.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_065.png",
+      "sha256": "7f875787fd6c83116ef61f801c459e3b0e712702d8ecb08b689c00d722d17793",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_066",
+      "label": "Spectator 067",
+      "image": "/images/game-characters/fan_066.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_066.png",
+      "sha256": "2b8e7f47ba9c09a3ae4c3e535a31498ef0cc5f6576fa9903eed59b3417041f3b",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_067",
+      "label": "Spectator 068",
+      "image": "/images/game-characters/fan_067.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_067.png",
+      "sha256": "dc789e713b9442fef622981d008cceb101e687237f2f4349738a7404f9c93a81",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_068",
+      "label": "Spectator 069",
+      "image": "/images/game-characters/fan_068.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_068.png",
+      "sha256": "1f4e369f0577f8900522074891ea741a4228202b2e4f8d1f199f0c34383c2740",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_069",
+      "label": "Spectator 070",
+      "image": "/images/game-characters/fan_069.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_069.png",
+      "sha256": "f93c1325a1171c2b2f92db292e4da282130ad03d677925bfef66cad82c7b710e",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_070",
+      "label": "Spectator 071",
+      "image": "/images/game-characters/fan_070.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_070.png",
+      "sha256": "b4b2b3630915205826a65293154297cbbc62cc70206a9b8cde83b8fe25775eef",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_071",
+      "label": "Spectator 072",
+      "image": "/images/game-characters/fan_071.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_071.png",
+      "sha256": "9c20633ee2b548576bd79e2b57849f416b1489164d553798dbea658976abe3ca",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_072",
+      "label": "Spectator 073",
+      "image": "/images/game-characters/fan_072.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_072.png",
+      "sha256": "0e776cd5140d185403a8efbeb134c80d9c6e01f74cea27cb5dc1301eb0daa689",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_073",
+      "label": "Spectator 074",
+      "image": "/images/game-characters/fan_073.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_073.png",
+      "sha256": "2dd8fd4fb26f3d1e9081f7aeda8f1633d2f36ddee368e3220c0548f4ae898d66",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_074",
+      "label": "Spectator 075",
+      "image": "/images/game-characters/fan_074.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_074.png",
+      "sha256": "352cfedccd12aff37e33016ea45a3e0f5565b609a0d3f9b7ddd38d15ff2c9aed",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_075",
+      "label": "Spectator 076",
+      "image": "/images/game-characters/fan_075.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_075.png",
+      "sha256": "07f99a0cc78976b002b95d881ba1a94346d1f71e994882ffad3f5bdd76b8f467",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_076",
+      "label": "Spectator 077",
+      "image": "/images/game-characters/fan_076.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_076.png",
+      "sha256": "71061b81e2a339136ce5a2d1676a68c8773f5a23739e72abd1113374303ce7f9",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_077",
+      "label": "Spectator 078",
+      "image": "/images/game-characters/fan_077.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_077.png",
+      "sha256": "b6e5ce9177dd56c94e540365e44967c7dde9e113b600ea97fbd1388ae1a4923d",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_078",
+      "label": "Spectator 079",
+      "image": "/images/game-characters/fan_078.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_078.png",
+      "sha256": "b13289054ecfbe925d804bbd631294cf64f3bafa2d77d27092c8ea67ef6c6fae",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_079",
+      "label": "Spectator 080",
+      "image": "/images/game-characters/fan_079.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_079.png",
+      "sha256": "13693097b2207c4018aa4be139387da4578ff6189f574833bfd87fab95154ed3",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_080",
+      "label": "Spectator 081",
+      "image": "/images/game-characters/fan_080.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_080.png",
+      "sha256": "f4e0a60e07237f61a619803c84d15533d9fbda50746bbb25af687a9963023601",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_081",
+      "label": "Spectator 082",
+      "image": "/images/game-characters/fan_081.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_081.png",
+      "sha256": "0e6b454654880f6c5c39632b36694b9af62400eb03bf749dffdabc19251a5b87",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_082",
+      "label": "Spectator 083",
+      "image": "/images/game-characters/fan_082.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_082.png",
+      "sha256": "10727bfe8a4028535363235518211e93e66c53d6acf1400a09b6680ec669ea40",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_083",
+      "label": "Spectator 084",
+      "image": "/images/game-characters/fan_083.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_083.png",
+      "sha256": "588a417f7d099c0ef237df61ccfd4b46b8901f52105673b6a6baaef0b9b7a698",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_084",
+      "label": "Spectator 085",
+      "image": "/images/game-characters/fan_084.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_084.png",
+      "sha256": "6789b5a8115eed3305e2ea18c08b89ea286c475c642599a262867458edef63ca",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_085",
+      "label": "Spectator 086",
+      "image": "/images/game-characters/fan_085.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_085.png",
+      "sha256": "c566b54a6a1b77470d9a3c95c58c1e2ec660863eca589ef5114160345605baae",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_086",
+      "label": "Spectator 087",
+      "image": "/images/game-characters/fan_086.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_086.png",
+      "sha256": "ada5bb67c7a04028eba1340530847623a5f83c1238b9bd2345796b4b2d1e4112",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_087",
+      "label": "Spectator 088",
+      "image": "/images/game-characters/fan_087.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_087.png",
+      "sha256": "4d775fba069ec927456c0358543930e7b33c11045832b76955533f900f2bb4c1",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_088",
+      "label": "Spectator 089",
+      "image": "/images/game-characters/fan_088.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_088.png",
+      "sha256": "c645b464285c7eabe31a77d2a59cb1f7a427085cf64362b76640f816470391d7",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_089",
+      "label": "Spectator 090",
+      "image": "/images/game-characters/fan_089.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_089.png",
+      "sha256": "245b22ae3e6a0f448557669b747b59b298a94afad3b289f76c02a96479fdbbed",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_090",
+      "label": "Spectator 091",
+      "image": "/images/game-characters/fan_090.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_090.png",
+      "sha256": "bd8d2f2793d84c424a3a1cb8984ac698171b5dc8116ba9d08fd306d48e7616b1",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_091",
+      "label": "Spectator 092",
+      "image": "/images/game-characters/fan_091.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_091.png",
+      "sha256": "118e36c0f4ed333896ce91c61d036a42c502216cbca396c6eba8bf48d2fe3980",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_092",
+      "label": "Spectator 093",
+      "image": "/images/game-characters/fan_092.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_092.png",
+      "sha256": "4ee27b6ff1401af635b88eaa5a80684e69fd96caa272eb6f6b1afa06c6e16c9c",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_093",
+      "label": "Spectator 094",
+      "image": "/images/game-characters/fan_093.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_093.png",
+      "sha256": "d4bfb6034508e50e92c8b31201f8a99cb40ec328047a832bfc16a908ff33b8d3",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_094",
+      "label": "Spectator 095",
+      "image": "/images/game-characters/fan_094.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_094.png",
+      "sha256": "78a7e0bae35e65d2802a066a46ea97aa6de6ac87856a1d36594001b89c3a4d70",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_095",
+      "label": "Spectator 096",
+      "image": "/images/game-characters/fan_095.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_095.png",
+      "sha256": "1a5aceb3b34ea0ade4a0f0736d9b6e06b0c939006aacaf8694ed1fa9e097b30b",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_096",
+      "label": "Spectator 097",
+      "image": "/images/game-characters/fan_096.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_096.png",
+      "sha256": "a1441463d7dd34340c5946b640539afb0894fd7c2f6dbbfda78aab9eaf045a7c",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_097",
+      "label": "Spectator 098",
+      "image": "/images/game-characters/fan_097.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_097.png",
+      "sha256": "94b2b65f98b51db75007c53bf3f1e212aacb4a2c365d4e8a38b9f21e5b23c1b8",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_098",
+      "label": "Spectator 099",
+      "image": "/images/game-characters/fan_098.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_098.png",
+      "sha256": "fc95363ff99872b1f3ccc57929aae1c963113d40d6854d9bbee4eae7b437aace",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_099",
+      "label": "Spectator 100",
+      "image": "/images/game-characters/fan_099.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_099.png",
+      "sha256": "0b89a8fceab0740c2bcbdabd2931de47ce2c8bc40a437b33423bbde50c6ec2ac",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_100",
+      "label": "Spectator 101",
+      "image": "/images/game-characters/fan_100.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_100.png",
+      "sha256": "a1f70dd2aeadeeb0e80f3fb3c26934bdee24d209286278e258e0d3cac2f0720e",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_101",
+      "label": "Spectator 102",
+      "image": "/images/game-characters/fan_101.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_101.png",
+      "sha256": "008a14e94bddb1919ee2cca590df2daf47cbfb05f381f93d668d0cd89f99a11d",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_102",
+      "label": "Spectator 103",
+      "image": "/images/game-characters/fan_102.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_102.png",
+      "sha256": "554ab3860c792433bdf3e5db898e73cb4ca1b6834fb12de071f9869e9bfc60d8",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_103",
+      "label": "Spectator 104",
+      "image": "/images/game-characters/fan_103.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_103.png",
+      "sha256": "897c199aab910939d363700c2339278108f7d7f30653143a2bd38e1501ca8417",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_104",
+      "label": "Spectator 105",
+      "image": "/images/game-characters/fan_104.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_104.png",
+      "sha256": "fd9badabe23d4c9db37240886093cf3f0e9e8c46f17cae0aeb792bb6aec16331",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_105",
+      "label": "Spectator 106",
+      "image": "/images/game-characters/fan_105.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_105.png",
+      "sha256": "5aab4d276e39b20fae77a144e6b2b1ca3df49cc8d22ec4680e3b045daf2b74a5",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_106",
+      "label": "Spectator 107",
+      "image": "/images/game-characters/fan_106.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_106.png",
+      "sha256": "eb6c692ecce0c1ec11257d4a33e8274a12b1017d7ebd33759ffc133ef414db1b",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_107",
+      "label": "Spectator 108",
+      "image": "/images/game-characters/fan_107.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_107.png",
+      "sha256": "995d22a9e5d9cc4c7ef155a4c593eefdfa668446453258566e5c3e0e51edf480",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_108",
+      "label": "Spectator 109",
+      "image": "/images/game-characters/fan_108.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_108.png",
+      "sha256": "6eec27fd457f298d04b7a5684dfc6e722137de7c549fea125ab45e35ef93f79d",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_109",
+      "label": "Spectator 110",
+      "image": "/images/game-characters/fan_109.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_109.png",
+      "sha256": "58660fa29078df6551c25ce7c922d86404c7172e0b0f5ad495f9f88bd80e25aa",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_110",
+      "label": "Spectator 111",
+      "image": "/images/game-characters/fan_110.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_110.png",
+      "sha256": "26d4dd8ec02f1654b7df9ac8be9f58efe4dfafe5bab37f50fa7eb4e1e728c397",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_111",
+      "label": "Spectator 112",
+      "image": "/images/game-characters/fan_111.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_111.png",
+      "sha256": "96d4f645921ba8b3cbe41df332eb6a9bafb9e935063bfdf27a28230049bf44e7",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_112",
+      "label": "Spectator 113",
+      "image": "/images/game-characters/fan_112.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_112.png",
+      "sha256": "355131928cefc4624ee73ae43a20d2aa266e404f6988ae083ae47eefef0758a0",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_113",
+      "label": "Spectator 114",
+      "image": "/images/game-characters/fan_113.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_113.png",
+      "sha256": "2da4efaa2279275faa81346c7366a66ca8a41a347e6e4007d99b4f0819df8d14",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_114",
+      "label": "Spectator 115",
+      "image": "/images/game-characters/fan_114.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_114.png",
+      "sha256": "02e6fc3ab4d5a8755f1b8459fad84776d34921ce11f4f4b4bc62b1e56655d4de",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_115",
+      "label": "Spectator 116",
+      "image": "/images/game-characters/fan_115.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_115.png",
+      "sha256": "d2c44ee173405c95a12cdeea8cf2c9356830d45aab3f562e3e2610d0aee0194c",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_116",
+      "label": "Spectator 117",
+      "image": "/images/game-characters/fan_116.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_116.png",
+      "sha256": "685c140c7af6c25d4dcb82e92aa5696c0dfd89105eeea4941abb3bca3ebca5ad",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_117",
+      "label": "Spectator 118",
+      "image": "/images/game-characters/fan_117.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_117.png",
+      "sha256": "9779d56ee32cae345fd9ba5707b6827e780df17e7295fb170a197bf21158e44d",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_118",
+      "label": "Spectator 119",
+      "image": "/images/game-characters/fan_118.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_118.png",
+      "sha256": "fe2296724de731bdf555845050f11ef313c823f0f769847d069a1360c5fbf3a8",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_119",
+      "label": "Spectator 120",
+      "image": "/images/game-characters/fan_119.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_119.png",
+      "sha256": "ba4e434f456655445a6d85875e436cc011dbd4417d88c409cbd74227bf07bb89",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_120",
+      "label": "Spectator 121",
+      "image": "/images/game-characters/fan_120.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_120.png",
+      "sha256": "8726d19aeca08501d99635a0c04f4dca4b5b166ed7e65e1344a4a6d5dff7cd8f",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_121",
+      "label": "Spectator 122",
+      "image": "/images/game-characters/fan_121.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_121.png",
+      "sha256": "aac46ab2663b07ae1d017e0a743c45cafbde844d6d3ca743a82c600d1ec99946",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_122",
+      "label": "Spectator 123",
+      "image": "/images/game-characters/fan_122.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_122.png",
+      "sha256": "104e520f5c394ed1663fdfadd57b21bd30d92935f796f7d94c808ce498a4e6b5",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_123",
+      "label": "Spectator 124",
+      "image": "/images/game-characters/fan_123.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_123.png",
+      "sha256": "f49a22aaf41339a7ff51b53764e59bd8a7dff9351b76bcfa204dfd09721c3db8",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_124",
+      "label": "Spectator 125",
+      "image": "/images/game-characters/fan_124.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_124.png",
+      "sha256": "35aa1727cce5c21fbae6ae1af8be7c233346019b2da5c66dd2c7c26e2103e44d",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_125",
+      "label": "Spectator 126",
+      "image": "/images/game-characters/fan_125.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_125.png",
+      "sha256": "13add740e66ef72761a887b3ffd076fade476ea5262bf9bbe074b3ab601a152f",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_126",
+      "label": "Spectator 127",
+      "image": "/images/game-characters/fan_126.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_126.png",
+      "sha256": "868f9431ea71c3601085b1829642e7fa67cec289c2c4da77613aae8143e3e732",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_127",
+      "label": "Spectator 128",
+      "image": "/images/game-characters/fan_127.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_127.png",
+      "sha256": "16cf27a0e26851fb6c2998e4e4370546ca42d8787ad4249d0ce96ace8dd1060f",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_128",
+      "label": "Spectator 129",
+      "image": "/images/game-characters/fan_128.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_128.png",
+      "sha256": "37dac553588951db926fbfb87cfa36be4e046952977ef692e71b1e6837d1a3d1",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_129",
+      "label": "Spectator 130",
+      "image": "/images/game-characters/fan_129.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_129.png",
+      "sha256": "a315316106e0c06ac132bb5fde02d535f85031a745cbf2315337064b2f39b9f5",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_130",
+      "label": "Spectator 131",
+      "image": "/images/game-characters/fan_130.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_130.png",
+      "sha256": "07115ed9dccbdb50e3ceaa6b2426e908449d784af80fd829cca91a89907f8727",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_131",
+      "label": "Spectator 132",
+      "image": "/images/game-characters/fan_131.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_131.png",
+      "sha256": "bfdb0ba0b78a8eb526eac921b0fbe195af98e4c28b9671bf192d456d5a58cd71",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_132",
+      "label": "Spectator 133",
+      "image": "/images/game-characters/fan_132.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_132.png",
+      "sha256": "8bcb3015f54795223425947323bdff6fbdf74654b4ec2b8791c85c2c87f3ff7a",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_133",
+      "label": "Spectator 134",
+      "image": "/images/game-characters/fan_133.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_133.png",
+      "sha256": "af4dfa477dcaeebd1319545afc7caf3815b4fd049bbff732687014d64f78d4b5",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_134",
+      "label": "Spectator 135",
+      "image": "/images/game-characters/fan_134.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_134.png",
+      "sha256": "982cb8f169c4602a98b0a686a2bc67a1d4b18cf828d744ac619aec067a9d1959",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_135",
+      "label": "Spectator 136",
+      "image": "/images/game-characters/fan_135.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_135.png",
+      "sha256": "e51cb4237f62a5b3524003e27990acf6bf9397d5b0744ad398eb669531ac2578",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_136",
+      "label": "Spectator 137",
+      "image": "/images/game-characters/fan_136.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_136.png",
+      "sha256": "cce75fed7a36d93b66d387099f4bcb16c1565f0779d6f6e78139531851dd78b8",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_137",
+      "label": "Spectator 138",
+      "image": "/images/game-characters/fan_137.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_137.png",
+      "sha256": "f29c85ae3a4b713a89a253ed0274697443be607f7f837e55cb89c271d3ef4e38",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_138",
+      "label": "Spectator 139",
+      "image": "/images/game-characters/fan_138.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_138.png",
+      "sha256": "9186081011421df07a23e0456b703f806c7d344af70db70a7b9fc01e5cd02d1e",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_139",
+      "label": "Spectator 140",
+      "image": "/images/game-characters/fan_139.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_139.png",
+      "sha256": "7fd659d26fe7ccfad2fce47627f92b3d9ed121945be33f4f544353eb94db2889",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_140",
+      "label": "Spectator 141",
+      "image": "/images/game-characters/fan_140.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_140.png",
+      "sha256": "27ab1d6836268c5ea6043bb687c78fb4058bc116f914eb233ab7c8ff110132ee",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_141",
+      "label": "Spectator 142",
+      "image": "/images/game-characters/fan_141.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_141.png",
+      "sha256": "abc2a652ca7e1e22d5197cf1b625e85500aa190a85a9408d16a49d6494528053",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_142",
+      "label": "Spectator 143",
+      "image": "/images/game-characters/fan_142.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_142.png",
+      "sha256": "6843f8740faf2a5ac6b9c04ad9e2552cf004d9c4fc4509742903bac524a2798c",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_143",
+      "label": "Spectator 144",
+      "image": "/images/game-characters/fan_143.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_143.png",
+      "sha256": "5bbbd2f1846c1c99ea9ad75989f32d4345f8c2b57dad9726e5641c85aeebb470",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_144",
+      "label": "Spectator 145",
+      "image": "/images/game-characters/fan_144.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_144.png",
+      "sha256": "e8b9c31edf8c85061165c94593fdad6d122a42ba3db214c6f9820c13bb2e407c",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_145",
+      "label": "Spectator 146",
+      "image": "/images/game-characters/fan_145.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_145.png",
+      "sha256": "63fa37bc9728db4d13ecc5a1e0e884f6e9d785aa7854c51a5c805bccba11d094",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_146",
+      "label": "Spectator 147",
+      "image": "/images/game-characters/fan_146.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_146.png",
+      "sha256": "b3bea9bc2597c07feb541f15dc844196f3e046efa0485af2004ff7518ccdd2c2",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_147",
+      "label": "Spectator 148",
+      "image": "/images/game-characters/fan_147.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_147.png",
+      "sha256": "2581bb1482b64a8f315666942ddeda72ed67ad04e5d9fa3f76d56aab3a28b900",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_148",
+      "label": "Spectator 149",
+      "image": "/images/game-characters/fan_148.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_148.png",
+      "sha256": "ece57b5d6cc45c5e26952872cf5a73b2904781e72888cf08aadf64e9319e80a6",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_149",
+      "label": "Spectator 150",
+      "image": "/images/game-characters/fan_149.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_149.png",
+      "sha256": "486e008aee5c60aab51b7d150afa4dcd71f6c95b04d0a4476d8aae8f5ec5b7bc",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_150",
+      "label": "Spectator 151",
+      "image": "/images/game-characters/fan_150.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_150.png",
+      "sha256": "b8ac3a41a7473d3f1858e86b879b5728ca6dfb1f3c0eccd4665f8f1a4e2771b9",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_151",
+      "label": "Spectator 152",
+      "image": "/images/game-characters/fan_151.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_151.png",
+      "sha256": "ba8c41476a9d1e8f00d9580193c878afe4c2e648bc211010434c2afb5896b510",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_152",
+      "label": "Spectator 153",
+      "image": "/images/game-characters/fan_152.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_152.png",
+      "sha256": "d9ce156a0b74ef5b7683afc309d9721734e87f037379b7d8c625fb48653fd512",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_153",
+      "label": "Spectator 154",
+      "image": "/images/game-characters/fan_153.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_153.png",
+      "sha256": "4cbb6f0d360ac6124f2b7f387baa0e657ac904ea0f63267bfc14d96506fe17c9",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_154",
+      "label": "Spectator 155",
+      "image": "/images/game-characters/fan_154.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_154.png",
+      "sha256": "e951888f64bc2fd7f2ed1b6c0eae3fc4f065516503e26171e6a6051d2cb7c9c6",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_155",
+      "label": "Spectator 156",
+      "image": "/images/game-characters/fan_155.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_155.png",
+      "sha256": "7020b5a819147fc2e36ff9ffc6d0adcca153b100121783fa2da8de40b248c61b",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_156",
+      "label": "Spectator 157",
+      "image": "/images/game-characters/fan_156.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_156.png",
+      "sha256": "79f30c6fff8b09e7a653be12aac20c8e9bfff0357ff1f9c78f32549bccbe1483",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_157",
+      "label": "Spectator 158",
+      "image": "/images/game-characters/fan_157.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_157.png",
+      "sha256": "e857b4d3c5011691dab60f7480b94cacafc048f5301a4656c4d0f0f6c0e4f8ad",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_158",
+      "label": "Spectator 159",
+      "image": "/images/game-characters/fan_158.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_158.png",
+      "sha256": "aba678e43ea538d8aff13bd48a6d80fc92dd4380d330b95064e4e49f8b9acd95",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_159",
+      "label": "Spectator 160",
+      "image": "/images/game-characters/fan_159.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_159.png",
+      "sha256": "5a5fb65aa84131b18de55d3f37a37252aa992b16dad6e1aab7f6371899d4e98b",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_160",
+      "label": "Spectator 161",
+      "image": "/images/game-characters/fan_160.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_160.png",
+      "sha256": "ee92228b7ff5578e4fe9735b9d1cd7b1b4fd4e6a9689687f12834baaeae22a08",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_161",
+      "label": "Spectator 162",
+      "image": "/images/game-characters/fan_161.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_161.png",
+      "sha256": "070d882779dec1e9c4fd99d25baabbc31832a61714eea68eb38da16d59c2e080",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_162",
+      "label": "Spectator 163",
+      "image": "/images/game-characters/fan_162.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_162.png",
+      "sha256": "217bdeafcc78b5e590fa15aa50f450c0cc0e653894303fd0b1ee35a70521b8a5",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_163",
+      "label": "Spectator 164",
+      "image": "/images/game-characters/fan_163.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_163.png",
+      "sha256": "33bd284f535f580a36b17cea8abca4c9f0173446649aaae9e617cfd8276f217b",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_164",
+      "label": "Spectator 165",
+      "image": "/images/game-characters/fan_164.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_164.png",
+      "sha256": "03d40ea4a4f9b505b72e41e3fac429602bc21bce6ff0d4dc604c0c329b61308d",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_165",
+      "label": "Spectator 166",
+      "image": "/images/game-characters/fan_165.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_165.png",
+      "sha256": "32364e5c9ac813f38bbc7e5a8f074300d8bdd71e5a4f9660b370e614029eea42",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_166",
+      "label": "Spectator 167",
+      "image": "/images/game-characters/fan_166.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_166.png",
+      "sha256": "bc36e7a6142361aefead87e7152138497e530abe7819d2af6b65311c25581e5f",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_167",
+      "label": "Spectator 168",
+      "image": "/images/game-characters/fan_167.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_167.png",
+      "sha256": "8d37eecd042448c68233a533590619b7cd8dca33a6180fdf99866b30237a5432",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_168",
+      "label": "Spectator 169",
+      "image": "/images/game-characters/fan_168.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_168.png",
+      "sha256": "c841ec34d72d11e0d64ce3f3dc1723a6314979ad22da6f954ea0cfffb2892531",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_169",
+      "label": "Spectator 170",
+      "image": "/images/game-characters/fan_169.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_169.png",
+      "sha256": "9d94f28c0b610a6b4a16aad3e5465c1f00c35544acf898b0923cfea95dc8b432",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_170",
+      "label": "Spectator 171",
+      "image": "/images/game-characters/fan_170.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_170.png",
+      "sha256": "21aaa984314ae792ccdb1cc76f058c810a4f55e8a7fe55f72256fbcc0e45fdfa",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_171",
+      "label": "Spectator 172",
+      "image": "/images/game-characters/fan_171.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_171.png",
+      "sha256": "6a35dbb3a2a3fc8cc88d93048f309c55651794a08fdaa1fb49f627ec7e94d884",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_172",
+      "label": "Spectator 173",
+      "image": "/images/game-characters/fan_172.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_172.png",
+      "sha256": "d4cc40e0823e2c96550532dea0c317bc7391ffa7d4ff915b820cb6e6d60b23dc",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_173",
+      "label": "Spectator 174",
+      "image": "/images/game-characters/fan_173.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_173.png",
+      "sha256": "c93722bf8a7b0626418684d1950ff767ccfd8db90c91485740c22d74b69d9e0d",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_174",
+      "label": "Spectator 175",
+      "image": "/images/game-characters/fan_174.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_174.png",
+      "sha256": "752886df81720999a6dc68d198c154d3d2e8e32d54dc6315be5fa40a41c8e471",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_175",
+      "label": "Spectator 176",
+      "image": "/images/game-characters/fan_175.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_175.png",
+      "sha256": "b1fdf2bf5a567a5af628903daaeb55a31990f2878c5d7374dbc0fe94168430a4",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_176",
+      "label": "Spectator 177",
+      "image": "/images/game-characters/fan_176.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_176.png",
+      "sha256": "606a5cbd6cb617e17a7c4507cdb2d0a075b2c8a91f2f74dbeb6d00f6de703e1c",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_177",
+      "label": "Spectator 178",
+      "image": "/images/game-characters/fan_177.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_177.png",
+      "sha256": "8d4947957a15f49c10c764a76cdc7e5749854fabc0bf8bfb70d717ae90502c9e",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_178",
+      "label": "Spectator 179",
+      "image": "/images/game-characters/fan_178.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_178.png",
+      "sha256": "338f874dcdf2051784477bad93f5c27f6cffb9e440dec0585ed2054de1cecd55",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_179",
+      "label": "Spectator 180",
+      "image": "/images/game-characters/fan_179.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_179.png",
+      "sha256": "92921539260ca0381a1b242b7553bfc63a65efa2f74e227a76cc6eff31320fd7",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_180",
+      "label": "Spectator 181",
+      "image": "/images/game-characters/fan_180.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_180.png",
+      "sha256": "e5bc0bce133a2996e533ef285ef66406b9966bba440ca538a513dcbf0ef6ecfb",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_181",
+      "label": "Spectator 182",
+      "image": "/images/game-characters/fan_181.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_181.png",
+      "sha256": "88028733f00ba1fbabb6ed7b182da4abe8b129087f63d26a18e2449f393c4663",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_182",
+      "label": "Spectator 183",
+      "image": "/images/game-characters/fan_182.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_182.png",
+      "sha256": "a14d431ed7d8dc50c39b4f5a6ccafd093d9d64a7e85048603ed509209cbc9b1b",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_183",
+      "label": "Spectator 184",
+      "image": "/images/game-characters/fan_183.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_183.png",
+      "sha256": "07a7799df039534ffbc99cc3313c41d3d96d85bc10ee24c1abe1f68b5839b79b",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_184",
+      "label": "Spectator 185",
+      "image": "/images/game-characters/fan_184.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_184.png",
+      "sha256": "7865efdb0635360dd16fa9c03f7a740d3ef94fe053980018cee927e59554da78",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_185",
+      "label": "Spectator 186",
+      "image": "/images/game-characters/fan_185.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_185.png",
+      "sha256": "baaae508e59fde9e45506061edfb33383a143c1b86a5b3e6bd8b4d3b23e9eee9",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_186",
+      "label": "Spectator 187",
+      "image": "/images/game-characters/fan_186.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_186.png",
+      "sha256": "2f3e3b83acc3a02ad8f8e22e131f9a1689608c3a2bd2e34154b98e555cdf1614",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_187",
+      "label": "Spectator 188",
+      "image": "/images/game-characters/fan_187.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_187.png",
+      "sha256": "e1759facd5365e5471ed03eee6a710d5017b3cf47b6d8c3b94f614b652454b8c",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_188",
+      "label": "Spectator 189",
+      "image": "/images/game-characters/fan_188.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_188.png",
+      "sha256": "735776f900f5893701731709c94bdea47cdb819db61e6e93aff6abda08268074",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_189",
+      "label": "Spectator 190",
+      "image": "/images/game-characters/fan_189.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_189.png",
+      "sha256": "4910e5abf580f0379549060a9b09a1bd657e22d35fea16320c957a2ba09b3589",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_190",
+      "label": "Spectator 191",
+      "image": "/images/game-characters/fan_190.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_190.png",
+      "sha256": "ce42e1a8aec42334d3075aa2c0b3baa94549f9140b4c4bbd61b46f7b55071ae8",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_191",
+      "label": "Spectator 192",
+      "image": "/images/game-characters/fan_191.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_191.png",
+      "sha256": "039ed70c1eee0a752322b79f4b5bb021d983053d53bfdf06650ee84259852341",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_192",
+      "label": "Spectator 193",
+      "image": "/images/game-characters/fan_192.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_192.png",
+      "sha256": "c8cea73ccdfc4d8050407aff9719683318a367be33ede2e911e3d54ba133d58e",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_193",
+      "label": "Spectator 194",
+      "image": "/images/game-characters/fan_193.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_193.png",
+      "sha256": "a73c7f753ad0b1bbafdfc44272fd6fd44d84841371591717aad99b4e20522d62",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_194",
+      "label": "Spectator 195",
+      "image": "/images/game-characters/fan_194.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_194.png",
+      "sha256": "c4ce919978491d9a0506142f7a6a9a0897b493c4acebef9945824f1d2b449231",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_195",
+      "label": "Spectator 196",
+      "image": "/images/game-characters/fan_195.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_195.png",
+      "sha256": "fa0c87bd170af6592145af3f5e24f6260772040039a0f3907f95bf96d9db5a75",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_196",
+      "label": "Spectator 197",
+      "image": "/images/game-characters/fan_196.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_196.png",
+      "sha256": "fc3b0c66148ab0087b34ac824efc37865852a32bfd03f5c9cbd24696cba3b776",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_197",
+      "label": "Spectator 198",
+      "image": "/images/game-characters/fan_197.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_197.png",
+      "sha256": "67575d4a9aa5e911885a5c605d3da56aebd5ffd10d3c65acfc33fd3361262c08",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_198",
+      "label": "Spectator 199",
+      "image": "/images/game-characters/fan_198.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_198.png",
+      "sha256": "9df04e56f939a45841431428fade7ae08ea175b4dcb395e8748e282704d56ae6",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    },
+    {
+      "id": "fan_199",
+      "label": "Spectator 200",
+      "image": "/images/game-characters/fan_199.png",
+      "width": 288,
+      "height": 560,
+      "sourcePath": "game/crowd/portraits/fan_199.png",
+      "sha256": "1191d78c075dbe4a00d13026775fb097b154e53e335fe0d75ce8d95d4313c524",
+      "role": "Crowd spectator artwork, not an importable player preset"
+    }
+  ]
+}

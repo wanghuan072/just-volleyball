@@ -1,0 +1,27 @@
+{
+  "appId": 5037200,
+  "sourceEndpoint": "https://store.steampowered.com/api/appdetails?appids=5037200&cc=us&l=english",
+  "checkedAt": "2026-11-24",
+  "images": [
+    {
+      "localPath": "/images/game/steam-arena.webp",
+      "description": "Indoor match on the orange court with spectators",
+      "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/8fa2393b78e2b5db7a3cd8310fac160c4b1e6d76/ss_8fa2393b78e2b5db7a3cd8310fac160c4b1e6d76.1920x1080.jpg?t=1794852941"
+    },
+    {
+      "localPath": "/images/game/locker.webp",
+      "description": "Locker with an editable green number 25 outfit",
+      "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/ccd2413308fc6cabbc82c6e3d7bd813cc3b29889/ss_ccd2413308fc6cabbc82c6e3d7bd813cc3b29889.1920x1080.jpg?t=1794852941"
+    },
+    {
+      "localPath": "/images/game/character-on-court.jpg",
+      "description": "Overhead view of a player avatar and the ball on an orange court",
+      "sourceUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5037200/ca63c9ab39a86e8ea388cd67e7b10a1e4bc4332c/ss_ca63c9ab39a86e8ea388cd67e7b10a1e4bc4332c.1920x1080.jpg?t=1794852941"
+    },
+    {
+      "localPath": "/images/game/character-match.jpg",
+      "description": "Players in different outfits during an indoor rally",
+      "sourceUrl": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5037200/f72d1672bad1155125de0f2ad39a00c478927d18/ss_f72d1672bad1155125de0f2ad39a00c478927d18.1920x1080.jpg?t=1794852941"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+import type { Metadata } from "next";
+import localFont from "next/font/local";
+import { AppHeader, AppFooter } from "@/components/chrome";
+import { JsonLd } from "@/components/shared";
+import { siteUrl } from "@/lib/site";
+import styles from "@/styles/site.module.css";
+import "./globals.css";
+const bodyFont = localFont({
+  src: "../public/fonts/roboto-condensed.ttf",
+  variable: "--font-body-family",
+  weight: "100 900",
+  display: "swap",
+});
+const displayFont = localFont({
+  src: "../public/fonts/lilita-one.ttf",
+  variable: "--font-display-family",
+  weight: "400",
+  display: "swap",
+});
+export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
+  applicationName: "Just Volleyball Fan Site",
+  openGraph: { type: "website", siteName: "Just Volleyball", images: [{ url: "/images/og-image.png", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", images: ["/images/og-image.png"] },
+  title: "Just Volleyball",
+  description:
+    "Skins, character codes, guides and useful tools for Just Volleyball players.",
+  icons: {
+    icon: [{ url: "/favicon.ico", sizes: "any" }, { url: "/icon.png", type: "image/png", sizes: "192x192" }],
+    apple: "/apple-icon.png",
+  },
+};
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en" className={`${bodyFont.variable} ${displayFont.variable}`}>
+      <body>
+        <a href="#main" className="skip-link">
+          Skip to content
+        </a>
+        <div className={styles.siteBackground} aria-hidden="true" />
+        <div className="container">
+          <AppHeader />
+        </div>
+        <main id="main" className={`container ${styles.main}`}>
+          {children}
+        </main>
+        <AppFooter />
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "Just Volleyball",
+            url: siteUrl,
+            inLanguage: "en",
+            description: "An independent Just Volleyball player resource.",
+          }}
+        />
+      </body>
+    </html>
+  );
+}
