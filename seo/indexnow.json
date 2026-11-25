@@ -3,10 +3,10 @@
   "projectId": "prj_BPaduhALrl3JNhx9aWIljRq9UpuC",
   "repository": "wanghuan072/just-volleyball",
   "branch": "main",
-  "enabled": false,
-  "bingVerifiedOrigin": null,
-  "bingVerifiedAt": null,
-  "bootstrap": true,
+  "enabled": true,
+  "bingVerifiedOrigin": "https://justvolleyball.app",
+  "bingVerifiedAt": "2026-11-25T09:43:03.340Z",
+  "bootstrap": false,
   "fingerprintVersion": "existing-content-v1",
   "key": "2d6c560c02ec6a42d8fc25e7757a95a0"
 }

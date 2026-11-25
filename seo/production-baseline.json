@@ -1,1 +1,561 @@
-null
+{
+  "schemaVersion": 1,
+  "fingerprintVersion": "existing-content-v1",
+  "siteUrl": "https://justvolleyball.app",
+  "generatedAt": "2026-11-25T09:34:38.356Z",
+  "entries": [
+    {
+      "path": "/",
+      "canonicalUrl": "https://justvolleyball.app/",
+      "indexable": true,
+      "contentFingerprint": "5b7abb695f4948bd6574f8aef864d6d575c4b1a96f606a56e518bd6e9589b027",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/character-codes/how-to-create/",
+      "canonicalUrl": "https://justvolleyball.app/character-codes/how-to-create/",
+      "indexable": true,
+      "contentFingerprint": "9edf5c7e72fff0eb83cad16a75a5ecaee153f05af9112af1b2dd6b90b767961d",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/character-codes/how-to-import/",
+      "canonicalUrl": "https://justvolleyball.app/character-codes/how-to-import/",
+      "indexable": true,
+      "contentFingerprint": "3f524c1fb0a4ddc8ca02ea1fcdd95341a38c864e8f25a586255408d6cad1fd5c",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/characters/",
+      "canonicalUrl": "https://justvolleyball.app/characters/",
+      "indexable": true,
+      "contentFingerprint": "1065ac0059d0620c300fe93a21b1365d84930f49d3095bf87ba18edeadb4321a",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/characters/shop/",
+      "canonicalUrl": "https://justvolleyball.app/characters/shop/",
+      "indexable": true,
+      "contentFingerprint": "94513df6d9aba5b01f03ee8e482f84319edd24cdd3a8820e6f79ab64818bda34",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/characters/spectators/",
+      "canonicalUrl": "https://justvolleyball.app/characters/spectators/",
+      "indexable": true,
+      "contentFingerprint": "8ee8c9de1f10d79932d14d6d1688c175bf4e4bdd1048c092c7e1511baab2bf5d",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/customization/",
+      "canonicalUrl": "https://justvolleyball.app/customization/",
+      "indexable": true,
+      "contentFingerprint": "3fb261297508d9ceeecad2c3078d5a52f987e167d2d8a4483e7f27696beb5797",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/discord/",
+      "canonicalUrl": "https://justvolleyball.app/discord/",
+      "indexable": true,
+      "contentFingerprint": "1fb126ab0a627103f9e839b4f780304a2e54eaa686928ea8f06dfd7df60de1b8",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/guides/",
+      "canonicalUrl": "https://justvolleyball.app/guides/",
+      "indexable": true,
+      "contentFingerprint": "57ed016b949845096e954807044f21d4f615cc3932b3e71e4491d8ebe080d48b",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/guides/beginner/",
+      "canonicalUrl": "https://justvolleyball.app/guides/beginner/",
+      "indexable": true,
+      "contentFingerprint": "1f68e0328dce01a5231261f1c764d2d9d9e04a18c6f9f1121a349fca7f2de453",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/guides/controls/",
+      "canonicalUrl": "https://justvolleyball.app/guides/controls/",
+      "indexable": true,
+      "contentFingerprint": "0b098fa20d3b5fa5e95945b797ae0533353f10faf9612b52a0f90d23dd316eda",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/guides/demo/",
+      "canonicalUrl": "https://justvolleyball.app/guides/demo/",
+      "indexable": true,
+      "contentFingerprint": "b13e376fc97f184d6966c655ac1f9f7bcd2b07ebfbd345b08895304a91fe7dd4",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/guides/online/",
+      "canonicalUrl": "https://justvolleyball.app/guides/online/",
+      "indexable": true,
+      "contentFingerprint": "9096c7e07826924b65bafd09815dee52e25a8ab8e7f0693b61ece8c4ce72b412",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/guides/release-date/",
+      "canonicalUrl": "https://justvolleyball.app/guides/release-date/",
+      "indexable": true,
+      "contentFingerprint": "0fccea95a6f6ebfbba5d4e75187e4d4f131370e9adbbbd27a59f1a5c002f9489",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/legal/about-us/",
+      "canonicalUrl": "https://justvolleyball.app/legal/about-us/",
+      "indexable": true,
+      "contentFingerprint": "d845c0fbf610a4c39f34357603a7fdf690067ebe2dfc13007caf260fb10d5573",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/legal/contact-us/",
+      "canonicalUrl": "https://justvolleyball.app/legal/contact-us/",
+      "indexable": true,
+      "contentFingerprint": "790e817fff34dfc07b4f8e7b7185819620dfba470abe8defd1639b6feeb367b4",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/legal/copyright/",
+      "canonicalUrl": "https://justvolleyball.app/legal/copyright/",
+      "indexable": true,
+      "contentFingerprint": "92196580bdbc498a56362e532ff61e48459a46e8244db2f8efcfe33a76bf3245",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/legal/privacy-policy/",
+      "canonicalUrl": "https://justvolleyball.app/legal/privacy-policy/",
+      "indexable": true,
+      "contentFingerprint": "94ee12132f5253c7eb1ebf81cf2f4fb88874bf2bd85bbe13a5ce6b162fd0fa04",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/legal/terms-of-service/",
+      "canonicalUrl": "https://justvolleyball.app/legal/terms-of-service/",
+      "indexable": true,
+      "contentFingerprint": "c58cc5b95885a1260010b55750eba2f36cac450f4253c82d2a8213f3c28ad7f4",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/mobile/",
+      "canonicalUrl": "https://justvolleyball.app/mobile/",
+      "indexable": true,
+      "contentFingerprint": "1a2ff9c0b200499e162eb3e8e4e96a6d0d82dd8c7185505c8b2c5dfb0ed96c23",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/price/",
+      "canonicalUrl": "https://justvolleyball.app/price/",
+      "indexable": true,
+      "contentFingerprint": "195135c7794038efb1719f0ae62714553d05b364be1453bd6079816eb45645c4",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/",
+      "canonicalUrl": "https://justvolleyball.app/skins/",
+      "indexable": true,
+      "contentFingerprint": "e3523c1a4de9fa989c553de6c3bffa9a1b5a8f1bac87464e33a929b5f46c182a",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/anime/",
+      "canonicalUrl": "https://justvolleyball.app/skins/anime/",
+      "indexable": true,
+      "contentFingerprint": "fe7a1cb6069337ff5bcb292dabf7e6fa950cb56d89de6c8bb85b8bc5630a8fa9",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/asta/",
+      "canonicalUrl": "https://justvolleyball.app/skins/asta/",
+      "indexable": true,
+      "contentFingerprint": "a2458267b46518b39bec2669f461ff4567a9a7b7a59ae11582083602a87f0b91",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/atsumu/",
+      "canonicalUrl": "https://justvolleyball.app/skins/atsumu/",
+      "indexable": true,
+      "contentFingerprint": "54a7c8c1fb417bd2a7f71ae0d03579cb72e34259263633e7e9962ca8411e45b1",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/avatar/",
+      "canonicalUrl": "https://justvolleyball.app/skins/avatar/",
+      "indexable": true,
+      "contentFingerprint": "e8570d71eb1aac2dc843390a59a60dfb132ec2ef603e0d46a50c2aeec5271d63",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/batman-beyond/",
+      "canonicalUrl": "https://justvolleyball.app/skins/batman-beyond/",
+      "indexable": true,
+      "contentFingerprint": "f95fae4cf281c490b0a04c8c3c07903049545cdf8be7a732dff66955e26f5da6",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/buzz-lightyear/",
+      "canonicalUrl": "https://justvolleyball.app/skins/buzz-lightyear/",
+      "indexable": true,
+      "contentFingerprint": "fd35242f11aaf0b9d72c9bea44b774c7f1d7a4dee8fe78282129faabf802c51b",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/charizar-x/",
+      "canonicalUrl": "https://justvolleyball.app/skins/charizar-x/",
+      "indexable": true,
+      "contentFingerprint": "1266864f833619c9cbeb9d76de08dfce4dde776c254ba92590c08964a9937644",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/chopper/",
+      "canonicalUrl": "https://justvolleyball.app/skins/chopper/",
+      "indexable": true,
+      "contentFingerprint": "cdb4af197f5783b7af9e98e57a36ed0844104713fa277475554a665d3e7d1b20",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/colossal/",
+      "canonicalUrl": "https://justvolleyball.app/skins/colossal/",
+      "indexable": true,
+      "contentFingerprint": "f461a09b04adb7771529fa14b99dfd9f6fa97b477a656e87a5750df32de72834",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/cool-squirtle/",
+      "canonicalUrl": "https://justvolleyball.app/skins/cool-squirtle/",
+      "indexable": true,
+      "contentFingerprint": "edeb64890d0d4cee45998512343235e5882507454b06af2646152d8e12d9334e",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/don-ramon/",
+      "canonicalUrl": "https://justvolleyball.app/skins/don-ramon/",
+      "indexable": true,
+      "contentFingerprint": "f2ff90c833402a42d4a8ad2f21339bad6c650e81f25a87377add95d67130b8ae",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/frieren/",
+      "canonicalUrl": "https://justvolleyball.app/skins/frieren/",
+      "indexable": true,
+      "contentFingerprint": "7679bb1a815ef238ef080dde19c2782df655d91252f1f3854371e7aa76508e01",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/gear-5-luffy/",
+      "canonicalUrl": "https://justvolleyball.app/skins/gear-5-luffy/",
+      "indexable": true,
+      "contentFingerprint": "0ecee826b10f661730a9b7d77e4fed8049fa02a825058ef5229ea6f2b614c8de",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/gojo/",
+      "canonicalUrl": "https://justvolleyball.app/skins/gojo/",
+      "indexable": true,
+      "contentFingerprint": "42e50d989fcf6df6dc9c7c010bc5678eee64c8187d0503105f2768093b42754d",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/greninja/",
+      "canonicalUrl": "https://justvolleyball.app/skins/greninja/",
+      "indexable": true,
+      "contentFingerprint": "6873defa718b8ee29f8fd601fc7d93db2ad7297cca24d38dc318769d8de6d431",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/haikyuu/",
+      "canonicalUrl": "https://justvolleyball.app/skins/haikyuu/",
+      "indexable": true,
+      "contentFingerprint": "a487d8e823fedfccfedab3c2de8ec6e37061aee2b717ed8cd61bd955baac19dd",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/hatsune-miku/",
+      "canonicalUrl": "https://justvolleyball.app/skins/hatsune-miku/",
+      "indexable": true,
+      "contentFingerprint": "7e3e35f72ec78a8f2379a4a072a8f68af7d53f9291ec32226e75d874951303d4",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/hinata/",
+      "canonicalUrl": "https://justvolleyball.app/skins/hinata/",
+      "indexable": true,
+      "contentFingerprint": "dd4783711f12151b1688506586d0f1273f246c0bf5c7173c1283b0000069e9aa",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/hitori-gotoh/",
+      "canonicalUrl": "https://justvolleyball.app/skins/hitori-gotoh/",
+      "indexable": true,
+      "contentFingerprint": "1072199e86dd01102adb8b2da9a6a305cdbacdd57fd5daf5676f5bdfe71fafec",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/homer/",
+      "canonicalUrl": "https://justvolleyball.app/skins/homer/",
+      "indexable": true,
+      "contentFingerprint": "53dd8c596100b859a9acacc16abb5caf73f09d1573c584dd917e80f039f069ea",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/hornet/",
+      "canonicalUrl": "https://justvolleyball.app/skins/hornet/",
+      "indexable": true,
+      "contentFingerprint": "731c5dd78d2fd657061f3fe66465ecbe887eb3b9931cd71cdbb5e1d4c8c8ae23",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/itachi/",
+      "canonicalUrl": "https://justvolleyball.app/skins/itachi/",
+      "indexable": true,
+      "contentFingerprint": "fa486274922e1ba3aea411a3d9b46997a9eedc3affb115d6d4fc14dc2643b401",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/itadori-yuji/",
+      "canonicalUrl": "https://justvolleyball.app/skins/itadori-yuji/",
+      "indexable": true,
+      "contentFingerprint": "cd0e11c8edd4637b8b06bed162b61c481d7f6a7c560295c3479128ddf34d8f16",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/johnny-joestar/",
+      "canonicalUrl": "https://justvolleyball.app/skins/johnny-joestar/",
+      "indexable": true,
+      "contentFingerprint": "d361b8faf321fe8e353a48f901852fd2eb2ec508ba7beb2cda5c52c5ce466ba9",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/joker/",
+      "canonicalUrl": "https://justvolleyball.app/skins/joker/",
+      "indexable": true,
+      "contentFingerprint": "59e0228a39dc5878d95d1d81fd86e3cd7210cc2991625aec62918010cef1030a",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/kageyama/",
+      "canonicalUrl": "https://justvolleyball.app/skins/kageyama/",
+      "indexable": true,
+      "contentFingerprint": "c0600b5d3fc893429359e359daa6cc412640965830b0fe28aea79a7bf788443b",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/kakashi/",
+      "canonicalUrl": "https://justvolleyball.app/skins/kakashi/",
+      "indexable": true,
+      "contentFingerprint": "c6cf91e86c2c20e45b133213cce01a6138a75c7a57e78a1807fd1512316c98dc",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/knuckles/",
+      "canonicalUrl": "https://justvolleyball.app/skins/knuckles/",
+      "indexable": true,
+      "contentFingerprint": "a33ffcec26da99403d349b58528fd6fbd151df860dbaf68bac698aa281db3330",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/lebrooooon/",
+      "canonicalUrl": "https://justvolleyball.app/skins/lebrooooon/",
+      "indexable": true,
+      "contentFingerprint": "c38745279254448f3860f0e6520a21fb5e1e696d85051d00994ee344d22bcfe2",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/lee-sin/",
+      "canonicalUrl": "https://justvolleyball.app/skins/lee-sin/",
+      "indexable": true,
+      "contentFingerprint": "5c8c84542bca6558ae93d027c5ca910cf8b047ee2ecffc7617e729afcbe0fd52",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/lucario/",
+      "canonicalUrl": "https://justvolleyball.app/skins/lucario/",
+      "indexable": true,
+      "contentFingerprint": "473669afedfdb84967f5061fc4017a30a728ed140b7a036a152c98ed7b874027",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/mahoraga/",
+      "canonicalUrl": "https://justvolleyball.app/skins/mahoraga/",
+      "indexable": true,
+      "contentFingerprint": "26c741f81815b077a24890aaa544e8e2b31235a11aa9ea36bd73d54ca1d1faf8",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/megumin/",
+      "canonicalUrl": "https://justvolleyball.app/skins/megumin/",
+      "indexable": true,
+      "contentFingerprint": "8bc1c7ff6769389b50d3703367c2358159a7d0837e777ca9778a63d01c635052",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/mewtwo/",
+      "canonicalUrl": "https://justvolleyball.app/skins/mewtwo/",
+      "indexable": true,
+      "contentFingerprint": "bc86b13fe87fd6191971e8a5b7a4484a49591f7f55d9bd71bb4655b2ddfd7e38",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/michael-jackson/",
+      "canonicalUrl": "https://justvolleyball.app/skins/michael-jackson/",
+      "indexable": true,
+      "contentFingerprint": "3952b59eaeff0911c44e9f9a03884b1a71a16f8d3c2f3a1d0923fb5f101fded2",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/minato/",
+      "canonicalUrl": "https://justvolleyball.app/skins/minato/",
+      "indexable": true,
+      "contentFingerprint": "eb2f15c7e13d5da2f4df6d128b72b16d8f437a818df966c024b733574b192f6d",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/nishinoya/",
+      "canonicalUrl": "https://justvolleyball.app/skins/nishinoya/",
+      "indexable": true,
+      "contentFingerprint": "7fa817b49977f9135141823634c420d14a47738dc7af8d8f7e00beebcd338c0f",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/no-face/",
+      "canonicalUrl": "https://justvolleyball.app/skins/no-face/",
+      "indexable": true,
+      "contentFingerprint": "37bc4e3bab05509c3ca22e2141df30011a1e6b9abc41934ee6c98c84ca140f3a",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/omni-man/",
+      "canonicalUrl": "https://justvolleyball.app/skins/omni-man/",
+      "indexable": true,
+      "contentFingerprint": "35ed3de3b1ef3a54932cdfef27374eae7830fefb77550876b0c33645ee4a39a9",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/penny/",
+      "canonicalUrl": "https://justvolleyball.app/skins/penny/",
+      "indexable": true,
+      "contentFingerprint": "ab5fa16ba3c728eb8b1dcf4c997d91100402df5139c0f27e28000e4f5ce9d344",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/piccolo/",
+      "canonicalUrl": "https://justvolleyball.app/skins/piccolo/",
+      "indexable": true,
+      "contentFingerprint": "a70b372330a2714d47dad3e1cc52827f6812f21e7e195111546a2cb145adadda",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/red-pikmin/",
+      "canonicalUrl": "https://justvolleyball.app/skins/red-pikmin/",
+      "indexable": true,
+      "contentFingerprint": "fda58d9da125e7313ddb22b3dc5e3f0b6d780673e55ff3040ff297629787ccda",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/reze/",
+      "canonicalUrl": "https://justvolleyball.app/skins/reze/",
+      "indexable": true,
+      "contentFingerprint": "29dc6e0e027259d2b548deb76c585f05e71c53804acb6ea402b599281e22b176",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/robin/",
+      "canonicalUrl": "https://justvolleyball.app/skins/robin/",
+      "indexable": true,
+      "contentFingerprint": "f05ef20284ec28913d12c686d2399f0be1875a3340f0af3d1ef765d9e94b16c3",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/seitama/",
+      "canonicalUrl": "https://justvolleyball.app/skins/seitama/",
+      "indexable": true,
+      "contentFingerprint": "a7cf59798e17849f4ae45af9f76d0f1e4a40c49f8565397877d971c1b90222b0",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/shrek/",
+      "canonicalUrl": "https://justvolleyball.app/skins/shrek/",
+      "indexable": true,
+      "contentFingerprint": "34b36c3e092d2db56fd96c14958484b1dfee7a50ce3a8a9c31dc989bdeb06276",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/spider-man/",
+      "canonicalUrl": "https://justvolleyball.app/skins/spider-man/",
+      "indexable": true,
+      "contentFingerprint": "09ea0a129c04e082dcc64536ba4c08ffd441487148fe183ede64d0b93930d5c2",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/sportacus/",
+      "canonicalUrl": "https://justvolleyball.app/skins/sportacus/",
+      "indexable": true,
+      "contentFingerprint": "d6f3d50e14977c9e74142bd3b5927f1318dc3e3737509ded74396d7bc35efc85",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/teemo/",
+      "canonicalUrl": "https://justvolleyball.app/skins/teemo/",
+      "indexable": true,
+      "contentFingerprint": "6e16d60da0b6e0d2949ec1ee84391dbe67773309aadbb4bb9ccaec57d2071f83",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/the-knight/",
+      "canonicalUrl": "https://justvolleyball.app/skins/the-knight/",
+      "indexable": true,
+      "contentFingerprint": "d42afa84defc57765415be66ffc42a802aa3ff58f4572ef16a99fa71320d3f87",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/truth/",
+      "canonicalUrl": "https://justvolleyball.app/skins/truth/",
+      "indexable": true,
+      "contentFingerprint": "0270ea601b04e357131098fa8a538af3e66dbe7db91ec7dfc53cef9cd024c56d",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/skins/tungtung/",
+      "canonicalUrl": "https://justvolleyball.app/skins/tungtung/",
+      "indexable": true,
+      "contentFingerprint": "fbe14c7d57a7301df1d779eeb54e1016c58840bd6a173ef5f07f8368abc7fba5",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/sources/",
+      "canonicalUrl": "https://justvolleyball.app/sources/",
+      "indexable": true,
+      "contentFingerprint": "0d9266d92140e67ea2c8cdfabfddcd76ba27fb3ac53fd824cd004eccbeb9d5a7",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/tools/",
+      "canonicalUrl": "https://justvolleyball.app/tools/",
+      "indexable": true,
+      "contentFingerprint": "0ba3451ee4b47e3d6ebb88d20d07919188b46bb73caeda01d6eadef313363212",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/tools/locker/",
+      "canonicalUrl": "https://justvolleyball.app/tools/locker/",
+      "indexable": true,
+      "contentFingerprint": "7f756ba01db31284e43b990a213e7ef9b97537dab8ba5bf5ee7fcbc293a83915",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "path": "/updates/",
+      "canonicalUrl": "https://justvolleyball.app/updates/",
+      "indexable": true,
+      "contentFingerprint": "07bc56e30128ec739c0c1a918de7c2793b3499edf29d2e3f201e0643dc0233b3",
+      "lastModified": "2026-11-25T00:00:00.000Z"
+    }
+  ],
+  "deployment": {
+    "environment": "production",
+    "projectId": "prj_BPaduhALrl3JNhx9aWIljRq9UpuC",
+    "commit": "5b2aaa2af2f08f8bf53f3073705512f99893e260"
+  },
+  "deletedUrls": [],
+  "deletedAt": {}
+}
