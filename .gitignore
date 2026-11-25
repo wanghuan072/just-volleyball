@@ -61,3 +61,6 @@ artifacts/locker-engine/*
 
 __pycache__/
 *.py[cod]
+
+# Generated during prebuild; production history is read from the published site.
+/public/seo-manifest.json

@@ -18,6 +18,7 @@ const displayFont = localFont({
   display: "swap",
 });
 export const metadata: Metadata = {
+  verification: { other: { "msvalidate.01": "D8EF052A74B4BB3D3229205232205792" } },
   metadataBase: new URL(siteUrl),
   applicationName: "Just Volleyball Fan Site",
   openGraph: { type: "website", siteName: "Just Volleyball", images: [{ url: "/images/og-image.png", width: 1200, height: 630 }] },

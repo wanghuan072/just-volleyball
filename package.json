@@ -10,7 +10,9 @@
     "test": "node --test tests/*.test.mjs",
     "typecheck": "tsc --noEmit",
     "verify:build": "node scripts/verify-build.mjs",
-    "prebuild": "node scripts/update-sitemap-dates.mjs",
+    "prebuild": "node scripts/update-sitemap-dates.mjs && node scripts/build-seo-manifest.mjs",
+    "indexnow:check": "node scripts/run-indexnow.mjs",
+    "indexnow:send": "node scripts/run-indexnow.mjs --send",
     "seo:dates": "node scripts/update-sitemap-dates.mjs",
     "seo:check": "node scripts/verify-seo.mjs"
   },

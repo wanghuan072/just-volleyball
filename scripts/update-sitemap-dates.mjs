@@ -22,7 +22,10 @@ async function record(url, file, content) {
   if (url.startsWith("/skins/")) dependencies.push("components/catalog.tsx");
   if (url === "/tools/locker/") dependencies.push("components/locker-studio.tsx", "components/preview-orbit.tsx", "lib/orbit-atlas.ts");
   if (url === "/characters/shop/") dependencies.push("components/shop-catalog.tsx", "components/preview-orbit.tsx", "lib/orbit-atlas.ts");
-  const sources = await Promise.all(dependencies.map(path => readFile(path, "utf8")));
+  const sources = await Promise.all(dependencies.map(async path => {
+    const source = await readFile(path, "utf8");
+    return path === "app/layout.tsx" ? source.replace(/^  verification: \{ other: \{ "msvalidate\.01": "[A-F0-9]+" \} \},\r?\n/m, "") : source;
+  }));
   const input = JSON.stringify([page, content, sources]);
   const images = [...new Set(input.match(/\/images\/[a-zA-Z0-9_./-]+\.(?:png|jpg|jpeg|webp|svg)/g) ?? [])].sort();
   const assetHashes = await Promise.all(images.map(async image => {

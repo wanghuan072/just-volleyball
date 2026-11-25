@@ -1,0 +1,60 @@
+name: IndexNow production notification
+on:
+  status:
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: just-volleyball-production-indexnow
+  cancel-in-progress: false
+jobs:
+  notify:
+    if: github.repository == 'wanghuan072/just-volleyball' && (github.event_name == 'workflow_dispatch' || (github.event.sender.login == 'vercel[bot]' && github.event.context == 'Vercel' && github.event.state == 'success'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Check first-send gate
+        id: gate
+        run: node -e 'const c=require("./seo/indexnow.json");require("fs").appendFileSync(process.env.GITHUB_OUTPUT, "enabled="+c.enabled+"\n")'
+      - name: Locate last successful receipt
+        if: steps.gate.outputs.enabled == 'true'
+        id: receipt
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const artifacts = await github.paginate(github.rest.actions.listArtifactsForRepo, {...context.repo, per_page:100});
+            const candidates = artifacts.filter(a=>a.name.startsWith('just-volleyball-production-indexnow-')&&!a.expired).sort((a,b)=>b.id-a.id);
+            for(const a of candidates){
+              const {data:run}=await github.rest.actions.getWorkflowRun({...context.repo,run_id:a.workflow_run.id});
+              if(run.path!=='.github/workflows/indexnow.yml'||run.head_branch!=='main'||run.conclusion!=='success')continue;
+              core.setOutput('name',a.name);core.setOutput('run',String(run.id));return;
+            }
+            core.notice('No retained successful receipt: explicitly bootstrap a full submission, including retained deletions. Artifacts are retained for 90 days.');
+      - uses: actions/download-artifact@v4
+        if: steps.gate.outputs.enabled == 'true' && steps.receipt.outputs.name != ''
+        with:
+          name: ${{ steps.receipt.outputs.name }}
+          run-id: ${{ steps.receipt.outputs.run }}
+          github-token: ${{ github.token }}
+          path: artifacts/indexnow
+      - name: Explicit first-run receipt
+        if: steps.gate.outputs.enabled == 'true' && steps.receipt.outputs.name == ''
+        run: mkdir -p artifacts/indexnow && printf 'null\n' > artifacts/indexnow/receipt.json
+      - name: Notify current production version
+        run: npm run indexnow:send
+        env:
+          INDEXNOW_CHECKPOINT: artifacts/indexnow/receipt.json
+      - name: Persist successful receipt
+        if: success() && steps.gate.outputs.enabled == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: just-volleyball-production-indexnow-${{ github.run_id }}-${{ github.run_attempt }}
+          path: artifacts/indexnow/receipt.json
+          if-no-files-found: error
+          retention-days: 90
