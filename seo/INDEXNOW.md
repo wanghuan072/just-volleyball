@@ -5,8 +5,8 @@
 - Canonical origin: https://justvolleyball.app
 - GitHub: wanghuan072/just-volleyball, production branch main.
 - Vercel project: prj_BPaduhALrl3JNhx9aWIljRq9UpuC. The existing successful Git status context is Vercel and targets whs-projects-f97a952d/just-volleyball.
-- Bing site added to the signed-in account on 2026-11-25. The site's own msvalidate.01 value is in app/layout.tsx. **Verify is still pending deployment; this is not a verified-site claim.**
-- seo/indexnow.json is the shared persistent first-send gate. enabled remains false; neither automatic events nor manual retries may notify before Bing Verify succeeds for this exact origin.
+- Bing site added to the signed-in account on 2026-11-25. The site's own msvalidate.01 value is in app/layout.tsx. **Verify was clicked after the verification deployment and succeeded: the selected site has no Not verified label and its own management reports are accessible.**
+- seo/indexnow.json is the shared persistent first-send gate. Bing verification is confirmed for this exact origin. enabled is true and bootstrap is false. Sitemap was submitted on 2026-11-25 and is Processing.
 
 ## Page dates and deletion history
 
@@ -18,7 +18,7 @@ Deletion events survive subsequent versions and notification failures. Restore c
 
 ## Publication and receipts
 
-.github/workflows/indexnow.yml listens to the existing Vercel success status and has a no-argument manual retry. It only executes trusted main-branch code, checks the repository, event sender, context, project target and the commit in the fixed public production manifest. Preview, failed, unrelated and superseded versions cannot be acknowledged as this release. Event sender matching and actual automatic triggering require observation of the next authorized production deployment; the current implementation has not yet run online.
+.github/workflows/indexnow.yml listens to the existing Vercel success status and has a no-argument manual retry. It only executes trusted main-branch code, checks the repository, event sender, context, project target and the commit in the fixed public production manifest. Preview, failed, unrelated and superseded versions cannot be acknowledged as this release. Automatic triggering is verified by GitHub status workflow run 45588187350 for production commit 8bf2a71eab3543a0eb71f3b85f5e490a7e7c526c. Its notify job completed successfully, submitted 78 URLs in one batch and received HTTP 202.
 
 scripts/run-indexnow.mjs is the single sending entry. scripts/notify-indexnow.mjs validates the live manifest and plain-text key, submits batches with bounded retries, and advances a receipt only after every batch and final version check succeeds. The public random IndexNow key is not a secret or a Bing ownership token.
 
@@ -48,4 +48,4 @@ npm run verify:build
 
 indexnow:check is offline and does not write a receipt. indexnow:send also performs no network or receipt operations while the gate is closed. Once verified and enabled, use GitHub Actions → IndexNow production notification → Run workflow on main to retry the current production version. Do not run the generic notifier directly to bypass the first-send gate.
 
-In https://www.bing.com/webmasters/ select **justvolleyball.app** → **IndexNow → IndexNow Insights → View Complete Report** to check URL, submission date and source. This site's verification and Sitemap submission are currently pending publication of the verification material. No real IndexNow submission has been sent by this integration yet. Report entries indicate receipt, not guaranteed indexing or proof that all future deployments trigger automatically.
+In https://www.bing.com/webmasters/ select **justvolleyball.app** → **IndexNow → IndexNow Insights → View Complete Report** to check URL, submission date and source. This site is verified; Sitemap submission is Processing. The first automatic submission received HTTP 202 at 2026-11-25T09:44:10Z. Receipt artifact 15009133411 (run 45588187350) was downloaded and checked: 78 entries, this canonical origin, and the matching production commit. The receipt is retained until 2027-02-23 unless repository retention settings change. Report entries indicate receipt, not guaranteed indexing or proof that all future deployments trigger automatically.
