@@ -77,7 +77,9 @@ async function SkinContent({
         />
         <PageIntro
           title={`Just Volleyball ${name} Skins`}
-          description={`Find a ${name}-inspired outfit, preview its appearance and check required accessories before copying the code.`}
+          description={slug === "haikyuu"
+            ? "Hinata, Kageyama and Atsumu need no Shop accessories. Nishinoya’s sprout is 1,000 chips. Copy a code, then import it from Locker, Presets."
+            : "Anime looks include Asta at 7,000 chips and Minato, Johnny Joestar and Mahoraga at 6,000 chips. Each card lists the accessories and the character code."}
         />
         <Panel>
           <Suspense fallback={<p>Loading presets…</p>}>
@@ -89,6 +91,19 @@ async function SkinContent({
   }
   const skin = findSkin(slug);
   if (!skin) notFound();
+  const hair = skin.evidence.decoded.hairId || "Bald";
+  const color = skin.evidence.decoded.hairColor;
+  const number = skin.evidence.decoded.jerseyNumber;
+  const cost = skin.evidence.accessoryCost;
+  const items = skin.evidence.requiredAccessories.map((item) => `${item.displayName} (${item.price.toLocaleString("en-US")} chips)`);
+  const comparison = cost === 0
+    ? `${skin.name} needs no Shop accessories in Just Volleyball, so the total is 0 chips. Hinata and Kageyama are the same. Gear 5 Luffy lists adventure backpack, halo, headband, sleek visor and wings at 5,000 chips. Itadori Yuji lists a nose bandage, round glasses and a scarf at 3,000 chips. Tell this look apart by the ${hair} hair style, colour #${color}, and jersey ${number}.`
+    : `${skin.name} in Just Volleyball needs ${items.join(", ")}. The total is ${cost.toLocaleString("en-US")} chips if you own none. Hinata and Kageyama need 0 chips. Gear 5 Luffy needs 5,000 chips for adventure backpack, halo, headband, sleek visor and wings. Itadori Yuji needs 3,000 chips for a nose bandage, round glasses and a scarf. This card uses the ${hair} hair style, colour #${color}, and jersey ${number}.`;
+  const faq: [string, string][] = [
+    [`How many chips does ${skin.name} need in Just Volleyball?`, comparison],
+    [`Is ${skin.name} an official Just Volleyball character?`, `No. ${skin.name} is a community appearance credited to ${skin.sourceAccount}. It is not an official roster character. The saved head is the ${hair} hair style in #${color}, jersey ${number}.`],
+    [`What if the ${skin.name} code does not import?`, `Copy the full ${skin.name} code, open Just Volleyball, and use Locker, Presets, then Import. Update the game if it is rejected. Unlock the accessories named above before you confirm. Hair ${hair} and jersey ${number} should match this page after import.`],
+  ];
   return (
     <>
       <Breadcrumbs
@@ -114,7 +129,7 @@ async function SkinContent({
             <h1>{skin.name}</h1>
             <div className={styles.tags}>
               {skin.tags.map(tag => (
-                <a key={tag} href={`/skins/?${new URLSearchParams({ category: tag })}`}>#{tag}</a>
+                <a key={tag} href={tag === "anime" || tag === "haikyuu" ? `/skins/${tag}/` : `/skins/?${new URLSearchParams({ category: tag })}`}>#{tag}</a>
               ))}
             </div>
           </header>
@@ -154,18 +169,16 @@ async function SkinContent({
           <a className={styles.smallLink} href="/character-codes/how-to-import/">Full import guide</a>
         </Panel>
         <Panel>
-          <h2>Make this look your own</h2>
-          <p>{skin.description}</p>
-          <p>Open the look in the Locker to adjust its hair, colors and uniform. Check the required items before importing it into your game profile.</p>
+          <h2>About this {skin.name} look</h2>
+          <p>{skin.name} is a community outfit for Just Volleyball, shared by {skin.sourceAccount}. The appearance code on this page saves the {hair} hair style, hair colour #{color}, and jersey number {number}. Another code that uses the same character idea can still differ in hair, number, colours or accessories, so match this picture before you import it.</p>
+          <p>{comparison}</p>
+          <p>The required accessories for this {skin.name} code are listed above, each with its chip price. The total under that list is what the Shop charges if you own none of those items. Pasting the code does not unlock them.</p>
           <p><a href={skin.sourceUrl}>View the creator’s post ↗</a></p>
         </Panel>
       </div>
       <Panel>
-        <Faq items={[
-          [`Is ${skin.name} an official character?`, "This is a community-created appearance for Just Volleyball."],
-          ["What if the code does not import?", "Copy the complete code and try importing it in the Locker. Check your game version and any missing accessories before applying the look."],
-        ]} />
-        <p className={styles.sourceNote}>{skin.rightsNote}</p>
+        <Faq items={faq} />
+        <p className={styles.sourceNote}>{skin.rightsNote} Source listing checked November 24, 2026.</p>
       </Panel>
       <section className={styles.related}>
         <h2>More looks for your Locker</h2>
@@ -178,6 +191,10 @@ async function SkinContent({
             ))}
         </div>
       </section>
+      <JsonLd data={{
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: faq.map(([name, text]) => ({ "@type": "Question", name, acceptedAnswer: { "@type": "Answer", text } })),
+      }} />
       <JsonLd data={{
         "@context": "https://schema.org", "@type": "CreativeWork",
         name: skin.name, description: skin.seo.description,

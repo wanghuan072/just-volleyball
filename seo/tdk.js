@@ -33,8 +33,8 @@ export const tdk = {
     "description": "Browse Just Volleyball Shop accessories, titles and effects. Check prices and unlock requirements, preview items, then continue your outfit in the Locker."
   },
   "/customization/": {
-    "title": "Just Volleyball Customization - Hair, Faces & Outfits",
-    "description": "Explore Just Volleyball customization options for faces, hair, uniforms and accessories. Find the parts for your player and continue editing in the Locker."
+    "title": "Just Volleyball Customization Options - Hair and Uniforms",
+    "description": "See the Just Volleyball customization options for hair, faces, uniforms and accessories, then open the Locker to build your player."
   },
   "/characters/spectators/": {
     "title": "Just Volleyball Spectators - Court Crowd Characters",
