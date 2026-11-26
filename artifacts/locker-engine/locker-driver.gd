@@ -33,6 +33,11 @@ func _render():
 	if not request is Dictionary:
 		_fail("Invalid request.")
 		return
+	if request.get("web_export", false):
+		var exporter = load("res://locker-web-export.gd").new()
+		add_child(exporter)
+		await exporter.export_model(request)
+		return
 	if request.get("catalog", false):
 		await _render_catalog(request)
 		return

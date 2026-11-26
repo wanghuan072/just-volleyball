@@ -1,10 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState, type CSSProperties } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Icon } from "./icon";
-import { frontOrbit, OrbitFrame, PreviewOrbit } from "./preview-orbit";
-import { defaultOrbitAtlas, type OrbitAtlas } from "@/lib/orbit-atlas";
+import { frontOrbit } from "./preview-orbit";
+import dynamic from "next/dynamic";
+const LocalPlayerPreview = dynamic(() => import("./local-player-preview").then(module => module.LocalPlayerPreview), { ssr: false });
+import { decodeLocalLook } from "@/lib/local-look";
 import { lockerHref, shopHref, tryOnAccessory, type AccessoryCategory } from "@/lib/shop-look";
 import styles from "@/styles/shop.module.css";
 
@@ -41,7 +43,7 @@ type Portrait = {
   height: number;
   alphaBounds: number[];
   config: Record<string, unknown>;
-  orbitAtlas?: OrbitAtlas;
+
 };
 type Context = { look: string; code: string };
 const pageSize = 24;
@@ -52,39 +54,14 @@ function isAccessory(item: ShopItem): item is ShopItem & { category: AccessoryCa
   return item.category === "head" || item.category === "face" || item.category === "extra";
 }
 
-async function renderPortrait(payload: Record<string, unknown>, orbitAtlas = false): Promise<Portrait> {
-  const response = await fetch("/api/locker/render/", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ ...payload, orbitAtlas, outfit: "uniform", view: "full" }),
-  });
-  const result = await response.json();
-  if (!response.ok || result.error) throw new Error(result.error ?? "Unable to render this try-on.");
-  if (orbitAtlas && !result.orbitAtlas) throw new Error("Interactive preview is unavailable for this renderer.");
-  return result;
+async function renderPortrait(payload: Record<string, unknown>): Promise<Portrait> {
+  const config = payload.code ? await decodeLocalLook(String(payload.code)) : payload.config as Record<string, unknown>;
+  return { config, image: "", width: 960, height: 1240, alphaBounds: [0, 0, 960, 1240] };
 }
 
 function ChipPrice({ item }: { item: ShopItem }) {
   if (item.price === null) return <span className={styles.earned}>Achievement</span>;
   return <span className={styles.price}><span aria-hidden="true">◆</span> {chips.format(item.price)} chips</span>;
-}
-
-function PlayerPreview({ rendered, look, tried }: { rendered: Portrait | null; look?: ShopLook; tried: boolean }) {
-  const frame = rendered ? { ...rendered, bounds: rendered.alphaBounds } : look;
-  if (!frame) {
-    return <Image className={styles.basePlayer} src="/images/shop/player.webp" width={500} height={800} unoptimized alt="Default Shop player" />;
-  }
-
-  const [left, top, right, bottom] = frame.bounds;
-  const width = right - left;
-  const height = bottom - top;
-  return (
-    <div className={styles.crop} style={{ "--ratio": width / height } as CSSProperties}>
-      <Image src={frame.image} width={frame.width} height={frame.height} unoptimized
-        alt={tried ? "Player with the selected accessory" : look ? `${look.name} player preview` : "Current Locker player"}
-        style={{ width: `${frame.width / width * 100}%`, height: `${frame.height / height * 100}%`, left: `${-left / width * 100}%`, top: `${-top / height * 100}%` }} />
-    </div>
-  );
 }
 
 export function ShopCatalog({ items, looks, baseConfig }: {
@@ -136,7 +113,7 @@ export function ShopCatalog({ items, looks, baseConfig }: {
   const accessory = selected && isAccessory(selected) ? selected : null;
   const backView = Math.abs(orbit.yaw) > 90;
   const needsRender = Boolean(accessory || code);
-  const atlas = preview?.orbitAtlas ?? (!needsRender ? defaultOrbitAtlas : undefined);
+
 
   useEffect(() => {
     let active = true;
@@ -144,12 +121,11 @@ export function ShopCatalog({ items, looks, baseConfig }: {
       if (!active) return;
       setBusy(needsRender);
       setPreviewError(false);
-      setStatus(needsRender ? "Preparing player views…" : "");
+      setStatus(needsRender ? "Updating player…" : "");
       if (!needsRender) setPreview(null);
     });
     if (needsRender) {
-      // Only one render from this catalogue can run at once. Obsolete
-      // selections are dropped before they can queue work on the server.
+      // Ignore obsolete selections while decoding the selected local look.
       renderQueue.current = renderQueue.current.then(async () => {
         if (!active) return;
         try {
@@ -170,10 +146,10 @@ export function ShopCatalog({ items, looks, baseConfig }: {
             }
             const applied = tryOnAccessory(config, accessory.id, accessory.category);
             if (!applied) throw new Error("No slot available for this accessory. Edit its slots in Locker.");
-            result = await renderPortrait({ config: applied.config }, true);
+            result = await renderPortrait({ config: applied.config });
             replaced = applied.replaced;
           } else {
-            result = await renderPortrait(code ? { code } : { config: baseConfig }, true);
+            result = await renderPortrait(code ? { code } : { config: baseConfig });
             if (code) imported.current = { code, config: result.config };
           }
           if (!active) return;
@@ -268,17 +244,15 @@ export function ShopCatalog({ items, looks, baseConfig }: {
           </label>
           <a href="/skins/">Browse skins</a>
         </div>
-        <PreviewOrbit className={styles.stage} busy={busy} orbit={orbit} onRotate={setOrbit} onTap={turnPlayer}>
-          <OrbitFrame atlas={atlas} orbit={orbit} alt={accessory ? `Player wearing ${accessory.name}` : "Rotating player preview"}>
-            <PlayerPreview rendered={preview} look={look} tried={!!(preview && accessory)} />
-          </OrbitFrame>
+        <div className={styles.stage} aria-busy={busy}>
+          <LocalPlayerPreview config={preview?.config ?? baseConfig} orbit={orbit} onOrbit={setOrbit} onError={setStatus} />
           <button className={styles.turnPlayer} type="button"
             onClick={turnPlayer}
             aria-label={backView ? "Show front of player" : "Show back of player"}>
             <span aria-hidden="true">↻ {backView ? "Front view" : "Back view"}</span>
           </button>
           {selected?.category === "title" ? <span className={styles.playerTitle}>{selected.name}</span> : null}
-        </PreviewOrbit>
+        </div>
 
         <div className={styles.selection}>
           {selected ? (

@@ -50,6 +50,7 @@ for p in OVERLAY.rglob('*'):
     if p.is_file(): files[p.relative_to(OVERLAY).as_posix()] = p
 for name in ['locker-driver.gd', 'locker-driver.tscn']:
     files[name] = BASE/name
+files['locker-web-export.gd'] = ROOT/'scripts/export-locker-web.gd'
 (BASE/'manifest.json').write_text(json.dumps([{'virtual':'res://'+k,'source':str(v)} for k,v in files.items()]), encoding='utf-8')
 (BASE/'build-project.gd').write_text('''extends SceneTree
 func _initialize():

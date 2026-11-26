@@ -338,3 +338,26 @@ test("published character PNGs are original packaged crowd art with exact identi
     assert.equal(createHash("sha256").update(readFileSync(path.join(root,"public",item.image))).digest("hex"),item.sha256);
   }
 });
+
+
+test("browser look codes round trip complete configuration and preserve the game CRC", async () => {
+  const {encodeLocalLook, decodeLocalLook} = load("lib/local-look.ts");
+  const {checkCode} = load("lib/look-codec.ts");
+  const config = {...load("data/locker-catalog.json").defaults, hair:"afro", num:43, acc:{extra:{id:"cape",sc:0.6}}, studio:{layers:[{name:"player card"}]}};
+  const code = await encodeLocalLook(config);
+  assert.equal((await checkCode(code)).status, "notice");
+  assert.deepEqual(await decodeLocalLook(code), config);
+  const bytes = Buffer.from(code.slice(4), "base64");bytes[0] ^= 1;
+  await assert.rejects(() => decodeLocalLook("JV1:"+bytes.toString("base64")), /Checksum/);
+  await assert.rejects(() => encodeLocalLook({...config, h:2}), /Height|range|between|0 and 1/i);
+});
+
+test("local player assets include every enabled accessory and original editable body shapes", () => {
+  const catalog=load("data/locker-catalog.json"), index=load("public/models/locker/index.json");
+  for(const item of catalog.accessories.filter(item=>item.availableInBuild!==false)) assert.ok(existsSync("public"+index.accessories[item.id]),item.id);
+  for(const kind of ["hair","beard"]) for(const url of Object.values(index[kind])) assert.ok(existsSync("public"+url));
+  const bytes=readFileSync("public"+index.body), gltf=JSON.parse(bytes.subarray(20,20+bytes.readUInt32LE(12)));
+  const shapes=gltf.meshes.flatMap(mesh=>mesh.extras?.targetNames??[]);
+  for(const shape of ["heavy","slim","sharp","square","round","short","long"])assert.ok(shapes.includes(shape),shape);
+  for(const component of ["locker-studio","shop-catalog"])assert.ok(!readFileSync("components/"+component+".tsx","utf8").includes("/api/locker/render/"));
+});

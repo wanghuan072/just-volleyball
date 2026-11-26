@@ -1,45 +1,27 @@
-# Native-resource Player Locker
+# Locker player assets
 
-The local website exposes `/tools/locker/` and `/api/locker/render/`. It uses the recovered game's **actual CharacterConfig, ModelRig, HairWarm, CharacterPortrait and LookShare** rather than reimplementing the avatar in CSS or Three.js.
+## Website runtime
 
-## Runtime
+Locker and Shop now use Three.js and OrbitControls in the visitor’s browser. They load the original exported game meshes and face textures from `public/models/locker/`. They do not call `/api/locker/render/`, launch Godot, generate an angle sheet, or require a rendering server.
 
-The first uncached request launches an isolated engine subprocess. Subsequent requests in a short burst reuse its loaded portrait rig through a private temporary directory. The subprocess closes after eight seconds without work or a one-minute session, and each request has a separate timeout. Requests are serialized, identical work is deduplicated, and the 48 most recently used results are cached. A pack built before this change still works with one engine launch per frame.
+The body retains editable morph targets. Hair, facial hair and enabled accessories load on demand and are reused from an in-memory asset cache. Pointer movement renders a new camera angle immediately. Model data is checked into the repository, so a normal website deployment includes it without a native engine or cloud service.
 
-The existing user's Next.js server was reused. This task did not start or restart it.
+Appearance codes are decoded locally. Exports use the game’s JV1 envelope: DEFLATE JSON, CRC32 and Base64. Both JV1 and JV2 imports remain supported. Player PNG exports embed the appearance code in the original `jvlook` chunk format. Presets stay in browser localStorage, and the existing card Studio remains a browser compositor. None of these actions modifies a Steam profile or purchases game items.
 
-### Rebuilding the isolated resource pack
+## Updating original assets offline
 
-1. Set `JV_SOURCE_PROJECT` if the recovered project is in a different location. The existing workstation default is in `prepare.py`.
-2. Run `python artifacts/locker-engine/prepare.py` from the repository root.
-3. Invoke the existing GDRE engine once with `--headless --script <absolute path to artifacts/locker-engine/build-project.gd>`. On Windows use `Start-Process -WindowStyle Hidden -Wait` and check the process exit code and `LOCKER_PACK_RESULT=0`.
-4. Set `JV_LOCKER_ENGINE` to the executable and optionally `JV_LOCKER_PACK` to the generated pack. On this workstation the preparation step writes an ignored `local-config.json` using the already installed GDRE path, so no environment changes or server restart are required.
+These steps are only needed when updating the recovered game resources, not when building or deploying the website:
 
-The generated pack and resource manifest are machine-local artifacts, excluded from Git. Original recovered files and the Steam installation remain unchanged. `provenance.json` records the source script hashes and isolation differences. The application needs a Node server with a compatible native Godot/GDRE engine and graphics support; static hosting or an ordinary edge/serverless runtime alone cannot execute this renderer. Do not describe the local implementation as an already deployed browser-only WebGL editor.
+1. Run `python artifacts/locker-engine/prepare.py` with `JV_SOURCE_PROJECT` pointing to the recovered project if its path differs from this workstation.
+2. Run `node scripts/prepare-locker-web.mjs` to prepare model export jobs and the static asset index.
+3. Build the isolated pack with the installed engine’s `--headless --script <absolute path to artifacts/locker-engine/build-project.gd>`. On Windows use `Start-Process -WindowStyle Hidden -Wait` and require `LOCKER_PACK_RESULT=0`.
+4. Run that pack with the absolute path to `artifacts/locker-web/export.json` after `--`. The driver loads `scripts/export-locker-web.gd` and writes the original meshes as GLB, baking the static portrait pose while keeping editable body shape targets.
+5. To update face textures, pass a JSON request containing `web_export: true` and `face_assets: <absolute public/models/locker/faces path>`. Copy the original `game/fonts/VarsityTeam-Bold.otf` into `public/fonts/` when updating its font.
 
-### Isolation
+Machine paths, generated engine packs and temporary jobs remain ignored by Git. The recovered project and Steam installation are not modified. The older native endpoint and verification script are retained for offline comparison, but they are not dependencies of the web editor.
 
-The pack uses custom userdata `CodexJVLocker`; the driver verifies it before work. Normal autoload lifecycle callbacks are disabled, so game boot, Steam, matchmaking, user-profile loading and account progression do not run. User input is JSON with bounded size/depth and validated local resource IDs; executable paths, pack paths and output paths are exclusively server-controlled. No command shell interpolates user data. Temporary output folders are internally generated UUID children and removed when the subprocess exits.
+## Verification and scope
 
-## Appearance and sharing behavior
+`npm test` checks code round trips and CRCs, PNG metadata, enabled accessory coverage and original body morph targets. Type checking, linting and production builds run without a rendering engine. Browser acceptance checks include changing skin/hair, Shop try-on, and moving the camera before the mouse button is released.
 
-- Hair, facial hair, layered faces, body morphs, head/ear shapes, equipment and ordinary accessories are applied by original game code.
-- Uniform, gym and pinny are separate preview contexts, with the game's `uniform_kit`, `gym_look` and `gym_kit` semantics. Gym gear is stored in `gg` separately from uniform gear.
-- Shop and Locker rotate locally using a WebP sheet of native character views. The default look loads a static sheet, and appearance changes request a new sheet with 24 horizontal angles and seven camera elevations. Pointer movement selects a frame in the browser and releasing the pointer keeps that frame. Locker PNG exports still request a full-resolution render at the selected angle. Rebuild the local resource pack to enable the orbit sheet for custom looks.
-- Nine standard accessory slots are rendered by this build. Up to twelve serialized entries are preserved by the game's configuration format; extra serialized entries are not described as extra rendered mounts.
-- Four supporter entries are present in the package but disabled by the build's default feature flag, so the UI disables them. Previewing ordinary items does not purchase them or grant ownership in the actual game.
-- The driver round-trips configuration through original `LookShare.encode/decode`. Exported values therefore reflect the game's packed-code quantization.
-- Native portrait PNGs use `LookShare.png_with_code`; their embedded `jvlook` code is checked by the original reader before returning them.
-- Browser PNG imports validate signature, chunks, CRCs and embedded metadata; the tool limits imports to 8 MB and does not pretend to decode QR-only screenshots.
-- Fifty preset slots are stored in browser localStorage. They do not write to the game's own profile or save files.
-- The web card Studio provides real original patterns/stickers, text, portrait placement and three original canvas sizes. Its exported PNG embeds the native appearance code. It is a web compositor, not a port of the original game's entire multilayer Studio.
-
-## Thumbnails
-
-`data/locker-thumbnail-manifest.json` binds 84 hair/8 beard/8 uniform preview files to engine configurations, original source models and hashes. These images are generated by CharacterPortrait, not AI or guessed sprites. Reproduce them with the driver's internal `{catalog:true}` or `{catalog:true,catalogKind:"kit"}` batch requests and `scripts/publish-locker-thumbnails.py`.
-
-## Verification and remaining differences
-
-`node scripts/verify-locker.mjs` targets an **already running** website. It checks six native renders, code import/export equivalence, different view/outfit images, embedded PNG codes, invalid request rejection, and thumbnail hashes. Unit tests also cover PNG replacement/CRC handling and request validation.
-
-This renderer currently uses the auxiliary Godot 4.8-dev GDRE engine, Compatibility rendering, isolated startup and original static portrait light/pose, with a shared framing camera and selectable yaw. The packaged project's declared engine version and live-match settings differ. Original assembly rules are reused; complete live-game pixel parity and a successful import in a running Steam game have **not** been independently verified. Voice parameters are retained in appearance codes; this preview does not simulate game voice playback. Do not claim that every game interaction, animation or Studio tool is identical.
+The browser uses original geometry and artwork with web lighting and outlines. This is not a claim of pixel-identical game shaders, animations or automatic accessory fitting. Voice settings and additional imported configuration are preserved; voice playback and the complete in-game Studio are not simulated. Four supporter resources disabled in the original build remain disabled in the UI.

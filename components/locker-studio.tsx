@@ -1,11 +1,15 @@
 "use client";
 
-import { useCallback, useEffect, useEffectEvent, useReducer, useRef, useState, type CSSProperties } from "react";
+import { useCallback, useEffect, useEffectEvent, useReducer, useRef, useState } from "react";
 import Image from "next/image";
 import { LockerCardStudio } from "./locker-card-studio";
-import { frontOrbit, OrbitFrame, PreviewOrbit, type Orbit } from "./preview-orbit";
-import { defaultOrbitAtlas, type OrbitAtlas } from "@/lib/orbit-atlas";
-import { extractAppearanceCodeFromPng, MAX_APPEARANCE_PNG_BYTES } from "@/lib/appearance-png";
+import { frontOrbit, type Orbit } from "./preview-orbit";
+import dynamic from "next/dynamic";
+import type { PlayerPreviewHandle } from "./local-player-preview";
+const LocalPlayerPreview = dynamic(() => import("./local-player-preview").then(module => module.LocalPlayerPreview), { ssr: false });
+import { encodeLocalLook, decodeLocalLook } from "@/lib/local-look";
+
+import { embedAppearanceCodeInPng, extractAppearanceCodeFromPng, MAX_APPEARANCE_PNG_BYTES } from "@/lib/appearance-png";
 import { shopHref, tryOnAccessory, type AccessoryCategory } from "@/lib/shop-look";
 import styles from "@/styles/locker.module.css";
 
@@ -13,14 +17,7 @@ type Config = Record<string, unknown>;
 type Option = { value: string | number; label: string; color?:string; image?:string };
 type Field = { key: string; label: string; kind: string; default: unknown; min?: number; max?: number; step?: number; options?: Option[]; section: string };
 export type LockerCatalog = { hair: {id:string;label:string;image?:string}[]; facialHair: {id:string;label:string;image?:string}[]; faces: Record<string,{id:string;label:string;index:number;image?:string}[]>; accessories:{id:string;label:string;category:string;price:number;supporter:boolean;availableInBuild?:boolean}[]; fields:Field[]; defaults:Config };
-type Result = { image:string; config:Config; code:string; missingAccessories?:string[]; requiredAccessories?:string[]; alphaBounds?:[number,number,number,number]; width?:number; height?:number; orbitAtlas?: OrbitAtlas };
-function NativePortrait({result}:{result:Result}) {
-  const iw=result.width??960, ih=result.height??1240;
-  const b=result.alphaBounds;
-  if(!b||b.length!==4||b[2]<=b[0]||b[3]<=b[1])return <Image src={result.image} width={iw} height={ih} unoptimized alt="Your customized Just Volleyball player"/>;
-  const [left,top,right,bottom]=b;const w=right-left,h=bottom-top;
-  return <div className={styles.portraitWindow}><div className={styles.portraitCrop} style={{"--portrait-ratio":String(w/h)} as CSSProperties}><Image src={result.image} width={iw} height={ih} unoptimized alt="Your customized Just Volleyball player" style={{position:"absolute",width:`${iw/w*100}%`,height:`${ih/h*100}%`,left:`${-left/w*100}%`,top:`${-top/h*100}%`,maxWidth:"none",maxHeight:"none",objectFit:"fill"}}/></div></div>;
-}
+type Result = { image:string; config:Config; code:string; missingAccessories?:string[]; requiredAccessories?:string[]; alphaBounds?:[number,number,number,number]; width?:number; height?:number; orbitAtlas?: never };
 type Saved = {name:string;config:Config};
 const sections = ["face", "body", "voice", "hair", "accessories", "outfit", "presets", "studio"];
 const symbols:Record<string,string>={face:"☻",body:"♟",voice:"♪",hair:"♛",accessories:"♧",outfit:"♙",presets:"▣",studio:"▧"};
@@ -59,10 +56,9 @@ export function LockerStudio({catalog}:{catalog:LockerCatalog}) {
   const [saved,setSaved]=useState<Saved[]>([]);
   const [name,setName]=useState("");
   const [search,setSearch]=useState("");
-  const active=useRef(false);
+  const previewRef=useRef<PlayerPreviewHandle>(null);
   const startedAutoPreview=useRef(false);
   const importing=useRef(false);
-  const pending=useRef<Record<string,unknown>|null>(null);
   const version=useRef(0);
   const mounted=useRef(true);
   const initialCode=useRef("");const importedLink=useRef(false);
@@ -75,7 +71,7 @@ export function LockerStudio({catalog}:{catalog:LockerCatalog}) {
     initialItem.current = shopAccessory(catalog, params.get("item"));
     const item = initialItem.current;
     const shouldApply = item && !initialCode.current;
-    void fetch("/api/locker/render/").then(r=>r.json()).then(d=>{if(mounted.current){setAvailable(d.available);setMessage(d.available?"Ready to customize":d.message);}}).catch(()=>{if(mounted.current){setAvailable(false);setMessage("Renderer unavailable. Check the local rendering setup.");}});
+    queueMicrotask(()=>{if(mounted.current){setAvailable(true);setMessage("Ready to customize");}});
     let cancelled = false;
     queueMicrotask(()=>{
       if (cancelled) return;
@@ -92,59 +88,25 @@ export function LockerStudio({catalog}:{catalog:LockerCatalog}) {
     return()=>{cancelled=true; mounted.current=false;};
   },[catalog,setConfig]);
   const render=useCallback(async function run(payload:Record<string,unknown>) {
-    if (payload.code) importing.current = true;
-    pending.current=payload; ++version.current;
-    if(active.current)return;
-    active.current=true;setBusy(true);
-    while(pending.current && mounted.current){
-      const next=pending.current;pending.current=null;const current=version.current;
-      if (next.code) importing.current = true;
-      setBusy(true);
-      setMessage("Updating your look…");
-      try {
-        const usesDefaultViews = !next.code && next.config === catalog.defaults && next.outfit === "uniform" && next.view === "full";
-        const response=await fetch("/api/locker/render/",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({...next, ...frontOrbit, orbitAtlas:false})});
-        let data=await response.json();
-        if(!response.ok||data.error)throw Error(data.error??"Rendering failed.");
-        if (mounted.current && current === version.current) {
-          setResult({...data, orbitAtlas: usesDefaultViews ? defaultOrbitAtlas : {
-            image: data.image, columns: 1, pitches: [0], width: data.width, height: data.height,
-          }});
-          setRenderedContext(JSON.stringify([next.outfit,next.view]));
-          setRenderedConfig(JSON.stringify(next.code?data.config:next.config));
-          setBusy(false);
-          setMessage(usesDefaultViews ? "Preview updated" : "Look updated · preparing rotation…");
-        }
-        if (!usesDefaultViews && current === version.current && mounted.current) {
-          const views = await fetch("/api/locker/render/", {method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({...next,...frontOrbit,orbitAtlas:true})});
-          const full = await views.json();
-          if (!views.ok || full.error) throw Error(full.error ?? "Could not prepare rotation. Your look is still visible.");
-          data = full;
-        }
-        if(!usesDefaultViews && !data.orbitAtlas)throw Error("Interactive preview is unavailable for this renderer.");
-        const latest = current === version.current;
-        if(mounted.current && latest){
-          setResult(data);
-          setRenderedContext(JSON.stringify([next.outfit,next.view]));
-          setRenderedConfig(JSON.stringify(next.code?data.config:next.config));
-        }
-        if(mounted.current && latest){
-          setMessage("Preview updated");
-          if(next.code){
-            const item = initialItem.current;
-            initialCode.current="";
-            initialItem.current=null;
-            const applied = item ? tryOnAccessory(data.config, item.id, item.category) : null;
-            if (item && !applied) setMessage("No matching slot is available for this Shop item.");
-            setConfig(applied?.config ?? data.config);
-            setCode("");
-          }
-        }
+    const current=++version.current;
+    if(payload.code)importing.current=true;
+    setBusy(true);
+    try {
+      const appearance=payload.code?await decodeLocalLook(String(payload.code)):payload.config as Config;
+      const configValue={...catalog.defaults,...appearance};
+      const appearanceCode=await encodeLocalLook(configValue);
+      if(!mounted.current||current!==version.current)return;
+      const required=Object.values(dict(configValue.acc)).flatMap(v=>typeof dict(v).id==="string"&&dict(v).id?[String(dict(v).id)]:[]);
+      setResult({config:configValue,code:appearanceCode,image:"",requiredAccessories:required});
+      setRenderedContext(JSON.stringify([payload.outfit,payload.view]));
+      setRenderedConfig(JSON.stringify(payload.code?configValue:payload.config));
+      setMessage("Preview updated");
+      if(payload.code){
+        const item=initialItem.current;initialCode.current="";initialItem.current=null;
+        setConfig(item?tryOnAccessory(configValue,item.id,item.category)?.config??configValue:configValue);setCode("");
       }
-      catch(error){if(next.code){initialCode.current="";initialItem.current=null;}if(mounted.current&&current===version.current)setMessage(error instanceof Error?error.message:"Rendering failed.");}
-      finally { if (next.code) importing.current = false; }
-    }
-    active.current=false;if(mounted.current)setBusy(false);
+    }catch(error){if(mounted.current)setMessage(error instanceof Error?error.message:"Could not load this look.");}
+    finally{importing.current=false;if(mounted.current&&current===version.current)setBusy(false);}
   },[catalog.defaults,setConfig]);
   useEffect(()=>{if(!available||importedLink.current||!initialCode.current)return;importedLink.current=true;void render({code:initialCode.current,...frontOrbit,outfit:"uniform",view:"full"});},[available,render]);
   const renderCurrent = useEffectEvent(() => {
@@ -155,7 +117,7 @@ export function LockerStudio({catalog}:{catalog:LockerCatalog}) {
   });
   useEffect(()=>{
     if(!available||!auto||initialCode.current)return;
-    const timer=setTimeout(()=>renderCurrent(),startedAutoPreview.current ? 350 : 0);
+    const timer=setTimeout(()=>renderCurrent(),0);
     return()=>clearTimeout(timer);
   },[config,outfit,view,auto,available]);
   function rotatePlayer(next: Orbit) {
@@ -164,16 +126,15 @@ export function LockerStudio({catalog}:{catalog:LockerCatalog}) {
   }
   const currentPreview = renderedContext === JSON.stringify([outfit, view]) && renderedConfig === JSON.stringify(config);
   async function exportPlayer() {
-    if (!currentPreview || exporting) return;
+    if (!currentPreview || exporting || !result) return;
     setExporting(true);
     try {
-      const response = await fetch("/api/locker/render/", {
-        method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ config, ...orbit, outfit, view }),
-      });
-      const portrait = await response.json();
-      if (!response.ok || !portrait.image) throw Error(portrait.error ?? "Could not export the portrait.");
-      download("just-volleyball-player.png", portrait.image);
+      const image=previewRef.current?.capture(result.config);
+      if(!image||!result?.code)throw Error("The player preview is not ready yet.");
+      const raw=Uint8Array.from(atob(image.split(",")[1]),c=>c.charCodeAt(0));
+      const png=embedAppearanceCodeInPng(raw,result.code);
+      const url=URL.createObjectURL(new Blob([new Uint8Array(png)],{type:"image/png"}));
+      download("just-volleyball-player.png",url);setTimeout(()=>URL.revokeObjectURL(url),1000);
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "Could not export the portrait.");
     } finally {
@@ -189,12 +150,9 @@ export function LockerStudio({catalog}:{catalog:LockerCatalog}) {
   return <div className={styles.studio}>
     <section className={styles.preview} aria-label="Player preview">
       <div className={styles.previewTitle}><h1>Just Volleyball Locker</h1><label>showing:<select value={outfit} onChange={e=>setOutfit(e.target.value)}><option value="uniform">captain uniform</option><option value="casual">casual / gym</option><option value="pinny">training pinny</option></select></label></div>
-      <PreviewOrbit className={styles.stage} busy={busy} orbit={orbit} onRotate={rotatePlayer}>
-        <OrbitFrame atlas={result?.orbitAtlas ?? defaultOrbitAtlas} orbit={orbit} alt="Rotating Locker player preview">
-          {result?.image ? <NativePortrait result={result}/> : <Image src="/images/shop/player.webp" width={500} height={800} unoptimized loading="eager" alt="Default player preview" />}
-        </OrbitFrame>
-        {busy&&<div className={styles.rendering}>Updating look…</div>}
-      </PreviewOrbit>
+      <div className={styles.stage} role="group" aria-label="Rotate player preview">
+        <LocalPlayerPreview ref={previewRef} config={result?.config??catalog.defaults} outfit={outfit} view={view} orbit={orbit} onOrbit={rotatePlayer} onImage={image=>setResult(current=>current?{...current,image}:current)} onError={setMessage}/>
+      </div>
       <p className={styles.note}>Drag to rotate and tilt</p>
       <p role="status" className={styles.status}>{message}</p>
       <div className={styles.row}><button onClick={()=>rotatePlayer(frontOrbit)}>Front</button><button onClick={()=>rotatePlayer({yaw:-180,pitch:0})}>Back</button><label>View<select value={view} onChange={e=>setView(e.target.value)}><option value="full">Full body</option><option value="head">Head</option></select></label></div>
@@ -214,7 +172,7 @@ export function LockerStudio({catalog}:{catalog:LockerCatalog}) {
         <h2>{section==="outfit"?"outfits":section}</h2>
         {section==="face"&&<div className={styles.faceTabs}>{["look","eyes","brows","nose","mouth"].map(t=><button key={t} aria-pressed={faceTab===t} onClick={()=>setFaceTab(t)}>{t}</button>)}</div>}
         {section==="voice"&&<p>Voice settings are saved with your look. Audio playback is not available in this portrait preview.</p>}
-        {section==="studio"&&<LockerCardStudio image={result?.image} code={result?.code} atlas={result ? result.orbitAtlas ?? defaultOrbitAtlas : undefined} orbit={orbit} disabled={busy||!result||!currentPreview}/> }
+        {section==="studio"&&<LockerCardStudio image={result?.image} code={result?.code} orbit={orbit} disabled={busy||!result||!currentPreview}/> }
         {section==="hair"&&<><div className={styles.faceTabs}><button aria-pressed={hairTab==="hair"} onClick={()=>setHairTab("hair")}>hair</button><button aria-pressed={hairTab==="beard"} onClick={()=>setHairTab("beard")}>facial hair</button></div><div className={styles.hairGrid}>{(hairTab==="hair"?catalog.hair:catalog.facialHair).map(h=><button key={h.id} aria-label={h.label} aria-pressed={String(config[hairTab==="hair"?"hair":"fh"]??"")===h.id} onClick={()=>change(hairTab==="hair"?"hair":"fh",h.id)}>{h.image?<Image src={h.image} width={160} height={160} alt={h.label} unoptimized/>:<span className={styles.hairPlaceholder}>{h.id?"♛":"○"}</span>}<span>{h.label}</span></button>)}</div></>}
         {section==="face"&&faceTab==="look"&&catalog.fields.filter(f=>["skin","skx","skc"].includes(f.key)).map(control)}
         {section!=="face"&&fields.map(control)}
@@ -227,7 +185,7 @@ export function LockerStudio({catalog}:{catalog:LockerCatalog}) {
         {section==="outfit"&&<p className={styles.note}>Editing {outfit==="uniform"?"uniform equipment":"gym equipment (casual and pinny)"}. Change “showing” above the player to switch equipment sets.</p>}
         {section==="outfit"&&<fieldset><legend>Captain kit colours</legend>{["Jersey","Shorts","Trim","Number"].map((label,i)=><label key={label} className={styles.control}><span>{label}</span><input type="color" value={`#${String((config.kh as string[]|undefined)?.[i]??"ffffff")}`} onChange={e=>{const kh=[...((config.kh as string[])??["4d8cf2","17171c","ffffff","ffffff"])];kh[i]=e.target.value.slice(1);change("kh",kh);}}/></label>)}</fieldset>}
         {section==="presets"&&<><label className={styles.export}><span>Import a JV1 / JV2 appearance code</span><textarea rows={4} value={code} onChange={e=>setCode(e.target.value)} placeholder="JV2:…"/></label><button className={styles.primary} disabled={!code.trim()||available!==true} onClick={()=>void render({code:code.trim(),...orbit,outfit,view})}>Import and preview</button><label className={styles.export}><span>Import a game-exported PNG player card</span><input type="file" accept="image/png,.png" disabled={available!==true} onChange={async e=>{const input=e.currentTarget;const file=input.files?.[0];if(!file)return;try{if(file.size>MAX_APPEARANCE_PNG_BYTES)throw Error("Player card is too large (maximum 8 MB).");const imported=extractAppearanceCodeFromPng(new Uint8Array(await file.arrayBuffer()));setCode(imported);await render({code:imported,...orbit,outfit,view});}catch(error){setMessage(error instanceof Error?error.message:"Could not read the player card.");}finally{input.value="";}}}/><small>Reads the embedded appearance code locally. Plain screenshots and QR-only pictures are not supported.</small></label><hr/><label className={styles.control}><span>Preset name</span><input value={name} maxLength={60} onChange={e=>setName(e.target.value)} placeholder="My look"/></label><button disabled={saved.length>=50} onClick={()=>savePresets([...saved,{name:name.trim()||`Look ${saved.length+1}`,config}])}>Save on this device · {saved.length}/50</button>{saved.map((s,i)=><div key={i} className={styles.saved}><button onClick={()=>{setConfig(s.config);setMessage(`Loaded ${s.name}`);}}>{s.name}</button><button aria-label={`Remove ${s.name}`} onClick={()=>savePresets(saved.filter((_,n)=>n!==i))}>Remove</button></div>)}<button onClick={()=>download("just-volleyball-look.json",`data:application/json;charset=utf-8,${encodeURIComponent(JSON.stringify(renderedConfig===JSON.stringify(config)?result?.config??config:config,null,2))}`)}>Download look JSON</button><label className={styles.export}><span>Load look JSON</span><input type="file" accept="application/json,.json" onChange={async e=>{const file=e.target.files?.[0];if(!file)return;try{if(file.size>128000)throw Error("File too large");const parsed=JSON.parse(await file.text());if(!parsed||typeof parsed!=="object"||Array.isArray(parsed))throw Error("Expected a look object");setConfig(parsed);setMessage("Configuration loaded");}catch(error){setMessage(error instanceof Error?error.message:"Invalid JSON");}e.target.value="";}}/></label></>}
-        <details className={styles.advanced} onToggle={e=>{if(e.currentTarget.open)setJson(JSON.stringify(config,null,2));}}><summary>Complete appearance configuration</summary><p>Edit appearance fields, accessory transforms and material colours. Import/export preserves the normalized configuration returned by the game.</p><textarea aria-label="Complete appearance JSON" rows={12} value={json} onChange={e=>setJson(e.target.value)}/><button onClick={()=>{try{const parsed=JSON.parse(json);if(!parsed||typeof parsed!=="object"||Array.isArray(parsed))throw Error("Expected an object");setConfig(parsed);setMessage("Configuration applied");}catch(error){setMessage(error instanceof Error?error.message:"Invalid JSON");}}}>Apply configuration</button></details>
+        <details className={styles.advanced} onToggle={e=>{if(e.currentTarget.open)setJson(JSON.stringify(config,null,2));}}><summary>Complete appearance configuration</summary><p>Edit appearance fields, accessory transforms and material colours. Import/export keeps appearance fields, including additional settings in imported looks.</p><textarea aria-label="Complete appearance JSON" rows={12} value={json} onChange={e=>setJson(e.target.value)}/><button onClick={()=>{try{const parsed=JSON.parse(json);if(!parsed||typeof parsed!=="object"||Array.isArray(parsed))throw Error("Expected an object");setConfig(parsed);setMessage("Configuration applied");}catch(error){setMessage(error instanceof Error?error.message:"Invalid JSON");}}}>Apply configuration</button></details>
         <div className={styles.history}><button disabled={!past.length} onClick={()=>dispatch({type:"undo"})}>undo</button><button disabled={!future.length} onClick={()=>dispatch({type:"redo"})}>redo</button><button onClick={()=>{const r=catalog.faces;setConfig(c=>({...c,hair:catalog.hair[Math.floor(Math.random()*catalog.hair.length)].id,es:r.eyes[Math.floor(Math.random()*r.eyes.length)].index,ms:r.mouth[Math.floor(Math.random()*r.mouth.length)].index}));}}>randomize</button></div><button className={styles.reset} onClick={()=>{setConfig(catalog.defaults);setOrbit(frontOrbit);setOutfit("uniform");setMessage("Default look restored");if(available&&!importing.current)void render({config:catalog.defaults,...frontOrbit,outfit:"uniform",view});}}>Reset appearance</button>
       <button className={styles.saveLook} disabled={saved.length>=50} onClick={()=>savePresets([...saved,{name:name.trim()||`Look ${saved.length+1}`,config}])}>save look on this device</button></div>
     </section>

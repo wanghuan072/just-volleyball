@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, readdir } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { tdk } from "../seo/tdk.js";
 import { guides } from "../data/guide-articles.ts";
@@ -22,7 +22,14 @@ async function record(url, file, content) {
   if (url.startsWith("/skins/")) dependencies.push("components/catalog.tsx");
   if (url === "/tools/locker/") dependencies.push("components/locker-studio.tsx", "components/preview-orbit.tsx", "lib/orbit-atlas.ts");
   if (url === "/characters/shop/") dependencies.push("components/shop-catalog.tsx", "components/preview-orbit.tsx", "lib/orbit-atlas.ts");
+  if (["/tools/locker/", "/characters/shop/"].includes(url)) {
+    dependencies.push("components/local-player-preview.tsx", "lib/local-face.ts", "lib/local-look.ts", "public/models/locker/index.json");
+    const modelFiles = await readdir("public/models/locker", { recursive: true });
+    dependencies.push(...modelFiles.filter(file => /\.(glb|json|png)$/.test(file)).map(file => "public/models/locker/" + file));
+    dependencies.push("public/fonts/VarsityTeam-Bold.otf");
+  }
   const sources = await Promise.all(dependencies.map(async path => {
+    if (path.startsWith("public/")) return createHash("sha256").update(await readFile(path)).digest("hex");
     const source = await readFile(path, "utf8");
     return path === "app/layout.tsx" ? source.replace(/^  verification: \{ other: \{ "msvalidate\.01": "[A-F0-9]+" \} \},\r?\n/m, "") : source;
   }));
