@@ -31,7 +31,7 @@ async function record(url, file, content) {
   const sources = await Promise.all(dependencies.map(async path => {
     if (path.startsWith("public/")) return createHash("sha256").update(await readFile(path)).digest("hex");
     const source = await readFile(path, "utf8");
-    return path === "app/layout.tsx" ? source.replace(/^  verification: \{ other: \{ "msvalidate\.01": "[A-F0-9]+" \} \},\r?\n/m, "") : source;
+    return path === "app/layout.tsx" ? source.replace(/^import Script from "next\/script";\r?\n/m, "").replace(/        <Script id="google-tag-manager"[\s\S]*?        <\/Script>\r?\n/, "").replace(/^  verification: \{ other: \{ "msvalidate\.01": "[A-F0-9]+" \} \},\r?\n/m, "") : source;
   }));
   const input = JSON.stringify([page, content, sources]);
   const images = [...new Set(input.match(/\/images\/[a-zA-Z0-9_./-]+\.(?:png|jpg|jpeg|webp|svg)/g) ?? [])].sort();
