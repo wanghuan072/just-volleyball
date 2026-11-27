@@ -5,6 +5,7 @@ import pages from "@/seo/page-dates.json";
 export default function sitemap(): MetadataRoute.Sitemap {
   return Object.entries(pages).map(([path, page]) => ({
     url: siteUrl + path,
-    lastModified: page.lastModified,
+    // Publish the calendar date while retaining precise internal update history.
+    lastModified: page.lastModified.slice(0, 10),
   }));
 }
